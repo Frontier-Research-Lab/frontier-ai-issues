@@ -1,6 +1,6 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
@@ -8,8 +8,9 @@ _Last updated: 2026-03-13_
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Disney & Paramount fire cease-and-desist letters at ByteDance Seedance 2.0 for generating Hollywood IP without licence | Seedance 2.0 (ByteDance) | Resolving (ByteDance pledged to block) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
-| 3 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
-| 4 | 🟡 Notable | Pricing chaos across the space — tools range wildly and many creators still can't produce audio-native video | Multiple | Ongoing |
+| 3 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
+| 4 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
+| 5 | 🟡 Notable | Pricing chaos across the space — tools range wildly and many creators still can't produce audio-native video | Multiple | Ongoing |
 
 ---
 

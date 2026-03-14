@@ -1,19 +1,39 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
 | 1 | 🟠 Major | 2026 Olympics broadcast used AI-generated animation instead of human animators — widespread backlash from animation community | AI animation tools (unspecified) | Active |
-| 2 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
-| 3 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
-| 4 | 🟡 Notable | Professional CG studios: "tools not anywhere close to good enough" — zero gen AI integration in production workflows | Industry-wide | Ongoing |
+| 2 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
+| 3 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
+| 4 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
+| 5 | 🟡 Notable | Professional CG studios: "tools not anywhere close to good enough" — zero gen AI integration in production workflows | Industry-wide | Ongoing |
 
 ---
 
 ## Details
+
+### 🟠 Games Industry "Demonising" AI — Major Investor Reacts — March 14, 2026 (TODAY)
+
+**What happened:** A major games industry investor published a statement today expressing they are "shocked and sad" that the games industry is "demonizing" generative AI. The story — reported by Boreecraft and widely circulated in games development circles — reflects a widening rift between venture capital expectations for AI tools and the reality of developer resistance.
+
+**Why animators and game developers are resisting:**
+- Legal uncertainty: training data copyright (see Andersen v. Stability AI, EU Parliament vote)
+- Quality gap: AI-generated animation assets still require extensive cleanup
+- Workflow disruption: AI tools don't integrate cleanly into established game production pipelines
+- Job replacement fears: animators, concept artists, and 3D modellers see AI as directly threatening their roles
+- Style consistency: AI can't maintain character design consistency across the hundreds or thousands of asset frames required for a game
+
+**The investor perspective vs. the worker perspective:** Investment theses assume AI will dramatically cut game production costs. Workers who stand to be replaced by those cost cuts are understandably resistant. The investor calling this "demonizing" illustrates the fundamental misalignment.
+
+**Context:** This echoes the CG industry's position documented previously: "tools not anywhere close to good enough" for production use — yet investors are pushing for adoption before the tools have proven production-readiness.
+
+**Source:** Boreecraft (via Reddit) — March 14, 2026
+
+---
 
 ### 🟠 2026 Olympics AI Animation Backlash
 

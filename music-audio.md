@@ -1,6 +1,6 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
@@ -9,14 +9,61 @@ _Last updated: 2026-03-13_
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
 | 2 | 🔴 Critical | GEMA v. Suno — German court hears landmark copyright case, ruling expected June 2026 | Suno | Active |
 | 3 | 🔴 Critical | Suno enforces paid-only downloads + monthly download caps as part of Warner Music deal — community furious at monetisation pivot | Suno | Active |
-| 4 | 🟠 Major | Udio copyright lawsuit (RIAA) still active — unlike Suno, Udio has not yet settled with major labels | Udio | Active |
-| 5 | 🟠 Major | AI musicians flooding Spotify — major labels pushing back as synthetic content devalues platform | Multiple | Developing |
-| 6 | 🟠 Major | Suno "2026 model" will replace existing version with licensed-only training data — old-style open generation ending | Suno | Developing |
-| 7 | 🟡 Notable | Industry backlash grows even as Suno hits 2M paid subscribers — human musicians deeply hostile | Suno, Udio | Ongoing |
+| 4 | 🟠 Major | Udio settles with Warner, Universal, Merlin — "walled garden" model imposed; indie artists excluded from restitution | Udio | Resolved for majors / Active for indie artists |
+| 5 | 🟠 Major | EU Parliament votes 460–71 for mandatory AI copyright disclosure + fair remuneration for all training data — industry-wide threat | Industry-wide | Developing (March 10, 2026) |
+| 6 | 🟠 Major | AI musicians flooding Spotify — major labels pushing back as synthetic content devalues platform | Multiple | Developing |
+| 7 | 🟠 Major | Suno "2026 model" will replace existing version with licensed-only training data — old-style open generation ending | Suno | Developing |
+| 8 | 🟡 Notable | "Starting fresh" playbook exposed — labels and AI companies doing deals that leave independent artists without recourse | Suno, Udio | Ongoing |
+| 9 | 🟡 Notable | Industry backlash grows even as Suno hits 2M paid subscribers — human musicians deeply hostile | Suno, Udio | Ongoing |
 
 ---
 
 ## Details
+
+### 🟠 Udio Settles With Warner, Universal & Merlin — "Walled Garden" Controversy — March 2026
+
+**What happened:** Udio — the RIAA's other major defendant alongside Suno in the landmark 2024 copyright suits — has reached settlements with **Warner Music Group, Universal Music Group, and Merlin** (the global digital rights agency for independent labels). The deals mirror the Suno/WMG framework: labels withdraw their specific suit, Udio agrees to operate a "walled garden" model going forward.
+
+**The "walled garden" model explained:** Users can create music inside the Udio platform, experiment with AI generation, and share tracks within the ecosystem — but **cannot export AI-generated music off the platform** for commercial use outside its controlled environment. The structure was designed by the major labels to prevent AI music from freely entering streaming platforms and competing with signed artists.
+
+**The fundamental problem — who isn't in the room:**
+
+Music Business Worldwide op-ed attorney Krystle Delgado (leading class action lawsuits against Suno and Udio for indie artists) published a withering critique titled "The Problem with AI Companies 'Starting Fresh'" (MBW, March 12, 2026). Key argument:
+- The conversation has shifted from "they stole music illegally" to "let's all make money together"
+- **But "a large portion of these songs belong to independent artists, who were never asked for permission, offered compensation, or are even being included in the 'let's start fresh' AI campaigns today"**
+- Major labels cut deals for their catalogues at the expense of the millions of independent artists whose work was also in the training data
+- Whether indie artists can get justice through pending class action lawsuits (indieailawsuit.com) "remains to be seen"
+
+**Why this is a bigger issue than it looks:** The settlement structure allows Warner, Universal, and Merlin to claim moral authority ("we protected rights") while:
+1. Effectively granting Udio a licence to have already used the music
+2. Receiving a share of future AI music revenue
+3. Leaving independent artists — who have fewer legal resources — to fight separately
+
+**RIAA position:** The RIAA's original suit (June 2024, seeking $150,000 per infringed work) is now effectively resolved for the major label plaintiffs. The indie artist class action is an entirely separate legal track.
+
+**Source:** Music Business Worldwide, Medium, YouTube (Top Music Attorney), indieailawsuit.com — March 12, 2026
+
+---
+
+### 🟠 EU Parliament Votes 460–71 for AI Copyright Legislation — March 10, 2026
+
+**What happened:** The European Parliament adopted a landmark resolution on "Copyright and Generative Artificial Intelligence – Opportunities and Challenges" with an overwhelming majority: **460 votes in favour, 71 against, 88 abstentions**.
+
+**What the resolution demands:**
+- Full mandatory **disclosure of all copyrighted works used to train AI models** — with automatic copyright infringement proceedings against parties that fail to be completely transparent
+- **Fair remuneration** for rights holders whose works were used in training
+- Extension of EU copyright directive to all generative AI systems on the EU market, **regardless of where they were trained** (directly targeting US-trained models like Suno, Udio, Google Lyria)
+- Protection of Europe's creative sector, which generates ~7% of EU GDP
+
+**Why this threatens every major AI music tool:** The "regardless of where trained" clause means US-based AI music tools that were trained on European-copyrighted music without disclosure would face EU infringement proceedings when operating in EU markets — a de facto global disclosure requirement for any tool with European users.
+
+**Industry reaction:** EU creative sector groups (FIM, GESAC, IMRO) celebrated. European tech associations pushed back, arguing the regulation could harm innovation. Billboard and Deadline covered it prominently as a major development in the global AI copyright war.
+
+**Next steps:** The resolution is non-binding but calls on the European Commission to initiate a formal legislative proposal — which would become binding EU law.
+
+**Source:** Billboard, Euronews, EU News, GESAC, FIM, IMRO, Deadline — March 10, 2026
+
+---
 
 ### 🔴 Google Sued Over Lyria 3 — "Vertically-Integrated Syndicate" — March 6, 2026
 
@@ -84,15 +131,15 @@ Key changes from the Warner deal:
 
 ---
 
-### 🟠 Udio Copyright Lawsuit — Still Active, No Settlement
+### 🟠 Udio Copyright Lawsuit — Settled with Major Labels, Indie Artists Still Pursuing Action
 
-**What happened:** The RIAA filed copyright suits against both Suno and Udio in June 2024, alleging mass infringement of copyrighted sound recordings. While Suno settled with Warner (November 2025) and began licensing negotiations with other labels, **Udio has not publicly announced any settlement**. The lawsuit documents Udio producing outputs that "strongly resemble copyrighted recordings" when prompted with artist/era/genre combinations — including songs similar to ABBA and Jason Derulo tracks.
+**What happened:** The RIAA filed copyright suits against both Suno and Udio in June 2024, alleging mass infringement of copyrighted sound recordings. The lawsuit documented Udio producing outputs that "strongly resemble copyrighted recordings" when prompted with artist/era/genre combinations — including songs similar to ABBA and Jason Derulo tracks.
 
-**Stakes:** The RIAA sought up to **$150,000 per infringed work** — representing potentially billions of dollars in liability given the scale of training data used.
+**Update (March 2026):** Udio has now settled with Warner Music Group, Universal Music Group, and Merlin through a "walled garden" licensing structure (see section above). The major label cases are effectively resolved. However, a separate **indie artist class action** (indieailawsuit.com, led by attorney Krystle Delgado) continues.
 
-**Where things stand:** Udio continues operating; the lawsuit is ongoing through the courts. The unresolved status puts Udio in a legally precarious position compared to Suno, which secured at least a partial settlement and licensing framework.
+**What independent artists face:** Unlike major labels, indie artists can't negotiate settlement terms directly. Their compensation, if any, will be determined by class action outcomes — which could take years and may result in minimal per-artist payments even if they succeed.
 
-**Source:** RIAA, The Guardian, Reuters, Music Business Worldwide — June 2024–ongoing
+**Source:** RIAA, Music Business Worldwide, indieailawsuit.com — June 2024–March 2026
 
 ---
 

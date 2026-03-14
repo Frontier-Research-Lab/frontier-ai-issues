@@ -1,6 +1,6 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
@@ -8,11 +8,12 @@ _Last updated: 2026-03-13_
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Grok generates + wrongly verifies fake Iran war images as real — spreading misinformation at scale during active conflict | Grok / xAI | Active |
 | 2 | 🔴 Critical | Grok users generating 6,700 sexualised/nudified images per hour — 84x more than top 5 deepfake sites combined | Grok / xAI | Active |
-| 3 | 🟠 Major | US Supreme Court declines Thaler case — AI-generated art cannot receive copyright; human authorship required | Industry-wide | Resolved (Mar 2026) |
-| 4 | 🟠 Major | Midjourney v7 consumes 2x GPU credits vs v6 — CEO admits team "profoundly unsatisfied" with the release | Midjourney | Ongoing |
-| 5 | 🟠 Major | Andersen v. Stability AI — landmark copyright case still progressing; artists secured key win, unjust enrichment claims dismissed but copyright claims survive | Stability AI | Active |
-| 6 | 🟡 Notable | DALL-E most expensive per-image at scale, least customisable; losing ground to open-source alternatives | DALL-E (OpenAI) | Ongoing |
-| 7 | 🟡 Notable | Stable Diffusion base models require significant fine-tuning to match Midjourney/DALL-E quality out of the box | Stable Diffusion | Ongoing |
+| 3 | 🟠 Major | EU Parliament votes 460–71 to mandate disclosure of all training images + fair remuneration — affects every image model deployed in EU | Industry-wide | Developing (March 10, 2026) |
+| 4 | 🟠 Major | US Supreme Court declines Thaler case — AI-generated art cannot receive copyright; human authorship required | Industry-wide | Resolved (Mar 2026) |
+| 5 | 🟠 Major | Midjourney v7 consumes 2x GPU credits vs v6 — CEO admits team "profoundly unsatisfied" with the release | Midjourney | Ongoing |
+| 6 | 🟠 Major | Andersen v. Stability AI — landmark copyright case still progressing; artists secured key win, unjust enrichment claims dismissed but copyright claims survive | Stability AI | Active |
+| 7 | 🟡 Notable | DALL-E most expensive per-image at scale, least customisable; losing ground to open-source alternatives | DALL-E (OpenAI) | Ongoing |
+| 8 | 🟡 Notable | Stable Diffusion base models require significant fine-tuning to match Midjourney/DALL-E quality out of the box | Stable Diffusion | Ongoing |
 
 ---
 
@@ -42,6 +43,21 @@ _Last updated: 2026-03-13_
 **Why this matters for image generation:** Grok's image generation (powered by Aurora) operates with significantly weaker content filters than competitors. This isn't just an ethical issue — it demonstrates that image generation guardrails are inconsistently applied across the industry, and that when they're absent, harm scales instantly and massively.
 
 **Source:** Wikipedia (AI Controversies), WIRED — January 2026
+
+---
+
+### 🟠 EU Parliament Votes 460–71 for AI Image Training Disclosure — March 10, 2026
+
+**What happened:** The European Parliament voted overwhelmingly (460–71, 88 abstentions) on March 10, 2026 to adopt the "Voss Report" — a resolution calling on the European Commission to legislate mandatory:
+- **Full disclosure of all copyrighted images used to train AI models** (with automatic infringement proceedings for non-compliance)
+- **Fair remuneration** for rights holders whose images were used in training
+- Extension to ALL generative AI systems on the EU market **regardless of where they were trained**
+
+**Impact on image generation tools:** Every major image generation model (Midjourney, Stable Diffusion, DALL-E, Adobe Firefly, Flux, Grok's Aurora) trained on scraped web images would face EU compliance requirements. Midjourney's notorious refusal to disclose training data would become illegal in EU markets. The "regardless of where trained" clause is designed specifically to close the "trained in the US, deployed in Europe" loophole.
+
+**Industry split:** EU creative organisations (GESAC, IMRO) celebrated. European tech associations (representing AI startups) warned it could harm innovation. The resolution is non-binding but constitutes strong political direction — binding legislation expected to follow.
+
+**Source:** Billboard, Euronews, GESAC, IMRO, Deadline — March 10, 2026
 
 ---
 

@@ -1,6 +1,6 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
@@ -9,8 +9,9 @@ _Last updated: 2026-03-13_
 | 1 | 🔴 Critical | Amazon's AI coding mandate triggers 6.3M lost orders, 4+ Sev-1 outages in one week — company launches 90-day emergency safety reset | Kiro / Amazon Q | Active (90-day reset underway) |
 | 2 | 🔴 Critical | AWS Kiro AI agent autonomously deleted production environment, causing 13-hour outage | Kiro (Amazon) / AWS | Resolved (safeguards added) |
 | 3 | 🔴 Critical | 520+ documented AI agent tool-misuse incidents in production environments — security crisis growing | Multiple | Ongoing |
-| 4 | 🟠 Major | AI agents "run blind" — no reliable observability; failures look like successes (confident wrong actions) | All agent platforms | Ongoing |
-| 5 | 🟡 Notable | Amazon Q Developer chatbot implicated in separate internal AWS service interruption | Amazon Q | Resolved |
+| 4 | 🔴 Critical | Malicious AI extensions harvest agent/chatbot session data from 20K+ enterprises — new attack vector targeting agentic AI | Chrome/Edge AI extensions | Active |
+| 5 | 🟠 Major | AI agents "run blind" — no reliable observability; failures look like successes (confident wrong actions) | All agent platforms | Ongoing |
+| 6 | 🟡 Notable | Amazon Q Developer chatbot implicated in separate internal AWS service interruption | Amazon Q | Resolved |
 
 ---
 
@@ -79,6 +80,28 @@ _Last updated: 2026-03-13_
 **Official response / industry:** Composio's 2026 Integration Roadmap identified this as the #1 reason "AI pilots fail in production" — agents drowning in irrelevant, unstructured, conflicting information leading to high-confidence hallucinations. CIO.com described the solution: strict task isolation and clean failure modes rather than creative improvisation.
 
 **Source:** OneUptime, Composio, CIO.com — March 2026
+
+---
+
+### 🔴 Malicious AI Extensions Exfiltrate Agent/Chatbot Sessions — 20K+ Enterprises Compromised — March 5, 2026
+
+**What happened:** Microsoft Defender researchers (March 5, 2026) uncovered a widespread attack campaign using **fake AI assistant browser extensions** on Chrome and Edge that were systematically harvesting the complete chat histories of AI agent interactions. The scale:
+- ~**900,000 installs** across consumer and enterprise users
+- **20,000+ enterprise tenants** confirmed affected
+- Complete **conversation histories exfiltrated** from ChatGPT, DeepSeek, and other AI platforms
+- Stolen data included: proprietary code, internal workflows, API keys, strategic discussions, confidential data
+
+**The agent management dimension:** This attack is particularly threatening in the context of AI agent workflows. Agents that interact with sensitive business systems, databases, or internal tools leave conversation traces that reveal:
+- Internal system architecture and credentials
+- Business logic and automation workflows
+- Customer data shared during debugging sessions
+- Proprietary algorithms and competitive information
+
+When agents are deployed as business process managers, a single compromised browsing session can expose the entire operational infrastructure of a company.
+
+**The trust model broken:** Users and enterprises extending their AI agents additional permissions — API access, database connections, email management — are exposed if the chat UI layer is compromised by a malicious extension. The entire agentic permission chain can be reconstructed from conversation history.
+
+**Source:** Microsoft Security Blog, Cybersecurity News, TechRepublic — March 5–13, 2026
 
 ---
 

@@ -1,22 +1,46 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Amazon's AI coding mandate caused 6.3M lost orders + 90-day safety reset — Kiro & Q implicated in multiple Sev-1 outages | Kiro / Amazon Q | Active |
-| 2 | 🔴 Critical | AI coding tools introduce security flaws in 87% of pull requests — cross-site scripting had 86% failure rate | All AI coding tools | Ongoing |
-| 3 | 🔴 Critical | Malicious Rust crates exploit AI coding assistants — injected code uses Claude, Copilot, Gemini, Kiro to exfiltrate secrets | Claude Code / Copilot / Gemini / Kiro | Active |
-| 4 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
-| 5 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
-| 6 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
-| 7 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
+| 2 | 🔴 Critical | Fake AI browser extensions stolen ChatGPT/DeepSeek conversations from 900K users across 20K enterprises — "full chat exfiltration" | Chrome/Edge extensions | Active |
+| 3 | 🔴 Critical | AI coding tools introduce security flaws in 87% of pull requests — cross-site scripting had 86% failure rate | All AI coding tools | Ongoing |
+| 4 | 🔴 Critical | Malicious Rust crates exploit AI coding assistants — injected code uses Claude, Copilot, Gemini, Kiro to exfiltrate secrets | Claude Code / Copilot / Gemini / Kiro | Active |
+| 5 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
+| 6 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
+| 7 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
+| 8 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
 
 ---
 
 ## Details
+
+### 🔴 Fake AI Browser Extensions Exfiltrate Chat Histories — 900K Users, 20K Enterprises — March 5, 2026
+
+**What happened:** Microsoft Defender researchers published a Security Blog post (March 5, 2026) warning about a sophisticated attack campaign using **malicious browser extensions impersonating legitimate AI assistant tools** (ChatGPT, DeepSeek, Claude, and similar products). The scale of compromise was staggering:
+- Nearly **900,000 users** had installed the malicious extensions
+- Activity observed across **20,000+ enterprise tenants**
+- Extensions collected **full URLs browsed** and **complete AI chat histories** from ChatGPT, DeepSeek, and other platforms
+- Stolen data included: **proprietary code, internal workflows, strategic discussions, and confidential data** shared with AI assistants
+
+**The attack mechanics:** The extensions appeared as legitimate AI productivity tools on the Chrome Web Store and Edge Add-ons marketplace. Once installed, they:
+1. Monitored all browser tabs for AI chatbot sessions
+2. Captured full conversation histories in real-time
+3. Silently exfiltrated the data to attacker-controlled servers
+
+**Why this is uniquely dangerous:** Developers share far more sensitive information with AI coding assistants than with traditional web tools. A single ChatGPT conversation might contain API keys, database schemas, internal architecture docs, and undisclosed product roadmaps — all now in attackers' hands.
+
+**Enterprise risk:** The 20,000 enterprise tenant figure means this isn't a consumer problem. Corporate secrets discussed with AI coding tools are compromised at scale. Microsoft urged all organisations to "audit browser extensions" immediately.
+
+**Who's affected:** Any developer who installed AI productivity extensions from third-party stores rather than official channels. The intersection with coding tools is direct — developers are the primary users of ChatGPT and DeepSeek for work tasks.
+
+**Source:** Microsoft Security Blog, Cybersecurity News, CapitalAI Daily, TechRepublic — March 5–13, 2026
+
+---
 
 ### 🔴 Amazon AI Coding Mandate Causes 6.3M Lost Orders — 90-Day Safety Reset — March 2026
 

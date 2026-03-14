@@ -1,21 +1,43 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-14_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | P1bot AI vishing platform discovered — automated fraud calls using AI voices; scammers never have to speak to victims | AI voice tools (misused) | Active |
-| 2 | 🔴 Critical | Creator voice scraping epidemic — any creator's voice, cadence, and phrasing can be modelled and reproduced without consent | Industry-wide | Ongoing |
-| 3 | 🔴 Critical | ElevenLabs sued for misappropriating voice actors' likenesses without consent (Vacker & Boyett) — multiple ongoing lawsuits | ElevenLabs | Active |
-| 4 | 🔴 Critical | Unauthorised celebrity voice clone epidemic — several lawsuits ongoing as of 2026 involving deepfake audio | Multiple platforms | Ongoing |
-| 5 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
-| 6 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
+| 1 | 🔴 Critical | 1 in 4 Americans received deepfake voice call in past 12 months — AI voice weaponisation has gone mainstream (TechRadar, March 14) | AI voice tools (misused) | Active |
+| 2 | 🔴 Critical | P1bot AI vishing platform discovered — automated fraud calls using ElevenLabs TTS; scammers never have to speak to victims | ElevenLabs (misused) / AI voice tools | Active |
+| 3 | 🔴 Critical | Creator voice scraping epidemic — any creator's voice, cadence, and phrasing can be modelled and reproduced without consent | Industry-wide | Ongoing |
+| 4 | 🔴 Critical | ElevenLabs sued for misappropriating voice actors' likenesses without consent (Vacker & Boyett) — multiple ongoing lawsuits | ElevenLabs | Active |
+| 5 | 🔴 Critical | Unauthorised celebrity voice clone epidemic — several lawsuits ongoing as of 2026 involving deepfake audio | Multiple platforms | Ongoing |
+| 6 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
+| 7 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
 
 ---
 
 ## Details
+
+### 🔴 1 in 4 Americans Received Deepfake Voice Call in Past 12 Months — March 14, 2026 (TODAY)
+
+**What happened:** TechRadar published new research today (March 14, 2026) revealing the scale at which AI-generated voice fraud has entered mainstream American life: **one in four Americans report receiving a deepfake voice call in the past 12 months**. Security researchers quoted in the article state: "In 2026, cybercrime has reached a point of total convergence."
+
+**The three key shifts per Keepnet research (March 2026):**
+1. **Voice cloning for phone-based vishing** — real-time impersonation of trusted contacts, executives, family members
+2. **Deepfake videos in video calls and messaging apps** — faces and voices simultaneously cloned in real-time
+3. **AI-generated background noise** — calls now include synthetic office ambience, crowds, traffic to make fraud calls sound authentic and contextually plausible
+
+**Why this matters beyond scam statistics:** This signals that voice AI has crossed from niche misuse to mass-scale weaponisation. At 1-in-4 saturation, it is no longer possible to treat AI voice fraud as an edge case. Every voice generation platform now contributes to an ecosystem where:
+- Grandparent scams clone grandchildren's voices in distress
+- CEO fraud impersonates executives for wire transfers
+- Government impersonation (IRS, Social Security, police) exploits AI voices
+- Political deepfakes disrupt elections and public discourse
+
+**Regulatory gap:** The P1bot discovery (see below) confirms this is industrialised. Despite ElevenLabs' stated acceptable use policies, its TTS capabilities are being directly misused in fraud platforms with minimal apparent enforcement.
+
+**Source:** TechRadar, Keepnet — March 14, 2026
+
+---
 
 ### 🔴 P1Bot AI Vishing Platform — Automated AI Voice Fraud at Scale — March 11, 2026
 
