@@ -1,6 +1,6 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
@@ -9,8 +9,9 @@ _Last updated: 2026-03-13_
 | 1 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
 | 2 | 🔴 Critical | Adobe CEO exits; stock down 7% today, -38% over past year — AI disruption trade accelerating | Adobe | Active |
 | 3 | 🔴 Critical | Adobe down 12% earlier this week on Q1 guidance — "show-me" story as AI revenue transition slower than promised | Adobe | Active |
-| 4 | 🟠 Major | Figma down 81% from peak valuation (Jan 2026) — AI-native tools attacking the design tool market from below | Figma | Ongoing |
-| 5 | 🟡 Notable | Adobe's failed $20B Figma acquisition left a $1B termination fee and a wasted strategic window | Adobe | Historical |
+| 4 | 🟠 Major | Figma's role narrowing as vibe coding shifts deliverable from mockups to working software — designers "outgrowing" the tool | Figma | Developing |
+| 5 | 🟠 Major | Figma down 81% from peak valuation (Jan 2026) — AI-native tools attacking the design tool market from below | Figma | Ongoing |
+| 6 | 🟡 Notable | Adobe's failed $20B Figma acquisition left a $1B termination fee and a wasted strategic window | Adobe | Historical |
 
 ---
 
@@ -59,6 +60,28 @@ On March 11, 2026, Angwin filed a **class action lawsuit** (Angwin v. Superhuman
 **Background — failed Figma deal:** Adobe attempted to acquire Figma for ~$20 billion. The deal was blocked on antitrust grounds, costing Adobe **$1 billion in termination fees** and leaving it without the design community's most beloved tool. Figma went on to IPO independently.
 
 **Source:** FinancialContent, markets.chroniclejournal.com — March 12, 2026
+
+---
+
+### 🟠 Figma's Role Narrowing as Vibe Coding Changes the Deliverable — March 2026
+
+**What happened:** A widely-shared analysis by Roger Wong (rogerwong.me, March 9, 2026), titled "Why Are Designers Leaving Figma? The Great Transition," captures a structural shift in how design tools are used in 2026:
+
+> "Designers aren't leaving Figma so much as outgrowing it. As vibe coding shifts the deliverable from mockups to working software, Figma's role is narrowing rather than disappearing."
+
+**The structural shift:** In 2024, designers handed developers a Figma file. In 2026, AI coding tools (Claude Code, v0, Bolt, Lovable) let teams jump from rough sketch to deployed application without traditional Figma mockup handoffs. The deliverable has changed:
+- Previously: **Figma prototype → developer build**
+- Now: **Rough sketch/prompt → AI-generated working app**
+
+This doesn't make Figma disappear — it's still the best tool for visual design refinement and design systems — but it removes Figma from a step that used to be central to every product build.
+
+**Who's affected:** Product teams at startups and agencies building web/app products. Figma's value proposition was "the complete tool from wireframe to developer handoff" — that positioning is being challenged as the developer handoff step is automated.
+
+**Community reaction:** Reddit r/ClaudeAI thread (March 2026): "Claude is making me question whether web designers will exist in 5 years?" — hundreds of comments from designers grappling with the shift. The dominant view: UX and design are not disappearing, but the workflow is fundamentally changing.
+
+**Figma's response:** New AI-powered features (Buzz, Draw, Make, Sites) launched at Config 2025 attempt to position Figma as an AI-native design tool. The market remains skeptical that these features meaningfully close the gap with AI-first competitors.
+
+**Source:** rogerwong.me, Reddit r/ClaudeAI, fourweekmba.com — March 2026
 
 ---
 

@@ -1,12 +1,12 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Disney & Paramount fire cease-and-desist letters at ByteDance Seedance 2.0 for generating Hollywood IP without licence | Seedance 2.0 (ByteDance) | Resolving (ByteDance pledged to block) |
+| 1 | 🔴 Critical | ByteDance suspends global launch of Seedance 2.0 after Disney, Paramount, Netflix & Warner Bros cease-and-desist letters — "blatant infringement" of Star Trek, South Park, Disney characters | Seedance 2.0 (ByteDance) | **Global launch suspended** (March 14, 2026) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
 | 3 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
 | 4 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
@@ -16,17 +16,24 @@ _Last updated: 2026-03-14_
 
 ## Details
 
-### 🔴 Seedance 2.0 — Disney & Paramount Cease-and-Desist Letters (February 2026)
+### 🔴 Seedance 2.0 — Hollywood Forces Global Launch Suspension — February–March 2026 (UPDATED March 15)
 
-**What happened:** ByteDance's Seedance 2.0, launched February 10–12, 2026, immediately drew fury from Hollywood studios. The model was described as treating Disney IP — **Star Wars, Marvel, Family Guy, Paramount's full catalogue** — "as if it was free public domain clip art." Disney filed a cease-and-desist letter in February, followed immediately by Paramount/Skydance. The Human Artistry Campaign (a creative-industry advocacy group) called the outputs "destructive" and demanded ByteDance cease infringing activity.
+**What happened:** ByteDance's Seedance 2.0 has become the AI video industry's most significant legal confrontation. Launched February 10–12, 2026, the model's ability to generate hyper-realistic content featuring copyrighted characters sparked an unprecedented coordinated Hollywood response — and has now forced ByteDance to **suspend its planned global rollout** entirely.
 
-**Scale:** Seedance 2.0 was already the most-discussed AI video model of early 2026 — described as "the first model that feels like directing instead of prompting." The controversy confirmed it works well enough that Hollywood took immediate legal action. Multiple studios, talent agencies, and creative advocacy groups mobilised simultaneously.
+**Timeline:**
+- **Feb 10–12, 2026:** Seedance 2.0 launches; viral videos featuring Disney characters (including a Tom and Jerry clip), Star Trek, South Park, Dora the Explorer spread across Chinese social media
+- **Feb 13, 2026:** Disney sends formal cease-and-desist letter, accusing ByteDance of training Seedance 2.0 on Disney works without permission and distributing copyrighted IP **as if it were public domain**
+- **Feb 2026:** Paramount Skydance cites "blatant infringement" of its IP including Star Trek, South Park, and Dora the Explorer; demands immediate cessation
+- **Feb 16, 2026:** ByteDance issues vague statement saying it "respects intellectual property rights" and "heard the concerns" — widely seen as non-committal
+- **Multiple studios follow:** Warner Bros Discovery, Netflix also send C&D letters demanding Seedance "immediately cease its infringing activity"
+- **March 14, 2026:** Reuters confirms ByteDance has **put on hold the global launch** of Seedance 2.0 after a series of copyright disputes with major Hollywood studios and streaming platforms
+- **March 15, 2026:** Multiple outlets confirm the suspension; PCMag, SCMP, Cybernews, India Today, Times of India all report the global rollout is paused
 
-**ByteDance response:** In a statement shared with Deadline, ByteDance said it would work to prevent users from generating videos based on Hollywood IP. However, critics noted the statement was vague and enforcement mechanisms (prompt filtering) are easily circumvented.
+**Why this matters:** Seedance 2.0 was being positioned as the most capable AI video model of 2026 — capable of generating cinematic-quality video featuring recognisable brand IP at scale. Disney's accusation that ByteDance was essentially treating Disney's entire catalogue as "free public domain" summarises the core grievance: the model was trained on copyrighted material and enables anyone to generate infringing content on demand.
 
-**Context:** The AI video space in early 2026 saw three major model launches within weeks (Kling 3.0, Sora 2 Pro, Seedance 1.5 Pro/2.0), each with "cinematic territory" quality. The Seedance controversy illustrates that as models improve, so does Hollywood's alarm.
+**Scale:** The four simultaneous C&D letters from Disney, Paramount/Skydance, Netflix, and Warner Bros represent the broadest coordinated Hollywood action against a single AI model yet. This directly affects ByteDance's global expansion plans for what could have been TikTok's successor.
 
-**Source:** Deadline (February 2026), Variety, BBC — February 2026
+**Source:** Reuters, PCMag, SCMP, Cybernews, India Today, Times of India, Wikipedia (Seedance 2.0) — February–March 14–15, 2026
 
 ---
 

@@ -1,20 +1,39 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🟠 Major | 2026 Olympics broadcast used AI-generated animation instead of human animators — widespread backlash from animation community | AI animation tools (unspecified) | Active |
-| 2 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
-| 3 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
-| 4 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
-| 5 | 🟡 Notable | Professional CG studios: "tools not anywhere close to good enough" — zero gen AI integration in production workflows | Industry-wide | Ongoing |
+| 1 | 🟠 Major | GDC 2026: record job seekers amid AI-driven layoffs; AI "hot buzzword" while studios push outsourcing — human animators being replaced | Industry-wide | Active (March 2026) |
+| 2 | 🟠 Major | 2026 Olympics broadcast used AI-generated animation instead of human animators — widespread backlash from animation community | AI animation tools (unspecified) | Active |
+| 3 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
+| 4 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
+| 5 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
+| 6 | 🟡 Notable | Professional CG studios: "tools not anywhere close to good enough" — zero gen AI integration in production workflows | Industry-wide | Ongoing |
 
 ---
 
 ## Details
+
+### 🟠 GDC 2026: AI Drives Game Industry Layoffs While Job Seekers Hit Record Levels — March 2026
+
+**What happened:** Bloomberg's Jason Schreier published a landmark takeaway piece from the **2026 Game Developers Conference** (GDC), identifying a stark disconnect at the heart of the games industry:
+- **Record numbers of job seekers on the conference floor** — a visible symptom of wave after wave of AI-driven studio layoffs
+- **AI was the dominant buzzword** across keynotes, panels, and publisher conversations — studios are investing heavily and talking bullishly about AI tools
+- **More outsourcing than ever** — studios are using AI tools as justification to offshore and reduce headcount
+- Human animators, concept artists, and production artists are the hardest-hit roles
+
+**The cruel irony:** Developers are flooding GDC looking for work at precisely the moment their employers are using AI investment as justification to reduce headcount. The conference that celebrates the craft of game-making has become a jobs fair for people displaced by the tools being celebrated on stage.
+
+**Who's affected:** Game animators, concept artists, UI/UX designers, QA testers, and junior developers are the most exposed. Senior roles requiring system design, direction, and creative IP ownership are more protected — for now.
+
+**Community reaction:** The disconnect between investor/publisher enthusiasm for AI and developer-level reality has fuelled the "demonizing AI" narrative that frustrated investors. Workers aren't demonizing AI — they're watching colleagues being laid off in its name.
+
+**Source:** Bloomberg (Jason Schreier), llm-stats.com — March 2026
+
+---
 
 ### 🟠 Games Industry "Demonising" AI — Major Investor Reacts — March 14, 2026 (TODAY)
 

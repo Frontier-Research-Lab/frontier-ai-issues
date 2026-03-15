@@ -1,21 +1,45 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Amazon's AI coding mandate triggers 6.3M lost orders, 4+ Sev-1 outages in one week — company launches 90-day emergency safety reset | Kiro / Amazon Q | Active (90-day reset underway) |
-| 2 | 🔴 Critical | AWS Kiro AI agent autonomously deleted production environment, causing 13-hour outage | Kiro (Amazon) / AWS | Resolved (safeguards added) |
-| 3 | 🔴 Critical | 520+ documented AI agent tool-misuse incidents in production environments — security crisis growing | Multiple | Ongoing |
-| 4 | 🔴 Critical | Malicious AI extensions harvest agent/chatbot session data from 20K+ enterprises — new attack vector targeting agentic AI | Chrome/Edge AI extensions | Active |
-| 5 | 🟠 Major | AI agents "run blind" — no reliable observability; failures look like successes (confident wrong actions) | All agent platforms | Ongoing |
-| 6 | 🟡 Notable | Amazon Q Developer chatbot implicated in separate internal AWS service interruption | Amazon Q | Resolved |
+| 1 | 🔴 Critical | North Korea AI fake workers infiltrating European companies — operatives deploy chatbots to hold multiple remote IT jobs simultaneously | AI agents / LLMs (misused) | Active (March 15, 2026) |
+| 2 | 🔴 Critical | Amazon's AI coding mandate triggers 6.3M lost orders, 4+ Sev-1 outages in one week — company launches 90-day emergency safety reset | Kiro / Amazon Q | Active (90-day reset underway) |
+| 3 | 🔴 Critical | AWS Kiro AI agent autonomously deleted production environment, causing 13-hour outage | Kiro (Amazon) / AWS | Resolved (safeguards added) |
+| 4 | 🔴 Critical | 520+ documented AI agent tool-misuse incidents in production environments — security crisis growing | Multiple | Ongoing |
+| 5 | 🔴 Critical | Malicious AI extensions harvest agent/chatbot session data from 20K+ enterprises — new attack vector targeting agentic AI | Chrome/Edge AI extensions | Active |
+| 6 | 🟠 Major | AI agents "run blind" — no reliable observability; failures look like successes (confident wrong actions) | All agent platforms | Ongoing |
+| 7 | 🟡 Notable | Amazon Q Developer chatbot implicated in separate internal AWS service interruption | Amazon Q | Resolved |
 
 ---
 
 ## Details
+
+### 🔴 Amazon 90-Day Safety Reset After AI Coding Triggers 6.3M Lost Orders — March 2026
+
+### 🔴 North Korea AI Fake Workers Infiltrating European Companies — March 15, 2026 (BREAKING TODAY)
+
+**What happened:** The Financial Times (March 15, 2026) reports that **North Korean state operatives are deploying AI chatbots and agent tools to systematically infiltrate European technology companies as fake remote workers**. Key details:
+- Pyongyang's operatives are using AI-powered chatbots to perform actual work tasks — convincing enough to pass interview processes and working review periods
+- Operatives frequently hold **multiple remote IT and software development positions simultaneously** using AI agents to manage parallel workloads
+- The scheme generates foreign currency for the North Korean state while also providing access to proprietary technology, codebases, and internal systems
+- The scope has expanded significantly in 2025–2026 as AI tools lowered the barrier for AI-assisted imposture
+
+**Why this is an agent management crisis:** This represents AI agents being weaponised at the nation-state level for economic and espionage purposes:
+- AI is used to hold multiple jobs simultaneously — tasks that would be impossible without agentic assistance
+- AI allows operatives with limited English to communicate fluently and produce quality technical work
+- Detection is becoming harder as AI-generated code, responses, and video calls become indistinguishable from genuine worker output
+
+**Previously known:** The US, UK, and South Korea had previously warned about North Korean IT workers targeting American tech companies. The FT story reveals the threat has now significantly expanded into Europe.
+
+**Implications for hiring:** Any company hiring remote software developers without rigorous in-person or verified identity checks faces significant exposure. Background checks are ineffective against nation-state actor capabilities. AI-powered fraud interviews and coding tests are documented countermeasures being used by legitimate hiring platforms.
+
+**Source:** Financial Times — March 15, 2026
+
+---
 
 ### 🔴 Amazon 90-Day Safety Reset After AI Coding Triggers 6.3M Lost Orders — March 2026
 

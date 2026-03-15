@@ -1,18 +1,19 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | 1 in 4 Americans received deepfake voice call in past 12 months — AI voice weaponisation has gone mainstream (TechRadar, March 14) | AI voice tools (misused) | Active |
+| 1 | 🔴 Critical | 1 in 4 Americans received deepfake voice call in past 12 months — AI voice weaponisation has gone mainstream | AI voice tools (misused) | Active |
 | 2 | 🔴 Critical | P1bot AI vishing platform discovered — automated fraud calls using ElevenLabs TTS; scammers never have to speak to victims | ElevenLabs (misused) / AI voice tools | Active |
 | 3 | 🔴 Critical | Creator voice scraping epidemic — any creator's voice, cadence, and phrasing can be modelled and reproduced without consent | Industry-wide | Ongoing |
 | 4 | 🔴 Critical | ElevenLabs sued for misappropriating voice actors' likenesses without consent (Vacker & Boyett) — multiple ongoing lawsuits | ElevenLabs | Active |
-| 5 | 🔴 Critical | Unauthorised celebrity voice clone epidemic — several lawsuits ongoing as of 2026 involving deepfake audio | Multiple platforms | Ongoing |
-| 6 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
-| 7 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
+| 5 | 🔴 Critical | Unauthorised celebrity voice clone epidemic — several lawsuits ongoing; "iconic" deceased voices on platforms that cannot consent | Multiple platforms | Ongoing |
+| 6 | 🟠 Major | Celebrity voice licensing ≠ consent for all voices: Michael Caine, McConaughey licensed their voices — but many "iconic" platform voices are deceased or non-consenting | ElevenLabs / AI voice platforms | Active (March 15, 2026) |
+| 7 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
+| 8 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
 
 ---
 
@@ -94,6 +95,24 @@ _Last updated: 2026-03-14_
 **State law complexity:** California, New York, and Tennessee have enacted voice protection laws. Platforms operating nationally must now navigate a patchwork of state requirements — a compliance burden that disproportionately affects smaller companies.
 
 **Source:** leaveit2ai.com, Blank Rome LLP, Reddit (multiple threads) — 2023–2026
+
+---
+
+### 🟠 Celebrity Voice Licensing Doesn't Solve the Consent Crisis — March 15, 2026
+
+**What happened:** TechRadar (March 15, 2026) reported on AI voice platforms signing high-profile celebrities — including **Michael Caine and Matthew McConaughey** — to licence their voices for commercial AI use. The story highlights a core problem the deals don't solve: **"not every 'iconic' voice on the platform can consent."**
+
+**The consent gap:** AI voice platforms promote their licensed celebrity catalogue as proof of ethical practise. But alongside these consensual deals, the same platforms host:
+- Voices of deceased celebrities (who cannot consent retroactively)
+- Voices of living people who never agreed to having their voice modelled
+- Voices derived from historical recordings without rights clearance
+- "Iconic" voice personas that evoke real people without directly using their recordings
+
+**Why licensing deals can obscure the problem:** When ElevenLabs announces a deal with a living celebrity, it generates positive press about ethical AI voice development. But those deals don't address the broader library of voices that weren't acquired through consent-based agreements.
+
+**The dead celebrity problem:** Several AI voice platforms offer voices of deceased celebrities and historical figures — voices that cannot legally "consent" to synthetic reproduction under existing frameworks. Estates may hold IP rights but the ethical question of reproducing a person's voice after death is unresolved by current laws.
+
+**Source:** TechRadar — March 15, 2026
 
 ---
 

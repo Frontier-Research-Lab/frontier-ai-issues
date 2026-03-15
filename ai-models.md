@@ -1,28 +1,93 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Grok spreads Iran war misinformation at scale — generates fake conflict images, wrongly verifies AI fakes as real; Musk had endorsed it for fact-checking | Grok / xAI | Active |
-| 2 | 🔴 Critical | ChatGPT sued over Canada school shooting — family claims ChatGPT knew of attack plans and failed to warn police | ChatGPT (OpenAI) | Active |
-| 3 | 🔴 Critical | Claude global outages — two back-to-back outages (March 2–3) plus third elevated-error event March 11 | Claude (Anthropic) | Ongoing |
-| 4 | 🔴 Critical | OpenAI reasoning models (o3/o4-mini) hallucinate more than previous models — even OpenAI admits it doesn't know why | ChatGPT / OpenAI o3 | Ongoing |
-| 5 | 🔴 Critical | QuitGPT boycott — 1.5–2.5M users pledged to cancel ChatGPT over Pentagon deal; physical protest at OpenAI HQ; Anthropic servers crashed from surge | ChatGPT (OpenAI) | Active |
-| 6 | 🔴 Critical | Meta planning 20%+ workforce layoffs as AI costs mount — $135B AI bet forcing human workers out (BREAKING March 14) | Meta | Active |
-| 7 | 🟠 Major | OpenAI projected $14B net loss in 2026 alone — spending $22B vs ~$13B revenue; Reuters: what happens if OpenAI fails? | OpenAI | Ongoing |
-| 8 | 🟠 Major | Meta "Avocado" delayed to May+ — flagship model trails Gemini 3, $135B AI bet under scrutiny | Meta (LLaMA / Avocado) | Active |
-| 9 | 🟠 Major | OpenAI/Google confirmed to silently downgrade models — OpenAI admitted post-denial; Gemini redirects between models | OpenAI, Google Gemini | Ongoing |
-| 10 | 🟠 Major | ChatGPT quality degradation — users reporting significantly worse performance; Reddit r/OpenAI thread "ChatGPT is getting ridiculously bad" goes viral | ChatGPT (OpenAI) | Ongoing |
-| 11 | 🟠 Major | Adobe CEO steps down; stock down 7%+ amid AI strategy uncertainty | Adobe | Active |
-| 12 | 🟡 Notable | UK AI datacentre bubble investigation — Guardian exposes "ghost" sites, phantom sovereign AI plans (today) | Industry-wide | Developing |
-| 13 | 🟡 Notable | Enterprise single-point-of-failure risk exposed — companies without multi-model failover lost all AI during Claude outage | Multiple | Ongoing |
+| 1 | 🔴 Critical | Anthropic sues US government — Trump/Hegseth labelled Claude a "supply chain risk," banned from Pentagon; Anthropic filed federal suit March 9 | Claude (Anthropic) | Active (lawsuit filed) |
+| 2 | 🔴 Critical | OpenAI Pentagon deal fallout — exec Kalinowski quits on principle; 1,000+ staff signed protest letter; ChatGPT mass uninstalls; Claude became #1 App Store app | ChatGPT (OpenAI) | Active |
+| 3 | 🔴 Critical | Grok spreads Iran war misinformation at scale — generates fake conflict images, wrongly verifies AI fakes as real; Musk had endorsed it for fact-checking | Grok / xAI | Active |
+| 4 | 🔴 Critical | ChatGPT sued over Canada school shooting — family claims ChatGPT knew of attack plans and failed to warn police | ChatGPT (OpenAI) | Active |
+| 5 | 🔴 Critical | Claude recurring outages — 5 separate outage/degraded-service events since March 2: March 2, 3, 11, 12, 13, and again March 15 today | Claude (Anthropic) | Ongoing |
+| 6 | 🔴 Critical | OpenAI reasoning models (o3/o4-mini) hallucinate more than previous models — even OpenAI admits it doesn't know why | ChatGPT / OpenAI o3 | Ongoing |
+| 7 | 🔴 Critical | QuitGPT boycott — 1.5–2.5M users pledged to cancel ChatGPT over Pentagon deal; physical protest at OpenAI HQ; Anthropic servers crashed from surge | ChatGPT (OpenAI) | Active |
+| 8 | 🔴 Critical | Meta planning 20%+ workforce layoffs as AI costs mount — $135B AI bet forcing human workers out | Meta | Active |
+| 9 | 🟠 Major | ChatGPT ads rolling out to Free/Go users — OpenAI confirmed Jan 17; Criteo as first ad tech partner; privacy policy updated March 2026 | ChatGPT (OpenAI) | Active |
+| 10 | 🟠 Major | OpenAI projected $14B net loss in 2026 alone — spending $22B vs ~$13B revenue; Reuters: what happens if OpenAI fails? | OpenAI | Ongoing |
+| 11 | 🟠 Major | Meta "Avocado" delayed to May+ — flagship model trails Gemini 3, $135B AI bet under scrutiny | Meta (LLaMA / Avocado) | Active |
+| 12 | 🟠 Major | OpenAI/Google confirmed to silently downgrade models — OpenAI admitted post-denial; Gemini redirects between models | OpenAI, Google Gemini | Ongoing |
+| 13 | 🟠 Major | ChatGPT quality degradation — users reporting significantly worse performance; Reddit r/OpenAI thread "ChatGPT is getting ridiculously bad" goes viral | ChatGPT (OpenAI) | Ongoing |
+| 14 | 🟠 Major | Adobe CEO exits; stock down 7%+ amid AI strategy uncertainty | Adobe | Active |
+| 15 | 🟡 Notable | UN convenes inaugural Independent International Scientific Panel on AI — 40-member expert body, first meeting March 2026 | Industry-wide | Developing |
+| 16 | 🟡 Notable | UK AI datacentre bubble investigation — Guardian exposes "ghost" sites, phantom sovereign AI plans | Industry-wide | Developing |
+| 17 | 🟡 Notable | Enterprise single-point-of-failure risk exposed — companies without multi-model failover lost all AI during Claude outages | Multiple | Ongoing |
 
 ---
 
 ## Details
+
+### 🔴 Anthropic Sues US Government — Trump Labels Claude a "Supply Chain Risk" — March 9, 2026
+
+**What happened:** In the most significant government-AI confrontation in US history, the Trump administration labeled Anthropic a **"national security supply chain risk"** on March 3, 2026 — the first time this Cold War–era designation has ever been used against a US company. Defense Secretary Pete Hegseth issued the designation after Anthropic refused to remove guardrails that prohibit Claude from being used for **lethal autonomous weapons systems** and **domestic mass surveillance**. 
+
+On March 9, Anthropic filed a federal lawsuit against multiple agencies, arguing the designation was unconstitutional retaliation that violates its First Amendment and due process rights.
+
+**Timeline:**
+- **Late Feb 2026:** Anthropic and Pentagon in "increasingly contentious" negotiations over Claude's safety restrictions
+- **March 3:** Hegseth designates Anthropic a "supply chain risk" — defense contractors now required to certify they don't use Claude
+- **March 5:** Trump announces executive order directing all federal agencies to stop using Claude
+- **March 7:** Trump orders agencies to immediately purge Claude; Pentagon given 6 months to phase out (Claude is deeply embedded in classified military systems, including those used in the Iran war)
+- **March 9:** Anthropic files federal lawsuit; legal experts say it has a strong case
+- **March 11:** Reuters: "Legal experts say Anthropic has strong case against Pentagon blacklisting"
+
+**Why Anthropic refused:** Claude's terms of service prohibit use for autonomous weapons and domestic surveillance. Anthropic's lawyers confirmed Claude "was not developed to be used for lethal autonomous weapons without human oversight, nor to be deployed to spy on U.S. citizens." The administration argued these "safeguards" constitute a national security threat in operational military contexts.
+
+**The OpenAI contrast:** Where Anthropic refused, OpenAI accepted the Pentagon deal — triggering its own wave of backlash (see entry below). ChatGPT users mass-migrated to Claude in protest, briefly crashing Anthropic's servers. Claude became the **#1 free app on the Apple App Store**, unseating ChatGPT.
+
+**Scale of impact:** Government departments, defense contractors, and all DoD vendors must now certify non-use of Claude. Massive procurement disruption for customers embedded in classified systems. Amazon, Google, and Microsoft have stated they will continue offering Claude commercially.
+
+**Community reaction:** Widespread praise for Anthropic's stance. The contrast between Anthropic's refusal and OpenAI's compliance drove a significant user migration. "Why are people suddenly talking more about Claude?" posts dominated Reddit, with top answers: "Anthropic said no to the US military using Claude for targeting people without oversight."
+
+**Source:** BBC, PBS NewsHour, NPR, Reuters, CNBC, Washington Post, Axios, Al Jazeera — March 3–15, 2026
+
+---
+
+### 🔴 OpenAI Pentagon Deal — Exec Quits, Mass Uninstalls, Reputational Crisis — March 7, 2026
+
+**What happened:** OpenAI struck a deal with the Department of Defense to provide ChatGPT and GPT-5 for classified military use. Unlike Anthropic, OpenAI agreed — claiming to have secured adequate safeguards — but the deal's announcement caused an immediate ethical firestorm.
+
+**Key events:**
+- **March 7:** Senior OpenAI hardware executive **Caitlin Kalinowski** resigns publicly, stating the deal was "rushed without the guardrails defined" and citing concerns about autonomous weapons and domestic surveillance. She said: "This was about principle."
+- **March 8:** Over **1,000 former and current OpenAI workers** signed an open protest letter
+- **Users mass-uninstall ChatGPT** — Claude became the #1 free iPhone app within days
+- **ChatGPT returns to App Store top spot** within a week after doD controversy coverage fades — but reputational damage ongoing
+- **Business Insider (March 11):** "OpenAI turmoil raises reputational stakes for brands" — advertisers concerned about association
+
+**OpenAI's response:** "We believe our agreement with the Pentagon creates a workable path for responsible national security uses of AI while making clear our red lines: no domestic surveillance and no autonomous weapons." Critics noted the deal was announced before these red lines were formally defined in writing.
+
+**The advertising compound:** OpenAI is simultaneously rolling out ads to ChatGPT's Free and Go tiers (see below), compounding the trust erosion. Business Insider: "Ads pose a reputational risk for OpenAI at a time when it's also facing consumer backlash over its government contracts."
+
+**Source:** TechCrunch, Business Insider, NPR, CNBC, Fortune — March 7–11, 2026
+
+---
+
+### 🟠 ChatGPT Ads Roll Out to Free/Go Users — January–March 2026
+
+**What happened:** On January 17, 2026, OpenAI formally confirmed it would show ads to **Free and Go ($8/month) users** of ChatGPT. By March 2026 the rollout is active, with Criteo confirmed as the first programmatic ad tech partner. Key details:
+- Free users and Go-tier subscribers see ads; Plus ($20/month) and above are ad-free
+- Ads are "clearly labeled as sponsored and visually separated" from answers — not embedded in AI responses
+- OpenAI updated its privacy policy to accommodate ad targeting
+- **GPT-5.4 Thinking** and other advanced models accessible only on paid ad-free tiers
+
+**Backstory:** OpenAI had issued an internal "code red" directive on December 2, 2025, pausing all advertising development to prioritise product quality. The January reversal came just six weeks later — signalling financial pressure overriding the quality concerns.
+
+**Community reaction:** Broadly negative. Users view ads as the "beginning of the end" of ChatGPT's premium positioning. The timing — simultaneous with the Pentagon deal backlash — amplified distrust. Some users switched to Claude specifically because "Claude does not show ads on any tier, including its free plan."
+
+**Source:** Search Engine Land, Business Insider, PPC Land, Portada Online, Wikipedia (ChatGPT) — January–March 2026
+
+---
 
 ### 🔴 Grok Spreads Iran War Misinformation — Generates & Verifies Fakes — March 2026
 
@@ -88,15 +153,25 @@ The lawsuit also cites a separate case where the estate of a woman killed by her
 
 ---
 
-### 🔴 Claude Global Outages — March 2, 3 & 11, 2026
+### 🔴 Claude Recurring Outages — March 2, 3, 11, 12, 13 & 15, 2026
 
-**What happened:** Anthropic's Claude AI experienced a major global outage on **March 2** (11:49 UTC), a **second outage within 24 hours** on March 3, and then "elevated error rates" again on **March 11** — three separate reliability events in 10 days. Storyboard18 called them "the biggest AI outages since 2024." Users could not log in, claude.ai was inaccessible, mobile apps failed, and Claude Code was completely down. The API remained functional for ~1 hour before also being compromised.
+**What happened:** Anthropic's Claude AI has experienced **six separate outage or degraded-service events** across 13 days — an alarming pattern of reliability failure. Storyboard18 called the original March 2–3 outages "the biggest AI outages since 2024."
 
-**The dependency problem:** Business Insider (March 2026) documented users' alarming self-awareness: "Claude outages hit way harder when you realize you've outsourced half your brain to it." One Redditor: "I guess I'll write code like a caveman." The outages exposed a genuine cognitive dependency — developers describing feeling "lost" without AI tool access even for simple tasks.
+**Chronology:**
+- **March 2** (11:49 UTC): Major global outage — claude.ai inaccessible, Claude Code down, API eventually compromised; ~simultaneous with QuitGPT surge
+- **March 3**: Second outage within 24 hours — repeat impact
+- **March 11**: Elevated error rates reported
+- **March 12** (11:46 AM ET): Reported down for **thousands of users** per DownDetector
+- **March 13** (1:40 PM ET): Reported down for some users per DownDetector
+- **March 15** (1:22 AM ET): Reported down again today — DownDetector surge logged
 
-**Scale of impact:** Millions of global users. Enterprises without multi-model fallback lost all AI functionality for hours. The Claude March 2 outage was also blamed for (or coincided with) the QuitGPT-driven surge to Anthropic's platform.
+**The compounding problem:** The March 2 outage coincided with the QuitGPT exodus driving users *to* Claude, crashing servers. Now, with Claude positioned as the ethical alternative to ChatGPT (post-Pentagon deal), reliability failures are politically and commercially damaging. Claude cannot benefit from user migration if it's unavailable.
 
-**Source:** tbreak.com, techradar.com, storyboard18.com, Business Insider — March 2–13, 2026
+**The dependency problem:** Business Insider (March 2026) documented users' alarming self-awareness: "Claude outages hit way harder when you realize you've outsourced half your brain to it." The outages exposed a genuine cognitive dependency — developers describing feeling "lost" without AI tool access even for simple tasks.
+
+**Scale of impact:** Millions of global users. Enterprises without multi-model fallback lost all AI functionality for hours repeatedly across two weeks.
+
+**Source:** tbreak.com, techradar.com, storyboard18.com, Business Insider, DesignTAXI/DownDetector — March 2–15, 2026
 
 ---
 
@@ -203,6 +278,16 @@ This connects to the confirmed silent downgrade problem: OpenAI has acknowledged
 **Why this matters:** Government AI spending being validated against non-existent infrastructure, combined with the financial sustainability questions around OpenAI/Anthropic and Meta's forced human layoffs, is creating a broader AI economic narrative that is shifting from "investment" to "bubble risk" in serious financial and policy circles.
 
 **Source:** The Guardian, The Atlantic — March 14, 2026
+
+---
+
+### 🟡 UN Convenes Inaugural Independent International Scientific Panel on AI — March 2026
+
+**What happened:** In March 2026, the United Nations convened the first meeting of the **Independent International Scientific Panel on AI** — a 40-member expert body established under the Global Digital Compact. Its mandate is to produce annual evidence-based reports on AI's societal impacts, modelled on the IPCC for climate science.
+
+**Why it matters:** The panel's formation signals global governance institutions are now treating AI risk as a systematic, international policy problem requiring independent scientific monitoring — not just self-regulation by labs. First report expected late 2026.
+
+**Source:** Wikipedia (Artificial intelligence) — March 2026
 
 ---
 

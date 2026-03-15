@@ -1,20 +1,36 @@
 # 3d-modelling — AI Issues Radar
 
-_Last updated: 2026-03-13_
+_Last updated: 2026-03-15_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require significant manual cleanup | All AI 3D tools | Ongoing |
-| 2 | 🟠 Major | Autodesk (Maya, 3ds Max) dominance under pressure — AI-native tools encroaching while Autodesk's AI integration lags | Autodesk (Maya/3ds Max) | Developing |
-| 3 | 🟠 Major | Adobe's creative suite crisis (CEO departure, -38% stock) signals broader collapse of premium design software subscriptions | Adobe Substance | Active |
-| 4 | 🟡 Notable | AI-generated 3D models lack PBR materials, proper rigging, and animation-ready structure — game/film pipelines can't use them as-is | Meshy, Tripo, Luma AI | Ongoing |
-| 5 | 🟡 Notable | Cloud-only AI 3D tools create privacy and cost concerns for studios handling proprietary IP | Multiple | Ongoing |
+| 1 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require 2–4 hours of manual cleanup per asset | All AI 3D tools | Ongoing |
+| 2 | 🟠 Major | Meshy loses structural details (weapons, extremities) during generation — Tripo more reliable but both remain imperfect | Meshy / Tripo | Ongoing |
+| 3 | 🟠 Major | Autodesk (Maya, 3ds Max) dominance under pressure — AI-native tools encroaching while Autodesk's AI integration lags | Autodesk (Maya/3ds Max) | Developing |
+| 4 | 🟠 Major | Adobe's creative suite crisis (CEO departure, -38% stock) signals broader collapse of premium design software subscriptions | Adobe Substance | Active |
+| 5 | 🟡 Notable | AI-generated 3D models lack PBR materials, proper rigging, and animation-ready structure — game/film pipelines can't use them as-is | Meshy, Tripo, Luma AI | Ongoing |
+| 6 | 🟡 Notable | Cloud-only AI 3D tools create privacy and cost concerns for studios handling proprietary IP | Multiple | Ongoing |
 
 ---
 
 ## Details
+
+### 🟠 Meshy vs. Tripo — Structural Loss vs. Limited Polygons — March 2026
+
+**What happened:** Reddit's r/archviz community (March 2026) ran a direct comparison between the two leading AI 3D generators. Key findings:
+
+- **Meshy:** "Lost a big chunk of the axe weapon so it looked crap" — the model degraded/dropped thin extremities and weapon geometry during generation, producing incomplete assets
+- **Tripo:** "Did a lot better job" on a 32mm miniature — more detail preserved, but users note **limited polygon counts** and mesh generation still requiring improvement
+
+**Tripo Smart Mesh P1.0:** Tripo released a new "Smart Mesh" feature (March 2026) specifically to address the retopology problem — trying to produce clean low-poly geometry instead of chaotic AI-generated meshes. Early reviews are cautiously positive, but the underlying limitation (AI-inferred depth rather than true photogrammetry) remains.
+
+**The manual labour cost:** The tool blog "The Tool Nerd" estimates that "for every AI-generated asset that looked good, there was a 3D artist somewhere spending two to four hours manually retopologizing it before it could enter a real pipeline inside Blender or Unreal Engine." Tripo Smart Mesh P1.0 is explicitly designed to close this gap — with mixed early results.
+
+**Source:** Reddit r/archviz, The Tool Nerd, generativeai.pub (Tripo HD Model v3.1), lorphic.com — March 2026
+
+---
 
 ### 🟠 AI 3D Outputs Routinely Unfit for Production Use
 
