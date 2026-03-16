@@ -1,6 +1,6 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-14_
+_Last updated: 2026-03-16_
 
 ## Top Issues
 
@@ -10,10 +10,11 @@ _Last updated: 2026-03-14_
 | 2 | 🔴 Critical | Fake AI browser extensions stolen ChatGPT/DeepSeek conversations from 900K users across 20K enterprises — "full chat exfiltration" | Chrome/Edge extensions | Active |
 | 3 | 🔴 Critical | AI coding tools introduce security flaws in 87% of pull requests — cross-site scripting had 86% failure rate | All AI coding tools | Ongoing |
 | 4 | 🔴 Critical | Malicious Rust crates exploit AI coding assistants — injected code uses Claude, Copilot, Gemini, Kiro to exfiltrate secrets | Claude Code / Copilot / Gemini / Kiro | Active |
-| 5 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
-| 6 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
-| 7 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
-| 8 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
+| 5 | 🟠 Major | GitHub Copilot Student plan guts premium models — GPT-5.4, Claude Opus, Claude Sonnet removed March 12; thousands of student downvotes | GitHub Copilot | Active (March 12–16, 2026) |
+| 6 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
+| 7 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
+| 8 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
+| 9 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
 
 ---
 
@@ -159,3 +160,27 @@ _Last updated: 2026-03-14_
 **Community reaction:** "Privacy concerns about code sent to third-party APIs" consistently appears in top complaints across Cursor, Copilot, and Windsurf reviews. Enterprise buyers are demanding self-hosted or on-prem options.
 
 **Source:** morphllm.com, multiple DEV Community posts — 2026
+
+---
+
+### 🟠 GitHub Copilot Student Plan Guts Premium Models — Thousands of Downvotes — March 12–16, 2026
+
+**What happened:** On March 12, 2026, GitHub quietly reorganised its free Copilot offering for students, creating a new "GitHub Copilot Student plan" under the GitHub Education programme. The headline change: **GPT-5.4, Claude Opus, and Claude Sonnet were removed from the free student tier**. Students previously had direct access to select premium models; now they are restricted to "Auto mode" (GitHub's internal routing), which directs queries to lower-cost models the student cannot choose.
+
+**Community reaction:** The backlash was immediate and severe:
+- The GitHub announcement post drew **thousands of downvotes** on Reddit's r/GithubCopilot
+- One student (Nguyễn Thế Toàn) wrote: "The removal of premium models such as GPT-5.4, Claude Opus, and Claude Sonnet makes learning programming more difficult. These models are much better at explaining complex coding concepts, helping debug problems, and guiding students step by step when we are stuck."
+- Users accused GitHub of using the free student plan as a loss-leader to grow adoption, then pulling the best models once students are dependent on the tool
+- The r/GithubCopilot community called it the classic "give premium for free, then bait-and-switch" pattern
+
+**GitHub's response:** VP of developer relations Martin Woodward confirmed the changes and, when asked to restore premium model access, suggested students "upgrade to GitHub Copilot Pro or Pro+ if you want to." Per The Register (March 13): "Microsoft's GitHub is dialing back on expenses by removing several costly premium models."
+
+**Why this matters:**
+- Students disproportionately benefit from the strongest models for learning and debugging complex concepts
+- The move widens the access gap between students who can afford $10–19/month for Pro/Pro+ and those who cannot
+- It confirms AI tool makers are actively **degrading free and student access** to cut costs as premium model inference costs remain high
+- The VSCode GitHub issues tracker (issue #301395) shows the problem has also surfaced in the desktop extension — "Copilot Agent models missing (Claude Sonnet / Opus) on GitHub Student account"
+
+**The pricing reality:** GitHub Copilot Pro is $10/month; Pro+ is $19/month. For students in lower-income countries, these prices are prohibitive — the free student plan was meaningfully different.
+
+**Source:** The Register, Winbuzzer, PiunikaWeb, Reddit r/GithubCopilot, GitHub Issues #301395, Roboin.io — March 12–16, 2026

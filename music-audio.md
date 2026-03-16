@@ -1,6 +1,6 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-16_
 
 ## Top Issues
 
@@ -99,17 +99,25 @@ Music Business Worldwide op-ed attorney Krystle Delgado (leading class action la
 
 ---
 
-### 🟠 AI Musicians Flooding Spotify — Major Labels Pushing Back — March 2026
+### 🟠 AI Musicians Flooding Spotify — Bot Crackdown, Papaoutai Controversy — March 2026
 
-**What happened:** AI-generated music is flooding Spotify at a scale that is visibly impacting the platform. Substream Magazine (March 2026): "AI musicians are flooding Spotify — is the music industry in trouble?" Key dynamics:
+**What happened:** AI-generated music is flooding Spotify at a scale that is visibly impacting the platform and triggering multiple crackdowns. Key developments this week:
+
+**Spotify bot stream crackdown (March 2026):** Several artists recently saw **millions of their streams disappear** after Spotify launched a major crackdown on artificial streaming. Spotify defines "artificial streams" as plays that do not reflect real listener intent — a category that includes bot-driven streaming of AI-generated filler tracks. The mass deletion caught some legitimate artists in the net alongside bad actors.
+
+**The "Papaoutai" AI cover controversy:** A viral incident this week involved an AI-generated cover of Stromae's "Papaoutai" that spread widely without disclosure. The University of Melbourne's The Conversation (March 10, 2026) explored the crisis of AI music passing as human: "While Bandcamp has taken a clear anti-AI stance and works to keep AI-generated music off the platform entirely, other platforms like Spotify have gestured towards governance changes but largely allowed AI music to rack up streams without clearly disclosing the use of AI."
+
+**AI artists thriving on Spotify's algorithms (Reddit r/Fauxmoi, March 12):** A viral thread documented AI "artists" systematically gaming Spotify's recommendation algorithms — generating music in bulk optimised for algorithm signals rather than human listenability, then harvesting royalty pool share.
+
+**The structural problem:**
 - Spotify's royalty pool is being diluted by high volumes of synthetic content
-- Major record labels are beginning to formally push back against AI-generated music they believe infringes on artist rights
-- The Google Lyria 3 lawsuit directly connects to this: if AI tools can cheaply generate infinite synthetic tracks, streaming revenue for human artists collapses
-- Spotify's "minimum streams for royalties" threshold policy (introduced 2024) was explicitly designed to combat low-effort AI filler — but hasn't stopped the flood
+- Major record labels are beginning to formally push back against AI-generated music
+- Spotify's "minimum streams for royalties" threshold policy (2024) was designed to combat low-effort AI filler — but it hasn't stopped the flood
+- The Google Lyria 3 lawsuit directly connects to this: if AI tools generate infinite synthetic tracks, human artist streaming revenue collapses
 
-**Community reaction:** Human musicians describe the situation as "the controversy sparked renewed debate about whether AI systems are learning from artists or exploiting them."
+**Community reaction:** Music fans are demanding Spotify flag AI-generated music recommendations. TechRadar headline (this week): "Music fans are demanding Spotify flags AI-generated music recommendations." The r/Fauxmoi summary: "AI artists thrive on Spotify's algorithms as the platform gets more expensive and the CEO pours money into military technology."
 
-**Source:** Substream Magazine, Forbes — March 2026
+**Source:** Substream Magazine, Forbes, The Conversation, TechRadar, Reddit r/Fauxmoi, nomusica.com — March 2026
 
 ---
 

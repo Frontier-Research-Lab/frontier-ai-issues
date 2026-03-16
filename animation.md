@@ -1,12 +1,12 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-16_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🟠 Major | GDC 2026: record job seekers amid AI-driven layoffs; AI "hot buzzword" while studios push outsourcing — human animators being replaced | Industry-wide | Active (March 2026) |
+| 1 | 🔴 Critical | AI-driven tech layoffs hit 51,686 jobs (102 events) in 2026 so far — 9,200+ directly attributed to AI automation; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (March 16, 2026) |
 | 2 | 🟠 Major | 2026 Olympics broadcast used AI-generated animation instead of human animators — widespread backlash from animation community | AI animation tools (unspecified) | Active |
 | 3 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
 | 4 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
@@ -16,6 +16,21 @@ _Last updated: 2026-03-15_
 ---
 
 ## Details
+
+### 🔴 AI-Driven Layoffs Hit 51,686 Jobs Industry-Wide (2026 YTD) — Plus GDC 2026 Jobs Crisis — March 16, 2026
+
+**Industry-wide data today (March 16, 2026):**
+- **102 layoff events** tracked in 2026 so far
+- **51,686 total workers** impacted (SkillSyncer tracker, as of March 16)
+- **9,200+ layoffs** directly linked to AI automation — companies explicitly citing AI-replaced roles
+- Companies cutting: Meta, Amazon, Block, and dozens more
+- **Invezz (today):** "AI layoff wave hits tech: 45,000 jobs gone in early 2026"
+- **Firstpost (today):** "With profits still strong, the cuts reflect a shift towards leaner, AI-powered operations"
+- HN thread (today): 2026 layoffs on track to match or surpass 2023 spike
+
+For animation and creative workers, this is the hardest-hit corner of the tech workforce. Job boards, animation communities, and design forums are flooded with professionals displaced by AI tools.
+
+---
 
 ### 🟠 GDC 2026: AI Drives Game Industry Layoffs While Job Seekers Hit Record Levels — March 2026
 

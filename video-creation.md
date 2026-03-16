@@ -1,6 +1,6 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-16_
 
 ## Top Issues
 
@@ -8,9 +8,11 @@ _Last updated: 2026-03-15_
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | ByteDance suspends global launch of Seedance 2.0 after Disney, Paramount, Netflix & Warner Bros cease-and-desist letters — "blatant infringement" of Star Trek, South Park, Disney characters | Seedance 2.0 (ByteDance) | **Global launch suspended** (March 14, 2026) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
-| 3 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
-| 4 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
-| 5 | 🟡 Notable | Pricing chaos across the space — tools range wildly and many creators still can't produce audio-native video | Multiple | Ongoing |
+| 3 | 🔴 Critical | Sora 1 forcibly retired March 13 with no warning — all historical content deleted; Sora 2 replacement plagued by "stuck at 99%" bugs, free access fully killed | Sora (OpenAI) | Active (March 13–16, 2026) |
+| 4 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
+| 5 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
+| 6 | 🟠 Major | Runway: high costs, slow "relaxed" queues, weak prompt adherence, opaque moderation and account bans | Runway AI | Ongoing |
+| 7 | 🟡 Notable | Pricing chaos across the space — tools range wildly and many creators still can't produce audio-native video | Multiple | Ongoing |
 
 ---
 
@@ -71,3 +73,47 @@ _Last updated: 2026-03-15_
 **Community reaction:** Reddit's r/Freepik_AI captures the mood: "the pricing models are all over the place and it feels like everything is still in flux." Many creators are using 2–3 tools in combination to get usable output, multiplying subscription costs.
 
 **Source:** Reddit r/Freepik_AI, vidau.ai, pxz.ai — February–March 2026
+
+---
+
+### 🔴 Sora 1 Forcibly Retired — Historical Content Deleted — Sora 2 Broken — March 13–16, 2026
+
+**What happened:** On March 13, 2026, OpenAI **forcibly retired Sora 1** — not a deprecation notice or a gradual wind-down, but a hard shutdown. Simultaneously, its replacement Sora 2 has been plagued by widespread generation failures.
+
+**What was lost:**
+- All Sora 1 generation history permanently deleted (no migration path offered, only a limited export window)
+- Sora 1's built-in image generation feature also taken offline (redirected to ChatGPT)
+- Work saved inside the Sora platform — including mashups, favorites, and iterative creative sessions — gone
+
+**Sora 2's broken state (March 13–16, 2026):**
+1. **"Stuck at 99%"** — The most widely reported bug: videos reach 99% completion and hang indefinitely, with no output and no error. Heavily documented on the OpenAI community forum.
+2. **"We're under heavy load" errors** — Appear to be a load message but actually disguise the fact that free-tier generation has been completely disabled.
+3. **New accounts locked out** — Even after upgrading to ChatGPT Plus ($20/month), new accounts face a 1–3 day review hold before Sora functionality is activated.
+4. **Content moderation overreach** — Sentinel moderation system blocking large numbers of normal, non-violative prompts.
+5. **Daily rolling credit caps** — Even with sufficient monthly credits, generation is throttled after approximately 30 credits/day.
+
+**Access cliff:**
+- Free users: Completely locked out since January 2026 (not just degraded — zero access)
+- Plus ($20/month): Limited credits, 480p unlimited, 720p limited
+- Pro ($200/month): Full access with 10,000 credits/month
+
+**Community reaction:** Vocal backlash on Reddit (r/OpenAI, r/SoraAI):
+- "When they turned it into a TikTok recreation I was done. What garbage. I want a system I can prompt video clips and composite them in my own way. Sora is flaming garbage until they revert back to the OG model."
+- Multiple users noting they paid Plus specifically for Sora 2 and still cannot generate videos due to the account review period
+- Users migrating to Kling, Runway, Hailuo, Pika as alternatives
+
+**Why this is a rug-pull pattern:** The Sora 1 retirement followed the classic "launch free → grow dependency → kill free tier → force paid upgrade" playbook. Users who built workflows around Sora 1 were given no migration path. The move also coincides with OpenAI integrating Sora directly into ChatGPT — making the standalone Sora product purely a premium ChatGPT feature rather than an independent tool.
+
+**Source:** Apiyi.com, Reuters (March 11), Reddit r/OpenAI, OpenAI community forum — March 10–16, 2026
+
+---
+
+### 🟠 Runway AI: High Costs, Slow Queues, Opaque Moderation — Ongoing 2026
+
+**What happened:** Product Hunt reviews (published within the past week as of March 16, 2026) show a consistent split opinion on Runway: praised for quality output and advanced control features, criticised heavily for:
+- **High costs** relative to competitors (Kling, Pika, Hailuo now offer comparable output at lower prices)
+- **Slow "relaxed" queues** — lower-tier subscribers wait significantly longer for generation
+- **Weak prompt adherence** — described as inconsistent; prompts often partially ignored
+- **Opaque moderation and account actions** — users report banned accounts and moderated content without explanation or appeal path
+
+**Source:** Product Hunt reviews, r/runwayml — March 2026
