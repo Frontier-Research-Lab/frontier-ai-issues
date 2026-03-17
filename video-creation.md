@@ -1,6 +1,6 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-16_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
@@ -117,3 +117,21 @@ _Last updated: 2026-03-16_
 - **Opaque moderation and account actions** — users report banned accounts and moderated content without explanation or appeal path
 
 **Source:** Product Hunt reviews, r/runwayml — March 2026
+
+---
+
+### 🟠 AI Video Weaponised for War Propaganda — Journalism "Can't Keep Up" — March 2026
+
+**What happened:** Mediaite published an op-ed (March 12, 2026) documenting the collapse of the traditional propaganda gatekeeping system in the context of ongoing conflicts, driven specifically by AI video generation:
+
+**Key finding:** "That entire system has collapsed under the weight of cheap editing software, AI animation tools, and frictionless global distribution."
+
+**The specific tools cited:** OpenAI's Sora 2, Runway's Gen-4, and Kuaishou's Kling 3.0 can now "generate up to two minutes of continuous, high-definition video from a single text prompt" — making fabricated war footage nearly indistinguishable from real footage.
+
+**The journalism capacity gap:** Traditional journalism relied on editing gatekeepers who could delay and verify. AI-generated war content bypasses this entirely — fake footage goes viral before verification infrastructure can catch up.
+
+**Grok as a force multiplier:** Compounding the problem, Grok (xAI) was simultaneously documented generating fake Iran war images AND wrongly verifying AI-generated fakes as real when users submitted them for fact-checking. This combination — AI generating propaganda + AI "verifying" it as real — is unprecedented.
+
+**The deepfake targeting of Olympians:** Separately (KSLTV.com), con artists are using AI deepfakes targeting Olympic athletes and their fans — creating convincing fake endorsement videos, fake charity appeals, and impersonation scams using Olympic athlete likenesses.
+
+**Source:** Mediaite (March 12, 2026), TechCabal (March 12), KSLTV.com — 2026

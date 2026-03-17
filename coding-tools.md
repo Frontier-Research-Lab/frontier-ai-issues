@@ -1,20 +1,21 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-16_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Amazon's AI coding mandate caused 6.3M lost orders + 90-day safety reset — Kiro & Q implicated in multiple Sev-1 outages | Kiro / Amazon Q | Active |
-| 2 | 🔴 Critical | Fake AI browser extensions stolen ChatGPT/DeepSeek conversations from 900K users across 20K enterprises — "full chat exfiltration" | Chrome/Edge extensions | Active |
-| 3 | 🔴 Critical | AI coding tools introduce security flaws in 87% of pull requests — cross-site scripting had 86% failure rate | All AI coding tools | Ongoing |
-| 4 | 🔴 Critical | Malicious Rust crates exploit AI coding assistants — injected code uses Claude, Copilot, Gemini, Kiro to exfiltrate secrets | Claude Code / Copilot / Gemini / Kiro | Active |
-| 5 | 🟠 Major | GitHub Copilot Student plan guts premium models — GPT-5.4, Claude Opus, Claude Sonnet removed March 12; thousands of student downvotes | GitHub Copilot | Active (March 12–16, 2026) |
-| 6 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
-| 7 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
-| 8 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
-| 9 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
+| 1 | 🔴 Critical | AI coding tools fail 1 in 4 structured tasks — peer-reviewed study published March 17, 2026; AI co-authored code has 2.74x more security vulnerabilities | All AI coding tools | Active (March 17, 2026) |
+| 2 | 🔴 Critical | Amazon's AI coding mandate caused 6.3M lost orders + 90-day safety reset — Kiro & Q implicated in multiple Sev-1 outages; even senior engineers now need manager sign-off | Kiro / Amazon Q | Active |
+| 3 | 🔴 Critical | Fake AI browser extensions stolen ChatGPT/DeepSeek conversations from 900K users across 20K enterprises — "full chat exfiltration" | Chrome/Edge extensions | Active |
+| 4 | 🔴 Critical | AI coding tools introduce security flaws in 87% of pull requests — cross-site scripting had 86% failure rate | All AI coding tools | Ongoing |
+| 5 | 🔴 Critical | Malicious Rust crates exploit AI coding assistants — injected code uses Claude, Copilot, Gemini, Kiro to exfiltrate secrets | Claude Code / Copilot / Gemini / Kiro | Active |
+| 6 | 🟠 Major | GitHub Copilot Student plan guts premium models — GPT-5.4, Claude Opus, Claude Sonnet removed March 12; thousands of student downvotes | GitHub Copilot | Active (March 12–16, 2026) |
+| 7 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
+| 8 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
+| 9 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
+| 10 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
 
 ---
 
@@ -184,3 +185,47 @@ _Last updated: 2026-03-16_
 **The pricing reality:** GitHub Copilot Pro is $10/month; Pro+ is $19/month. For students in lower-income countries, these prices are prohibitive — the free student plan was meaningfully different.
 
 **Source:** The Register, Winbuzzer, PiunikaWeb, Reddit r/GithubCopilot, GitHub Issues #301395, Roboin.io — March 12–16, 2026
+
+---
+
+### 🔴 AI Coding Tools Fail 1 in 4 Tasks — Peer-Reviewed Study — March 17, 2026 (TODAY)
+
+**What happened:** A peer-reviewed study published today (TechXplore / Study Finds, March 17, 2026; DOI: 10.48550/arxiv.2505.20139) provides academic confirmation that **even the best AI coding tools fail roughly 1 in 4 structured coding tasks** — validating months of developer complaints with independent research.
+
+**Key findings:**
+- Even top-tier AI coding models fail ~25% of structured format coding tasks where expected output is clearly defined
+- AI co-authored code (per December 2025 CodeRabbit analysis, referenced in Wikipedia's vibe coding article) shows **75% more misconfigurations** than human-only code
+- Security vulnerabilities in AI-generated code are **2.74x higher** incidence rate
+- Logic errors — including incorrect dependencies, flawed control flow, and subtle bugs — appear at elevated rates
+
+**Why this matters at scale:** If developers push 100 AI-assisted commits per week and 25% contain errors that must be caught later, the debugging and review overhead often exceeds the speed gain. Amazon's internal experience confirms this: the Guardian (March 11, 2026) quoted a developer saying she "mostly fixes what AI breaks" — spending more time correcting Kiro's "sloppy code" than if she'd written it herself.
+
+**The 90-day Amazon reset in context:** Amazon's emergency lockdown — requiring manager sign-off before deploying any AI-generated code, even from senior engineers — is now positioned as the correct institutional response to a known-quantified failure rate, not an overreaction.
+
+**Vibe coding risk:** The research raises fundamental questions about "vibe coding" (shipping AI-generated code without review), which is increasingly common in startup and indie development. At a 25% error rate on structured tasks, unreviewed vibe-coded apps are shipping with significant bug densities.
+
+**Source:** TechXplore, Study Finds, Wikipedia (vibe coding), CodeRabbit analysis — March 17, 2026
+
+---
+
+### 🔴 Amazon Kiro: Workers "Mostly Fix What AI Breaks" — Guardian Investigation — March 11, 2026
+
+**What happened:** The Guardian published a major investigation (March 11, 2026) into Amazon's forced AI adoption, featuring accounts from Amazon software engineers using Kiro — the company's internal AI coding tool. The picture is damning:
+
+**Developer testimony:**
+- "The internal AI tool she's expected to use, called Kiro, frequently hallucinates and generates flawed code"
+- Developers describe having to "dig through and correct the sloppy code it creates, or just revert all changes and start again"
+- The net effect: **AI creates more work than it saves** for many engineers who must now also be AI babysitters
+- Amazon has nonetheless doubled down, requiring AI use as a performance metric
+
+**The mandate problem:** Amazon's AI usage is reportedly tracked in performance reviews, creating perverse incentives — engineers use Kiro to hit AI adoption metrics even when it slows them down, then spend unpaid time cleaning up the resulting mess.
+
+**March 14 formal response:** Amazon implemented a **90-day code safety reset** (per Legal Insurrection, March 14, 2026):
+- All code — AI-generated or not — requires additional human review before deployment
+- Even senior engineers need manager sign-off
+- Engineers called to a mandatory meeting March 10 to review AI-caused incidents
+- Internal documents describe a need to "invest in control plane safety" after AI tools exposed "sharp edges where guardrails do not exist"
+
+**The broader lesson:** This is the clearest documented case yet of an organisation discovering that **forced AI adoption without proper guardrails creates net negative productivity** — and the regulatory/safety reset that follows.
+
+**Source:** The Guardian (March 11), Business Insider (March 11), Legal Insurrection (March 14), TechRadar (March 10), FinTech Weekly (March 13) — 2026

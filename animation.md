@@ -1,17 +1,18 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-16_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | AI-driven tech layoffs hit 51,686 jobs (102 events) in 2026 so far — 9,200+ directly attributed to AI automation; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (March 16, 2026) |
-| 2 | 🟠 Major | 2026 Olympics broadcast used AI-generated animation instead of human animators — widespread backlash from animation community | AI animation tools (unspecified) | Active |
-| 3 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
-| 4 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
-| 5 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
-| 6 | 🟡 Notable | Professional CG studios: "tools not anywhere close to good enough" — zero gen AI integration in production workflows | Industry-wide | Ongoing |
+| 1 | 🔴 Critical | AI-driven tech layoffs hit 51,686 jobs (102 events) in 2026 so far — 9,200+ directly attributed to AI automation; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (March 17, 2026) |
+| 2 | 🟠 Major | Microsoft bans "Microslop" word on Copilot AI Discord — censoring criticism of its own product; backlash + "AI slop" weaponisation in Olympics ceremony widely mocked | Microsoft Copilot AI | Active (March 2026) |
+| 3 | 🟠 Major | 2026 Winter Olympics AI-generated animation controversy — AI-generated Sabrina Impacciatore skating/skiing across historic host cities criticised as "AI slop" replacing human animators | AI animation tools | Active (February–March 2026) |
+| 4 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
+| 5 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
+| 6 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
+| 7 | 🟡 Notable | Professional CG studios: "tools not anywhere close to good enough" — zero gen AI integration in production workflows | Industry-wide | Ongoing |
 
 ---
 
@@ -121,3 +122,20 @@ The fundamental problem: no matter how carefully prompts are crafted, these basi
 **Why this matters:** The gap between AI animation marketing ("AI can now animate anything!") and professional production reality ("zero implementation") is significant. Studios can't use tools that produce legally questionable outputs, inconsistent character appearance across shots, or broken physics.
 
 **Source:** Reddit r/animationcareer — June 2025
+
+---
+
+### 🟠 Microsoft Bans "Microslop" on Copilot Discord — Censoring Product Criticism — March 2026
+
+**What happened:** Microsoft banned the word **"Microslop"** — a community portmanteau of "Microsoft" and "AI slop" — on its official Discord server dedicated to its Copilot AI tool. This was first documented in the Wikipedia "AI slop" article (updated March 2026).
+
+**Why this matters for animation specifically:**
+1. The "Microslop" coinage is rooted in frustration with AI-generated animation and visual content quality — the term captures broad dissatisfaction with AI-generated output that looks mechanical, generic, or low-effort
+2. Microsoft's decision to censor it on its own platform backfired spectacularly — Streisand Effect; the word spread further after the ban
+3. It reflects a pattern of AI companies and tool providers suppressing negative community feedback rather than addressing underlying quality issues
+
+**The Olympics AI slop moment:** The 2026 Winter Olympics opening ceremony in February 2026 featured an AI-generated animation scene with actress Sabrina Impacciatore appearing to skate and ski across representations of historic Olympic host cities. The animation was widely criticised as "AI slop" — visually unconvincing, replacing what would have been a commission for human animators with synthetic imagery. The controversy became a focal point in the broader "AI slop" backlash and was cited in multiple human-animator-vs-AI discussions at GDC 2026.
+
+**The "AI slop" umbrella:** The term now appears in Wikipedia as a defined concept, capturing the community reaction to mass-produced, low-effort AI content replacing human creative work. For animation professionals, this represents a pivotal cultural moment — AI animation is now widely associated with a quality pejorative.
+
+**Source:** Wikipedia "AI slop" article, Mediaite, GDC 2026 coverage — March 2026

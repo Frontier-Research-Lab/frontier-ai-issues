@@ -1,14 +1,14 @@
 # 3d-modelling — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require 2–4 hours of manual cleanup per asset | All AI 3D tools | Ongoing |
-| 2 | 🟠 Major | Meshy loses structural details (weapons, extremities) during generation — Tripo more reliable but both remain imperfect | Meshy / Tripo | Ongoing |
-| 3 | 🟠 Major | Autodesk (Maya, 3ds Max) dominance under pressure — AI-native tools encroaching while Autodesk's AI integration lags | Autodesk (Maya/3ds Max) | Developing |
+| 1 | 🟠 Major | Autodesk enters generative AI 3D — but launches with significant legal limitations on commercial use of outputs; competitors watching closely | Autodesk (new gen AI feature) | Active (March 2026) |
+| 2 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require 2–4 hours of manual cleanup per asset | All AI 3D tools | Ongoing |
+| 3 | 🟠 Major | Meshy loses structural details (weapons, extremities) during generation — Tripo more reliable but both remain imperfect | Meshy / Tripo | Ongoing |
 | 4 | 🟠 Major | Adobe's creative suite crisis (CEO departure, -38% stock) signals broader collapse of premium design software subscriptions | Adobe Substance | Active |
 | 5 | 🟡 Notable | AI-generated 3D models lack PBR materials, proper rigging, and animation-ready structure — game/film pipelines can't use them as-is | Meshy, Tripo, Luma AI | Ongoing |
 | 6 | 🟡 Notable | Cloud-only AI 3D tools create privacy and cost concerns for studios handling proprietary IP | Multiple | Ongoing |
@@ -102,3 +102,21 @@ _Last updated: 2026-03-15_
 **Status:** No major AI 3D provider has published a verifiably secure enterprise tier with contractual data protection comparable to what cloud computing providers offer. This is a significant barrier to professional studio adoption.
 
 **Source:** meshy.ai documentation, 3DAI Studio terms, general studio feedback — 2026
+
+---
+
+### 🟠 Autodesk Launches Generative AI 3D — But Significant Legal Limitations — March 2026
+
+**What happened:** Autodesk — maker of Maya, 3ds Max, AutoCAD, and Revit — unveiled a **generative AI system for creating 3D models** in March 2026 (3dvf.com). This is significant because Autodesk's dominant position in professional 3D means their integration could accelerate enterprise adoption of AI 3D generation — but the launch comes with notable constraints.
+
+**What it enables (per 3dvf.com):**
+- Text-to-3D and reference-guided 3D model generation integrated into Autodesk's professional environment
+- Potential to speed up asset creation pipelines without exporting to third-party cloud services
+
+**The legal limitations:** 3dvf.com explicitly documented that the Autodesk launch comes with "significant legal limitations" — suggesting outputs carry commercial use restrictions, training data questions, or liability disclaimers. These constraints are particularly problematic for studios using Maya/3ds Max for commercial production.
+
+**The strategic significance:** This move positions Autodesk as a direct competitor to Meshy, Tripo, and other specialist AI 3D tools. The incumbency advantage (already the standard in professional pipelines, local processing, enterprise compliance infrastructure) could be decisive if Autodesk resolves the legal clarity issues.
+
+**The competitive threat:** Meshy, Tripo, and other standalone AI 3D generators are now competing against Autodesk's brand recognition, existing studio relationships, and enterprise compliance capabilities. If Autodesk gets the legal/commercial use framework right in a subsequent update, it could rapidly consolidate the AI 3D market.
+
+**Source:** 3dvf.com — March 2026

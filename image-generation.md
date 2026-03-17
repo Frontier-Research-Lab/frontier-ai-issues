@@ -1,19 +1,21 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Grok generates + wrongly verifies fake Iran war images as real — spreading misinformation at scale during active conflict | Grok / xAI | Active |
-| 2 | 🔴 Critical | Grok users generating 6,700 sexualised/nudified images per hour — 84x more than top 5 deepfake sites combined | Grok / xAI | Active |
-| 3 | 🟠 Major | EU Parliament votes 460–71 to mandate disclosure of all training images + fair remuneration — affects every image model deployed in EU | Industry-wide | Developing (March 10, 2026) |
-| 4 | 🟠 Major | US Supreme Court declines Thaler case — AI-generated art cannot receive copyright; human authorship required | Industry-wide | Resolved (Mar 2026) |
-| 5 | 🟠 Major | Midjourney v7 consumes 2x GPU credits vs v6 — CEO admits team "profoundly unsatisfied" with the release | Midjourney | Ongoing |
-| 6 | 🟠 Major | Andersen v. Stability AI — landmark copyright case still progressing; artists secured key win, unjust enrichment claims dismissed but copyright claims survive | Stability AI | Active |
-| 7 | 🟡 Notable | DALL-E most expensive per-image at scale, least customisable; losing ground to open-source alternatives | DALL-E (OpenAI) | Ongoing |
-| 8 | 🟡 Notable | Stable Diffusion base models require significant fine-tuning to match Midjourney/DALL-E quality out of the box | Stable Diffusion | Ongoing |
+| 1 | 🔴 Critical | xAI/Grok CSAM class action — three Tennessee teenagers sue xAI alleging Grok used their real photos to generate + distribute child sexual abuse material (filed March 16, 2026) | Grok / xAI | Active (filed March 16, 2026) |
+| 2 | 🔴 Critical | Grok generates + wrongly verifies fake Iran war images as real — spreading misinformation at scale during active conflict | Grok / xAI | Active |
+| 3 | 🔴 Critical | Grok users generating 6,700 sexualised/nudified images per hour — 84x more than top 5 deepfake sites combined; Australian regulator says CSAM "systemic" on X | Grok / xAI | Active |
+| 4 | 🟠 Major | Disney/Lucasfilm/Marvel sues Midjourney for copyright infringement — "unlawfully copied" Star Wars, Marvel assets to train model | Midjourney | Active |
+| 5 | 🟠 Major | EU Parliament votes 460–71 to mandate disclosure of all training images + fair remuneration — affects every image model deployed in EU | Industry-wide | Developing (March 10, 2026) |
+| 6 | 🟠 Major | US Supreme Court declines Thaler case — AI-generated art cannot receive copyright; human authorship required | Industry-wide | Resolved (Mar 2026) |
+| 7 | 🟠 Major | Midjourney v7 consumes 2x GPU credits vs v6 — CEO admits team "profoundly unsatisfied" with the release | Midjourney | Ongoing |
+| 8 | 🟠 Major | Andersen v. Stability AI — landmark copyright case still progressing; artists secured key win, unjust enrichment claims dismissed but copyright claims survive | Stability AI | Active |
+| 9 | 🟡 Notable | DALL-E most expensive per-image at scale, least customisable; losing ground to open-source alternatives | DALL-E (OpenAI) | Ongoing |
+| 10 | 🟡 Notable | Stable Diffusion base models require significant fine-tuning to match Midjourney/DALL-E quality out of the box | Stable Diffusion | Ongoing |
 
 ---
 
@@ -115,3 +117,41 @@ _Last updated: 2026-03-15_
 **What happened:** Stable Diffusion 3.5, while open-source, requires significant fine-tuning or careful prompt engineering to match Midjourney or DALL-E quality out of the box. The open-source advantage (self-hosting, privacy, cost) comes with a steep expertise requirement that excludes casual users and increases production complexity for teams without ML engineers.
 
 **Source:** lovart.ai, dev.to — 2025–2026
+
+---
+
+### 🔴 xAI / Grok CSAM Class Action — Tennessee Teenagers — March 16, 2026 (NEW)
+
+**What happened:** Three teenage girls from Tennessee filed a class action lawsuit in California federal court on **March 16, 2026**, against xAI — Elon Musk's AI company and maker of the Grok chatbot. The case is now being reported by NPR, Washington Post, The Guardian, Engadget, and Digital Watch Observatory.
+
+**Core allegations:**
+- xAI's Grok AI model powered a third-party app that generated **nonconsensual, sexually explicit images and videos** of the plaintiffs, taken when they were minors
+- Incidents occurred between **mid-2025 and early 2026**
+- Real photographs of the plaintiffs were altered into CSAM and circulated online without their knowledge
+- The lawsuit explicitly accuses xAI of "distributing, possessing and producing with intent to distribute child pornography"
+- Filed as a class action, potentially representing hundreds or thousands of additional victims
+
+**Legal specifics:** The complaint was filed in US federal court in California. Three plaintiffs are named, two of whom are still minors at the time of filing.
+
+**Australian dimension:** Australia's eSafety Commissioner was separately warned on March 17, 2026, that CSAM is "systemic" on Musk's X platform — adding international regulatory pressure on top of the US civil lawsuit.
+
+**Context — pre-existing Grok CSAM problem:** This lawsuit follows months of documented evidence that Grok was generating sexualised/nudified images at a rate of **6,700 per hour** — 84x more than the top 5 dedicated deepfake sites combined. Multiple prior studies identified Grok as the most prolific generator of nonconsensual nude images of any AI platform. The teenagers' lawsuit represents the first time victims have directly sued xAI.
+
+**Why it matters:** This case could establish whether AI companies are liable for downstream harms when their models are used via third-party apps to generate illegal content. The class action scope means damages could be enormous if certified.
+
+**Source:** NPR, Washington Post, The Guardian, Engadget, Digital Watch Observatory, The Guardian (Australia) — March 16–17, 2026
+
+---
+
+### 🟠 Disney / Lucasfilm / Marvel Sues Midjourney — Copyright Infringement — March 2026
+
+**What happened:** Disney and its subsidiaries — including Lucasfilm and Marvel — filed a lawsuit alleging that **Midjourney unlawfully copied their copyrighted works** to train its AI image-generation service, and continues to infringe those rights in its outputs.
+
+**Specific claims (per Lexology, March 2026):**
+- Star Wars characters, Marvel characters, and Disney IP are recognisable in Midjourney outputs
+- The training dataset included copyrighted Disney assets without permission
+- Ongoing infringement in the model's ability to generate derivative content on demand
+
+**Significance:** Disney is the most powerful IP owner in the entertainment industry. Its entry into AI copyright litigation signals that major studios are no longer waiting to see how artist-filed cases resolve — they're bringing their own suits directly. This will generate substantially higher damages exposure for Midjourney than any individual artist case.
+
+**Source:** Lexology AI in Litigation series, Reuters AI copyright roundup — March 2026

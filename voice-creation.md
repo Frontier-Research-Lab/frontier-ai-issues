@@ -1,19 +1,22 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | 1 in 4 Americans received deepfake voice call in past 12 months — AI voice weaponisation has gone mainstream | AI voice tools (misused) | Active |
-| 2 | 🔴 Critical | P1bot AI vishing platform discovered — automated fraud calls using ElevenLabs TTS; scammers never have to speak to victims | ElevenLabs (misused) / AI voice tools | Active |
-| 3 | 🔴 Critical | Creator voice scraping epidemic — any creator's voice, cadence, and phrasing can be modelled and reproduced without consent | Industry-wide | Ongoing |
-| 4 | 🔴 Critical | ElevenLabs sued for misappropriating voice actors' likenesses without consent (Vacker & Boyett) — multiple ongoing lawsuits | ElevenLabs | Active |
-| 5 | 🔴 Critical | Unauthorised celebrity voice clone epidemic — several lawsuits ongoing; "iconic" deceased voices on platforms that cannot consent | Multiple platforms | Ongoing |
-| 6 | 🟠 Major | Celebrity voice licensing ≠ consent for all voices: Michael Caine, McConaughey licensed their voices — but many "iconic" platform voices are deceased or non-consenting | ElevenLabs / AI voice platforms | Active (March 15, 2026) |
-| 7 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
-| 8 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
+| 1 | 🔴 Critical | UN Global Wake-Up Call — deepfakes and voice cloning "weaponised" by organised crime networks in Southeast Asia for fraud, money laundering, malware | AI voice/deepfake tools (misused) | Active (March 17, 2026) |
+| 2 | 🔴 Critical | Deepfake attacks rise 900% — women most targeted; India cybercrime involving women up 60% in two years (50K→80K complaints) | AI voice/image tools (misused) | Active |
+| 3 | 🔴 Critical | 1 in 4 Americans received deepfake voice call in past 12 months — AI voice weaponisation has gone mainstream | AI voice tools (misused) | Active |
+| 4 | 🔴 Critical | P1bot AI vishing platform discovered — automated fraud calls using ElevenLabs TTS; scammers never have to speak to victims | ElevenLabs (misused) / AI voice tools | Active |
+| 5 | 🔴 Critical | Deepfake audio is an evidence crisis — courts not equipped for synthetic audio challenges; voice familiarity standard inadequate | Industry-wide | Active (March 15, 2026) |
+| 6 | 🔴 Critical | Creator voice scraping epidemic — any creator's voice, cadence, and phrasing can be modelled and reproduced without consent | Industry-wide | Ongoing |
+| 7 | 🔴 Critical | ElevenLabs sued for misappropriating voice actors' likenesses without consent (Vacker & Boyett) — multiple ongoing lawsuits | ElevenLabs | Active |
+| 8 | 🔴 Critical | Unauthorised celebrity voice clone epidemic — several lawsuits ongoing; "iconic" deceased voices on platforms that cannot consent | Multiple platforms | Ongoing |
+| 9 | 🟠 Major | Celebrity voice licensing ≠ consent for all voices: Michael Caine, McConaughey licensed their voices — but many "iconic" platform voices are deceased or non-consenting | ElevenLabs / AI voice platforms | Active (March 15, 2026) |
+| 10 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
+| 11 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
 
 ---
 
@@ -129,3 +132,42 @@ _Last updated: 2026-03-15_
 **What happened:** Without comprehensive federal regulation, states are filling the void with inconsistent voice protection laws. California (strongest protections), New York, and Tennessee have all enacted legislation. For a national platform like ElevenLabs, this means maintaining separate compliance stacks for different jurisdictions — and users in protected states face different terms than those in unprotected states.
 
 **Source:** terms.law — November 2025
+
+---
+
+### 🔴 UN Global Wake-Up Call — Voice Cloning Weaponised by Organised Crime — March 17, 2026 (TODAY)
+
+**What happened:** The United Nations issued a global alert on March 17, 2026, describing how **organised crime networks in Southeast Asia have weaponised AI voice cloning and deepfakes** as core operational tools for fraud, money laundering, and cybercrime-as-a-service operations.
+
+**Key UN findings (news.un.org, March 17):**
+- Criminal networks are deploying AI for **voice cloning** and **deepfake video** in coordinated fraud operations
+- These tools are now being sold as **cybercrime-as-a-service** — other criminals can purchase deepfake fraud capabilities without technical expertise
+- The same networks also **facilitate money laundering and deploy malware**
+- The operations are transnational and increasingly industrialised — not individual bad actors
+
+**Scale of the voice fraud epidemic (corroborating data from TechRadar, March 2026):**
+- **1 in 4 Americans** report receiving a deepfake voice call in the past 12 months
+- Scammers successfully impersonate family members, executives, and government officials in real-time
+- Mobile network protections have been consistently outpaced by AI voice generation improvements
+
+**The evidence crisis dimension (Forbes, March 15):** Legal scholar Lars Daniel documented a federal case where a defense challenge to a voice recording on deepfake grounds was rejected because "witness familiarity with the defendant's voice" was deemed sufficient. This standard was designed before any human could clone a voice from a few seconds of audio — the legal framework has completely failed to keep pace.
+
+**Source:** UN News (news.un.org), TechRadar, Forbes (Lars Daniel), Africa Global Village — March 15–17, 2026
+
+---
+
+### 🔴 Deepfake Attacks Rise 900% — Women Most Targeted — March 2026
+
+**What happened:** New research (Business Standard, March 15, 2026) documents a **900% increase in deepfake attacks**, with women disproportionately targeted:
+
+**India-specific data:**
+- Cybercrime complaints involving women jumped from **roughly 50,000 in 2024 to nearly 80,000 by 2026** — a 60% increase in two years
+- The Keepnet report (March 2026) attributes the rise primarily to "highly convincing voice and video scams" that combine voice cloning with smishing and spear-phishing
+
+**Global pattern:**
+- Attackers are "moving beyond simple impersonation tactics" — they now combine voice, video, and environmental audio for multi-layered deception
+- The "most women take no action" finding in the report suggests a systemic reporting gap that means real incident counts are significantly higher than official figures
+
+**YouTube's response:** YouTube escalated deepfake policy with detection and removal capabilities in March 2026, citing "the surge in realistic AI voice cloning as the primary driver behind this policy escalation."
+
+**Source:** Business Standard, Keepnet, YouTube policy update — March 2026

@@ -1,15 +1,16 @@
 # web-design — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🟠 Major | Webflow pricing and learning curve increasingly hard to justify against AI-first web builders | Webflow | Ongoing |
-| 2 | 🟠 Major | AI-generated websites look generic/identical — the "AI slop" problem hitting web design at scale | Multiple (v0, Wix AI, etc.) | Ongoing |
-| 3 | 🟡 Notable | Wix free plan still includes Wix ads — AI features locked behind paid tiers; free-to-paid conversion pressure | Wix | Ongoing |
-| 4 | 🟡 Notable | v0 (Vercel) disrupting traditional web design workflow — designers losing "build" work to AI prototyping tools | v0 / Vercel | Developing |
+| 1 | 🟠 Major | Webflow acquires Vidoso AI — marketing pivot risks alienating core web design user base; acquisition comes amid steep learning curve complaints | Webflow | Active (March 12, 2026) |
+| 2 | 🟠 Major | Webflow pricing and learning curve increasingly hard to justify against AI-first web builders | Webflow | Ongoing |
+| 3 | 🟠 Major | AI-generated websites look generic/identical — the "AI slop" problem hitting web design at scale | Multiple (v0, Wix AI, etc.) | Ongoing |
+| 4 | 🟡 Notable | Wix free plan still includes Wix ads — AI features locked behind paid tiers; free-to-paid conversion pressure | Wix | Ongoing |
+| 5 | 🟡 Notable | v0 (Vercel) disrupting traditional web design workflow — designers losing "build" work to AI prototyping tools | v0 / Vercel | Developing |
 
 ---
 
@@ -60,3 +61,17 @@ _Last updated: 2026-03-15_
 **Why this is different from previous "no-code" tools:** v0 outputs production-grade code, not a visual builder. The resulting artifact is deployable, not a mockup.
 
 **Source:** Figma Config announcements, Vercel blog — 2025–2026
+
+---
+
+### 🟠 Webflow Acquires Vidoso AI — Marketing Platform Pivot — March 12, 2026
+
+**What happened:** Webflow acquired **Vidoso**, an AI-powered content generation platform, on March 12, 2026 (TechCrunch). The acquisition is positioned to "bolster Webflow's marketing suite" by adding AI content generation capabilities alongside its existing website-building tools.
+
+**The concern:** Webflow's core identity is as a professional visual web design platform — its users are designers, agencies, and front-end developers who chose it for precise design control. Pivoting toward "marketing suite" features risks diluting the platform's focus.
+
+**The timing problem:** Users are already complaining that Webflow's pricing is hard to justify vs. AI-first builders (Framer, v0), and the core learning curve hasn't improved. Adding a marketing layer doesn't address either complaint — it adds more complexity and pricing tiers.
+
+**Broader context:** Webflow's strategy appears to be expanding from "the best visual web builder" to "a marketing platform with visual web building." This is the same trajectory that caused Adobe to lose ground — broad platform expansion while competitors focused on specific workflows that AI was disrupting.
+
+**Source:** TechCrunch (March 12, 2026), bententerprise.com

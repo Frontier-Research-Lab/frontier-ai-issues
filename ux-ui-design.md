@@ -1,17 +1,19 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
-| 2 | 🔴 Critical | Adobe CEO exits; stock down 7% today, -38% over past year — AI disruption trade accelerating | Adobe | Active |
-| 3 | 🔴 Critical | Adobe down 12% earlier this week on Q1 guidance — "show-me" story as AI revenue transition slower than promised | Adobe | Active |
-| 4 | 🟠 Major | Figma's role narrowing as vibe coding shifts deliverable from mockups to working software — designers "outgrowing" the tool | Figma | Developing |
-| 5 | 🟠 Major | Figma down 81% from peak valuation (Jan 2026) — AI-native tools attacking the design tool market from below | Figma | Ongoing |
-| 6 | 🟡 Notable | Adobe's failed $20B Figma acquisition left a $1B termination fee and a wasted strategic window | Adobe | Historical |
+| 1 | 🔴 Critical | Figma AI credits enforcement starts March 18 (TOMORROW) — users will hit walls mid-project; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Imminent (March 18, 2026) |
+| 2 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
+| 3 | 🔴 Critical | Adobe CEO exits; stock down 7% today, -38% over past year — AI disruption trade accelerating | Adobe | Active |
+| 4 | 🔴 Critical | Adobe down 12% earlier this week on Q1 guidance — "show-me" story as AI revenue transition slower than promised | Adobe | Active |
+| 5 | 🟠 Major | Figma subscription price complaints escalating — users report "significantly higher" charges vs last year with no feature parity justification | Figma | Active (March 2026) |
+| 6 | 🟠 Major | Figma's role narrowing as vibe coding shifts deliverable from mockups to working software — designers "outgrowing" the tool | Figma | Developing |
+| 7 | 🟠 Major | Figma down 81% from peak valuation (Jan 2026) — AI-native tools attacking the design tool market from below | Figma | Ongoing |
+| 8 | 🟡 Notable | Adobe's failed $20B Figma acquisition left a $1B termination fee and a wasted strategic window | Adobe | Historical |
 
 ---
 
@@ -102,3 +104,27 @@ This doesn't make Figma disappear — it's still the best tool for visual design
 **The counterfactual:** Had the deal closed, Adobe would own Figma's design community lock-in, browser-native collaboration, and prototyping toolset — defensive moats that would be far more valuable against AI disruption than Adobe's current position.
 
 **Source:** stocktwits.com, thetechtrep.com — ongoing context
+
+---
+
+### 🔴 Figma AI Credit Enforcement — TOMORROW March 18, 2026 (IMMINENT)
+
+**What happened:** Figma announced in December 2025 that **AI credits would be enforced starting March 18, 2026** — tomorrow. The announcement (Figma Forum, "AI credits update: new purchasing options and enforcement on March 18") details:
+
+**What's changing:**
+- AI credits are included with every Figma seat and reset monthly
+- Starting March 11, new purchasing options rolled out (rolling across accounts through March 12)
+- **Starting March 18: credit limits will be enforced** — users who exhaust their monthly credits will be blocked from AI features mid-project
+
+**The pricing problem:**
+- Additional credits are available via subscription or pay-as-you-go — but **only for Organisation and Enterprise plans**; Professional plans must wait until May 2026
+- Users on Professional plans hit their limit have no ability to purchase additional credits until May
+- Users who weren't tracking their credit usage will hit walls without warning
+
+**Subscription price complaints:** Separately, Figma Forum users (March 2026) are complaining that subscription prices have increased significantly vs. last year with the same charges appearing "significantly higher" — suggesting Figma is quietly raising prices while simultaneously metering AI features.
+
+**State of UX 2026 context:** Nielsen Norman Group's annual State of UX 2026 report described the design field as still recovering from "instability from layoffs, hiring freezes, and AI hype." Adding surprise AI credit walls to a field already under financial stress is particularly poorly timed.
+
+**Community reaction:** Design Twitter/Bluesky is anticipating mid-sprint disruptions when teams hit credit limits during active projects tomorrow. The limited availability of credit top-ups for non-Enterprise plans is being described as a "Professional plan tax."
+
+**Source:** Figma Forum ("AI credits update" thread), releasebot.io, Nielsen Norman Group State of UX 2026 — March 2026

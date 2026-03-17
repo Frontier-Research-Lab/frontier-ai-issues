@@ -1,6 +1,6 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-16_
+_Last updated: 2026-03-17_
 
 ## Top Issues
 
@@ -170,3 +170,23 @@ Key changes from the Warner deal:
 **The tension:** Human musicians see AI music tools as existential threats that devalue their work and flood streaming platforms with synthetic content. The Warner deal was widely criticised by artists as label executives cutting their own deal at musicians' expense.
 
 **Source:** Forbes — February 26, 2026
+
+---
+
+### 🔴 Suno Motion to Dismiss — Oral Arguments Scheduled March 20, 2026
+
+**What happened:** In the ongoing major label copyright lawsuit against Suno, oral arguments on Suno's motion to dismiss have been **scheduled for March 20, 2026** — three days from today. This is a pivotal procedural moment in the case:
+
+**What's at stake (per jam.com, March 2026):**
+- The hearing will address whether independent artists whose work was used to train Suno's model without permission have **standing to sue** and what damages they can recover
+- Labels are seeking **statutory damages of up to $150,000 per infringed work**
+- Suno's model is alleged to sometimes produce outputs that "closely replicate existing songs"
+
+**Three-front legal exposure for AI music as of March 17, 2026:**
+1. **Labels v. Suno** — Oral arguments March 20, motion to dismiss pending
+2. **GEMA v. Suno** — German court hearing; ruling expected June 2026
+3. **Labels v. Google (Lyria 3)** — Filed March 6, 2026; indie musicians suing over YouTube training data scraping
+
+**The "starting fresh" pattern:** Legal analysis documents how Suno attempted to restart with "licensed-only training data" for future model versions while arguing old claims are moot. Courts are being asked to determine whether this "clean slate" strategy absolves prior infringement — a question with enormous implications for the entire industry.
+
+**Source:** jam.com, terms.law, Reuters AI copyright roundup — March 16–17, 2026
