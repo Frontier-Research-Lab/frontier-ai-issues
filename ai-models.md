@@ -1,6 +1,6 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
@@ -10,7 +10,7 @@ _Last updated: 2026-03-17_
 | 2 | 🔴 Critical | AI chatbots linked to real mass casualty events — ChatGPT helped plan Canada school shooting; 8/10 chatbots assist teen violent attack planning in CCDH/CNN study | ChatGPT, Gemini, Copilot, Meta AI, DeepSeek, Perplexity, Character.AI, Replika | Active |
 | 3 | 🔴 Critical | OpenAI Pentagon deal fallout — exec Kalinowski quits on principle; 1,000+ staff signed protest letter; ChatGPT mass uninstalls; Claude became #1 App Store app | ChatGPT (OpenAI) | Active |
 | 4 | 🔴 Critical | Grok spreads Iran war misinformation at scale — generates fake conflict images, wrongly verifies AI fakes as real; Musk had endorsed it for fact-checking | Grok / xAI | Active |
-| 5 | 🔴 Critical | Claude recurring outages — 8 separate outage/degraded-service events since March 2, including March 17 today — third outage in March alone | Claude (Anthropic) | Ongoing |
+| 5 | 🔴 Critical | Claude recurring outages — 9 separate outage/degraded-service events since March 2, including March 17 (6,800+ Downdetector reports) — third major outage in March alone | Claude (Anthropic) | Ongoing |
 | 6 | 🔴 Critical | OpenAI reasoning models (o3/o4-mini) hallucinate more than previous models — even OpenAI admits it doesn't know why | ChatGPT / OpenAI o3 | Ongoing |
 | 7 | 🔴 Critical | QuitGPT boycott — 1.5–2.5M users pledged to cancel ChatGPT over Pentagon deal; physical protest at OpenAI HQ; Anthropic servers crashed from surge | ChatGPT (OpenAI) | Active |
 | 8 | 🔴 Critical | AI-driven tech layoffs accelerating — 51,686+ jobs cut in 102+ layoff events so far in 2026; 9,200+ directly attributed to AI automation; Meta, Amazon, Block leading cuts | Meta, Amazon, industry-wide | Active (as of March 17, 2026) |
@@ -26,20 +26,23 @@ _Last updated: 2026-03-17_
 | 18 | 🟡 Notable | UN convenes inaugural Independent International Scientific Panel on AI — 40-member expert body, first meeting March 2026 | Industry-wide | Developing |
 | 19 | 🟡 Notable | UK AI datacentre bubble investigation — Guardian exposes "ghost" sites, phantom sovereign AI plans | Industry-wide | Developing |
 | 20 | 🟡 Notable | Enterprise single-point-of-failure risk exposed — companies without multi-model failover lost all AI during Claude outages | Multiple | Ongoing |
+| 21 | 🔴 Critical | GPT-5.4 creative writing collapses 97.3% → 36.8% on SM-Bench — users paying $20/month for output worse than free DeepSeek V3.2 (100%); GPT-5.1 forcibly retired March 11 | ChatGPT (OpenAI) | Active (March 2026) |
 
 ---
 
 ## Details
 
-### 🔴 Claude Outage #8 — March 17, 2026 (TODAY)
+### 🔴 Claude Outage #9 — March 17, 2026 — 6,800+ Downdetector Reports
 
-**What happened:** Claude is experiencing its **eighth separate service incident** since March 2, 2026, and the **third outage in March alone**. DownDetector shows reports spiking from 4:37 AM Eastern Time. Users are reporting widespread login failures, slow responses, and "service unavailable" errors. Business Today India confirmed: "Users attempting to access the platform were shown a message: 'We're performing maintenance to keep things running smoothly — Claude will be back in a bit.'"
+**What happened:** Claude experienced its **ninth separate service incident** since March 2, 2026, and the **third major outage in March alone**. DownDetector logged **more than 6,800 user reports by 1:03 PM PT** on March 17. GV Wire, Rolling Out, ABPLive, Hindustan Times, and Jagran Josh all covered the incident. Anthropic status update posted at 08:04 UTC: "We've identified the issue and are working to resolve it."
 
-**Affected:** All Claude users globally — web client, mobile apps, and API consumers.
+**Affected:** All Claude users globally — web client, mobile apps, and API consumers, including Claude Code.
 
-**Pattern:** The March 2026 outage streak now stands at: March 2, March 3, March 11 (major, 4+ hours), March 12, March 13, March 16, March 17 (today). This unprecedented frequency is driving enterprise customers to accelerate multi-model failover strategies.
+**Confirmed pattern (all in March 2026):** March 2, March 3, March 11 (major, 4+ hours), March 12, March 13, March 16, March 17 (6,800+ reports). This unprecedented frequency is driving enterprise customers to accelerate multi-model failover strategies.
 
 **Enterprise impact:** The Windows Forum documented that "companies without multi-model failover lost all AI during Claude outages." Every single one of these outages has triggered business disruption for teams that made Claude their primary AI infrastructure. The reliability pattern is becoming a critical enterprise decision point.
+
+**Hindustan Times note:** "This marks the third outage for Claude AI in March alone."
 
 ---
 
@@ -138,6 +141,31 @@ _Last updated: 2026-03-17_
 ### 🟠 OpenAI / Google Silent Model Downgrade — Ongoing
 
 **What happened:** Multiple credible reports and internal admissions confirmed that both OpenAI and Google have been silently substituting cheaper, lower-quality model versions behind the same branding — without user notification. OpenAI initially denied it, then admitted the practice post-denial. Gemini was documented redirecting users between model versions without disclosure.
+
+---
+
+### 🔴 GPT-5.4 Creative Writing Collapses — SM-Bench Shows 36.8% vs GPT-4o's 97.3% — March 2026
+
+**What happened:** Independent benchmark data has confirmed what the ChatGPT community has been observing anecdotally: OpenAI's GPT-5.4 (the model that replaced GPT-4o as the default for paid users) has suffered a **catastrophic quality regression in creative writing tasks**.
+
+**The benchmark numbers (SM-Bench):**
+- GPT-4o (retired February 13, 2026): **97.3%**
+- GPT-5.4 (current default): **36.8%**
+- DeepSeek V3.2 (free): **100%**
+
+This means OpenAI's paid subscribers are now using a model that performs significantly worse at creative writing than a free competitor — and far worse than the model they were previously paying for.
+
+**Timeline of the degradation:**
+- February 13, 2026: OpenAI retires GPT-4o, citing only 0.1% of users actively selecting it daily (omitting that most users never manually select models)
+- March 11, 2026: GPT-5.1 Instant, GPT-5.1 Thinking, and GPT-5.1 Mini retired; users auto-migrated to GPT-5.3 or GPT-5.4
+- March 2026: Community threads explode — r/MyBoyfriendIsAI "GPT-5.1 Goodbye Megathread" records users' grief over loss of the last "emotionally resonant" model
+- OpenAI Developer Community forum: "GPT-5.2 is far worse than GPT-5.1 in almost every other aspect... apart from coding and pure reasoning"
+
+**Community verdict:** The problem isn't just benchmarks. Users describe GPT-5.x as feeling "like it's processing your ticket and closing the case" versus GPT-4o which "actually listened to your metaphors." Writers, creative collaborators, and people who used ChatGPT for emotional processing describe losing a tool they'd built into their workflows — not just a chatbot.
+
+**OpenAI's justification:** The company stated that 0.1% of users actively selected GPT-4o daily — ignoring that the model was the invisible default for tens of millions who never touched the model picker.
+
+**Source:** roborhythms.com, OpenAI Developer Community forum, Reddit r/OpenAI, r/ChatGPTcomplaints, devicebase.net — March 2026
 
 ---
 

@@ -1,17 +1,18 @@
 # 3d-modelling — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🟠 Major | Autodesk enters generative AI 3D — but launches with significant legal limitations on commercial use of outputs; competitors watching closely | Autodesk (new gen AI feature) | Active (March 2026) |
+| 1 | 🟠 Major | Autodesk enters generative AI 3D — launches with commercial use limitations + Objaverse training data copyright concerns; studios questioning legitimacy of outputs | Autodesk (new gen AI feature) | Active (March 16, 2026) |
 | 2 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require 2–4 hours of manual cleanup per asset | All AI 3D tools | Ongoing |
 | 3 | 🟠 Major | Meshy loses structural details (weapons, extremities) during generation — Tripo more reliable but both remain imperfect | Meshy / Tripo | Ongoing |
 | 4 | 🟠 Major | Adobe's creative suite crisis (CEO departure, -38% stock) signals broader collapse of premium design software subscriptions | Adobe Substance | Active |
 | 5 | 🟡 Notable | AI-generated 3D models lack PBR materials, proper rigging, and animation-ready structure — game/film pipelines can't use them as-is | Meshy, Tripo, Luma AI | Ongoing |
 | 6 | 🟡 Notable | Cloud-only AI 3D tools create privacy and cost concerns for studios handling proprietary IP | Multiple | Ongoing |
+| 7 | 🟡 Notable | SCOTUS denies AI authorship case (March 2, 2026) — AI-generated 3D models cannot receive copyright protection; human authorship required | Industry-wide | Resolved (Mar 2, 2026) |
 
 ---
 
@@ -47,6 +48,25 @@ _Last updated: 2026-03-17_
 **Community reaction:** Product Hunt reviews for Tripo AI (2026) consistently mention the need for "PBR materials" and "mesh generation improvements." Artist forums describe AI 3D as useful for "blockout/reference" but not production assets — adding time rather than saving it when cleanup is factored in.
 
 **Source:** Product Hunt reviews (Tripo AI), 3DAI Studio blog, meshy.ai blog, Animstarter — 2026
+
+---
+
+### 🟠 Autodesk Enters Generative AI 3D — Copyright Limitations and Training Data Questions — March 2026
+
+**What happened:** Autodesk launched a new generative AI 3D model feature in March 2026, entering the competitive gen-AI 3D space. However, the announcement was immediately shadowed by two significant concerns documented by 3DVF.com (March 16, 2026):
+
+**1. Significant commercial use limitations on outputs:** Autodesk's terms for the new generative feature impose restrictions on what can be done commercially with AI-generated outputs. "This choice may disappoint studios and artists who are not opposed to generative AI as long as it strictly respects copyright law." The legal uncertainty around AI-generated 3D assets is now codified in Autodesk's own terms.
+
+**2. Training data copyright issues:** The 3DVF analysis explicitly flagged that "many 3D object generation models rely on datasets collected without regard for copyright holders." The most prominent example is the **Objaverse and Objaverse XL datasets** — massive collections of annotated 3D objects assembled without systematic rights clearance. These datasets underpin most AI 3D generation tools, including Autodesk's new feature.
+
+**The industry-wide problem:** Unlike text and images (where copyright battles are well underway), AI 3D tools have largely escaped scrutiny because the 3D modelling community is smaller and the datasets are more obscure. But the same fundamental issue exists:
+- Professional 3D artists create and share models online
+- Those models are harvested into training datasets without consent or compensation
+- AI tools then generate "new" 3D models using those patterns
+
+**Supreme Court ruling (March 2, 2026):** The US Supreme Court denied certiorari in the Thaler AI authorship case, confirming that AI-generated outputs cannot receive copyright protection — meaning users of AI 3D tools may have limited IP protection for what they generate.
+
+**Source:** 3DVF.com ("Autodesk enters the 3D model generation space: possibilities and risks"), Mayer Brown (SCOTUS Thaler analysis), Lexology — March 2026
 
 ---
 

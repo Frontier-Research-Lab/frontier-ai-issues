@@ -1,6 +1,6 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
@@ -13,9 +13,10 @@ _Last updated: 2026-03-17_
 | 5 | 🔴 Critical | Malicious Rust crates exploit AI coding assistants — injected code uses Claude, Copilot, Gemini, Kiro to exfiltrate secrets | Claude Code / Copilot / Gemini / Kiro | Active |
 | 6 | 🟠 Major | GitHub Copilot Student plan guts premium models — GPT-5.4, Claude Opus, Claude Sonnet removed March 12; thousands of student downvotes | GitHub Copilot | Active (March 12–16, 2026) |
 | 7 | 🟠 Major | Developer trust in AI code accuracy at historic low — 46% distrust vs 33% trust (Stack Overflow Feb 2026) | All AI coding tools | Ongoing |
-| 8 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
-| 9 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
-| 10 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
+| 8 | 🔴 Critical | Cursor confirmed code reversion bug — Agent Review Tab + cloud sync racing silently reverts edits; developer reports losing 4 months of work | Cursor | Active (confirmed March 2026) |
+| 9 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
+| 10 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
+| 11 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
 
 ---
 
@@ -120,6 +121,27 @@ _Last updated: 2026-03-17_
 **Community reaction:** The "trust but verify" burden is collapsing productivity gains. Developers describe spending more time auditing AI output than they saved generating it. The 2026 narrative has shifted from "AI will replace developers" to "AI creates new kinds of technical debt."
 
 **Source:** Stack Overflow 2025 Developer Survey, stackoverflow.blog February 18, 2026, ADTMag
+
+---
+
+### 🔴 Cursor Confirmed Code Reversion Bug — Silent Data Loss — March 2026
+
+**What happened:** The Cursor team confirmed in March 2026 that the editor has been **silently reverting code changes** — a data-loss bug affecting developers using the Agent and Composer features. Users would make edits, the AI would appear to apply them, and then later discover their changes had been undone with no notification.
+
+**Three confirmed root causes (Cursor forum, March 2026):**
+1. **Agent Review Tab conflict** — the Agent Review Tab interfered with file state, causing edits to be overwritten when switching contexts
+2. **Cloud Sync race condition** — Cursor's cloud sync was racing with local file saves, sometimes reverting to an older version
+3. **Format On Save conflict** — auto-formatting triggered after AI edits sometimes produced a different file state than intended
+
+**The workaround:** Close the Agent Review Tab before using "Fix in Chat." This is not a fix — it's asking users to avoid a core feature to prevent data loss.
+
+**Real-world impact:** A developer published a Medium post describing losing **four months of work** to this class of bug. Users on X reported app freezing/crashes when clicking the 'Review next file' button, and described Cursor as becoming "unusable lately — begins to fail at simple tasks."
+
+**Community quote (@nelvOfficial on X):** "Cursor code is becoming unusable lately — begins to fail at simple tasks — keeps changing the UI at each update."
+
+**Why this matters:** Cursor is trusted by thousands of professional developers to work on production codebases. Silent, undetected data loss — where the AI appears to have applied changes but hasn't — undermines the core trust proposition of AI-assisted coding.
+
+**Source:** vibecoding.app (Cursor problems 2026 analysis), Cursor forum, Medium (@tahabebek), X/Twitter — March 2026
 
 ---
 

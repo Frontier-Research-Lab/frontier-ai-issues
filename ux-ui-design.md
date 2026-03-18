@@ -1,12 +1,12 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Figma AI credits enforcement starts March 18 (TOMORROW) — users will hit walls mid-project; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Imminent (March 18, 2026) |
+| 1 | 🔴 Critical | Figma AI credits enforcement NOW LIVE (March 18) — users hitting walls mid-project today; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Active (March 18, 2026 — TODAY) |
 | 2 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
 | 3 | 🔴 Critical | Adobe CEO exits; stock down 7% today, -38% over past year — AI disruption trade accelerating | Adobe | Active |
 | 4 | 🔴 Critical | Adobe down 12% earlier this week on Q1 guidance — "show-me" story as AI revenue transition slower than promised | Adobe | Active |
@@ -107,9 +107,9 @@ This doesn't make Figma disappear — it's still the best tool for visual design
 
 ---
 
-### 🔴 Figma AI Credit Enforcement — TOMORROW March 18, 2026 (IMMINENT)
+### 🔴 Figma AI Credit Enforcement — NOW LIVE — March 18, 2026 (TODAY)
 
-**What happened:** Figma announced in December 2025 that **AI credits would be enforced starting March 18, 2026** — tomorrow. The announcement (Figma Forum, "AI credits update: new purchasing options and enforcement on March 18") details:
+**What happened:** Figma announced in December 2025 that **AI credits would be enforced starting March 18, 2026** — and that day is today. The announcement (Figma Forum, "AI credits update: new purchasing options and enforcement on March 18") details:
 
 **What's changing:**
 - AI credits are included with every Figma seat and reset monthly
@@ -125,6 +125,6 @@ This doesn't make Figma disappear — it's still the best tool for visual design
 
 **State of UX 2026 context:** Nielsen Norman Group's annual State of UX 2026 report described the design field as still recovering from "instability from layoffs, hiring freezes, and AI hype." Adding surprise AI credit walls to a field already under financial stress is particularly poorly timed.
 
-**Community reaction:** Design Twitter/Bluesky is anticipating mid-sprint disruptions when teams hit credit limits during active projects tomorrow. The limited availability of credit top-ups for non-Enterprise plans is being described as a "Professional plan tax."
+**Community reaction:** As enforcement goes live today, designers are now hitting credit limits mid-sprint. The predicted disruptions are materialising — users on Professional plans have no ability to purchase additional credits until May, and the surprise walls are landing mid-project as expected. The limited availability of credit top-ups for non-Enterprise plans is confirmed as a "Professional plan tax."
 
 **Source:** Figma Forum ("AI credits update" thread), releasebot.io, Nielsen Norman Group State of UX 2026 — March 2026

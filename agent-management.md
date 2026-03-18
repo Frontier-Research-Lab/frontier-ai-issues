@@ -1,6 +1,6 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 

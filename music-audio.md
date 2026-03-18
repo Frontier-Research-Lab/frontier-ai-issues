@@ -1,13 +1,14 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
-| 2 | 🔴 Critical | GEMA v. Suno — German court hears landmark copyright case, ruling expected June 2026 | Suno | Active |
+| 2 | 🔴 Critical | GEMA v. Suno — German court heard landmark copyright case March 9; ruling scheduled June 12, 2026; Hamburg court reached opposite conclusion same paragraph | Suno | Active (ruling due June 12) |
+| 2a | 🔴 Critical | Suno indie artist class action hearing scheduled March 20, 2026 — oral arguments on motion to dismiss; could set precedent for independent artists' standing to sue | Suno | IMMINENT (March 20, 2026) |
 | 3 | 🔴 Critical | Suno enforces paid-only downloads + monthly download caps as part of Warner Music deal — community furious at monetisation pivot | Suno | Active |
 | 4 | 🟠 Major | Udio settles with Warner, Universal, Merlin — "walled garden" model imposed; indie artists excluded from restitution | Udio | Resolved for majors / Active for indie artists |
 | 5 | 🟠 Major | EU Parliament votes 460–71 for mandatory AI copyright disclosure + fair remuneration for all training data — industry-wide threat | Industry-wide | Developing (March 10, 2026) |
@@ -96,6 +97,25 @@ Music Business Worldwide op-ed attorney Krystle Delgado (leading class action la
 **Context:** Suno did settle with Warner Music Group in November 2025, ending WMG's US case — but that deal explicitly did not resolve the broader European and indie-artist claims. The "launch, train, settle" playbook that Suno apparently used is now under direct legal attack in Munich.
 
 **Source:** Digital Music News, Music Business Worldwide, Billboard, Medium — March 9–12, 2026
+
+---
+
+### 🔴 Suno Indie Artist Class Action — Oral Hearing MARCH 20, 2026 (2 DAYS AWAY)
+
+**What happened:** The independent artist class action lawsuit against Suno (tracked at indieailawsuit.com) has its **oral arguments hearing scheduled for March 20, 2026** — in just two days. This is a critical procedural moment: the court will hear arguments on Suno's motion to dismiss.
+
+**What's at stake:** Suno has argued that the indie artist plaintiffs lack standing and that the claims should be dismissed. The plaintiffs — represented by attorney Krystle Delgado and the Loevy + Loevy law firm — argue that:
+- Suno trained on copyrighted music by independent artists without consent or compensation
+- The WMG/Suno settlement explicitly excluded independent artists from any remedy
+- Independent artists have a direct legal claim separate from the major labels
+
+**Why this matters for the broader AI music industry:**
+- If the court dismisses: Suno effectively walks away from obligations to independent artists entirely, even after the WMG deal
+- If the court allows the case to proceed: Every AI music tool that trained on non-licensed music faces potential class action liability to millions of independent artists whose music was scraped
+
+**Krystle Delgado's central argument (MBW op-ed, March 12):** The AI companies are running a "launch, train, settle" playbook — training on stolen music, then cutting deals with the majors while leaving independent artists without recourse. "Whether indie artists can get justice through pending class action lawsuits remains to be seen" — the March 20 hearing is the first major test.
+
+**Source:** indieailawsuit.com, Music Business Worldwide, Medium (GEMA v. AI Titans) — March 2026
 
 ---
 

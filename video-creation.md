@@ -1,6 +1,6 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
@@ -8,7 +8,7 @@ _Last updated: 2026-03-17_
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | ByteDance suspends global launch of Seedance 2.0 after Disney, Paramount, Netflix & Warner Bros cease-and-desist letters — "blatant infringement" of Star Trek, South Park, Disney characters | Seedance 2.0 (ByteDance) | **Global launch suspended** (March 14, 2026) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
-| 3 | 🔴 Critical | Sora 1 forcibly retired March 13 with no warning — all historical content deleted; Sora 2 replacement plagued by "stuck at 99%" bugs, free access fully killed | Sora (OpenAI) | Active (March 13–16, 2026) |
+| 3 | 🔴 Critical | Sora 1 forcibly retired March 13 — all historical content deleted; Sora 2 plagued by "stuck at 99%" bugs, "under heavy load" errors, new accounts having generation disabled; free access killed | Sora (OpenAI) | Active (ongoing as of March 18) |
 | 4 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
 | 5 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
 | 6 | 🟠 Major | Runway: high costs, slow "relaxed" queues, weak prompt adherence, opaque moderation and account bans | Runway AI | Ongoing |

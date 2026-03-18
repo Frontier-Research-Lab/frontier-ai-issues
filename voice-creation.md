@@ -1,6 +1,6 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-17_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
@@ -43,19 +43,25 @@ _Last updated: 2026-03-17_
 
 ---
 
-### 🔴 P1Bot AI Vishing Platform — Automated AI Voice Fraud at Scale — March 11, 2026
+### 🔴 P1Bot AI Vishing Platform — ElevenLabs Embedded as First-Class Feature — March 11, 2026
 
-**What happened:** Security researchers (Help Net Security, March 11, 2026) uncovered **P1bot** (p1bot.io) — a fully automated AI-powered vishing (voice phishing) platform for sale to cybercriminals. Key capabilities:
-- **Scammers never have to speak to victims** — P1bot plays pre-recorded messages using natural-sounding AI-generated voices
-- The platform automates the entire fraud flow: lure, escalate, extract
-- Targeted at impersonating banks, tech support, government agencies
-- Uses voice synthesis similar to commercial tools (ElevenLabs, Play.ht-style APIs) in weaponised automation
+**What happened:** Mirage Security researchers (Help Net Security, March 11, 2026) uncovered **P1bot** (p1bot.io) — a fully commercial, subscription-based AI-powered vishing (voice phishing) platform. Critically: P1bot **integrates ElevenLabs as a first-class, native feature** — not just bolted on by individual operators. The integration is polished, the voice catalog is curated, and the workflow is designed to lower the barrier for anyone willing to pay.
 
-**Why this is a step-change:** Previous voice fraud required either a live human scammer or crude text-to-speech. P1bot is a polished SaaS product specifically designed to automate voice fraud at scale. Microsoft's threat intelligence team (March 6, 2026) confirmed threat actors are "using AI-generated voice cloning to impersonate executives or trusted individuals in vishing and business email compromise (BEC) scams."
+**Business model:** Scammers register via a Telegram bot, pay **$399/month** via OxaPay crypto payment gateway, and access a web dashboard to run automated voice fraud campaigns.
+
+**Core capabilities:**
+- **Scammers never have to speak to victims** — P1bot plays messages pre-recorded with natural AI-generated ElevenLabs voices
+- The platform is a browser-based softphone: operators can spoof phone numbers, generate AI voice prompts, and place calls via WebRTC
+- Targeted at impersonating banks ("your account has been compromised — press 1"), tech support, government agencies
+- Full "press 1" scam automation — the entire fraud flow from lure to credential extraction
+
+**ElevenLabs' exposure:** Mirage Security CEO Ross Lazerowitz: "P1bot represents something different: a commercial, subscription-based platform where ElevenLabs is embedded as a first-class feature, not bolted on by individual operators. The integration is polished, the voice catalog is curated." This means ElevenLabs' specific voice capabilities are what make P1bot work — raising direct questions about ElevenLabs' ability to detect and prevent misuse of its API.
+
+**Why this is a step-change:** Previous voice fraud required either a live human scammer or crude TTS. P1bot is a polished SaaS product — $399/month for industrial-scale AI voice fraud. Microsoft's threat intelligence team (March 6, 2026) confirmed threat actors are "using AI-generated voice cloning to impersonate executives or trusted individuals in vishing and business email compromise (BEC) scams."
 
 **Real-world impact:** Ericsson disclosed a breach traced to a vendor vishing attack (The Register, March 10, 2026) — social engineering via phone. AI voice tools lower the barrier to this type of attack dramatically.
 
-**Source:** Help Net Security, Microsoft Security Blog, The Register — March 6–11, 2026
+**Source:** Help Net Security, Mirage Security Blog (miragesecurity.ai), Microsoft Security Blog, The Register — March 6–11, 2026
 
 ---
 

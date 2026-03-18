@@ -1,15 +1,17 @@
 # automation — AI Issues Radar
 
-_Last updated: 2026-03-15_
+_Last updated: 2026-03-18_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Zapier pricing rage — what started at $10/month has ballooned to $750+/month for basic automations; mass migration underway | Zapier | Ongoing |
-| 2 | 🟠 Major | "Zapier Tax" — per-task pricing model penalises growth, destroying SaaS margins as automation volume scales | Zapier | Ongoing |
-| 3 | 🟠 Major | Make (formerly Integromat) — steep learning curve and performance slowdowns with heavy data volumes | Make | Ongoing |
-| 4 | 🟡 Notable | n8n self-hosted maintenance burden; requires engineering resources most target users don't have | n8n | Ongoing |
+| 2 | 🔴 Critical | "$40K/year Zapier lesson" — viral Reddit post documents company that burned $40K/yr on simple automations, now migrating entire stack | Zapier | Active (March 2026) |
+| 3 | 🟠 Major | "Zapier Tax" — per-task pricing model penalises growth, destroying SaaS margins as automation volume scales | Zapier | Ongoing |
+| 4 | 🟠 Major | AI agent workflow steps are Zapier's most expensive per-task items — AI-powered automations cost 5–10x more than traditional steps | Zapier / Make | Active |
+| 5 | 🟠 Major | Make (formerly Integromat) — steep learning curve and performance slowdowns with heavy data volumes | Make | Ongoing |
+| 6 | 🟡 Notable | n8n self-hosted maintenance burden; requires engineering resources most target users don't have | n8n | Ongoing |
 
 ---
 
@@ -55,6 +57,40 @@ _Last updated: 2026-03-15_
 **n8n Cloud** (the managed version) addresses the maintenance issue but reintroduces pricing pressure — users on the cloud version are paying again, reducing the cost advantage.
 
 **Source:** Reddit r/SaaS, hatchworks.com — 2026
+
+---
+
+### 🔴 "$40K/Year Zapier Lesson" — Viral Reddit Post — March 2026
+
+**What happened:** A Reddit post in r/SaaS (March 2026) titled "We Burned $40K/Year on Zapier Before We Finally Woke Up" went viral in the automation and SaaS communities. The poster described a company that had gradually scaled Zapier usage over three years, adding integrations as the business grew, until they opened an annual bill and discovered they'd been paying over $40,000 per year — for automations that move data between APIs in tasks that cost fractions of a cent in actual compute.
+
+**The community reaction:** The post resonated strongly because it's not an edge case. The Zapier pricing model is specifically designed to be invisible at small scale (the "gateway drug" of free/cheap entry tiers) and catastrophic at medium scale. The per-task pricing means costs compound quietly month-over-month as businesses grow.
+
+**The specific pain points documented:**
+- Zapier AI steps (LLM-powered workflow actions) cost 5–10x more per execution than standard API-to-API steps
+- A workflow that was $50/month in 2022 cost $600/month in 2025 after the AI steps migration
+- No cap on monthly spending — the bill arrives after the damage is done
+- Cancelling means rebuilding every integration from scratch
+
+**Migration horror:** The poster spent 6 months rebuilding their entire automation stack in n8n self-hosted after the discovery. "We gained our sanity back, but lost six months of engineering time. The ROI math doesn't work either way."
+
+**Source:** Reddit r/SaaS — March 2026
+
+---
+
+### 🟠 AI Agent Steps Are Zapier's Most Expensive Items
+
+**What happened:** As Zapier and Make introduced AI-powered steps (LLM calls, AI classification, intelligent routing), they priced them at a significant premium over standard trigger-action steps. In Zapier's task billing model:
+- Standard steps (e.g., send Slack message, update Airtable row): 1 task
+- AI steps (e.g., classify with ChatGPT, summarise email): 5–10 tasks per execution
+
+A workflow that previously cost 1,000 tasks/month becomes 5,000–10,000 tasks/month when AI steps are added — pushing users from the Professional plan ($30/month) into the Teams tier ($100+/month) immediately.
+
+**Why this matters:** AI automation is the stated future of the category. If the pricing model makes AI steps unaffordable for SMBs, the companies that need AI automation most (lean teams, small businesses) are priced out. The large enterprises that can afford it don't need the cost savings as urgently.
+
+**Community verdict (r/automation, March 2026):** "Zapier's AI steps are a trap. They get you hooked on automating with AI during the free trial, then the bill comes in."
+
+**Source:** Reddit r/automation, Zapier pricing documentation — March 2026
 
 ---
 
