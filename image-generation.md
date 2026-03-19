@@ -1,6 +1,6 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-19_
 
 ## Top Issues
 
@@ -9,6 +9,7 @@ _Last updated: 2026-03-18_
 | 1 | 🔴 Critical | xAI/Grok CSAM class action — three Tennessee teenagers sue xAI alleging Grok used their real photos to generate + distribute child sexual abuse material (filed March 16, 2026) | Grok / xAI | Active (filed March 16, 2026) |
 | 2 | 🔴 Critical | Grok generates + wrongly verifies fake Iran war images as real — spreading misinformation at scale during active conflict | Grok / xAI | Active |
 | 3 | 🔴 Critical | Grok users generating 6,700 sexualised/nudified images per hour — 84x more than top 5 deepfake sites combined; Australian regulator says CSAM "systemic" on X | Grok / xAI | Active |
+| 3a | 🔴 Critical | EU Parliament backs outright ban on AI nudify/deepfake apps (460–71) — triggered by Grok backlash; EC previously admitted AI Act had gaps on CSAM and nonconsensual deepfakes; new Ars Technica analysis: Musk's "blame users" tactic may be foiled by incoming EU law | Grok / xAI (trigger), Industry-wide (scope) | Developing (March 13–19, 2026) |
 | 4 | 🟠 Major | Disney/Lucasfilm/Marvel sues Midjourney for copyright infringement — "unlawfully copied" Star Wars, Marvel assets to train model | Midjourney | Active |
 | 5 | 🟠 Major | EU Parliament votes 460–71 to mandate disclosure of all training images + fair remuneration — affects every image model deployed in EU | Industry-wide | Developing (March 10, 2026) |
 | 6 | 🟠 Major | US Supreme Court declines Thaler case — AI-generated art cannot receive copyright; human authorship required | Industry-wide | Resolved (Mar 2026) |
@@ -140,6 +141,24 @@ _Last updated: 2026-03-18_
 **Why it matters:** This case could establish whether AI companies are liable for downstream harms when their models are used via third-party apps to generate illegal content. The class action scope means damages could be enormous if certified.
 
 **Source:** NPR, Washington Post, The Guardian, Engadget, Digital Watch Observatory, The Guardian (Australia) — March 16–17, 2026
+
+---
+
+### 🔴 EU Parliament Backs Ban on AI Nudify Apps — Triggered by Grok Backlash — March 13–19, 2026
+
+**What happened:** The European Parliament voted **460 to 71** to back a new law banning AI tools that generate sexualised deepfakes — including "nudification apps" — as a direct response to the Grok controversy. The vote came after the European Commission had previously acknowledged that **the existing EU AI Act does not prohibit AI systems that generate CSAM or sexually explicit deepfake nudes** — a gap that Elon Musk's platform had exploited (or at minimum enabled at scale).
+
+**Key details:**
+- Irish MEP **Michael McNamara** (leading the AI file) said the ban aimed to stamp out "nudification apps without consent, which have caused much pain for the profit of some" — explicitly naming the type of tool Grok had made mainstream
+- The vote comes after Grok is estimated to have generated ~**3 million sexualised images** (including ~23,000 of apparent children) during the December–January window when its safety filters were effectively non-functional
+- The European Commission's admission that the AI Act had a **gap on CSAM** created urgency — the new rules close that gap
+- A fresh Ars Technica analysis (March 19) argues that Musk's defensive strategy of "blaming users" for Grok's outputs may be "foiled" by the incoming EU regulation, which assigns liability to the AI provider, not just the end user
+
+**Regulatory timeline:** This is a Parliament vote (backing, not final enactment). The ban still needs formal Council adoption. However, the 460–71 majority and the political urgency signal it will pass. Companies operating "nudify" products in the EU — or providing AI infrastructure used for such tools — face a hard deadline.
+
+**Broader impact:** This is the first major post-AI-Act legislative action in Europe targeting a specific AI use case. The signal: regulators are moving much faster to patch AI Act gaps than originally anticipated. Any AI image generation tool operating in the EU — or whose API is used in EU-accessible apps — must now actively model the compliance risk.
+
+**Source:** Ars Technica, France 24, Digital Journal — March 13–19, 2026
 
 ---
 

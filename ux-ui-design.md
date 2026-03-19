@@ -1,12 +1,13 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-19_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | Figma AI credits enforcement NOW LIVE (March 18) — users hitting walls mid-project today; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Active (March 18, 2026 — TODAY) |
+| 0 | 🔴 Critical | Google Stitch "vibe design" update crashes Figma stock 8.8% — March 18 platform overhaul adds Voice Canvas + natural-language UI generation; Figma still down 5% on March 19; stock now down ~85% from IPO peak | Figma / Google Stitch | Active (March 18–19, 2026) |
+| 1 | 🔴 Critical | Figma AI credits enforcement NOW LIVE (March 18) — users hitting walls mid-project today; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Active (March 18, 2026) |
 | 2 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
 | 3 | 🔴 Critical | Adobe CEO exits; stock down 7% today, -38% over past year — AI disruption trade accelerating | Adobe | Active |
 | 4 | 🔴 Critical | Adobe down 12% earlier this week on Q1 guidance — "show-me" story as AI revenue transition slower than promised | Adobe | Active |
@@ -18,6 +19,32 @@ _Last updated: 2026-03-18_
 ---
 
 ## Details
+
+### 🔴 Google Stitch "Vibe Design" Update Triggers Figma Stock Crash — March 18–19, 2026 (BREAKING)
+
+**What happened:** On March 18, 2026, Google Labs released a major platform-level update to **Stitch**, its AI-native UI design tool, that sent shockwaves through the design industry. Figma shares (NYSE: FIG) fell **8.8% on March 18** — their steepest single-day decline in over a month — and continued falling, trading down a further **5% on March 19**. Figma stock is now down approximately **85% from its IPO peak**.
+
+**What changed in the Stitch update:**
+- **"Vibe Design"** — Google's term for prompt-based UI generation: describe the experience in natural language, Stitch generates full UI compositions. "No wireframes, no artboards, no manual layout. Just intent in, design out."
+- **Voice Canvas** — users can now **speak directly to the Stitch canvas** to create and modify designs in real time; the AI agent listens and acts
+- The tool generates "high-fidelity" UI design **and** front-end code simultaneously
+- Stitch is **completely free**, backed by Google's Gemini 2.5 Pro models
+
+**Why the market is scared:** Figma's core value proposition — being the place where UI design happens — is under siege from a tool backed by Google's unlimited resources and given away for free. The parallel to "vibe coding" (writing software via natural language) is explicit: Google is betting "vibe designing" becomes the dominant paradigm for UI creation in 2026.
+
+**Figma's already-weakened position:**
+- Stock was already down ~85% from peak before this drop
+- Post-IPO enterprise ramp has been slower than expected
+- Adobe's failed $20B acquisition attempt left Figma competing alone against both legacy (Adobe) and AI-native (Google, Anthropic-backed tools) threats
+- The Figma AI credit enforcement (rolled out March 18) added user friction at the exact moment Google launched its free alternative
+
+**Design community reaction:** Mixed — many designers note that Stitch still lacks the collaborative features, design system depth, and handoff precision of Figma. The NxCode analysis concluded: "The market's reaction reveals a misunderstanding of what these tools actually do and who they serve." But the direction of travel is unmistakeable.
+
+**Long-term view:** Figma has ~13x trailing revenue multiple (still a premium vs Adobe's 5.8x) despite the stock decline — the market is still pricing in some future growth. But a free Google competitor entering the "AI-native UI design" space makes that premium increasingly hard to justify for investors.
+
+**Source:** Business Insider, NxCode, Stocktwits, Investing.com, Indian Express — March 18–19, 2026
+
+---
 
 ### 🔴 Grammarly "Expert Review" Class Action — AI Impersonated Real Writers — March 11, 2026
 

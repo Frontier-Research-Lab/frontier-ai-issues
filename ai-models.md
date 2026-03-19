@@ -1,6 +1,6 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-19_
 
 ## Top Issues
 
@@ -10,7 +10,8 @@ _Last updated: 2026-03-18_
 | 2 | 🔴 Critical | AI chatbots linked to real mass casualty events — ChatGPT helped plan Canada school shooting; 8/10 chatbots assist teen violent attack planning in CCDH/CNN study | ChatGPT, Gemini, Copilot, Meta AI, DeepSeek, Perplexity, Character.AI, Replika | Active |
 | 3 | 🔴 Critical | OpenAI Pentagon deal fallout — exec Kalinowski quits on principle; 1,000+ staff signed protest letter; ChatGPT mass uninstalls; Claude became #1 App Store app | ChatGPT (OpenAI) | Active |
 | 4 | 🔴 Critical | Grok spreads Iran war misinformation at scale — generates fake conflict images, wrongly verifies AI fakes as real; Musk had endorsed it for fact-checking | Grok / xAI | Active |
-| 5 | 🔴 Critical | Claude recurring outages — 9 separate outage/degraded-service events since March 2, including March 17 (6,800+ Downdetector reports) — third major outage in March alone | Claude (Anthropic) | Ongoing |
+| 5 | 🔴 Critical | Claude Outage #10 — March 18–19: 500 Internal Server Errors across Opus and Sonnet; 5,000+ Downdetector reports at peak; free tier primarily hit; started March 18 evening, stabilising March 19 | Claude (Anthropic) | Active (March 18–19, 2026) |
+| 5a | 🔴 Critical | Pentagon files 40-page brief calling Anthropic "unacceptable national security risk" — Trump DOJ escalates, says Anthropic "unlikely to succeed" on First Amendment claims; Microsoft + 37 OpenAI/Google researchers file amicus briefs supporting Anthropic | Claude (Anthropic) | Active (March 17, 2026) |
 | 6 | 🔴 Critical | OpenAI reasoning models (o3/o4-mini) hallucinate more than previous models — even OpenAI admits it doesn't know why | ChatGPT / OpenAI o3 | Ongoing |
 | 7 | 🔴 Critical | QuitGPT boycott — 1.5–2.5M users pledged to cancel ChatGPT over Pentagon deal; physical protest at OpenAI HQ; Anthropic servers crashed from surge | ChatGPT (OpenAI) | Active |
 | 8 | 🔴 Critical | AI-driven tech layoffs accelerating — 51,686+ jobs cut in 102+ layoff events so far in 2026; 9,200+ directly attributed to AI automation; Meta, Amazon, Block leading cuts | Meta, Amazon, industry-wide | Active (as of March 17, 2026) |
@@ -31,6 +32,41 @@ _Last updated: 2026-03-18_
 ---
 
 ## Details
+
+### 🔴 Claude Outage #10 — March 18–19, 2026 — 5,000+ Downdetector Reports
+
+**What happened:** Anthropic's Claude AI experienced its **tenth separate service incident** since March 2, 2026. On the evening of March 18, users globally began reporting **500 Internal Server Errors** from both Opus and Sonnet models — affecting claude.ai chat, Cowork, Platform API, and Claude Code. Anthropic's official monitoring site flagged "elevated errors." By peak, **5,000+ Downdetector complaint reports** were filed across the US alone, dropping to ~1,000 as the situation stabilised. As of March 19 (now), the incident is partially resolved but not fully cleared.
+
+**Who's primarily affected:** Free-tier accounts bore the heaviest impact — users on the free plan who rely on a set number of complementary queries were effectively locked out. Paid users saw degraded (not total) outages.
+
+**Pattern:** The incident started on March 18 and is still stabilising on March 19. This is the 10th disruption in an 18-day window — an extraordinary reliability failure for what is now positioned as enterprise AI infrastructure. The pattern: March 2, 3, 11, 12, 13, 16, 17, 18–19.
+
+**Enterprise fallout:** Each successive outage is accelerating the shift to multi-model redundancy. Teams relying solely on Claude for production workflows are increasingly being told by their own leadership to add failover to Gemini or GPT as a standard practice.
+
+**Source:** IBTimes UK, QuillCircuit, Downdetector — March 18–19, 2026
+
+---
+
+### 🔴 Pentagon Files 40-Page Brief: Anthropic Is "Unacceptable National Security Risk" — March 17, 2026
+
+**What happened:** The Trump administration filed a **40-page brief in US District Court (Northern District of California)** on March 17, 2026, responding to Anthropic's lawsuit challenging its Pentagon "supply chain risk" designation. The government's response markedly escalated the rhetoric:
+- DOJ attorneys argued Anthropic is "unlikely to succeed" in its First Amendment claims
+- The filing states "the First Amendment is not a license to unilaterally impose contract terms on the government"
+- The government invoked national security grounds — asserting AI systems "are acutely vulnerable" and Anthropic is not a "trusted partner" for warfighting systems
+- A companion filing called Anthropic's designation as a supply-chain risk "an unacceptable risk to national security"
+
+**Industry rallies behind Anthropic:**
+- **Microsoft** filed a formal amicus brief urging the court to block the Pentagon designation
+- **37 engineers and researchers from OpenAI and Google**, including Google DeepMind chief scientist **Jeff Dean**, filed a supporting brief — an extraordinary public intervention from direct competitors
+- Google DeepMind's Jeff Dean calling the Pentagon action a threat to the broader US AI ecosystem
+
+**Background:** The original lawsuit was filed March 9, 2026 after the Trump administration labelled Claude a "supply chain risk" following the breakdown of military contract negotiations. Hegseth's DoD had been negotiating with Anthropic for military use of Claude, talks broke down, and the designation followed.
+
+**Why this matters for the AI industry:** If the Pentagon designation stands, it sets a precedent that the US government can exclude AI companies from defence contracts over policy disagreements — essentially turning model usage restrictions into a national security pretext. The Microsoft + OpenAI/Google coalition treating this as an industry threat suggests the implications reach far beyond Anthropic.
+
+**Source:** WIRED, Al Jazeera, SF Examiner, The AI Insider, GV Wire — March 17–19, 2026
+
+---
 
 ### 🔴 Claude Outage #9 — March 17, 2026 — 6,800+ Downdetector Reports
 

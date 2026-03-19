@@ -1,12 +1,12 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-19_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | ByteDance suspends global launch of Seedance 2.0 after Disney, Paramount, Netflix & Warner Bros cease-and-desist letters — "blatant infringement" of Star Trek, South Park, Disney characters | Seedance 2.0 (ByteDance) | **Global launch suspended** (March 14, 2026) |
+| 1 | 🔴 Critical | US Senators Blackburn + Welch demand ByteDance "immediately shut down" Seedance 2.0 — "most glaring copyright infringement from ByteDance to date"; MPA CEO also demands immediate shutdown (March 17); ByteDance had already suspended global launch (March 14) after Disney, Paramount, Netflix & Warner Bros C&D letters | Seedance 2.0 (ByteDance) | **Senators demanding shutdown** (March 17, 2026) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
 | 3 | 🔴 Critical | Sora 1 forcibly retired March 13 — all historical content deleted; Sora 2 plagued by "stuck at 99%" bugs, "under heavy load" errors, new accounts having generation disabled; free access killed | Sora (OpenAI) | Active (ongoing as of March 18) |
 | 4 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
@@ -18,7 +18,7 @@ _Last updated: 2026-03-18_
 
 ## Details
 
-### 🔴 Seedance 2.0 — Hollywood Forces Global Launch Suspension — February–March 2026 (UPDATED March 15)
+### 🔴 Seedance 2.0 — US Senators Demand Immediate Shutdown + Hollywood Pressure — UPDATED March 17, 2026
 
 **What happened:** ByteDance's Seedance 2.0 has become the AI video industry's most significant legal confrontation. Launched February 10–12, 2026, the model's ability to generate hyper-realistic content featuring copyrighted characters sparked an unprecedented coordinated Hollywood response — and has now forced ByteDance to **suspend its planned global rollout** entirely.
 
@@ -30,12 +30,15 @@ _Last updated: 2026-03-18_
 - **Multiple studios follow:** Warner Bros Discovery, Netflix also send C&D letters demanding Seedance "immediately cease its infringing activity"
 - **March 14, 2026:** Reuters confirms ByteDance has **put on hold the global launch** of Seedance 2.0 after a series of copyright disputes with major Hollywood studios and streaming platforms
 - **March 15, 2026:** Multiple outlets confirm the suspension; PCMag, SCMP, Cybernews, India Today, Times of India all report the global rollout is paused
+- **March 17, 2026 (NEW):** US Senators **Marsha Blackburn (R-TN) and Peter Welch (D-VT)** write to ByteDance CEO demanding the "**immediate shutdown**" of Seedance 2.0. The senators call it "the most glaring example of copyright infringement from a ByteDance product to date" and demand "meaningful safeguards to prevent further infringing output." On the same day, **Motion Picture Association (MPA) CEO Charles Rivka** released a statement calling upon ByteDance to "immediately cease all infringing activities through the video generation platform." This represents the first formal bipartisan congressional demand to shut down a specific AI video tool.
 
 **Why this matters:** Seedance 2.0 was being positioned as the most capable AI video model of 2026 — capable of generating cinematic-quality video featuring recognisable brand IP at scale. Disney's accusation that ByteDance was essentially treating Disney's entire catalogue as "free public domain" summarises the core grievance: the model was trained on copyrighted material and enables anyone to generate infringing content on demand.
 
-**Scale:** The four simultaneous C&D letters from Disney, Paramount/Skydance, Netflix, and Warner Bros represent the broadest coordinated Hollywood action against a single AI model yet. This directly affects ByteDance's global expansion plans for what could have been TikTok's successor.
+**Scale:** The four simultaneous C&D letters from Disney, Paramount/Skydance, Netflix, and Warner Bros represent the broadest coordinated Hollywood action against a single AI model yet — now escalated to formal congressional pressure. This directly affects ByteDance's global expansion plans and creates legal/political risk that could effectively kill Seedance 2.0 as a global product.
 
-**Source:** Reuters, PCMag, SCMP, Cybernews, India Today, Times of India, Wikipedia (Seedance 2.0) — February–March 14–15, 2026
+**Community reaction:** The creative community — animation studios, game developers, filmmakers — has been "justifiably denounced" the platform per the senators' own letter. The MPA (representing the major studios) and Congress acting in lockstep is unprecedented for an AI tool.
+
+**Source:** CNBC, Engadget, Washington Times, IPWatchdog, Reuters, PCMag — February–March 14–17, 2026
 
 ---
 
