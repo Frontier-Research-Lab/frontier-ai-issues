@@ -1,6 +1,6 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-19_
+_Last updated: 2026-03-20_
 
 ## Top Issues
 
@@ -8,7 +8,7 @@ _Last updated: 2026-03-19_
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
 | 2 | 🔴 Critical | GEMA v. Suno — German court heard landmark copyright case March 9; ruling scheduled June 12, 2026; Hamburg court reached opposite conclusion same paragraph | Suno | Active (ruling due June 12) |
-| 2a | 🔴 Critical | Suno indie artist class action oral arguments TOMORROW (March 20) — could set precedent for independent artists' standing to sue; Suno still has no API and credits expire monthly post-Warner deal | Suno | IMMINENT — oral args March 20, 2026 |
+| 2a | 🔴 Critical | Suno indie artist class action oral arguments TODAY (March 20) — Tony Justice et al class action dismissal motion being heard; could set precedent for independent artists' standing to sue; Suno still has no API and credits expire monthly post-Warner deal; Suno hits 2M subs + $300M ARR while lawsuits mount | Suno | UNDERWAY — oral args March 20, 2026 |
 | 3 | 🔴 Critical | Suno enforces paid-only downloads + monthly download caps as part of Warner Music deal — community furious at monetisation pivot | Suno | Active |
 | 4 | 🟠 Major | Udio settles with Warner, Universal, Merlin — "walled garden" model imposed; indie artists excluded from restitution | Udio | Resolved for majors / Active for indie artists |
 | 5 | 🟠 Major | EU Parliament votes 460–71 for mandatory AI copyright disclosure + fair remuneration for all training data — industry-wide threat | Industry-wide | Developing (March 10, 2026) |

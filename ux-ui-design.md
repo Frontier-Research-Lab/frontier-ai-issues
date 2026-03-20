@@ -1,12 +1,12 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-19_
+_Last updated: 2026-03-20_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 0 | 🔴 Critical | Google Stitch "vibe design" update crashes Figma stock 8.8% — March 18 platform overhaul adds Voice Canvas + natural-language UI generation; Figma still down 5% on March 19; stock now down ~85% from IPO peak | Figma / Google Stitch | Active (March 18–19, 2026) |
+| 0 | 🔴 Critical | Google Stitch "vibe design" update wipes 12% off Figma stock in two days — March 18 platform overhaul adds Voice Canvas + natural-language UI generation; Figma now down 35% YTD and ~85% from IPO peak; CNBC confirms "Google launched an AI-design platform, pushing Figma shares down 12% in two days" | Figma / Google Stitch | Active (March 18–20, 2026) |
 | 1 | 🔴 Critical | Figma AI credits enforcement NOW LIVE (March 18) — users hitting walls mid-project today; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Active (March 18, 2026) |
 | 2 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
 | 3 | 🔴 Critical | Adobe CEO exits; stock down 7% today, -38% over past year — AI disruption trade accelerating | Adobe | Active |

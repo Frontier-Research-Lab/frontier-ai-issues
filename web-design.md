@@ -1,11 +1,12 @@
 # web-design — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-20_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0 | 🔴 Critical | Google Stitch "vibe design" update stuns web design sector — March 18 overhaul adds Voice Canvas + natural-language UI/prototype generation; Figma stock craters 12% over two days (CNBC); Figma now down 35% YTD; direct threat to every professional web design toolchain | Google Stitch / Figma | Active (March 18–20, 2026) |
 | 1 | 🟠 Major | Webflow acquires Vidoso AI — marketing pivot risks alienating core web design user base; acquisition comes amid steep learning curve complaints | Webflow | Active (March 12, 2026) |
 | 2 | 🟠 Major | Webflow pricing and learning curve increasingly hard to justify against AI-first web builders | Webflow | Ongoing |
 | 3 | 🟠 Major | AI-generated websites look generic/identical — the "AI slop" problem hitting web design at scale | Multiple (v0, Wix AI, etc.) | Ongoing |
@@ -15,6 +16,33 @@ _Last updated: 2026-03-18_
 ---
 
 ## Details
+
+### 🔴 Google Stitch "Vibe Design" Detonates Across the Web Design Industry — March 18, 2026
+
+**What happened:** On March 18, 2026, Google Labs released a major update to **Stitch**, its AI-native design platform. The update introduced **Voice Canvas** (edit designs by speaking), natural-language UI and prototype generation, and one-click handoff to production code. The design industry reacted immediately.
+
+The morning of March 19, **Figma shares (NYSE: FIG) opened 8.8% lower**. By the end of March 19, CNBC confirmed **Figma was down 12% over two days**. Figma is now down **35% year-to-date** — a spectacular collapse for a company that IPO'd as one of the most celebrated design-tool businesses of the 2020s.
+
+**What Stitch can now do:**
+- Generate high-fidelity UI/UX designs from natural language prompts
+- Accept voice instructions to modify layouts, typography, and components in real-time
+- Build interactive prototypes without writing code
+- Export implementation-ready code, collapsing the design-to-dev handoff
+
+**Why this is different:** Previous AI design challengers were novelties. Stitch is backed by Google infrastructure, available free (Google Labs), and integrates with the Google Cloud + Firebase/Angular ecosystem. For startups and internal tooling teams, "why pay for Figma?" is now a serious question.
+
+**Who is affected:**
+- **Figma subscribers** — particularly startups and individual designers; Figma credit pricing changes already went live March 18; now a competitor appears offering equivalent capability for free
+- **Web design agencies** — the "Figma → developer handoff" workflow that underpins most agency billing is directly threatened
+- **Junior designers** — job market was already down 71% (per Medium analysis); Stitch's voice-driven generation makes design production faster without expertise
+
+**Figma's response:** Figma has pushed back with its own Figma Make and Sites tools, but FigmaMake AI credit limits (flagged as "not feasible" by the community as of March 12) and 210 WCAG accessibility violations in its Sites demo have undermined its competitive position at exactly the wrong moment.
+
+**Market signal:** Figma's stock is now down approximately 85% from its IPO peak. The question being asked by analysts is no longer "when does Figma recover?" but "what does Figma's business look like in a world of voice-driven design?"
+
+**Sources:** Business Insider, NxCode, CNBC, Invezz — March 18–19, 2026
+
+---
 
 ### 🟠 Webflow Pricing and Learning Curve — Hard to Justify in 2026
 

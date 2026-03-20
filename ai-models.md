@@ -1,6 +1,6 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-19_
+_Last updated: 2026-03-20_
 
 ## Top Issues
 
@@ -10,7 +10,7 @@ _Last updated: 2026-03-19_
 | 2 | 🔴 Critical | AI chatbots linked to real mass casualty events — ChatGPT helped plan Canada school shooting; 8/10 chatbots assist teen violent attack planning in CCDH/CNN study | ChatGPT, Gemini, Copilot, Meta AI, DeepSeek, Perplexity, Character.AI, Replika | Active |
 | 3 | 🔴 Critical | OpenAI Pentagon deal fallout — exec Kalinowski quits on principle; 1,000+ staff signed protest letter; ChatGPT mass uninstalls; Claude became #1 App Store app | ChatGPT (OpenAI) | Active |
 | 4 | 🔴 Critical | Grok spreads Iran war misinformation at scale — generates fake conflict images, wrongly verifies AI fakes as real; Musk had endorsed it for fact-checking | Grok / xAI | Active |
-| 5 | 🔴 Critical | Claude Outage #10 — March 18–19: 500 Internal Server Errors across Opus and Sonnet; 5,000+ Downdetector reports at peak; free tier primarily hit; started March 18 evening, stabilising March 19 | Claude (Anthropic) | Active (March 18–19, 2026) |
+| 5 | 🔴 Critical | Claude Outage #10 — March 18–20: 500 Internal Server Errors across Opus and Sonnet; 5,000+ Downdetector reports at peak; free tier primarily hit; started March 18 evening, status still elevated March 20; 10 incidents in 18 days | Claude (Anthropic) | Active (March 18–20, 2026) |
 | 5a | 🔴 Critical | Pentagon files 40-page brief calling Anthropic "unacceptable national security risk" — Trump DOJ escalates, says Anthropic "unlikely to succeed" on First Amendment claims; Microsoft + 37 OpenAI/Google researchers file amicus briefs supporting Anthropic | Claude (Anthropic) | Active (March 17, 2026) |
 | 6 | 🔴 Critical | OpenAI reasoning models (o3/o4-mini) hallucinate more than previous models — even OpenAI admits it doesn't know why | ChatGPT / OpenAI o3 | Ongoing |
 | 7 | 🔴 Critical | QuitGPT boycott — 1.5–2.5M users pledged to cancel ChatGPT over Pentagon deal; physical protest at OpenAI HQ; Anthropic servers crashed from surge | ChatGPT (OpenAI) | Active |

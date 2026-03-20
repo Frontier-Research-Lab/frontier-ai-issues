@@ -1,6 +1,6 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-20_
 
 ## Top Issues
 
@@ -17,6 +17,7 @@ _Last updated: 2026-03-18_
 | 9 | 🟠 Major | Cursor: surprise pricing overages, crashes, file-saving failures, AI modifying wrong files without permission | Cursor | Ongoing |
 | 10 | 🟠 Major | GitHub Copilot: suggests code with subtle bugs, outdated APIs, and security flaws that look correct at a glance | GitHub Copilot | Ongoing |
 | 11 | 🟡 Notable | Privacy concerns — code sent to third-party APIs without explicit disclosure; vendor lock-in across all tools | Cursor, Copilot, Windsurf | Ongoing |
+| 12 | 🟠 Major | Windsurf ownership chaos — OpenAI's $3B acquisition collapsed (Microsoft blocked); Google poached CEO + key R&D; Anthropic cut off Claude access when acquisition leaked; Cognition acquired for $250M; roadmap uncertainty driving users to alternatives | Windsurf | Ongoing (post-acquisition March 2026) |
 
 ---
 
@@ -251,3 +252,29 @@ _Last updated: 2026-03-18_
 **The broader lesson:** This is the clearest documented case yet of an organisation discovering that **forced AI adoption without proper guardrails creates net negative productivity** — and the regulatory/safety reset that follows.
 
 **Source:** The Guardian (March 11), Business Insider (March 11), Legal Insurrection (March 14), TechRadar (March 10), FinTech Weekly (March 13) — 2026
+
+---
+
+### 🟠 Windsurf Ownership Chaos — $3B Deal Collapse, CEO Poached, Cognition Acquisition — 2025–2026
+
+**What happened:** Windsurf (originally built by Codeium) experienced one of the most chaotic acquisition sagas in AI tool history, leaving users with deep uncertainty about the product's future.
+
+**Timeline:**
+- **May 2025:** OpenAI announces a $3 billion deal to acquire Windsurf — one of the largest AI tool acquisitions ever announced
+- **Mid-2025:** As acquisition news circulates, **Anthropic cuts off Windsurf's access to Claude** — the model that powered much of Windsurf's best performance. A subsequent "net neutrality for AI" report cited this as a case study for model access weaponisation
+- **July 2025:** Microsoft blocks the OpenAI-Windsurf acquisition; the $3B deal collapses
+- **July 2025 (same period):** Google's DeepMind poaches CEO **Varun Mohan** and key R&D staff in what is reportedly a $2.4B talent acquisition
+- **Post-collapse:** Cognition AI (makers of autonomous agent Devin) acquires Windsurf for **$250 million** — picking up the product, brand, and 210 remaining employees
+- **Feb–March 2026:** Windsurf ranks #1 in the LogRocket AI Dev Tool Power Rankings, ahead of Cursor and Copilot — the product still works, but users are asking about the roadmap
+
+**The ongoing problems for users:**
+1. **Roadmap uncertainty:** Cognition's core product is Devin (an autonomous AI engineer). What does Windsurf become under Cognition ownership? No clear answer has been given
+2. **Credit-based pricing concerns:** The post-acquisition pricing model is opaque; users evaluating Windsurf alternatives cite "credit-based pricing concerns" and "ecosystem lock-in" as reasons to move
+3. **Model dependency questions:** With Anthropic having cut off Claude access once before, Windsurf users wonder whether model access instability is a permanent risk
+4. **Key talent gone:** The technical leadership that built Windsurf is now at Google/DeepMind — what does the engineering bench look like under Cognition?
+
+**What it means for the market:** The Windsurf saga illustrates how AI coding tools are subject to forces entirely outside user control — acquisition deals, competitor pressure on model providers, corporate poaching. A tool you rely on can fundamentally change ownership and capability within months.
+
+**Current status:** Product functioning; Cognition has not articulated a public product roadmap for Windsurf post-acquisition.
+
+**Sources:** buildmvpfast.com, morphllm.com, awesomeagents.ai, Business Insider, TechXplore, dupple.com — multiple dates July 2025–March 2026
