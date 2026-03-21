@@ -1,6 +1,6 @@
 # automation — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 
@@ -12,6 +12,7 @@ _Last updated: 2026-03-18_
 | 4 | 🟠 Major | AI agent workflow steps are Zapier's most expensive per-task items — AI-powered automations cost 5–10x more than traditional steps | Zapier / Make | Active |
 | 5 | 🟠 Major | Make (formerly Integromat) — steep learning curve and performance slowdowns with heavy data volumes | Make | Ongoing |
 | 6 | 🟡 Notable | n8n self-hosted maintenance burden; requires engineering resources most target users don't have | n8n | Ongoing |
+| 7 | 🟠 Major | Make (Integromat) support response crisis — tickets taking days to resolve; critical business automation failures have no fast recovery path | Make | Ongoing (March 2026) |
 
 ---
 
@@ -97,3 +98,17 @@ A workflow that previously cost 1,000 tasks/month becomes 5,000–10,000 tasks/m
 **Overall picture for 2026 automation market:**
 
 The space is deeply dysfunctional for mid-market users. Large enterprises use custom solutions. Technical founders self-host n8n. Everyone in between is trapped in Zapier/Make pricing escalation. The emergence of AI agent workflows (LLM-powered steps, not just trigger-action) is adding new complexity without solving the underlying pricing problem — and AI steps are among the most expensive per-task items in Zapier's catalogue.
+
+---
+
+### 🟠 Make (Integromat) Support Response Crisis — Days-Long Wait Times — March 2026
+
+**What happened:** Community analysis published in March 2026 (roborhythms.com, "Zapier Alternatives 2026") specifically flagged **Make's support response time** as a major operational risk: "Support response time is another legitimate complaint about Make. I have seen reports of tickets taking several days to get a response, which matters if something breaks in a business-critical workflow on a Friday afternoon."
+
+**The severity:** Make's visual canvas platform is used by agencies and SMBs for complex, high-stakes automations. When a critical workflow breaks (payment processing, customer onboarding, inventory sync), waiting several days for support is not an option — it represents direct revenue loss.
+
+**Zapier context:** Zapier's per-task pricing makes it unsustainable at scale. Make's lower pricing comes with this support reliability trade-off. Neither platform is reliably solving the mid-market automation problem.
+
+**Community verdict:** "Make is fine when it works — but when it breaks and you're waiting 3 days for support on a business-critical automation, the pricing advantage evaporates."
+
+**Source:** roborhythms.com Zapier Alternatives 2026 analysis — March 2026

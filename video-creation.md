@@ -1,6 +1,6 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-19_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 
@@ -13,6 +13,7 @@ _Last updated: 2026-03-19_
 | 5 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
 | 6 | 🟠 Major | Runway: high costs, slow "relaxed" queues, weak prompt adherence, opaque moderation and account bans | Runway AI | Ongoing |
 | 7 | 🟡 Notable | Pricing chaos across the space — tools range wildly and many creators still can't produce audio-native video | Multiple | Ongoing |
+| 8 | 🟠 Major | Sora 2 API duration extension bug — API returns 400 errors for advertised 15/20-second durations; developers blocked after building integrations on announced specs | Sora 2 (OpenAI) | Active (March 2026) |
 
 ---
 
@@ -138,3 +139,30 @@ _Last updated: 2026-03-19_
 **The deepfake targeting of Olympians:** Separately (KSLTV.com), con artists are using AI deepfakes targeting Olympic athletes and their fans — creating convincing fake endorsement videos, fake charity appeals, and impersonation scams using Olympic athlete likenesses.
 
 **Source:** Mediaite (March 12, 2026), TechCabal (March 12), KSLTV.com — 2026
+
+---
+
+### 🟠 Sora 2 API: Duration Extension Bug Returning 400 Errors — March 2026
+
+**What happened:** OpenAI's Sora 2 API is shipping documented bugs that are breaking developer integrations. The OpenAI Developer Community forum thread "Sora-2 API not allowing video durations of 15 or 20 seconds" documents a concrete regression: OpenAI announced support for 15-second and 20-second video durations and video extension workflows — but the API is returning **400 errors** when developers request these durations, only accepting the old 4, 8, and 12 second values.
+
+**The specific bug:**
+- Sora 2 API documentation says 15 and 20 second durations are supported
+- API returns `400: invalid integer` when 15 or 20 second values are passed
+- Video extension workflow also broken — passing 16 seconds for extension rejected
+- Developers who built integrations based on announced capabilities are blocked
+
+**Context — Sora 2's ongoing reliability crisis:**
+This API bug is the latest in a series of issues affecting Sora since it relaunched as Sora 2:
+- Videos frequently stuck at 99% completion with no error and no recovery
+- Constant "under heavy load" errors blocking generation
+- New accounts having video generation features disabled immediately
+- Free access removed entirely (January 2026)
+- Sora 1 historical content deleted when Sora 2 launched
+- API duration extension bug (March 2026) — documented and unresolved
+
+**Developer reaction (OpenAI forum):** "I'm attempting to create videos longer than 12 seconds since OpenAI has recently released the ability to create input '15' and '20' for duration... Unfortunately, I'm receiving a 400 error stating that my input of 16 seconds is an invalid integer when extending a video."
+
+**Why it matters:** Sora 2 is positioned as OpenAI's flagship creative AI product and is integrated into Adobe Firefly's video editor. API instability at this level undermines every downstream integration that depends on reliable video generation.
+
+**Source:** OpenAI Developer Community forum; apiyi.com Sora March 2026 analysis — March 2026

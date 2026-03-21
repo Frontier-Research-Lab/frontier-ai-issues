@@ -1,6 +1,6 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 

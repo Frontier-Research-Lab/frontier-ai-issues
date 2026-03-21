@@ -1,6 +1,6 @@
 # web-design — AI Issues Radar
 
-_Last updated: 2026-03-20_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 
@@ -12,6 +12,7 @@ _Last updated: 2026-03-20_
 | 3 | 🟠 Major | AI-generated websites look generic/identical — the "AI slop" problem hitting web design at scale | Multiple (v0, Wix AI, etc.) | Ongoing |
 | 4 | 🟡 Notable | Wix free plan still includes Wix ads — AI features locked behind paid tiers; free-to-paid conversion pressure | Wix | Ongoing |
 | 5 | 🟡 Notable | v0 (Vercel) disrupting traditional web design workflow — designers losing "build" work to AI prototyping tools | v0 / Vercel | Developing |
+| 6 | 🟡 Notable | Wix auto-renewal "abusive and a scam" — decade-long customers complaining; cancellation deliberately obstructive; AI features locked behind renewed tiers | Wix | Active (March 2026) |
 
 ---
 
@@ -103,3 +104,19 @@ The morning of March 19, **Figma shares (NYSE: FIG) opened 8.8% lower**. By the 
 **Broader context:** Webflow's strategy appears to be expanding from "the best visual web builder" to "a marketing platform with visual web building." This is the same trajectory that caused Adobe to lose ground — broad platform expansion while competitors focused on specific workflows that AI was disrupting.
 
 **Source:** TechCrunch (March 12, 2026), bententerprise.com
+
+---
+
+### 🟡 Wix Auto-Renewal "Scam" Complaints Escalating — March 2026
+
+**What happened:** Trustpilot reviews for Wix have seen a significant uptick in complaints about aggressive auto-renewal practices in early 2026. One long-time customer wrote: "While I have been a happy customer of wix.com services for more than a decade, I experienced a very negative and abusive situation in 2026. The autorenewal policy imposed to the customers is abusive and it's a scam."
+
+**The pattern:**
+- Users are being auto-renewed for annual plans without adequate advance notice
+- Cancellation and refund processes are described as deliberately obstructive
+- AI-powered features (Wix ADI, site generation) are locked behind paid tiers — users discover this after renewal
+- The combination of locked AI features + aggressive renewal is creating compounding frustration
+
+**Context:** Wix is in a competitive squeeze — established free website builders now compete with genuinely impressive AI-first builders (Framer, Durable, Hostinger AI). Rather than competing on features, Wix appears to be locking users in through auto-renewal friction. This is a red flag for a platform that built its reputation on accessibility.
+
+**Source:** Trustpilot reviews (www.trustpilot.com/review/www.wix.com) — March 2026

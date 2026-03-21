@@ -1,6 +1,6 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-20_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 
@@ -8,7 +8,7 @@ _Last updated: 2026-03-20_
 |---|----------|-------|---------------|--------|
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
 | 2 | 🔴 Critical | GEMA v. Suno — German court heard landmark copyright case March 9; ruling scheduled June 12, 2026; Hamburg court reached opposite conclusion same paragraph | Suno | Active (ruling due June 12) |
-| 2a | 🔴 Critical | Suno indie artist class action oral arguments TODAY (March 20) — Tony Justice et al class action dismissal motion being heard; could set precedent for independent artists' standing to sue; Suno still has no API and credits expire monthly post-Warner deal; Suno hits 2M subs + $300M ARR while lawsuits mount | Suno | UNDERWAY — oral args March 20, 2026 |
+| 2a | 🔴 Critical | Suno indie artist class action oral arguments heard March 20 — Tony Justice et al class action dismissal motion argued; ruling pending; could set precedent for independent artists' standing to sue; Suno still has no API and credits expire monthly post-Warner deal; Suno hits 2M subs + $300M ARR while lawsuits mount | Suno | Argued March 20 — ruling pending |
 | 3 | 🔴 Critical | Suno enforces paid-only downloads + monthly download caps as part of Warner Music deal — community furious at monetisation pivot | Suno | Active |
 | 4 | 🟠 Major | Udio settles with Warner, Universal, Merlin — "walled garden" model imposed; indie artists excluded from restitution | Udio | Resolved for majors / Active for indie artists |
 | 5 | 🟠 Major | EU Parliament votes 460–71 for mandatory AI copyright disclosure + fair remuneration for all training data — industry-wide threat | Industry-wide | Developing (March 10, 2026) |
@@ -16,6 +16,8 @@ _Last updated: 2026-03-20_
 | 7 | 🟠 Major | Suno "2026 model" will replace existing version with licensed-only training data — old-style open generation ending | Suno | Developing |
 | 8 | 🟡 Notable | "Starting fresh" playbook exposed — labels and AI companies doing deals that leave independent artists without recourse | Suno, Udio | Ongoing |
 | 9 | 🟡 Notable | Industry backlash grows even as Suno hits 2M paid subscribers — human musicians deeply hostile | Suno, Udio | Ongoing |
+| 10 | 🔴 Critical | US man pleads guilty to defrauding streaming platforms of millions using AI-generated music — first major criminal conviction for AI music fraud; used bots + AI tracks to collect fake royalties; Suno CEO "conflicted every single day" on ethics (Guardian, March 21, 2026) | Suno / AI music tools (misused) | Resolved (guilty plea March 21, 2026) |
+| 11 | 🟡 Notable | GEMA v. Suno — Suno must respond in writing to GEMA allegations by April 7, 2026; ruling scheduled June 12 | Suno | Active (response deadline April 7) |
 
 ---
 
@@ -210,3 +212,39 @@ Key changes from the Warner deal:
 **The "starting fresh" pattern:** Legal analysis documents how Suno attempted to restart with "licensed-only training data" for future model versions while arguing old claims are moot. Courts are being asked to determine whether this "clean slate" strategy absolves prior infringement — a question with enormous implications for the entire industry.
 
 **Source:** jam.com, terms.law, Reuters AI copyright roundup — March 16–17, 2026
+
+---
+
+### 🔴 US Man Pleads Guilty to AI Music Streaming Fraud — First Major Criminal Conviction — March 21, 2026
+
+**What happened:** In a landmark case, a US man pleaded guilty on March 21, 2026, to defrauding music streaming platforms out of millions of dollars by using AI-generated music and bots to artificially inflate streaming royalties. The Guardian reported the case alongside comments from Suno CEO Paul Sinclair who admitted: "Truly, every single day I'm conflicted. This s–t is complicated."
+
+**The scheme:** The fraudster used AI music generation tools (including Suno) to produce thousands of tracks, deployed bot networks to stream them millions of times, and collected royalties from streaming platforms as if they were legitimate plays. The fraud exploited the opacity of streaming royalty distribution — platforms cannot easily distinguish bot streams from genuine listeners.
+
+**Why this is a watershed moment:**
+- First major criminal conviction specifically for AI music streaming fraud
+- Signals that law enforcement has caught up with the AI music manipulation ecosystem
+- Exposes the structural vulnerability of streaming royalty systems to AI + bot abuse
+- The CEO of the AI tool used publicly expressing ethical conflict is extraordinary — and rare
+
+**Impact on streaming platforms:** Spotify, Apple Music, and others have been grappling with AI-generated content flooding their platforms since 2024. This conviction may accelerate their push to label AI-generated music and implement more aggressive fraud detection.
+
+**Suno CEO's quote (March 2026, Billboard):** "Truly, every single day I'm conflicted. This s–t is complicated." — a rare moment of public candour from an AI music platform leader about the ethical minefield they operate in.
+
+**Source:** The Guardian — March 21, 2026; Billboard — March 2026
+
+---
+
+### 🟡 GEMA v. Suno: First German Court Hearing — Response Deadline April 7, 2026
+
+**What happened:** Germany's performing rights organisation GEMA held its first hearing against Suno Inc. at Munich Regional Court I on March 9, 2026. The core question: does AI-generated music infringe the rights of human composers whose works were used in training?
+
+**Key developments from the March 9 hearing:**
+- The court discussed the factual and legal situation for the first time
+- Suno now has until **April 7, 2026** to respond in writing to GEMA's allegations
+- A full hearing date has been set, with a ruling expected **June 12, 2026**
+- This will be the **first German judicial statement** on AI music copyright
+
+**Significance:** Germany's courts have been more aggressive on copyright enforcement than US courts. GEMA previously won a ruling against OpenAI. A German ruling against Suno could force model changes, licensing requirements, or market withdrawal from the EU — with major implications for all AI music platforms operating in Europe.
+
+**Source:** HÄRTING Rechtsanwälte; GEMA press release; prokopievlaw.com — March 9–16, 2026

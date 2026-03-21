@@ -1,6 +1,6 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-18_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 
@@ -177,3 +177,25 @@ _Last updated: 2026-03-18_
 **YouTube's response:** YouTube escalated deepfake policy with detection and removal capabilities in March 2026, citing "the surge in realistic AI voice cloning as the primary driver behind this policy escalation."
 
 **Source:** Business Standard, Keepnet, YouTube policy update — March 2026
+
+---
+
+### 🟠 ElevenLabs Pledges $1B in Free Voice Restoration at SXSW — Consent Questions Persist — March 13, 2026
+
+**What happened:** At SXSW 2026, ElevenLabs announced a landmark initiative: pledging **$1 billion in free AI voice restoration technology** to 1 million people living with permanent voice loss. The company partnered with Rebecca Gayheart Dane (wife of the late actor Eric Dane) to promote the programme.
+
+**The positive case:** The initiative is genuinely significant — AI voice restoration for people with conditions like ALS, laryngeal cancer, or stroke-related aphasia is one of the few unambiguously beneficial applications of voice cloning technology. ElevenLabs is committing real resources ($1 billion in free service credits) to a medically vulnerable population.
+
+**Why this raises questions simultaneously:**
+- ElevenLabs is running this PR campaign at the same time it faces lawsuits from voice actors (Vacker & Boyett) for misappropriating likenesses without consent
+- The company's "Iconic Voice Marketplace" — launched the same week — allows use of celebrity voices including those of individuals who **cannot consent** (deceased celebrities, those with limited legal recourse)
+- TechRadar noted: "We know many unauthorized voice clones already exist. ElevenLabs is positioning the Iconic Marketplace as the legitimate version of something that was going to happen anyway."
+
+**The tension:** ElevenLabs is simultaneously the company that:
+1. Is doing genuine good (voice restoration for disabled people)
+2. Is being sued for taking voice actors' voices without consent
+3. Is building a marketplace of "iconic" voices including those of deceased celebrities
+
+**Community reaction:** The SXSW initiative was largely praised by the disability community. The voice actor community was not impressed — the good PR does not resolve the ongoing consent lawsuits.
+
+**Source:** Mashable, Wikipedia, TechRadar — March 13–15, 2026

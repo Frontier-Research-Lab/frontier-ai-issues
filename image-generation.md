@@ -1,6 +1,6 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-19_
+_Last updated: 2026-03-21_
 
 ## Top Issues
 
@@ -17,6 +17,8 @@ _Last updated: 2026-03-19_
 | 8 | 🟠 Major | Andersen v. Stability AI — landmark copyright case still progressing; artists secured key win, unjust enrichment claims dismissed but copyright claims survive | Stability AI | Active |
 | 9 | 🟡 Notable | DALL-E most expensive per-image at scale, least customisable; losing ground to open-source alternatives | DALL-E (OpenAI) | Ongoing |
 | 10 | 🟡 Notable | Stable Diffusion base models require significant fine-tuning to match Midjourney/DALL-E quality out of the box | Stable Diffusion | Ongoing |
+| 11 | 🟠 Major | US Copyright Court signals legal shifts for Midjourney — 2026 rulings emphasising fair use only for lawfully-obtained training data; pirated datasets explicitly rejected; The Atlantic: 19 AI copyright lawsuits active | Midjourney, Stability AI | Active (March 2026) |
+| 12 | 🟡 Notable | UK government partially backtracks on AI copyright TDM exception — hasn't fully ruled out unlicensed training data access; creative industry on high alert (BBC, March 2026) | Industry-wide (UK) | Developing |
 
 ---
 
@@ -174,3 +176,41 @@ _Last updated: 2026-03-19_
 **Significance:** Disney is the most powerful IP owner in the entertainment industry. Its entry into AI copyright litigation signals that major studios are no longer waiting to see how artist-filed cases resolve — they're bringing their own suits directly. This will generate substantially higher damages exposure for Midjourney than any individual artist case.
 
 **Source:** Lexology AI in Litigation series, Reuters AI copyright roundup — March 2026
+
+---
+
+### 🟠 US Copyright Courts Signal Shift: Fair Use Only for Lawfully-Obtained Training Data — March 2026
+
+**What happened:** A comprehensive analysis by legal commentator Yuyjo.com (March 2026) documents the emerging trend in 2026 US copyright rulings: courts are beginning to **accept fair use arguments for AI image models only when training data was lawfully obtained** — and are explicitly rejecting fair use protections for pirated or improperly scraped datasets.
+
+**Key development:**
+- A US Copyright Court review indicated that fair use standards are "emerging" for AI systems that trained on properly licensed or public domain works
+- Courts are treating models that used pirated datasets differently from those that used lawfully-obtained data — creating a legal incentive for proper training data hygiene going forward
+- The Atlantic's reporting (March 20, 2026) documents that **19 active copyright lawsuits** against AI companies are pending, many related to image generation
+
+**Who this affects:**
+- **Midjourney**: Currently defending against Disney/Lucasfilm/Marvel suit; training data legitimacy is central
+- **Stability AI**: Getty Images lawsuit (filed 2023, still active in early 2026) + Andersen class action
+- **Runway**: Andersen class action includes Runway among defendants
+- Any image model with unclear training data provenance
+
+**The Andersen v. Stability AI update:** Artists Sarah Andersen, Kelly McKernan, and Karla Ortiz secured a significant legal win — their copyright infringement claims survived a motion to dismiss and are progressing to discovery. Unjust enrichment claims were dismissed, but the core IP case continues.
+
+**Source:** Yuyjo.com, Reuters AI Copyright Roundup, The Atlantic — March 16–20, 2026
+
+---
+
+### 🟡 UK AI Copyright Exception: Partial Backtrack — Creative Industry Remains on Alert — March 2026
+
+**What happened:** The UK government has walked back (but not fully abandoned) a proposed text-and-data mining (TDM) exception that would have allowed AI companies to train on any copyrighted work, including images, without a licence or payment.
+
+**What happened:** After sustained pressure from the UK creative industry — photographers, illustrators, designers, visual artists, and major image agencies — the government has signalled it will not proceed with the most controversial form of the exception. However, Minister Chris Bryant made clear the option is "not entirely ruled out."
+
+**The creative industry's concern:**
+- Even a partial TDM exception would allow AI image companies to legally ingest stock photography, illustration databases, and commissioned artwork for training without compensation
+- Getty Images, Shutterstock, and professional photographers' organisations all lobbied against the exception
+- The UK is home to a significant creative economy that generates substantial export revenue
+
+**Current status:** Ongoing consultation. The exception in its most harmful form appears to be off the table for now — but the creative sector is maintaining pressure to ensure permanent exclusion.
+
+**Source:** BBC News, UK Government consultation documents — March 2026
