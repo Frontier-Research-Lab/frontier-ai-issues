@@ -1,11 +1,14 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-21_
+_Last updated: 2026-03-22_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0a | 🔴 Critical | Cursor caught reselling Chinese Kimi K2.5 as in-house "Composer 2" — developer exposes model ID in API response; Cursor admits while citing "legal obligation not to disclose"; geopolitical + trust fallout (March 19, 2026) | Cursor / Kimi K2.5 | Active (March 19, 2026) |
+| 0b | 🔴 Critical | Microsoft CVE-2026-26133: cross-prompt injection in Copilot email + Teams summarisation lets attackers shape AI output silently — no attachment needed; patched March 11, 2026 | Microsoft 365 Copilot | Patched (March 11, 2026) |
+| 0c | 🔴 Critical | "Reprompt" attack chains 3 techniques to turn Copilot Personal into a single-click data exfiltration channel — disclosed early 2026 | Microsoft Copilot Personal | Active (early 2026) |
 | 1 | 🔴 Critical | AI coding tools fail 1 in 4 structured tasks — peer-reviewed study published March 17, 2026; AI co-authored code has 2.74x more security vulnerabilities | All AI coding tools | Active (March 17, 2026) |
 | 2 | 🔴 Critical | Amazon's AI coding mandate caused 6.3M lost orders + 90-day safety reset — Kiro & Q implicated in multiple Sev-1 outages; even senior engineers now need manager sign-off | Kiro / Amazon Q | Active |
 | 3 | 🔴 Critical | Fake AI browser extensions stolen ChatGPT/DeepSeek conversations from 900K users across 20K enterprises — "full chat exfiltration" | Chrome/Edge extensions | Active |
@@ -22,6 +25,53 @@ _Last updated: 2026-03-21_
 ---
 
 ## Details
+
+### 🔴 Cursor Caught Reselling Kimi K2.5 (Chinese AI) as "Composer 2" — March 19, 2026
+
+**What happened:** On March 19, 2026, Cursor announced **Composer 2** — marketed as their own in-house coding model, with benchmarks, pricing ($0.50/M input tokens), and positioning as evidence that Cursor had "graduated from wrapper to builder." Less than 24 hours later, developer **Fynn** discovered the actual model ID in Cursor's OpenAI-compatible API response: `accounts/anysphere/models/kimi-k2p5-rl-0317-s515-fast`.
+
+**Decoded:**
+- `kimi-k2p5` = **Kimi K2.5**, from Beijing-based **Moonshot AI**
+- `rl` = fine-tuned with reinforcement learning
+- `0317` = March 17, 2026 training checkpoint
+
+**The deception pattern:** Cursor's launch materials implied Composer 2 was built by Cursor. No third-party attribution. No mention of Moonshot AI. The benchmark framing (61.7 on Terminal-Bench 2.0, compared to Claude Opus 4.6) made the implicit claim that this was comparable to frontier models in terms of independent development effort.
+
+**Cursor's response:** Confirmed Kimi K2.5 as the base model; claimed a "legal obligation not to disclose third-party models" under the partner agreement. The developer community rejected this as insufficient — the issue isn't just disclosure, it's that the marketing actively obscured the Chinese origin of the model.
+
+**The three compounding problems:**
+1. **Trust breakdown** — Cursor had explicitly marketed itself as "no longer just a wrapper." Composer 2 contradicts this directly.
+2. **Geopolitical risk** — Kimi K2.5 is from a Chinese company. Enterprise developers working on sensitive codebases may have legal or security concerns about Chinese AI processing their intellectual property.
+3. **Price arbitrage** — Cursor is charging a premium margin on an open-weight model accessible via other routes.
+
+**Community reaction (HN, X/Twitter, March 19–20):** Described as a "bait and switch." Developers questioning whether Cursor can ever be trusted on model claims again. The "legal obligation" framing was widely seen as a deflection — if the agreement required non-disclosure, Cursor should not have implied in-house development.
+
+**Source:** Medium (Thamizhelango, "Cursor Composer 2 and Kimi K2.5: What Happened"), HN thread — March 19–20, 2026
+
+---
+
+### 🔴 Microsoft CVE-2026-26133 — Copilot Cross-Prompt Injection in Email + Teams — Patched March 11, 2026
+
+**What happened:** Microsoft patched **CVE-2026-26133** on March 11, 2026 — a cross-prompt injection vulnerability in **Microsoft 365 Copilot's email and Teams summarisation features** that allowed attackers to silently **shape what the AI told users** about their own emails and messages — without any attachment, macro, or file needed.
+
+**How the attack works:**
+- An attacker sends a specially crafted email or Teams message to a target
+- The message contains embedded instructions that exploit Copilot's summarisation
+- When the victim asks Copilot to summarise their inbox or recent messages, Copilot reads the attacker's message — and the embedded instructions redirect Copilot's output
+- Result: Copilot tells the victim false information (e.g., "your boss says to wire $50,000 to this account" instead of the actual message content)
+- No user interaction beyond asking Copilot to summarise is required
+
+**Why this is uniquely dangerous:** Copilot has been granted trust to access all emails, Teams messages, SharePoint documents, and calendar entries. It's the most privileged AI tool in most enterprises. An attacker who can get any message into an organisation's email stream can influence what Copilot tells every user who asks for a summary.
+
+**The "Reprompt" attack (related, also disclosed early 2026):** A separate researcher disclosed the "Reprompt" attack — which chains three techniques (prompt injection, data exfiltration, and an open redirect) to **turn Copilot Personal into a single-click data exfiltration channel**. The Cybersecurity Insiders AI Risk Report (March 2026) cited this as the first documented AI tool turned into a one-click data theft vector.
+
+**Microsoft's response:** CVE-2026-26133 was patched via Microsoft's regular Patch Tuesday cycle on March 11, 2026. The Reprompt vulnerability's patch status is less clearly confirmed publicly.
+
+**Who's affected:** Every Microsoft 365 Copilot enterprise customer — estimated at tens of millions of seats. The vulnerability was present in the default configuration; no user had to do anything unusual to be exposed.
+
+**Source:** RedPacket Security (CVE-2026-26133), ThomasJuhlOlesen.dk, Cybersecurity Insiders AI Risk Report 2026 — March 2026
+
+---
 
 ### 🔴 Fake AI Browser Extensions Exfiltrate Chat Histories — 900K Users, 20K Enterprises — March 5, 2026
 

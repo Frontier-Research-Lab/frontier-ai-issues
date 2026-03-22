@@ -1,6 +1,6 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-21_
+_Last updated: 2026-03-22_
 
 ## Top Issues
 
@@ -17,6 +17,8 @@ _Last updated: 2026-03-21_
 | 9 | 🟠 Major | Celebrity voice licensing ≠ consent for all voices: Michael Caine, McConaughey licensed their voices — but many "iconic" platform voices are deceased or non-consenting | ElevenLabs / AI voice platforms | Active (March 15, 2026) |
 | 10 | 🟠 Major | Legal grey areas around derivative voices, group recordings, and future use of synthetic audio remain unresolved | Industry-wide | Ongoing |
 | 11 | 🟡 Notable | State laws (CA/NY/TN) creating patchwork compliance requirements for voice cloning platforms | Industry-wide | Developing |
+| 12 | 🔴 Critical | Interpol warns AI-driven fraud "far more profitable" — criminals create convincing voice clones from just 10 seconds of audio ripped from social media; SE Asia scam operations now cybercrime-as-a-service (March 16, 2026) | Industry-wide / AI voice tools (misused) | Active (March 16, 2026) |
+| 13 | 🟠 Major | WIRED: models applying to be "AI face models" for pig-butchering scams — human workers sitting in front of cameras to do deepfake video calls, voice-cloned; industrialised fraud ecosystem | AI voice + video tools (misused) | Active (March 2026) |
 
 ---
 
@@ -177,6 +179,26 @@ _Last updated: 2026-03-21_
 **YouTube's response:** YouTube escalated deepfake policy with detection and removal capabilities in March 2026, citing "the surge in realistic AI voice cloning as the primary driver behind this policy escalation."
 
 **Source:** Business Standard, Keepnet, YouTube policy update — March 2026
+
+---
+
+### 🔴 Interpol: AI-Driven Fraud "Far More Profitable" — Voice Clones From 10 Seconds of Audio — March 16, 2026
+
+**What happened:** Interpol issued a formal warning (The Register, March 16, 2026) documenting how AI voice cloning has transformed the economics of organised fraud: "Criminals can create convincing voice clones with just ten seconds of reference material, such as audio ripped from a social media post." The agency explicitly stated that AI-driven fraud is now **"far more profitable"** than traditional fraud methods — lowering cost, raising scale, and lowering the technical barrier to entry simultaneously.
+
+**What 10 seconds enables:**
+- Any public audio post on TikTok, Instagram, YouTube, or a podcast is sufficient source material
+- The resulting clone convincingly replicates the target's voice, accent, speaking rhythm, and emotional register
+- Clones can be used in real-time vishing calls or pre-recorded for automated scam campaigns (see P1bot)
+
+**The organised crime dimension:** The UN (March 17) and UNODC documented that this capability is now deployed at industrial scale by Southeast Asian criminal networks:
+- Cybercrime-as-a-service: criminal groups sell deepfake voice fraud capabilities to other criminals
+- Revenue used for money laundering and malware deployment
+- The same networks deploy voice cloning, deepfake video, and social engineering in coordinated multi-channel attacks
+
+**WIRED's parallel reporting (March 2026):** Wired documented a specific industrialised fraud model: "AI face models" — human workers who sit in front of cameras doing deepfake video calls as part of elaborate pig-butchering scams. Victims believe they're speaking to a real person; the "face" is AI-composited onto a real human in real-time. Voice cloning completes the deception.
+
+**Source:** The Register (March 16, 2026), UN News (March 17, 2026), WIRED (March 2026)
 
 ---
 

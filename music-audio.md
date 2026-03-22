@@ -1,6 +1,6 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-21_
+_Last updated: 2026-03-22_
 
 ## Top Issues
 
@@ -18,6 +18,8 @@ _Last updated: 2026-03-21_
 | 9 | 🟡 Notable | Industry backlash grows even as Suno hits 2M paid subscribers — human musicians deeply hostile | Suno, Udio | Ongoing |
 | 10 | 🔴 Critical | US man pleads guilty to defrauding streaming platforms of millions using AI-generated music — first major criminal conviction for AI music fraud; used bots + AI tracks to collect fake royalties; Suno CEO "conflicted every single day" on ethics (Guardian, March 21, 2026) | Suno / AI music tools (misused) | Resolved (guilty plea March 21, 2026) |
 | 11 | 🟡 Notable | GEMA v. Suno — Suno must respond in writing to GEMA allegations by April 7, 2026; ruling scheduled June 12 | Suno | Active (response deadline April 7) |
+| 12 | 🟠 Major | Suno CEO backtracks on "people don't enjoy making music" remark after community fury — also defends WMG deal with "what we did is legal"; community reads it as doubling down | Suno | Active (March 13, 2026) |
+| 13 | 🟠 Major | Suno model retirement confirmed — Reddit thread confirms all current models trained on unlicensed music will be retired; replacement only licensed data; quality gap fears; no API; credits expire monthly | Suno | Active (March 20, 2026) |
 
 ---
 
@@ -248,3 +250,40 @@ Key changes from the Warner deal:
 **Significance:** Germany's courts have been more aggressive on copyright enforcement than US courts. GEMA previously won a ruling against OpenAI. A German ruling against Suno could force model changes, licensing requirements, or market withdrawal from the EU — with major implications for all AI music platforms operating in Europe.
 
 **Source:** HÄRTING Rechtsanwälte; GEMA press release; prokopievlaw.com — March 9–16, 2026
+
+---
+
+### 🟠 Suno CEO Backtracks on "People Don't Enjoy Making Music" — Defends WMG Deal — March 13, 2026
+
+**What happened:** Digital Music News (March 13, 2026) reported that Suno CEO **Mikey Shulman backtracked** on an earlier widely-criticised remark in which he had implied that people don't genuinely enjoy the process of making music — a comment interpreted as Suno's rationale for replacing human musicians with AI. The retraction came after significant community backlash from musicians, composers, and music educators.
+
+**The "what we did is legal" position:** In the same interview, Shulman defended the WMG settlement and Suno's historic training practices:
+- "The major labels are very important, but what we did is legal, and so that's what we did"
+- He confirmed the Warner deal required Suno to **retire its current model** and launch a new one trained only on licensed copyrights from rights holders who opted in
+- He offered no acknowledgement of the impact on independent artists whose work was used without consent
+
+**Why the community found this unsatisfying:**
+1. Saying "what we did is legal" is not the same as saying it was ethical — a distinction musicians have been pressing hard
+2. The "retire and replace" model swap is exactly the "launch, train, settle, start fresh" playbook that attorney Krystle Delgado has documented as leaving independent artists without recourse
+3. The backtrack on the "don't enjoy music" comment was widely seen as damage control rather than genuine change of view
+4. Suno still has no API, credits expire monthly, and post-Warner licensing uncertainty remains for users who need commercially cleared output
+
+**The ElevenLabs alternative framing (March 2026):** ElevenLabs' competing "Suno alternatives" blog explicitly highlights these user pain points: "Suno lacks an official API, credits expire monthly, and post-Warner ownership changes have created licensing uncertainty." The post positions ElevenLabs as having cleared these problems — suggesting the community's frustrations are being actively courted by competitors.
+
+**Source:** Digital Music News, Music in Africa, ElevenLabs blog — March 13, 2026
+
+---
+
+### 🟠 Reddit Confirms Suno Current Model Retirement — Community Assesses Impact — March 20, 2026
+
+**What happened:** A Reddit thread on r/artificial (March 20, 2026, 114 upvotes, 107 comments) titled "Suno is shutting down its current AI models. Here's what actually changes" collated community reaction to the confirmed Warner Music Group settlement requirement: **all existing Suno models trained on unlicensed music will be retired and replaced with a new model trained exclusively on licensed content**.
+
+**Key community concerns documented in the thread:**
+1. **Quality regression fears** — The current model's stylistic range came from training on the full breadth of human recorded music. A licensed-only replacement will be constrained by the catalogue of rights holders who opted in, which may skew heavily toward major-label sounds
+2. **Historical generation preservation** — Users who created music on the current model are concerned about long-term access to those generations; Suno's export restrictions (download paywall, monthly caps) mean not everyone has local copies
+3. **No API, expiring credits** — Two persistent structural complaints since the Warner deal: Suno still offers no developer API (limiting integration into professional workflows) and credits expire monthly (forcing recurring purchases even for occasional users)
+4. **Licensing uncertainty for existing outputs** — Users question whether music generated with the current (unlicensed) model carries different IP status than outputs from the future licensed model
+
+**The competitive context:** This confirmation coincides with ElevenLabs actively marketing against Suno's weaknesses, and with Udio having already transitioned to its WMG/Universal/Merlin "walled garden" model — giving users a data point on what "licensed model transition" looks like in practice.
+
+**Source:** Reddit r/artificial, Digital Music News, ElevenLabs blog — March 20, 2026

@@ -1,6 +1,6 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-21_
+_Last updated: 2026-03-22_
 
 ## Top Issues
 

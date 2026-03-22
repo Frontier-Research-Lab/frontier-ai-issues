@@ -1,11 +1,12 @@
 # automation — AI Issues Radar
 
-_Last updated: 2026-03-21_
+_Last updated: 2026-03-22_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0 | 🔴 Critical | "Ni8mare" — CISA warns n8n max-severity CVE chain being actively exploited in wild: CVE-2026-21858 (unauthenticated file read) + CVE-2025-68613 (authenticated RCE) combined = full system takeover without login; n8n stores API keys, OAuth tokens for dozens of services (March 17, 2026) | n8n | Active exploit — patch NOW |
 | 1 | 🔴 Critical | Zapier pricing rage — what started at $10/month has ballooned to $750+/month for basic automations; mass migration underway | Zapier | Ongoing |
 | 2 | 🔴 Critical | "$40K/year Zapier lesson" — viral Reddit post documents company that burned $40K/yr on simple automations, now migrating entire stack | Zapier | Active (March 2026) |
 | 3 | 🟠 Major | "Zapier Tax" — per-task pricing model penalises growth, destroying SaaS margins as automation volume scales | Zapier | Ongoing |
@@ -17,6 +18,40 @@ _Last updated: 2026-03-21_
 ---
 
 ## Details
+
+### 🔴 "Ni8mare" — CISA Warns n8n Critical CVE Chain Actively Exploited — March 17, 2026
+
+**What happened:** CISA added two chained n8n vulnerabilities to its **Known Exploited Vulnerabilities (KEV) catalogue** on March 17, 2026, confirming active exploitation in the wild. The "Ni8mare" attack chain — named by researchers — combines two CVEs to achieve **full system takeover without authentication**:
+
+**The two CVEs chained:**
+1. **CVE-2026-21858** (max/critical severity) — An unauthenticated file read vulnerability in n8n, caused by improper handling of webhooks. An attacker can read internal files (including credential storage) **without logging in**. CVSS score 9.9.
+2. **CVE-2025-68613** (critical, authenticated RCE) — Remote Code Execution via improper isolation of workflow expressions from the Node.js runtime. User-controlled input can execute arbitrary code with n8n process privileges.
+
+**The chain in practice:** Attackers use CVE-2026-21858 to read n8n's credential files unauthenticated → extract legitimate user credentials → use those credentials to trigger CVE-2025-68613's RCE → full control of the n8n host system.
+
+**Why this is uniquely catastrophic for automation users:**
+
+n8n is routinely used as a central automation hub and credential store. A typical self-hosted n8n instance stores:
+- API keys for cloud services (AWS, GCP, Azure)
+- OAuth tokens for Google Workspace, Microsoft 365, Slack
+- Database credentials (PostgreSQL, MySQL, MongoDB)
+- CRM tokens (Salesforce, HubSpot)
+- Communication service credentials (Twilio, SendGrid)
+- Payment API keys (Stripe, PayPal)
+
+Compromising an n8n instance typically means **instant access to every third-party service the automation stack touches** — the blast radius is the entire company's connected infrastructure.
+
+**CISA's specific warning:** "One n8n server could expose your entire digital ecosystem." ClearanceJobs (March 17): "This cycle of incomplete patching is particularly dangerous for automation tools that serve as a central repository for sensitive API keys and OAuth tokens across the Enterprise."
+
+**Scale of exposure:** n8n has hundreds of thousands of self-hosted instances globally, used by agencies, startups, and enterprises. The self-hosted nature means patching rates are slower than cloud-managed tools — many instances run outdated versions indefinitely.
+
+**Current status:** A patch has been released. CISA's inclusion in KEV means US federal agencies must patch within 3 weeks; private sector is strongly advised to treat this as P0. Organisations still running n8n below the patched version are actively being targeted.
+
+**Community reaction:** The disclosure landed in the middle of n8n being recommended as the primary Zapier/Make escape valve for cost-conscious automation users. The irony is sharp: users fleeing Zapier's pricing landmine ran into n8n's security landmine.
+
+**Source:** CISA KEV, Dataminr, LinuxSecurity, SecurifyAI, RedPacket Security, ClearanceJobs — March 14–17, 2026
+
+---
 
 ### 🔴 Zapier Pricing Explosion — $10/month → $750+/month
 
