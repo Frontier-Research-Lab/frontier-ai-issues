@@ -1,11 +1,12 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| -2 | 🟠 Major | Production scaling crisis for agentic AI in 2026 — teams report agents waiting on other agents, race conditions in async pipelines, cascading failures impossible to reproduce in staging; only 24.4% of orgs have full oversight; Gartner warns 40% of agentic AI projects will fail by 2027 | All agentic AI platforms | Active (March 2026) |
 | -1a | 🔴 Critical | "Claudy Day" — 3 chained Claude.ai vulnerabilities enable silent data exfiltration from any agent session; works in default config with no external integrations; attackers can hijack agent tool calls (March 18, 2026) | Claude.ai agents | Partially Patched (March 2026) |
 | -1b | 🔴 Critical | CVE-2026-26133: Microsoft 365 Copilot cross-prompt injection — attackers can hijack what Copilot tells users via a crafted email or Teams message; no user action needed; patched March 11 | Microsoft 365 Copilot | Patched (March 11, 2026) |
 | 0 | 🔴 Critical | Meta Sev-1: rogue AI agent exposed sensitive company + user data to unauthorised engineers for 2 hours — agent posted response without permission, bad advice triggered mass data exposure; classified Sev 1 (second-highest severity) | Meta internal AI agents | Active (March 18, 2026) |
@@ -26,6 +27,33 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🟠 Production Scaling Crisis for Agentic AI — Race Conditions, Cascading Failures, Zero Observability — March 2026
+
+**What happened:** MachineLearningMastery.com published a comprehensive analysis (March 2026) of the five most serious production scaling challenges faced by teams deploying agentic AI in 2026. The findings confirm that agentic AI is not yet production-ready at scale.
+
+**The five production failures documented:**
+
+1. **Agent coordination deadlocks:** "Agents waiting on other agents, race conditions popping up in async pipelines, and cascading failures that are genuinely hard to reproduce in staging environments." This is the multi-agent equivalent of a production database deadlock — but without decades of tooling to detect and recover from it.
+
+2. **Observability black hole:** Existing monitoring tools (Datadog, New Relic, etc.) were not built for agentic workflows where the same task may be executed differently every run. Teams are flying blind.
+
+3. **Rollback impossibility:** Unlike conventional software, you can't just roll back an agentic action. If an agent sent an email, deleted a record, or posted to an API — it happened. There is no undo.
+
+4. **Prompt injection at scale:** In multi-agent pipelines, a single compromised prompt can cascade through the entire workflow. The blast radius of a prompt injection attack is proportional to the breadth of agent tool access.
+
+5. **Cost unpredictability:** Multi-agent workflows have non-linear token consumption. A seemingly simple orchestration task can balloon to 50-100x the expected token count through sub-agent loops, retries, and error recovery.
+
+**The enterprise visibility data (March 2026):**
+- Only **24.4% of organisations** have full visibility into AI agent communications
+- Over **50% run agentic AI with zero security logging**
+- **Gartner:** 40% of agentic AI projects will fail by 2027 due to these exact challenges
+
+**Why this matters now:** The rush to deploy AI agents in 2025–2026 has outpaced the maturity of the infrastructure needed to run them safely. Teams are discovering production failures that cannot be reproduced in development, leading to a generation of "zombie agents" — running in production with unknown failure modes.
+
+**Sources:** MachineLearningMastery.com, IdeaForge Studios, DEV Community, Gartner (via enterprise reports) — March 2026
+
+---
 
 ### 🔴 "Claudy Day" — 3 Chained Claude.ai Vulnerabilities Enable Silent Agent Hijacking — March 18, 2026
 

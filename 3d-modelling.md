@@ -1,11 +1,12 @@
 # 3d-modelling — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0 | 🟠 Major | Autodesk cuts ~1,000 jobs (7% global workforce) in January 2026 amid AI restructuring — follows 1,350 cuts in 2025; Salesforce also cuts ~1,000; industry-wide AI-driven workforce compression accelerating | Autodesk | Active (January 2026) |
 | 1 | 🟠 Major | Autodesk enters generative AI 3D — launches with commercial use limitations + Objaverse training data copyright concerns; studios questioning legitimacy of outputs | Autodesk (new gen AI feature) | Active (March 16, 2026) |
 | 2 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require 2–4 hours of manual cleanup per asset | All AI 3D tools | Ongoing |
 | 3 | 🟠 Major | Meshy loses structural details (weapons, extremities) during generation — Tripo more reliable but both remain imperfect | Meshy / Tripo | Ongoing |
@@ -17,6 +18,21 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🟠 Autodesk Cuts ~1,000 Jobs in AI Restructuring Wave — January 2026
+
+**What happened:** In January 2026, Autodesk reduced its global workforce by approximately **7%** (~1,000 employees), following a similar cut of 1,350 employees (~9%) in 2025. The stated rationale is a strategic focus on AI and cloud computing — the company is replacing human roles with AI-powered tooling.
+
+**Why this matters for the 3D/design industry:**
+- Autodesk makes the industry-standard 3D tooling used across architecture, film, games, engineering, and manufacturing: Maya, 3ds Max, AutoCAD, Revit, Arnold, MotionBuilder, Mudbox
+- The layoffs signal that even Autodesk — which sells tools to creative professionals — is now treating those professionals as redundant overhead
+- Simultaneously, Autodesk is entering the *generative AI* space (see below), competing with the workflows of the users it just displaced
+
+**Scale in context:** Per Network World, tech sector layoffs surpassed 45,000 in early 2026. Per tech-insider.org, the 2026 total has now exceeded 150,000 across the tech sector. Autodesk's cuts are part of this structural shift, not an isolated business problem.
+
+**Sources:** Wikipedia/Autodesk, Network World, TechTimes — March 2026
+
+---
 
 ### 🟠 Meshy vs. Tripo — Structural Loss vs. Limited Polygons — March 2026
 

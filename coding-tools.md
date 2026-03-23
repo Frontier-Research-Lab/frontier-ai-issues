@@ -1,12 +1,12 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 0a | 🔴 Critical | Cursor caught reselling Chinese Kimi K2.5 as in-house "Composer 2" — developer exposes model ID in API response; Cursor admits while citing "legal obligation not to disclose"; geopolitical + trust fallout (March 19, 2026) | Cursor / Kimi K2.5 | Active (March 19, 2026) |
+| 0a | 🔴 Critical | Cursor/Kimi K2.5 controversy deepens — Geeky Gadgets (March 23): Cursor failed to provide attribution required by Kimi K2.5's open-source license, potentially violating license terms; Elon Musk publicly confirmed "Yeah, it's Kimi 2.5"; Fireworks AI CEO says Cursor was "compliant from day one" via their platform; community: "Cursor is becoming a model routing layer, not an IDE" | Cursor / Kimi K2.5 (Moonshot AI) | Active (March 19–23, 2026) |
 | 0b | 🔴 Critical | Microsoft CVE-2026-26133: cross-prompt injection in Copilot email + Teams summarisation lets attackers shape AI output silently — no attachment needed; patched March 11, 2026 | Microsoft 365 Copilot | Patched (March 11, 2026) |
 | 0c | 🔴 Critical | "Reprompt" attack chains 3 techniques to turn Copilot Personal into a single-click data exfiltration channel — disclosed early 2026 | Microsoft Copilot Personal | Active (early 2026) |
 | 1 | 🔴 Critical | AI coding tools fail 1 in 4 structured tasks — peer-reviewed study published March 17, 2026; AI co-authored code has 2.74x more security vulnerabilities | All AI coding tools | Active (March 17, 2026) |
@@ -25,6 +25,16 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 Cursor/Kimi K2.5 Controversy — License Violation Claims + Elon Musk Pile-On — Updated March 23, 2026
+
+**March 23 Update:** Geeky Gadgets reports Cursor failed to provide the **attribution required by Kimi K2.5's open-source license**, potentially placing it in breach of the model's terms. The Fireworks AI CEO (Lin Qiao) countered that Cursor accessed Kimi K2.5 via Fireworks' platform and was "compliant from day one." The conflict between these statements remains unresolved.
+
+Community reaction crystallised into a damaging meme: *"Cursor is becoming a model routing layer, not an IDE. They pick the cheapest model that clears a quality bar per task, wrap it in their UX, and pocket the margin."* (Business Insider Africa, March 23)
+
+**Elon Musk's contribution:** Musk publicly confirmed the finding with just four words — "Yeah, it's Kimi 2.5" — amplifying the story to millions of followers.
+
+---
 
 ### 🔴 Cursor Caught Reselling Kimi K2.5 (Chinese AI) as "Composer 2" — March 19, 2026
 

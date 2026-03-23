@@ -1,11 +1,15 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0aa | 🔴 Critical | Claude Outage #11 — March 23: 2,140+ Downdetector reports at 9:29AM PT; login and logout functions disrupted; status page falsely showed "All Systems Operational"; 11th major incident in ~3 weeks | Claude (Anthropic) | Active (March 23, 2026) |
+| 0ab | 🔴 Critical | ChatGPT Outage March 23 — hundreds+ Downdetector reports peaking at 7:58AM ET; German tracking confirmed complaints at 15:34 CET; separate confirmed bug locks ChatGPT Business workspace owners out with blank white screen, no reactivation button — no failed payment | ChatGPT / OpenAI | Active (March 23, 2026) |
+| 0ac | 🟠 Major | Claude migration surge — Forbes: 1,487% increase in Claude sessions in March alone, driven by QuitGPT boycott and political positioning; AI loyalty fragility on full display (March 23, 2026) | ChatGPT (OpenAI) / Claude (Anthropic) | Active (March 23, 2026) |
+| 0ad | 🟠 Major | AI chatbots increasingly political — Salon analysis March 23: Anthropic vs OpenAI/Palantir MAGA alignment; Anthropic dropped commitment to not deploy models beyond its ability to control (late Feb, largely overshadowed); all major AI labs now positioning around Iran war | Anthropic, OpenAI, Palantir | Active (March 23, 2026) |
 | 0a | 🔴 Critical | "Claudy Day" — 3 chained Claude.ai vulnerabilities enable silent prompt injection + full data exfiltration with zero user interaction; works in default config; primary flaw patched but 2 remain (March 18, 2026) | Claude.ai (Anthropic) | Partially Patched (March 2026) |
 | 0b | 🔴 Critical | OpenAI launches ChatGPT "Adult Mode" ignoring unanimous advisor warning — internal council called it "sexy suicide coach"; age verification misclassifies 12% of users; millions of teens at risk of access | ChatGPT (OpenAI) | Active (March 16, 2026) |
 | 0c | 🔴 Critical | Cursor caught reselling Kimi K2.5 (Chinese AI) as "Composer 2" at 10x markup while claiming it was their own in-house model — developer exposes model ID; Cursor admits, blames legal obligation not to disclose third-party models (March 19, 2026) | Cursor / Kimi K2.5 (Moonshot AI) | Active (March 19, 2026) |
@@ -38,6 +42,64 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 Claude Outage #11 + ChatGPT Outage — Both Major Platforms Down Same Day — March 23, 2026
+
+**What happened:** A remarkable double-outage hit both of the two dominant AI assistants on the same morning (March 23, 2026), underlining the reliability crisis now endemic to the sector.
+
+**Claude Outage #11:**
+- Over **2,140 users** had reported problems to Downdetector as of 9:29AM PT
+- Primary complaint: **login and logout functions disrupted** — users unable to sign in or sign out
+- Anthropic's status page showed **"All Systems Operational"** throughout — a particularly painful detail given this is Claude's 11th major reliability incident in approximately three weeks
+- Android Authority coverage noted over 1,000 complaints active; GV Wire confirmed the 2,140 figure independently
+
+**ChatGPT Outage:**
+- Downdetector spike peaked at approximately **7:58AM Eastern Time** on March 23
+- German monitoring site (wrel.de) confirmed ChatGPT issues as of 15:34 CET
+- Separate confirmed bug reported day prior: **ChatGPT Business workspace owners are being locked out** with a completely blank white page at `chatgpt.com/workspace/deactivated` — no failed payment, no March invoice generated, no reactivation button available. OpenAI's developer community confirmed this as a bug (ticket posted March 22)
+
+**Scale and significance:** With both Claude and ChatGPT down simultaneously, users who had not built multi-model failover were completely without AI assistance. This is the clearest evidence yet that the sector's reliability infrastructure is not keeping pace with enterprise adoption.
+
+**Community reaction:** A Forbes article published March 23 noted Claude experienced a **1,487% surge in sessions in March** — meaning Anthropic's servers are handling massively increased load from QuitGPT migrants precisely at the time they are least able to absorb it.
+
+**Sources:** GV Wire, Android Authority, DesignTAXI/Downdetector, wrel.de, OpenAI Developer Community — March 23, 2026
+
+---
+
+### 🟠 AI Chatbots Increasingly Politicised — Anthropic "Liberal" vs OpenAI/Palantir "MAGA" — March 23, 2026
+
+**What happened:** Salon published an in-depth analysis (March 23, 2026) examining how the major AI companies have become openly politically aligned — creating trust problems on both sides of the divide and raising questions about AI serving as neutral infrastructure.
+
+**The fault lines:**
+- **Anthropic** is being positioned as the "liberal" option — refusing autonomous killer weapons and mass surveillance uses; suing the Trump administration; Claude AI itself told Sen. Brian Schatz that there's "an inherent conflict of interest" between tech companies extracting user data for profit and serving user interests
+- **OpenAI and Palantir** have cut new Pentagon and defence contracts since the Iran war began Feb 28; OpenAI's alignment with Trump administration is deepening
+- Anthropic issued a statement saying it "has much more in common with the Department of War than we have differences" — an attempt to make peace but widely seen as awkward
+
+**The hidden issue Salon flags:** In late February 2026, Anthropic **quietly dropped its long-standing commitment not to deploy a model that outstrips its ability to control it**. This change — a significant safety policy rollback — was largely overshadowed by the Pentagon conflict.
+
+**Why this matters for users:** AI tools are now political actors. Depending on which you use, you are implicitly aligned with a political position. Enterprise procurement teams are now having to account for political risk alongside technical specifications. Users are making AI choices based on values, not features.
+
+**Sources:** Salon, The Hill, Wikipedia/Claude article, Anthropic — March 23, 2026
+
+---
+
+### 🟠 Claude Migration Surge: 1,487% Increase in Sessions — ChatGPT User Loyalty Shattered — March 23, 2026
+
+**What happened:** Forbes published research (March 23, 2026) documenting a **1,487% surge in Claude sessions in March 2026 alone** — the statistical fingerprint of the QuitGPT movement's real-world impact.
+
+**Key data points:**
+- Claude sessions up 1,487% month-on-month in March 2026
+- The migration tracks directly to OpenAI's Pentagon military AI deal announcement
+- Forbes framing: this is not just a political boycott — it is a **permanent realignment** of the AI market
+
+**What this means for the industry:** The fact that users can and will switch AI providers at scale — over politics, ethics, or trust — has destroyed the assumption that AI tool moats are deep. Enterprise IT leaders who have not built multi-provider strategies are now exposed to:
+1. Political shifts forcing user migration
+2. Reliability crises (two outages today) with no failover
+3. Quality degradation driving users to competitors
+
+**Sources:** Forbes (Rachel Wells), March 23, 2026
+
+---
 
 ### 🔴 "Claudy Day" — 3 Chained Claude.ai Vulnerabilities Enable Silent Data Exfiltration — March 18, 2026
 

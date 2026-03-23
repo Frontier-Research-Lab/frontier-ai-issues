@@ -1,12 +1,12 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | AI-driven tech layoffs hit 51,686 jobs (102 events) in 2026 so far — 9,200+ directly attributed to AI automation; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (March 17, 2026) |
+| 1 | 🔴 Critical | AI-driven tech layoffs hit 150,000+ in 2026 so far (per tech-insider.org tracker); 45,000+ in just the first months per Network World; Autodesk, Salesforce each ~1,000 jobs; 55% of managers expect more cuts; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (Updated March 23, 2026) |
 | 2 | 🟠 Major | Microsoft bans "Microslop" word on Copilot AI Discord — censoring criticism of its own product; backlash + "AI slop" weaponisation in Olympics ceremony widely mocked | Microsoft Copilot AI | Active (March 2026) |
 | 3 | 🟠 Major | 2026 Winter Olympics AI-generated animation controversy — AI-generated Sabrina Impacciatore skating/skiing across historic host cities criticised as "AI slop" replacing human animators | AI animation tools | Active (February–March 2026) |
 | 4 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |

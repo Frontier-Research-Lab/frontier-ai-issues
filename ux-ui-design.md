@@ -1,11 +1,12 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0x | 🟠 Major | Canva global outage March 22 — thousands affected worldwide; photo and video editing blocked; Downdetector spike at 5:40PM ET; global media coverage (Koha.net, deultimominuto); brief residual loading issues reported March 23 (now resolved) | Canva | Resolved (March 22–23, 2026) |
 | 0 | 🔴 Critical | Google Stitch "vibe design" update wipes 12% off Figma stock in two days — March 18 platform overhaul adds Voice Canvas + natural-language UI generation; Figma now down 35% YTD and ~85% from IPO peak; CNBC confirms "Google launched an AI-design platform, pushing Figma shares down 12% in two days" | Figma / Google Stitch | Active (March 18–20, 2026) |
 | 1 | 🔴 Critical | Figma AI credits enforcement NOW LIVE (March 18) — users hitting walls mid-project today; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Active (March 18, 2026) |
 | 2 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
@@ -19,6 +20,25 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🟠 Canva Global Outage — Thousands Blocked from Photo and Video Editing — March 22–23, 2026
+
+**What happened:** Canva experienced a significant global outage on March 22, 2026, blocking users worldwide from accessing photo and video editing features. The platform is used by hundreds of millions of users — students, small businesses, marketers, educators — many of whom have come to depend on it as their primary creative tool.
+
+**Timeline:**
+- **March 22:** Downdetector showed a visible spike in reports starting at approximately **5:40PM Eastern Time**; multiple social media reports confirmed editing, project access, and platform loading failures
+- **March 23 morning:** Brief residual loading issues reported by some users; third-party monitors (Downforeveryoneorjustme.com, IsItDownRightNow.com) confirmed Canva was reachable by mid-day with low response times
+- The most recent detected full outage lasted approximately one hour per Downforeveryoneorjustme.com
+
+**Affected functionality:** Users reported being unable to edit photos, videos, and projects. Website and app both showed problems. Multiple international outlets covered the outage (Koha.net in Albania, DeUltimoMinuto in Mexico/Spanish-language media).
+
+**Context:** This is part of a broader reliability pattern for creative AI tools this week — Canva's outage, Claude Outage #11, and ChatGPT downtime all occurred within a 24-hour window (March 22–23). Canva has also been reported as a secondary front in the AI design competition following Google Stitch's expansion (r/UXDesign: "companies like Canva with AI tools eat Figma's place in creating marketing materials").
+
+**Official response:** No public statement from Canva on root cause.
+
+**Sources:** DesignTAXI Community, Downdetector, IBTimes Australia, Koha.net, DeUltimoMinuto.net — March 22–23, 2026
+
+---
 
 ### 🔴 Google Stitch "Vibe Design" Update Triggers Figma Stock Crash — March 18–19, 2026 (BREAKING)
 

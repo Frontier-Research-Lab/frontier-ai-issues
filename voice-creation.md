@@ -1,11 +1,12 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0 | 🔴 Critical | AI voice fraud now mainstream consumer threat — AARP March 19: deepfake voice calls combined with cloned faces; "family emergency" scam calls convincing elderly victims to send money using real-time voice clone of child's voice; criminals can clone from just 10-second social media clips | AI voice tools (misused) | Active (March 19, 2026) |
 | 1 | 🔴 Critical | UN Global Wake-Up Call — deepfakes and voice cloning "weaponised" by organised crime networks in Southeast Asia for fraud, money laundering, malware | AI voice/deepfake tools (misused) | Active (March 17, 2026) |
 | 2 | 🔴 Critical | Deepfake attacks rise 900% — women most targeted; India cybercrime involving women up 60% in two years (50K→80K complaints) | AI voice/image tools (misused) | Active |
 | 3 | 🔴 Critical | 1 in 4 Americans received deepfake voice call in past 12 months — AI voice weaponisation has gone mainstream | AI voice tools (misused) | Active |
@@ -23,6 +24,28 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 AI Voice Fraud Now a Mainstream Consumer Threat — AARP + SC Media Escalation Reports — March 19–23, 2026
+
+**What happened:** Multiple major consumer and security publications published escalation warnings in the week of March 16–23, 2026, documenting a significant acceleration in AI voice fraud targeting ordinary consumers — not just corporate executives.
+
+**AARP (March 19, 2026) — "AI-Powered Scams Make Fraud Even Harder to Spot":**
+The AARP — which tracks fraud against vulnerable populations — published a detailed consumer warning describing how AI voice fraud has moved beyond executive impersonation into **mass-market family scam calls**. The documented pattern:
+- Criminals harvest 10 seconds of audio from a child's social media videos
+- They generate a real-time clone of the child's voice
+- They call the parent claiming an emergency: "Hey mom, this is [name], please don't be worried — my leg is screwed up, I need your help — send the payment"
+- The voice matches the child's actual cadence, pitch, and speech patterns
+- Victims — particularly elderly — have sent thousands of dollars before realising
+
+**SC Media (March 16, 2026):** Reported "significant increase in deepfake voice fraud" with Americans reporting frequent spam calls that mimic familiar voices. Attributed the acceleration to the availability of cheap, consumer-grade voice cloning tools.
+
+**AICerts (March 23, 2026):** "Con artists now deploy synthetic speech in coordinated phishing campaigns that span text, calls, and video." Citing FBI's 2025 advisory, the article warned enterprises to strengthen verification workflows as attacks escalate from phone-only to multi-channel (SMS + call + video confirmation).
+
+**The core infrastructure problem:** There is no reliable real-time voice authentication layer for consumer phone calls. Carriers do not authenticate voice identity. Banks' out-of-band verification methods are being circumvented by parallel deepfake calls.
+
+**Sources:** AARP, SC Media, AICerts, RIT Cybersecurity blog — March 19–23, 2026
+
+---
 
 ### 🔴 1 in 4 Americans Received Deepfake Voice Call in Past 12 Months — March 14, 2026 (TODAY)
 

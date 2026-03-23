@@ -1,11 +1,13 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-23_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0a | 🔴 Critical | Runway + NVIDIA demo real-time AI video generation (100ms time-to-first-frame) — experts warn this makes deepfake scam calls indistinguishable from reality; real-time AI avatar can react live to a victim on a video call (PetaPixel, March 23, 2026) | Runway AI / NVIDIA | Active — misuse risk (March 23, 2026) |
+| 0b | 🟠 Major | Chinese AI video quality leap — Kuaishou's monetizable AI video raises global deepfake + copyright risks; Japan Times: "Chinese AI videos used to look fake. Now they look like money." (March 20, 2026) | Kuaishou / Chinese AI video tools | Active (March 20, 2026) |
 | 1 | 🔴 Critical | US Senators Blackburn + Welch demand ByteDance "immediately shut down" Seedance 2.0 — "most glaring copyright infringement from ByteDance to date"; MPA CEO also demands immediate shutdown (March 17); ByteDance had already suspended global launch (March 14) after Disney, Paramount, Netflix & Warner Bros C&D letters | Seedance 2.0 (ByteDance) | **Senators demanding shutdown** (March 17, 2026) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
 | 3 | 🔴 Critical | Sora 1 forcibly retired March 13 — all historical content deleted; Sora 2 plagued by "stuck at 99%" bugs, "under heavy load" errors, new accounts having generation disabled; free access killed | Sora (OpenAI) | Active (ongoing as of March 18) |
@@ -18,6 +20,40 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 Runway + NVIDIA Real-Time AI Video: A Breakthrough That Could Supercharge Deepfake Scams — March 23, 2026
+
+**What happened:** Runway demonstrated a new unnamed AI video model at NVIDIA's GTC conference (March 18, revealed publicly March 23) capable of generating HD video in **real time — with a time-to-first-frame under 100 milliseconds**. The model was trained on NVIDIA's new Vera Rubin hardware and can react, respond, and generate continuously as a live AI avatar.
+
+**The capability:** A human operator can control an AI-generated avatar in real time. The avatar looks realistic, reacts immediately, and speaks. This is not a pre-rendered deepfake — it is a **live, interactive AI persona** that can be directed in real time by a human behind a screen.
+
+**Why this is alarming:**
+- Currently, deepfake video scams require pre-rendered clips or near-real-time generation with noticeable lag. This removes both of those tells.
+- Fraudsters already use deepfake video calls to impersonate bank officials, family members, and executives in scam operations (see voice-creation.md re: WIRED "face model" story)
+- With 100ms generation, an AI avatar can respond naturally to a live conversation — nodding, reacting, answering questions — **becoming indistinguishable from a real video call**
+- WIRED noted in the same week that human workers are already being recruited to sit in front of cameras operating deepfake personas to scam victims; this technology eliminates even the need for a human operator
+
+**The misuse scenario:** A scammer in a pig-butchering or romance fraud operation could conduct an entire live video call as a cloned version of a known contact, bank employee, or romantic interest — with no lag, no pre-recorded clips, and no tells.
+
+**PetaPixel (March 23):** "AI, along with misinformation and bad actors, is already undermining what people see online. But AI video in real time is an even bigger step as the technology could be used to scam people in the real world as someone controlling an AI avatar reacts and responds to a real person."
+
+**Official position:** Runway has not published safety frameworks for this technology. No mention of watermarking or detection tools in the announcement.
+
+**Sources:** PetaPixel, Runway Twitter/X, NVIDIA GTC, Reuters — March 18–23, 2026
+
+---
+
+### 🟠 Chinese AI Video Goes Monetizable — Deepfake + Copyright Risks Scale Globally — March 20, 2026
+
+**What happened:** Japan Times analysis (March 20, 2026) documented how Chinese AI video tools — particularly Kuaishou's platform — have crossed a quality threshold that makes them "monetizable." The piece examines how Chinese AI video previously looked obviously artificial; it now looks convincingly real.
+
+**The dual risk:**
+1. **Copyright:** Kuaishou and similar tools are generating content that incorporates copyrighted characters, styles, and IP without licensing — creating a copyright enforcement crisis that mirrors Seedance 2.0 but at lower profile
+2. **Deepfakes:** Higher quality = harder to detect. The same quality improvement that makes these tools useful for legitimate creators makes them more dangerous as fraud and disinformation weapons
+
+**Sources:** Japan Times — March 20, 2026
+
+---
 
 ### 🔴 Seedance 2.0 — US Senators Demand Immediate Shutdown + Hollywood Pressure — UPDATED March 17, 2026
 
