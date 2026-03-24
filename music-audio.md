@@ -1,11 +1,12 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-24_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0a | 🔴 Critical | NEW CLASS ACTION — Independent musicians sue Suno, Udio AND Google over voiceprint extraction under Illinois BIPA — biometric privacy claims stack on top of copyright infringement and CMI removal; Google accused of training Lyria 3 on YouTube without license; no prior AI copyright suit has included biometric privacy theory (filed ~March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
 | 2 | 🔴 Critical | GEMA v. Suno — German court heard landmark copyright case March 9; ruling scheduled June 12, 2026; Hamburg court reached opposite conclusion same paragraph | Suno | Active (ruling due June 12) |
 | 2a | 🔴 Critical | Suno indie artist class action oral arguments heard March 20 — Tony Justice et al class action dismissal motion argued; ruling pending; could set precedent for independent artists' standing to sue; Suno still has no API and credits expire monthly post-Warner deal; Suno hits 2M subs + $300M ARR while lawsuits mount | Suno | Argued March 20 — ruling pending |
@@ -24,6 +25,28 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 NEW: Musicians File Class Actions Against Suno, Udio & Google Over Voiceprint Extraction — March 24, 2026
+
+**What happened:** A group of independent musicians filed proposed class-action lawsuits against **Suno Inc.**, **Uncharted Labs Inc.'s Udio**, and **Google LLC**, alleging all three companies scraped copyrighted recordings to train their AI music generators *and* — in a significant departure from previous suits — **illicitly extracted and stored the plaintiffs' voiceprints without consent**.
+
+**The three separate complaints each assert:**
+1. **Copyright infringement** on both sound recordings and musical compositions
+2. **Removal of copyright management information (CMI)** — stripping metadata that identifies rights holders
+3. **Circumvention of technological access controls** (DMCA §1201)
+4. **Biometric privacy violations** under Illinois' Biometric Information Privacy Act (BIPA)
+
+**The Google angle:** The Lyria 3 suit alleges Google mined its own **YouTube catalog** to train the model — despite those recordings not being licensed for AI training purposes. Google has previously stated it trained Lyria 3 on "music it had the right to use under its terms of service, partner agreements, and applicable law" — a position the plaintiffs directly contest.
+
+**Why the biometric claim is a legal breakthrough:** No prior AI copyright suit has included a biometric privacy theory. The plaintiffs argue each company extracted their **voiceprints** — biometric identifiers unique to each individual — from recorded performances, then collected and stored those voiceprints without consent under BIPA's strict requirements. BIPA allows **$1,000–$5,000 per violation**, with no cap on class-size damages. This could dwarf copyright damages in scale.
+
+**Who's affected:** Independent musicians who are not covered by the major label settlements. The major label deals (Warner, Universal, Merlin with Udio; WMG with Suno) explicitly excluded independent artists from restitution. These suits represent the indie community's attempt to seek their own redress.
+
+**Scale:** Hundreds of thousands of independent artists have had recordings scraped; each voice used without consent is a potential BIPA claim.
+
+**Source:** Bloomberg Law (IP), ID Tech Wire — March 24, 2026
+
+---
 
 ### 🟠 Udio Settles With Warner, Universal & Merlin — "Walled Garden" Controversy — March 2026
 

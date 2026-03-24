@@ -1,11 +1,12 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-24_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0new | 🔴 Critical | AI API pricing implosion — 114 of 483 tracked models changed prices in March 2026 (24% of all models in one month); OpenAI head of ChatGPT calls current pricing "accidental"; leaked $100/month "Pro Lite" tier signals consumer price hikes; IPO prep ending era of subsidised AI (March 19, 2026) | OpenAI, Anthropic, industry-wide | Active (March 2026) |
 | 0aa | 🔴 Critical | Claude Outage #11 — March 23: 2,140+ Downdetector reports at 9:29AM PT; login and logout functions disrupted; status page falsely showed "All Systems Operational"; 11th major incident in ~3 weeks | Claude (Anthropic) | Active (March 23, 2026) |
 | 0ab | 🔴 Critical | ChatGPT Outage March 23 — hundreds+ Downdetector reports peaking at 7:58AM ET; German tracking confirmed complaints at 15:34 CET; separate confirmed bug locks ChatGPT Business workspace owners out with blank white screen, no reactivation button — no failed payment | ChatGPT / OpenAI | Active (March 23, 2026) |
 | 0ac | 🟠 Major | Claude migration surge — Forbes: 1,487% increase in Claude sessions in March alone, driven by QuitGPT boycott and political positioning; AI loyalty fragility on full display (March 23, 2026) | ChatGPT (OpenAI) / Claude (Anthropic) | Active (March 23, 2026) |
@@ -42,6 +43,27 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🔴 AI API Pricing Implosion — 114 Models Changed Prices in March 2026 Alone — March 19–24, 2026
+
+**What happened:** March 2026 has witnessed the most significant pricing upheaval in the AI industry's history. According to PricePerToken.com data tracked by CostLayer, **114 out of 483 monitored AI models changed their prices in March 2026** — nearly 24% of all tracked models in a single month. The pattern suggests coordinated preparation for public market scrutiny.
+
+**The key signals:**
+- **OpenAI's head of ChatGPT publicly called current pricing "accidental"** — framing current prices as unsustainable subsidies rather than deliberate commercial decisions
+- **A leaked "Pro Lite" tier at $100/month** suggests OpenAI is preparing a consumer price tier significantly above its current $20/month flagship
+- **OpenAI is burning ~$14 billion annually** (projected 2026 net loss), spending $22B vs ~$13B revenue — the subsidy era must end
+- **Both OpenAI and Anthropic are preparing for IPOs** — investor pressure demands a credible path to profitability, which requires raising API and consumer prices
+
+**Who's hit hardest:**
+- Developers who built products on "current pricing" will face margin compression or forced price increases
+- Small startups using OpenAI APIs at scale are most exposed — many assumed prices would continue declining (the historical pattern) not spike
+- Enterprise teams with fixed AI budgets are renegotiating contracts mid-year
+
+**The broader context:** For 3 years, AI labs ran below-cost pricing to win developer adoption. That era is ending simultaneously across the industry. The 24% model price change rate in a single month is 8–12x the normal monthly baseline, confirming this is a coordinated re-pricing moment, not noise.
+
+**Source:** CostLayer / PricePerToken.com, March 19, 2026
+
+---
 
 ### 🔴 Claude Outage #11 + ChatGPT Outage — Both Major Platforms Down Same Day — March 23, 2026
 

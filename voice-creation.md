@@ -1,11 +1,12 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-24_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0new | 🔴 Critical | BIPA voiceprint class action — indie musicians sue Suno, Udio, Google Lyria 3 for extracting and storing voiceprints from recordings without consent; Illinois Biometric Information Privacy Act claims stack on top of copyright infringement; $1,000–$5,000 per violation with unlimited class size — could result in existential damages for voice training platforms (filed March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |
 | 0 | 🔴 Critical | AI voice fraud now mainstream consumer threat — AARP March 19: deepfake voice calls combined with cloned faces; "family emergency" scam calls convincing elderly victims to send money using real-time voice clone of child's voice; criminals can clone from just 10-second social media clips | AI voice tools (misused) | Active (March 19, 2026) |
 | 1 | 🔴 Critical | UN Global Wake-Up Call — deepfakes and voice cloning "weaponised" by organised crime networks in Southeast Asia for fraud, money laundering, malware | AI voice/deepfake tools (misused) | Active (March 17, 2026) |
 | 2 | 🔴 Critical | Deepfake attacks rise 900% — women most targeted; India cybercrime involving women up 60% in two years (50K→80K complaints) | AI voice/image tools (misused) | Active |
@@ -24,6 +25,30 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🔴 NEW: Musicians Sue Suno, Udio & Google for Voiceprint Extraction — BIPA Class Actions Filed — March 24, 2026
+
+**What happened:** A group of independent musicians filed proposed class-action lawsuits against **Suno**, **Udio**, and **Google** (separately) alleging that AI music training didn't just infringe copyright — it illegally **extracted and stored unique voiceprints** as biometric identifiers, without consent, under Illinois' **Biometric Information Privacy Act (BIPA)**.
+
+**Why this matters for voice creation tools:** This is the first lawsuit to explicitly frame AI training as **biometric data harvesting**. The argument:
+
+1. Every voice has a unique biometric signature — a **voiceprint** — as distinct as a fingerprint
+2. When Suno/Udio/Google scraped recordings to train AI music models, they extracted these voiceprints
+3. Under BIPA, collecting biometric identifiers without written consent and a published retention policy is unlawful
+4. BIPA provides **$1,000 per negligent violation** and **$5,000 per intentional violation** — with **no damages cap**
+
+**The Google-specific angle:** The Google/Lyria 3 complaint alleges Google mined its YouTube catalog — despite YouTube recordings not being licensed for AI training. Google's terms of service grant "hosting and distribution" rights, which plaintiffs argue does not cover biometric data extraction for AI training.
+
+**What makes this legally novel:** Prior AI lawsuits focused on copyright (protecting the work). This suit adds a **privacy-based theory** (protecting the person behind the voice). If successful, it establishes that any AI system trained on voice recordings must:
+- Get written consent from every performer whose voice was used
+- Publish a biometric data retention and destruction schedule
+- Not profit from extracted voiceprints
+
+**Implications for ElevenLabs, voice cloning tools:** Although the suit targets music-specific platforms, the legal theory applies to any service that trains on human voice recordings — including general-purpose voice cloning tools. The ElevenLabs lawsuits already underway (Vacker & Boyett) could be joined or expanded using the same BIPA theory.
+
+**Source:** Bloomberg Law (IP Law section), ID Tech Wire — March 24, 2026
+
+---
 
 ### 🔴 AI Voice Fraud Now a Mainstream Consumer Threat — AARP + SC Media Escalation Reports — March 19–23, 2026
 

@@ -1,11 +1,12 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-24_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0new | 🟠 Major | Sora app is "failing" — OpenAI embedding Sora into ChatGPT to rescue it; Android app code (v1.2026.076) confirms integration underway; standalone Sora app never gained traction, no free tier, plagued by bugs since Sora 1 shutdown (March 19, 2026) | Sora (OpenAI) | Active (March 19, 2026) |
 | 0a | 🔴 Critical | Runway + NVIDIA demo real-time AI video generation (100ms time-to-first-frame) — experts warn this makes deepfake scam calls indistinguishable from reality; real-time AI avatar can react live to a victim on a video call (PetaPixel, March 23, 2026) | Runway AI / NVIDIA | Active — misuse risk (March 23, 2026) |
 | 0b | 🟠 Major | Chinese AI video quality leap — Kuaishou's monetizable AI video raises global deepfake + copyright risks; Japan Times: "Chinese AI videos used to look fake. Now they look like money." (March 20, 2026) | Kuaishou / Chinese AI video tools | Active (March 20, 2026) |
 | 1 | 🔴 Critical | US Senators Blackburn + Welch demand ByteDance "immediately shut down" Seedance 2.0 — "most glaring copyright infringement from ByteDance to date"; MPA CEO also demands immediate shutdown (March 17); ByteDance had already suspended global launch (March 14) after Disney, Paramount, Netflix & Warner Bros C&D letters | Seedance 2.0 (ByteDance) | **Senators demanding shutdown** (March 17, 2026) |
@@ -20,6 +21,25 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🟠 Sora App Is Failing — OpenAI Plans to Fold Video Generation Into ChatGPT — March 19, 2026
+
+**What happened:** OpenAI is planning to absorb its standalone **Sora** video generation app into **ChatGPT**, according to code evidence found in ChatGPT's Android app (version 1.2026.076) by Android Authority. The integration would expose Sora's capabilities to ChatGPT's 400+ million active users — and effectively marks the failure of Sora as a standalone consumer product.
+
+**Why Sora failed as a standalone:**
+- **No free tier** (as of January 2026) — while competitors like Runway offer free credits, Sora required a paid subscription from day one
+- **Sora 1 forcibly retired on March 13** — all historical content deleted with minimal warning; existing subscribers lost access to their generated content
+- **Sora 2 bugs plagued from launch** — "stuck at 99%" generation failures, "under heavy load" queuing errors, API errors for advertised 15/20-second durations
+- **ChatGPT "Cameo" trademark blocked by court injunction** — a planned Sora-within-ChatGPT feature was legally challenged by Hollywood studios
+- **Quality ceiling** — Kling 3.0 and Google Veo 3 overtook Sora 2 on cinematic realism benchmarks despite Sora's "flagship" positioning
+
+**The absorption strategy:** Rather than compete as a standalone video product, OpenAI is pivoting to bundle Sora's generation into ChatGPT's multimodal interface — similar to how DALL-E image generation became an implicit ChatGPT feature rather than a product in its own right. The move follows OpenAI's stated strategy of centralising all its capabilities within the ChatGPT umbrella to justify the subscription price.
+
+**What this means for video creators:** Sora-as-a-product is effectively dead. The professional video generation market (Runway, Kling, Veo 3) remains competitive — but Sora won't be a serious contender as a standalone tool. Creators who built workflows around the Sora API will face disruption.
+
+**Source:** Android Authority code discovery, The Information, AI.cc — March 19, 2026
+
+---
 
 ### 🔴 Runway + NVIDIA Real-Time AI Video: A Breakthrough That Could Supercharge Deepfake Scams — March 23, 2026
 
