@@ -1,14 +1,16 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-24_
+_Last updated: 2026-03-25_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0today_a | 🔴 Critical | Claude Outage #12 — March 25: partial outage confirmed TODAY; Downdetector spike this morning; Anthropic status page shows "Elevated errors on Claude Sonnet 4.6"; login errors and API disruptions reported globally; 12th major incident in ~3 weeks (March 25, 2026) | Claude (Anthropic) | Active (March 25, 2026) |
+| 0today_b | 🔴 Critical | Anthropic vs Pentagon — federal court hearing TODAY (March 24–25); Anthropic suing DOD after Pete Hegseth labelled Claude a "supply chain risk"; Pentagon filed 40-page brief calling Anthropic "unacceptable national security risk"; Microsoft + 37 AI researchers filed amicus briefs for Anthropic (The Guardian, March 24, 2026) | Claude (Anthropic) | Active court proceedings |
 | 0new | 🔴 Critical | AI API pricing implosion — 114 of 483 tracked models changed prices in March 2026 (24% of all models in one month); OpenAI head of ChatGPT calls current pricing "accidental"; leaked $100/month "Pro Lite" tier signals consumer price hikes; IPO prep ending era of subsidised AI (March 19, 2026) | OpenAI, Anthropic, industry-wide | Active (March 2026) |
-| 0aa | 🔴 Critical | Claude Outage #11 — March 23: 2,140+ Downdetector reports at 9:29AM PT; login and logout functions disrupted; status page falsely showed "All Systems Operational"; 11th major incident in ~3 weeks | Claude (Anthropic) | Active (March 23, 2026) |
-| 0ab | 🔴 Critical | ChatGPT Outage March 23 — hundreds+ Downdetector reports peaking at 7:58AM ET; German tracking confirmed complaints at 15:34 CET; separate confirmed bug locks ChatGPT Business workspace owners out with blank white screen, no reactivation button — no failed payment | ChatGPT / OpenAI | Active (March 23, 2026) |
+| 0aa | 🔴 Critical | Claude Outage #11 — March 23: 2,140+ Downdetector reports at 9:29AM PT; login and logout functions disrupted; status page falsely showed "All Systems Operational"; 11th major incident in ~3 weeks | Claude (Anthropic) | Resolved (March 23, 2026) |
+| 0ab | 🔴 Critical | ChatGPT Outage March 23 — hundreds+ Downdetector reports peaking at 7:58AM ET; German tracking confirmed complaints at 15:34 CET; separate confirmed bug locks ChatGPT Business workspace owners out with blank white screen, no reactivation button — no failed payment | ChatGPT / OpenAI | Resolved (March 23, 2026) |
 | 0ac | 🟠 Major | Claude migration surge — Forbes: 1,487% increase in Claude sessions in March alone, driven by QuitGPT boycott and political positioning; AI loyalty fragility on full display (March 23, 2026) | ChatGPT (OpenAI) / Claude (Anthropic) | Active (March 23, 2026) |
 | 0ad | 🟠 Major | AI chatbots increasingly political — Salon analysis March 23: Anthropic vs OpenAI/Palantir MAGA alignment; Anthropic dropped commitment to not deploy models beyond its ability to control (late Feb, largely overshadowed); all major AI labs now positioning around Iran war | Anthropic, OpenAI, Palantir | Active (March 23, 2026) |
 | 0a | 🔴 Critical | "Claudy Day" — 3 chained Claude.ai vulnerabilities enable silent prompt injection + full data exfiltration with zero user interaction; works in default config; primary flaw patched but 2 remain (March 18, 2026) | Claude.ai (Anthropic) | Partially Patched (March 2026) |
@@ -43,6 +45,37 @@ _Last updated: 2026-03-24_
 ---
 
 ## Details
+
+### 🔴 Claude Outage #12 — Elevated Errors on Sonnet 4.6 — March 25, 2026
+
+**What happened:** Today (March 25, 2026), Claude experienced its **12th major service disruption** in approximately three weeks. Downdetector tracked a sharp spike in reports this morning (Eastern time), with users globally reporting login errors and API disruptions. Anthropic's status page confirmed: "Elevated errors on Claude Sonnet 4.6" and displayed "We are currently investigating this issue" — labelled a "partial outage."
+
+**Who's affected:** Claude users and API developers worldwide. Given the pattern of recent outages, enterprise customers relying on Claude for production workflows are increasingly exposed.
+
+**The 12-in-3-weeks pattern:** This is the 12th confirmed incident since early March, making Claude's reliability the dominant story of the month for enterprise AI users. The frequency raises serious questions about infrastructure scaling and capacity management at Anthropic, particularly during a period when Claude is experiencing a massive user surge (1,487% session increase cited by Forbes due to the QuitGPT movement).
+
+**Update:** Issue appears to have been partially resolved by the time of this report; residual instability may persist.
+
+**Sources:** Tom's Guide, USA Today FTW, Economic Times India, Piunika Web, Latestly — March 25, 2026
+
+---
+
+### 🔴 Anthropic vs Pentagon — Federal Court Hearing TODAY — March 24–25, 2026
+
+**What happened:** The first substantive hearing in **Anthropic's lawsuit against the US Department of Defense** took place on March 24, 2026. The case stems from Secretary of Defense Pete Hegseth's designation of Anthropic as a "supply chain risk" — a label that would effectively ban Claude from all Pentagon systems and cost Anthropic hundreds of millions in revenue.
+
+**Background:**
+- **Early March 2026:** Hegseth declares Anthropic a supply chain risk, explicitly banning Claude from DoD procurement
+- **March 9, 2026:** Anthropic files federal lawsuit against the Pentagon, alleging the designation is politically motivated, lacks legal basis, and will cause "irreparable harm"
+- **March 17, 2026:** Pentagon files 40-page brief calling Anthropic an "unacceptable national security risk" and argues Anthropic is "unlikely to succeed" on its First Amendment claims
+- **Amicus briefs:** Microsoft and 37 researchers from OpenAI and Google filed amicus briefs supporting Anthropic — a notable instance of competitor solidarity
+- **March 24, 2026:** First hearing held (The Guardian)
+
+**Why it matters:** This is the first major federal court confrontation between an AI company and the US military over model deployment rights. The outcome could set precedent for how AI labs can legally challenge government bans on their models. It also reveals the deep politicisation of AI procurement decisions under the current administration — Anthropic's perceived political positioning (vs OpenAI's Palantir alignment) appears to be the root cause of the designation.
+
+**Sources:** The Guardian (March 24, 2026)
+
+---
 
 ### 🔴 AI API Pricing Implosion — 114 Models Changed Prices in March 2026 Alone — March 19–24, 2026
 

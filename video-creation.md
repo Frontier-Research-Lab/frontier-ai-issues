@@ -1,17 +1,18 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-24_
+_Last updated: 2026-03-25_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 0new | 🟠 Major | Sora app is "failing" — OpenAI embedding Sora into ChatGPT to rescue it; Android app code (v1.2026.076) confirms integration underway; standalone Sora app never gained traction, no free tier, plagued by bugs since Sora 1 shutdown (March 19, 2026) | Sora (OpenAI) | Active (March 19, 2026) |
+| 0SHUTDOWN | 🔴 Critical | **SORA OFFICIALLY SHUT DOWN** — OpenAI abruptly discontinues Sora app and API (March 24–25, 2026), just 15 months after launch and 3 months after Disney's $1B investment deal; company pivoting to robotics; no timeline given for preserving user content; Disney $1B deal apparently void; creators who built businesses on Sora blindsided; BBC: "OpenAI told the BBC it has discontinued Sora so it can focus on other developments, such as robotics" | Sora (OpenAI) | **DISCONTINUED** (March 24–25, 2026) |
 | 0a | 🔴 Critical | Runway + NVIDIA demo real-time AI video generation (100ms time-to-first-frame) — experts warn this makes deepfake scam calls indistinguishable from reality; real-time AI avatar can react live to a victim on a video call (PetaPixel, March 23, 2026) | Runway AI / NVIDIA | Active — misuse risk (March 23, 2026) |
 | 0b | 🟠 Major | Chinese AI video quality leap — Kuaishou's monetizable AI video raises global deepfake + copyright risks; Japan Times: "Chinese AI videos used to look fake. Now they look like money." (March 20, 2026) | Kuaishou / Chinese AI video tools | Active (March 20, 2026) |
 | 1 | 🔴 Critical | US Senators Blackburn + Welch demand ByteDance "immediately shut down" Seedance 2.0 — "most glaring copyright infringement from ByteDance to date"; MPA CEO also demands immediate shutdown (March 17); ByteDance had already suspended global launch (March 14) after Disney, Paramount, Netflix & Warner Bros C&D letters | Seedance 2.0 (ByteDance) | **Senators demanding shutdown** (March 17, 2026) |
+| 1b | 🔴 Critical | Warner Bros Discovery sues MiniMax/Hailuo AI — copyright infringement of "copyrighted characters and related works"; raises concerns about using Hailuo commercially; Kling now advised as "safer commercial choice" for client work | Hailuo AI / MiniMax | Active (February 2026) |
 | 2 | 🔴 Critical | Runway AI class action — YouTuber David Gardner sues for scraping YouTube videos via DMCA circumvention | Runway AI | Active |
-| 3 | 🔴 Critical | Sora 1 forcibly retired March 13 — all historical content deleted; Sora 2 plagued by "stuck at 99%" bugs, "under heavy load" errors, new accounts having generation disabled; free access killed | Sora (OpenAI) | Active (ongoing as of March 18) |
+| 3 | 🔴 Critical | Sora 1 forcibly retired March 13 — all historical content deleted; Sora 2 plagued by "stuck at 99%" bugs, "under heavy load" errors, new accounts having generation disabled; free access killed — now fully shut down (see #0SHUTDOWN) | Sora (OpenAI) | **DISCONTINUED** |
 | 4 | 🟠 Major | EU Parliament votes 460–71 to mandate training data disclosure + remuneration — directly targets video model training on YouTube/streaming | Industry-wide | Developing (March 10, 2026) |
 | 5 | 🟠 Major | OpenAI "Cameo" feature on Sora blocked by court — trademark injunction issued amid Hollywood consent backlash | Sora (OpenAI) | Active |
 | 6 | 🟠 Major | Runway: high costs, slow "relaxed" queues, weak prompt adherence, opaque moderation and account bans | Runway AI | Ongoing |
@@ -22,7 +23,38 @@ _Last updated: 2026-03-24_
 
 ## Details
 
-### 🟠 Sora App Is Failing — OpenAI Plans to Fold Video Generation Into ChatGPT — March 19, 2026
+### 🔴 SORA OFFICIALLY SHUT DOWN — OpenAI Discontinues App and API — March 24–25, 2026
+
+**What happened:** In a sudden announcement on March 24–25, 2026, OpenAI confirmed it is **permanently discontinuing the Sora app and its API** — just 15 months after Sora first launched publicly (December 2024). The announcement was made via a social media post after the Wall Street Journal broke the news.
+
+**OpenAI's statement:** "To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We're saying goodbye to the Sora app." The company said it would share "more soon on timelines for the app and API and details on preserving your work" — but no timeline was given.
+
+**The strategic pivot:** According to BBC reporting, OpenAI told them it discontinued Sora "so that it can focus on other developments, such as robotics 'that will help people solve real-world, physical tasks.'" This represents a complete reversal of OpenAI's consumer AI creative tools strategy announced less than 18 months ago.
+
+**The Disney $1 billion deal is effectively void:** Just three months ago (December 2025), Disney invested $1 billion in OpenAI and signed a three-year deal to bring 200+ licensed Disney, Marvel, Pixar, and Star Wars characters to the Sora platform. That deal appears to now have no product to attach to. It is unclear whether Disney's investment will be refunded or redirected.
+
+**Why Sora failed:**
+- **High compute costs** — Sora's diffusion model required immense GPU resources; even at $20–200/month tiers, margins were unsustainable
+- **Falling usage** — Runway, Kling 3.0, Veo 3, and Seedance offered comparable or superior output at lower prices
+- **Deepfake backlash** — Sora was widely used for non-consensual deepfakes, putting OpenAI in an uncomfortable position
+- **"AI slop" association** — Sora became associated with low-effort AI video content that saturated social media
+- **Lack of focus** — As Ars Technica noted, OpenAI all-hands meetings revealed executives said they were "distracted by side quests"; Sora was named as one of them
+- **No free tier** — Killed organic growth; competitors offered free credits to build communities
+
+**Who's affected:**
+- Creators who built workflows around the Sora API face immediate disruption
+- Businesses that integrated Sora (including Adobe Firefly, which offered Sora-powered video) must find replacements
+- The Sora community (~6+ months old) is migrating to Kling, Runway, and Veo
+
+**The MiniMax/Hailuo warning:** The Sora shutdown validates advice from video production professionals that "platform risk is real" — and highlights that Runway (where AI video is the entire business) and Veo (central to Google's AI strategy) are safer commercial bets than AI video features from general-purpose AI labs.
+
+**Community reaction:** Widespread shock, with many noting the irony of the Disney deal just months prior. "OpenAI proved you can't trust them with creative tooling" was a common sentiment across Reddit and X.
+
+**Sources:** Ars Technica, BBC, The Guardian, NYT, Euronews, Axios, 9to5Google — March 24–25, 2026
+
+---
+
+### 🟠 Sora App Was Already Failing Before Shutdown — March 19, 2026 (Historical)
 
 **What happened:** OpenAI is planning to absorb its standalone **Sora** video generation app into **ChatGPT**, according to code evidence found in ChatGPT's Android app (version 1.2026.076) by Android Authority. The integration would expose Sora's capabilities to ChatGPT's 400+ million active users — and effectively marks the failure of Sora as a standalone consumer product.
 

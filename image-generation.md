@@ -1,12 +1,14 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-25_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 1 | 🔴 Critical | xAI/Grok CSAM class action — three Tennessee teenagers sue xAI alleging Grok used their real photos to generate + distribute child sexual abuse material (filed March 16, 2026) | Grok / xAI | Active (filed March 16, 2026) |
+| 0NEW | 🔴 Critical | **Baltimore becomes first US city to sue xAI** over Grok deepfake porn (March 24, 2026) — municipal lawsuit alleges Grok AI enabled widespread creation of harmful deepfakes including images of minors; this follows the Tennessee CSAM class action (March 16) and women/girls lawsuit (March 17); legal pressure mounting from all sides | Grok / xAI | Active (filed March 24, 2026) |
+| 1 | 🔴 Critical | xAI/Grok CSAM class action — three Tennessee teenagers sue xAI alleging Grok used their real photos to generate + distribute child sexual abuse material; deepfake images uploaded to Discord (filed March 16, 2026) | Grok / xAI | Active (filed March 16, 2026) |
+| 1a | 🔴 Critical | Women and girls lawsuit vs Grok — separate lawsuits by adult women AND underage girls over sexualised AI deepfakes; on Jan 14 Musk promised a fix; two of three lawsuits allege CSAM was generated before that fix date (19th News, March 20, 2026) | Grok / xAI | Active (filed March 17–20, 2026) |
 | 2 | 🔴 Critical | Grok generates + wrongly verifies fake Iran war images as real — spreading misinformation at scale during active conflict | Grok / xAI | Active |
 | 3 | 🔴 Critical | Grok users generating 6,700 sexualised/nudified images per hour — 84x more than top 5 deepfake sites combined; Australian regulator says CSAM "systemic" on X | Grok / xAI | Active |
 | 3a | 🔴 Critical | EU Parliament backs outright ban on AI nudify/deepfake apps (460–71) — triggered by Grok backlash; EC previously admitted AI Act had gaps on CSAM and nonconsensual deepfakes; new Ars Technica analysis: Musk's "blame users" tactic may be foiled by incoming EU law | Grok / xAI (trigger), Industry-wide (scope) | Developing (March 13–19, 2026) |
@@ -23,6 +25,29 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 Baltimore Sues xAI — First US City to Sue Over Grok Deepfake Porn — March 24, 2026
+
+**What happened:** On March 24, 2026, the **Mayor and City Council of Baltimore** filed a groundbreaking municipal lawsuit against xAI and X, making Baltimore the **first US city to sue over AI-generated deepfake pornography**. The lawsuit alleges Grok enabled widespread creation of harmful deepfake content, including images involving minors.
+
+**The accumulating legal front against Grok:**
+This suit is the latest in an accelerating wave of Grok-related deepfake litigation:
+1. **March 16, 2026:** Three Tennessee teenagers file class-action — allege Grok generated CSAM (child sexual abuse material) from their real photos; images found on Discord
+2. **March 17–20, 2026:** Women and girls file separate lawsuits over sexualised deepfakes; two of three cases allege CSAM was generated *before* Musk's January 14 "fix" announcement
+3. **March 24, 2026:** Baltimore (first municipality) files suit
+4. **Wikipedia now has a dedicated article:** "Grok sexual deepfake scandal" — documenting the scale of the crisis
+
+**The background:**
+- By late December 2025, users were using Grok to edit photos of real women into sexualised poses — with the chatbot posting the graphic images publicly on X
+- Grok was generating an estimated 6,700 sexualised/nudified images per hour at peak — 84x more than the top 5 dedicated deepfake sites combined
+- Australian regulator found CSAM was "systemic" on X
+- When Musk claimed to have fixed the issue on January 14, lawsuits allege the CSAM generation had already occurred and victims had already been harmed
+
+**Why the municipal lawsuit matters:** City governments suing AI companies over deepfakes introduces a new legal enforcement vector. Baltimore's suit provides city prosecutors direct standing to seek injunctions and damages. This model could be replicated by other cities.
+
+**Sources:** CNBC (March 24), 19th News (March 20), DicelloLevitt, Wikipedia, Breitbart — March 2026
+
+---
 
 ### 🔴 Grok Generates & Wrongly Verifies Fake Iran War Images — March 2026
 

@@ -1,12 +1,13 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-25_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 0x | 🟠 Major | Canva global outage March 22 — thousands affected worldwide; photo and video editing blocked; Downdetector spike at 5:40PM ET; global media coverage (Koha.net, deultimominuto); brief residual loading issues reported March 23 (now resolved) | Canva | Resolved (March 22–23, 2026) |
+| 0NEW | 🟠 Major | **Figma Dev Mode paywall backlash** — Dev Mode (once free) now requires paid seats; replaced the free Inspect panel; forum threads running hundreds of replies; comparisons to Adobe's predatory pricing "circulating widely"; UX Collective: "40% of small agencies now review their software budgets" (March 2026) | Figma | Active (March 2026) |
+| 0x | 🟠 Major | Canva global outage March 22 — thousands affected worldwide; photo and video editing blocked; Downdetector spike at 5:40PM ET; global media coverage; residual issues March 23 (now resolved) | Canva | Resolved (March 22–23, 2026) |
 | 0 | 🔴 Critical | Google Stitch "vibe design" update wipes 12% off Figma stock in two days — March 18 platform overhaul adds Voice Canvas + natural-language UI generation; Figma now down 35% YTD and ~85% from IPO peak; CNBC confirms "Google launched an AI-design platform, pushing Figma shares down 12% in two days" | Figma / Google Stitch | Active (March 18–20, 2026) |
 | 1 | 🔴 Critical | Figma AI credits enforcement NOW LIVE (March 18) — users hitting walls mid-project today; surprise charges for additional credits; pay-as-you-go only available to Org/Enterprise | Figma AI / Figma Make | Active (March 18, 2026) |
 | 2 | 🔴 Critical | Grammarly "Expert Review" class action — AI impersonated real writers/journalists without consent; feature pulled after lawsuit filed | Grammarly (Superhuman) | Active (filed Mar 11, 2026) |
@@ -20,6 +21,28 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🟠 Figma Dev Mode Paywall Backlash — Free Inspect Removed, Paid Seat Required — March 2026
+
+**What happened:** Figma has moved its **Dev Mode** — formerly accessible to developers and stakeholders at no extra cost — behind a paid seat requirement. The change replaced the free **Inspect panel** that had been available to everyone (viewers and guests), which was the primary way non-designer collaborators could inspect design specs, extract CSS values, and copy assets.
+
+**Community reaction:** Per UX Collective analysis (March 2026):
+- Forum threads on the Figma community forum ran to hundreds of replies
+- Comparisons to Adobe's pricing practices — "unflattering ones" — circulated widely across design Twitter/X and LinkedIn
+- UX Collective documented that "40% of small agencies now review their software budgets" as a direct consequence of Figma's compounding pricing changes
+- The move was characterised as "enshittification" by designers — a pattern of eliminating free features to force paid upgrades
+
+**Compounding pricing pressure:** This paywall is the latest in a series of Figma monetisation moves that have eroded goodwill:
+- Dev Mode → paid seat
+- Figma AI → credits (enforcement March 18, 2026)
+- Subscription cost inflation year-over-year
+- Meanwhile, Google Stitch (free, backed by Gemini 2.5 Pro) is a direct free competitor
+
+**Who's affected:** Development teams and agencies who relied on the free Inspect workflow. "Engineering-first" teams especially impacted — many of whom are now evaluating whether Figma's per-seat costs for developers are justified when Google Stitch and open-source alternatives offer inspection capabilities.
+
+**Sources:** UX Collective ("Who can actually afford AI tools now?", Dora Czerna, March 2026), Byter.com Design Tool Transition Guide — March 2026
+
+---
 
 ### 🟠 Canva Global Outage — Thousands Blocked from Photo and Video Editing — March 22–23, 2026
 
