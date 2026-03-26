@@ -1,13 +1,16 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-25_
+_Last updated: 2026-03-26_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 0today_a | 🔴 Critical | Claude Outage #12 — March 25: partial outage confirmed TODAY; Downdetector spike this morning; Anthropic status page shows "Elevated errors on Claude Sonnet 4.6"; login errors and API disruptions reported globally; 12th major incident in ~3 weeks (March 25, 2026) | Claude (Anthropic) | Active (March 25, 2026) |
-| 0today_b | 🔴 Critical | Anthropic vs Pentagon — federal court hearing TODAY (March 24–25); Anthropic suing DOD after Pete Hegseth labelled Claude a "supply chain risk"; Pentagon filed 40-page brief calling Anthropic "unacceptable national security risk"; Microsoft + 37 AI researchers filed amicus briefs for Anthropic (The Guardian, March 24, 2026) | Claude (Anthropic) | Active court proceedings |
+| 0mar26a | 🔴 Critical | Claude Outage #13 — March 26: StatusGator records 10-hour Warning + separate 18-minute full Down today; Anthropic status page still shows "claude.ai Partial Outage" from yesterday's incident bleeding into today; 13th incident in under 4 weeks | Claude (Anthropic) | Active (March 26, 2026) |
+| 0mar26b | 🟠 Major | OpenAI "indefinitely" shelves ChatGPT Adult Mode — reversed course hours after global coverage of minor safety risks; FT, Reuters, Verge, Engadget all confirm; Ars Technica: "ChatGPT has been linked to mental health harms in both kids and adults through lawsuits alleging OpenAI recklessly released chatbot without appropriate safeguards" (March 26, 2026) | ChatGPT (OpenAI) | Shelved indefinitely (March 26, 2026) |
+| 0mar26c | 🟡 Notable | EU antitrust chief Teresa Ribera meets CEOs of Google (Alphabet), Meta, OpenAI, and Amazon on March 24–25 amid AI dominance concerns; EC investigating Big Tech AI leverage; DMA enforcement over AI bundling on the table (Reuters, March 24, 2026) | Google / Meta / OpenAI / Amazon | Developing |
+| 0today_a | 🔴 Critical | Claude Outage #12 — March 25: partial outage; Downdetector spike; Anthropic status page confirms "Elevated errors on Claude Sonnet 4.6"; login errors and API disruptions globally; 12th major incident in ~3 weeks | Claude (Anthropic) | Resolved (March 25, 2026) |
+| 0today_b | 🔴 Critical | Anthropic vs Pentagon — federal court hearing March 24–25; Anthropic suing DOD after Pete Hegseth labelled Claude a "supply chain risk"; Pentagon filed 40-page brief calling Anthropic "unacceptable national security risk"; Microsoft + 37 AI researchers filed amicus briefs for Anthropic (The Guardian, March 24, 2026) | Claude (Anthropic) | Active court proceedings |
 | 0new | 🔴 Critical | AI API pricing implosion — 114 of 483 tracked models changed prices in March 2026 (24% of all models in one month); OpenAI head of ChatGPT calls current pricing "accidental"; leaked $100/month "Pro Lite" tier signals consumer price hikes; IPO prep ending era of subsidised AI (March 19, 2026) | OpenAI, Anthropic, industry-wide | Active (March 2026) |
 | 0aa | 🔴 Critical | Claude Outage #11 — March 23: 2,140+ Downdetector reports at 9:29AM PT; login and logout functions disrupted; status page falsely showed "All Systems Operational"; 11th major incident in ~3 weeks | Claude (Anthropic) | Resolved (March 23, 2026) |
 | 0ab | 🔴 Critical | ChatGPT Outage March 23 — hundreds+ Downdetector reports peaking at 7:58AM ET; German tracking confirmed complaints at 15:34 CET; separate confirmed bug locks ChatGPT Business workspace owners out with blank white screen, no reactivation button — no failed payment | ChatGPT / OpenAI | Resolved (March 23, 2026) |
@@ -45,6 +48,51 @@ _Last updated: 2026-03-25_
 ---
 
 ## Details
+
+### 🔴 Claude Outage #13 — Warning + Full Down — March 26, 2026 (TODAY)
+
+**What happened:** On March 26, 2026 — today — Claude.ai experienced its **thirteenth service disruption** in under four weeks. StatusGator records two separate incidents:
+- A **10-hour 13-minute "Warning" period** running through most of the business day
+- A separate **18-minute full "Down" interval**
+
+Anthropic's official status page at status.claude.com continued showing **"claude.ai Partial Outage"** — still carrying over from yesterday's March 25 incident (which itself lasted 10 hours and 6 minutes per StatusGator). This means users experienced effectively **two consecutive days of degraded Claude service** with no clean "resolved" period between them.
+
+**The 13-incident pattern (all since early March 2026):**
+- March 2, 3, 11, 12, 13, 16, 17, 18–20, 21, 23, 25, 26 — 13 separate incidents in 24 days
+- Average: more than one incident every two days
+- Scale of individual incidents: peaks of 6,800 (March 17) and 5,000+ (March 18–19) Downdetector reports
+- Status page accuracy failures: multiple incidents where status page showed "All Systems Operational" during active outages
+
+**Enterprise impact:** Anthropic is experiencing a 1,487% surge in sessions (Forbes, March 23) from QuitGPT migrants — precisely when its infrastructure is least able to handle it. The consecutive-day outage pattern will force enterprise architects to treat multi-model failover as a non-negotiable infrastructure requirement.
+
+**Sources:** StatusGator (statusgator.com/services/anthropic/claudeai), status.claude.com — March 26, 2026
+
+---
+
+### 🟠 OpenAI "Indefinitely" Shelves ChatGPT Adult Mode — March 26, 2026 (TODAY)
+
+**What happened:** Less than two weeks after OpenAI's "Adult Mode" / erotic chatbot plans became front-page news (March 16), the company has **indefinitely paused the project** — confirmed by the Financial Times, Reuters, The Verge, and Engadget on March 26, 2026.
+
+**The sequence:**
+- **January 2026:** OpenAI's Safety Advisory Council unanimously opposed the erotic chatbot, warning of unhealthy user dependency, "sexy suicide coach" risks, and minor access vulnerabilities
+- **March 16, 2026:** The internal council objection became public via WSJ/Ars Technica/CNET; global media coverage; OpenAI had overridden the council and was proceeding
+- **March 26, 2026 (today):** FT reports OpenAI has "shelved plans to release an erotic chatbot indefinitely as it looks to focus on its core products"
+- Engadget (March 26): "OpenAI has 'indefinitely' abandoned plans to release an erotic chatbot for adults following concerns from employees and investors"
+- The Verge: "OpenAI has paused plans to release a sexualized 'adult mode' for ChatGPT, in its latest move to refocus on the company's core products"
+
+**What caused the reversal:**
+- **Employee backlash** — internal concerns documented in the leaked council report
+- **Investor backlash** — per FT; investors concerned about reputational risk for a company preparing for IPO and seeking government contracts
+- **The Ars Technica framing** (March 26): "Even without erotic responses, ChatGPT has been linked to mental health harms in both kids and adults through lawsuits alleging that OpenAI recklessly released the chatbot without appropriate safeguards"
+
+**Why this matters — the pattern it reveals:**
+This is now the third major decision OpenAI overrode its safety council on (see: GPT-5.4 quality regression, Pentagon deal), then partially reversed under public pressure. The pattern: OpenAI's commercial/revenue teams make decisions over safety objections → objections leak publicly → OpenAI reverses under media pressure. The 10-day turnaround from "proceeding despite unanimous safety council opposition" to "indefinitely shelved" suggests the public accountability loop is working — but it also confirms that internal safety processes at OpenAI are regularly being overridden by commercial priorities until external pressure intervenes.
+
+**Status:** Indefinitely shelved. No timeline for reconsideration given.
+
+**Sources:** Reuters (March 26, 2026), Engadget (March 26), The Verge (March 26), FT (March 26), Ars Technica (March 26)
+
+---
 
 ### 🔴 Claude Outage #12 — Elevated Errors on Sonnet 4.6 — March 25, 2026
 
