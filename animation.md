@@ -1,14 +1,15 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0NEW | 🟠 Major | **Nvidia DLSS 5 "AI slop filter" backlash** — gamers revolt against Nvidia's AI-upscaling system accused of adding "AI slop" visual artefacts to games; Jensen Huang publicly disputed the "slop filter" framing but was contradicted by his own employee; Forbes documents gamer mockery and rejection (March 19, 2026) | Nvidia DLSS 5 | Active (March 19–23, 2026) |
 | 1 | 🔴 Critical | AI-driven tech layoffs hit 150,000+ in 2026 so far (per tech-insider.org tracker); 45,000+ in just the first months per Network World; Autodesk, Salesforce each ~1,000 jobs; 55% of managers expect more cuts; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (Updated March 23, 2026) |
 | 2 | 🟠 Major | Microsoft bans "Microslop" word on Copilot AI Discord — censoring criticism of its own product; backlash + "AI slop" weaponisation in Olympics ceremony widely mocked | Microsoft Copilot AI | Active (March 2026) |
-| 3 | 🟠 Major | 2026 Winter Olympics AI-generated animation controversy — AI-generated Sabrina Impacciatore skating/skiing across historic host cities criticised as "AI slop" replacing human animators | AI animation tools | Active (February–March 2026) |
+| 3 | 🟠 Major | 2026 Winter Olympics AI-generated animation controversy — AI-generated Sabrina Impacciatore skating/skiing across historic host cities criticised as "AI slop" replacing human animators; violated Olympic brand guidelines on Olympic rings | AI animation tools | Active (February–March 2026) |
 | 4 | 🟠 Major | Games industry "demonising" AI — major investor "shocked and sad" at developer resistance to generative AI tools | Games industry / AI tools | Active (March 14, 2026) |
 | 5 | 🟠 Major | Adobe Animate stagnation — users abandoning for alternatives as AI features are minimal and core UX remains broken | Adobe Animate | Ongoing |
 | 6 | 🟡 Notable | AI animation tools still struggle with fundamental physics — kangaroos, multi-limb creatures, eye movements remain broken | All AI video/animation tools | Ongoing |
@@ -17,6 +18,24 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🟠 Nvidia DLSS 5 "AI Slop Filter" Backlash — Gamers Revolt — March 19–23, 2026
+
+**What happened:** Nvidia shipped **DLSS 5** (Deep Learning Super Sampling version 5) with the RTX 5090 launch as the flagship AI-powered graphics upgrade. The backlash was immediate and brutal. Gamers accused Nvidia of turning DLSS 5 into an **"AI slop filter"** — an AI post-processing layer that adds internet-trained hallucinations to game visuals rather than faithfully upscaling the rendered image.
+
+**The technical complaint:** DLSS 5 apparently applies broad AI training data to the final 2D rendered frame. Critics argue this means the AI is "improving" the image based on what the internet thinks things should look like — not based on the actual game's art direction or design intent. The result: visual artefacts that look AI-generated, inconsistent textures, and a "plasticky" aesthetic that gamers find repulsive.
+
+**Jensen Huang's attempt to defend it:** Nvidia CEO Jensen Huang pushed back publicly, saying everyone was "completely wrong" and that DLSS 5 isn't "post-processing at the frame level." The implication: the AI operates at a finer level of nuance than critics claim.
+
+**His own employee contradicted him:** Kotaku (March 23) reported that a Nvidia employee's statements contradicted Huang's defence — implying that the frame-level post-processing criticism was at least partially accurate.
+
+**Forbes' framing:** *"Gamers Rebel Against Nvidia's DLSS 5 'AI Slop Filter'"* — Forbes documents the memes, mockery, and rejection across gaming forums and subreddits. The backlash reached enough scale to become a documented cultural moment.
+
+**The broader pattern:** DLSS 5 joins a growing list of AI products rejected by their target audience for producing aesthetically inferior results — the Olympics ceremony animation, Microsoft's Copilot integration, and AI-generated art flooding creative platforms. "AI slop" is becoming a real consumer category that users can identify and reject.
+
+**Sources:** Forbes (March 19), Kotaku (March 23), Ingamenews.com (March 22), Wikipedia AI slop article
+
+---
 
 ### 🔴 AI-Driven Layoffs Hit 51,686 Jobs Industry-Wide (2026 YTD) — Plus GDC 2026 Jobs Crisis — March 16, 2026
 

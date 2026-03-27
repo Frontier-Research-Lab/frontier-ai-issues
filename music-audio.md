@@ -1,11 +1,12 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-24_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0b | 🟠 Major | **Suno charging for features "deliberately blocked from working together"** — Reddit thread (March 22) documents paying subscribers discovering that features advertised on their $25/month plan are intentionally incompatible; Personas cannot use users' own voices; paying users calling it a bait-and-switch; ElevenLabs music integration adds fresh friction with inaccessible captchas | Suno | Active (March 22, 2026) |
 | 0a | 🔴 Critical | NEW CLASS ACTION — Independent musicians sue Suno, Udio AND Google over voiceprint extraction under Illinois BIPA — biometric privacy claims stack on top of copyright infringement and CMI removal; Google accused of training Lyria 3 on YouTube without license; no prior AI copyright suit has included biometric privacy theory (filed ~March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
 | 2 | 🔴 Critical | GEMA v. Suno — German court heard landmark copyright case March 9; ruling scheduled June 12, 2026; Hamburg court reached opposite conclusion same paragraph | Suno | Active (ruling due June 12) |
@@ -25,6 +26,24 @@ _Last updated: 2026-03-24_
 ---
 
 ## Details
+
+### 🟠 Suno Charging Users for Features "Deliberately Blocked From Working Together" — March 22, 2026
+
+**What happened:** A Reddit thread circulating in the Suno AI community (r/SunoAI, March 22, 2026) — documented by jackrighteous.com (March 22) — details a significant user complaint: **Suno is charging subscribers for premium features that are intentionally designed to not work together**.
+
+**The specific example:** Suno's "Personas" feature (included in higher-tier paid plans) advertises the ability to create custom AI singer personas. However, users **cannot use their own voice** within a Persona — they can only select from Suno's pre-built AI voices. The Reddit community is calling this a bait-and-switch: the feature is sold as personalisable but is systematically locked against the most obvious form of personalisation.
+
+**From jackrighteous.com:** *"A recent Reddit thread has been circulating in the Suno AI community claiming that the platform is charging users for features that are 'deliberately blocked from working together.'"*
+
+**The ElevenLabs accessibility compound:** A separate Reddit thread (r/SunoAI, March 25) highlights a compounding issue: Suno's integration with ElevenLabs for music uses inaccessible CAPTCHA challenges that users with disabilities cannot complete. A commenter with $25/month subscription wrote: *"It is wildly frustrating that an AI company building cutting-edge audio tech in 2026 still hasn't figured out accessible captchas."*
+
+**The Warner deal context:** These complaints arrive in the context of Suno's settlement with Warner Music Group, which required retiring all models trained on unlicensed music. Users are paying for a platform in mid-transition — the old models they valued are being retired, the new licensed models are not yet fully deployed, and features they're paying for don't work as advertised.
+
+**Community reaction:** The thread attracted significant engagement with users comparing Suno's trajectory to "every other SaaS that enshittifies after reaching critical mass." The Warner deal's monetisation requirements are seen as the trigger for increasingly aggressive upsell tactics and feature limitations.
+
+**Sources:** jackrighteous.com (March 22), Reddit r/SunoAI (March 25, March 22)
+
+---
 
 ### 🔴 NEW: Musicians File Class Actions Against Suno, Udio & Google Over Voiceprint Extraction — March 24, 2026
 

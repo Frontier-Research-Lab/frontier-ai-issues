@@ -1,13 +1,14 @@
 # web-design — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
-| 0 | 🔴 Critical | Google Stitch "vibe design" update stuns web design sector — March 18 overhaul adds Voice Canvas + natural-language UI/prototype generation; Figma stock craters 12% over two days (CNBC); Figma now down 35% YTD; direct threat to every professional web design toolchain | Google Stitch / Figma | Active (March 18–20, 2026) |
-| 1 | 🟠 Major | Webflow acquires Vidoso AI — marketing pivot risks alienating core web design user base; acquisition comes amid steep learning curve complaints | Webflow | Active (March 12, 2026) |
+| 0 | 🔴 Critical | Google Stitch "vibe design" update stuns web design sector — March 18 overhaul adds Voice Canvas + natural-language UI/prototype generation; Figma stock craters 12% over two days (CNBC); Figma now down 35% YTD and ~80% from IPO peak; direct threat to every professional web design toolchain | Google Stitch / Figma | Active (March 18–20, 2026) |
+| 0b | 🟠 Major | **AI speed-to-ship is degrading web UX quality** — composite.global (March 26): "AI tools and platforms like Webflow are accelerating website production. But speed is introducing a new problem: declining UX quality and rising design debt"; industry analysis confirms the faster output = worse accessibility, navigation, and user outcomes pattern | Webflow + AI tools (industry-wide) | Active (March 26, 2026) |
+| 1 | 🟠 Major | Webflow acquires Vidoso AI (confirmed March 2026) — Wikipedia confirms acquisition of four-person startup for AI content marketing generation; risks alienating core web design user base as Webflow pivots toward marketing automation | Webflow | Active (March 2026) |
 | 2 | 🟠 Major | Webflow pricing and learning curve increasingly hard to justify against AI-first web builders | Webflow | Ongoing |
 | 3 | 🟠 Major | AI-generated websites look generic/identical — the "AI slop" problem hitting web design at scale | Multiple (v0, Wix AI, etc.) | Ongoing |
 | 4 | 🟡 Notable | Wix free plan still includes Wix ads — AI features locked behind paid tiers; free-to-paid conversion pressure | Wix | Ongoing |
@@ -120,3 +121,26 @@ The morning of March 19, **Figma shares (NYSE: FIG) opened 8.8% lower**. By the 
 **Context:** Wix is in a competitive squeeze — established free website builders now compete with genuinely impressive AI-first builders (Framer, Durable, Hostinger AI). Rather than competing on features, Wix appears to be locking users in through auto-renewal friction. This is a red flag for a platform that built its reputation on accessibility.
 
 **Source:** Trustpilot reviews (www.trustpilot.com/review/www.wix.com) — March 2026
+
+---
+
+### 🟠 AI-Accelerated Build Speed Is Degrading Web UX Quality — March 26, 2026
+
+**What happened:** An industry analysis from composite.global (March 26, 2026) documented a structural problem emerging from AI-powered web design acceleration: **the faster production speed enabled by AI tools is driving down UX quality** and accumulating "design debt" at unprecedented rates.
+
+**The core finding:** *"AI tools and platforms like Webflow are accelerating website production. But speed is introducing a new problem: declining UX quality and rising design debt."*
+
+**How the failure mode works:**
+1. AI tools generate functional websites extremely quickly from prompts
+2. Teams ship these AI-generated sites with minimal human review of usability, accessibility, or user flows
+3. The "good enough" visual result hides structural UX problems — poor information architecture, broken mobile navigation, WCAG accessibility failures, and generic conversion funnels
+4. Technical and design debt accumulates faster than teams can address it
+5. Real users experience worse outcomes (higher bounce rates, lower conversions, more support tickets) than they would have with a human-designed, quality-reviewed site
+
+**The compounding problem:** When an AI builds a site quickly, there's psychological pressure to not slow down and audit it — it already "looks professional." The result is that teams ship products that look polished but function poorly.
+
+**Figma's documented example:** Figma's own AI Sites demo (released March 2026) was found to contain **210 WCAG accessibility violations** — meaning a product built by a major design tool company, using their own AI, failed basic accessibility standards. This is exactly the composite.global failure mode: fast generation, poor quality verification.
+
+**Who's affected:** Every company using AI-first web builders (Wix Studio, Webflow AI, Framer, v0) without dedicated UX review processes. Particularly acute for startups where a single developer is using AI to build products that previously required a UX designer + developer team.
+
+**Source:** composite.global (March 26, 2026), "The Hidden Cost of Faster Websites"

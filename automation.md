@@ -1,11 +1,12 @@
 # automation — AI Issues Radar
 
-_Last updated: 2026-03-22_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0NEW | 🔴 Critical | **NEW n8n RCE triple: CVE-2026-33660, CVE-2026-33696, CVE-2026-33663** — two new CVSS 9.4 RCE vulnerabilities published March 25: CVE-2026-33660 allows RCE through Merge node SQL mode (AlaSQL); CVE-2026-33696 achieves RCE through prototype pollution; CVE-2026-33663 allows credential interception. Patch to versions 1.123.27, 2.13.3, or 2.14.1 immediately — coming just weeks after "Ni8mare" exploit chain | n8n | **Active — patch to 1.123.27/2.13.3/2.14.1** (March 25, 2026) |
 | 0 | 🔴 Critical | "Ni8mare" — CISA warns n8n max-severity CVE chain being actively exploited in wild: CVE-2026-21858 (unauthenticated file read) + CVE-2025-68613 (authenticated RCE) combined = full system takeover without login; n8n stores API keys, OAuth tokens for dozens of services (March 17, 2026) | n8n | Active exploit — patch NOW |
 | 1 | 🔴 Critical | Zapier pricing rage — what started at $10/month has ballooned to $750+/month for basic automations; mass migration underway | Zapier | Ongoing |
 | 2 | 🔴 Critical | "$40K/year Zapier lesson" — viral Reddit post documents company that burned $40K/yr on simple automations, now migrating entire stack | Zapier | Active (March 2026) |
@@ -18,6 +19,37 @@ _Last updated: 2026-03-22_
 ---
 
 ## Details
+
+### 🔴 New n8n Triple Vulnerability — RCE + Credential Theft CVEs — March 25, 2026
+
+**What happened:** The n8n team published **three new security advisories** on March 25, 2026 — just eight days after the "Ni8mare" exploit chain entered CISA's KEV catalogue. This new batch includes two **remote code execution (RCE) vulnerabilities** and one **credential interception** vulnerability:
+
+**CVE-2026-33660 — RCE via Merge Node SQL Mode (AlaSQL)**
+- **CVSS 4.0 score: 9.4** (Critical)
+- The Merge node's SQL mode in n8n allows user-controlled SQL queries via **AlaSQL**. AlaSQL is a JavaScript SQL library that executes in-process — meaning a crafted SQL payload can escape the query context and execute arbitrary JavaScript
+- Attack vector: any workflow that uses the Merge node with SQL mode enabled
+- Affected users: anyone running n8n with complex data transformation workflows
+
+**CVE-2026-33696 — RCE via Prototype Pollution**
+- **CVSS 4.0 score: 9.4** (Critical)
+- A prototype pollution vulnerability in n8n's workflow data handling allows attackers to inject properties into JavaScript's base Object prototype
+- Once the prototype is polluted, subsequent property access can trigger malicious code execution
+- Attack vector: crafted workflow data or injected node inputs
+
+**CVE-2026-33663 — Credential Interception**
+- Rated "high" severity
+- Allows an authenticated attacker to intercept unencrypted credentials stored in n8n's credential vault
+- Particularly dangerous given n8n's design as a credential aggregator for dozens of external services
+
+**What you need to do:** Patch immediately to:
+- `1.123.27` (stable)
+- `2.13.3` or `2.14.1` (next track)
+
+**The pattern:** n8n has now had at least **5 critical+ CVEs in March 2026 alone**. Per Heise: *"In the recent past, the developers have released security updates for n8n twice a month."* This pace of critical security releases signals a systemic security debt in the codebase — not isolated bugs. For organisations running n8n with admin access to production credentials, the risk posture is now severe.
+
+**Sources:** anonhaven.com (CVE detail, March 26), Heise Online (March 26), n8n security advisories (March 25)
+
+---
 
 ### 🔴 "Ni8mare" — CISA Warns n8n Critical CVE Chain Actively Exploited — March 17, 2026
 

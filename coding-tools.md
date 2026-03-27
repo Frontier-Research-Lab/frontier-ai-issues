@@ -1,11 +1,12 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0NEW | 🟠 Major | **Microsoft rolls back "unnecessary" Copilot integrations from Windows** — removing Copilot entry points from Photos, Widgets, Notepad, and Snipping Tool (March 20–23); framed as improving "Windows quality"; community saw this as an admission that forced AI integration was hated; "Microslop" Discord server banned the word, causing fresh backlash | Microsoft Copilot (Windows) | Active (March 20–23, 2026) |
 | 0a | 🔴 Critical | Cursor/Kimi K2.5 controversy deepens — Geeky Gadgets (March 23): Cursor failed to provide attribution required by Kimi K2.5's open-source license, potentially violating license terms; Elon Musk publicly confirmed "Yeah, it's Kimi 2.5"; Fireworks AI CEO says Cursor was "compliant from day one" via their platform; community: "Cursor is becoming a model routing layer, not an IDE" | Cursor / Kimi K2.5 (Moonshot AI) | Active (March 19–23, 2026) |
 | 0b | 🔴 Critical | Microsoft CVE-2026-26133: cross-prompt injection in Copilot email + Teams summarisation lets attackers shape AI output silently — no attachment needed; patched March 11, 2026 | Microsoft 365 Copilot | Patched (March 11, 2026) |
 | 0c | 🔴 Critical | "Reprompt" attack chains 3 techniques to turn Copilot Personal into a single-click data exfiltration channel — disclosed early 2026 | Microsoft Copilot Personal | Active (early 2026) |
@@ -33,6 +34,26 @@ _Last updated: 2026-03-23_
 Community reaction crystallised into a damaging meme: *"Cursor is becoming a model routing layer, not an IDE. They pick the cheapest model that clears a quality bar per task, wrap it in their UX, and pocket the margin."* (Business Insider Africa, March 23)
 
 **Elon Musk's contribution:** Musk publicly confirmed the finding with just four words — "Yeah, it's Kimi 2.5" — amplifying the story to millions of followers.
+
+---
+
+### 🟠 Microsoft Rolls Back "Unnecessary" Copilot in Windows — March 20–23, 2026
+
+**What happened:** In a significant reversal of Microsoft's aggressive AI integration strategy, the company confirmed on March 20–23, 2026 that it would **remove Copilot AI entry points from several core Windows applications**: Snipping Tool, Photos, Widgets, and Notepad. The framing from Microsoft's own announcement: these were "unnecessary Copilot entry points."
+
+**The subtext:** The term "unnecessary" is doing a lot of work here. These were features Microsoft shipped as part of its push to make Copilot omnipresent in Windows 11 — justified as improving user productivity. Quietly admitting they were "unnecessary" is an implicit acknowledgement that users rejected them.
+
+**The "Microslop" moment:** Microsoft had previously banned the word "Microslop" (a portmanteau of "Microsoft" and "slop") on a Discord server dedicated to its Copilot AI product — attempting to censor criticism of its AI-first Windows strategy. The backlash to the censorship amplified the original criticism significantly, and the Wikipedia "AI slop" article now documents the incident. The rollback that followed looks directly connected: Microsoft's own moderators were protecting the brand from criticism that was, in retrospect, accurate.
+
+**The Register's headline:** *"Microsoft: Removing some Copilots will improve Windows 11"* — a headline that speaks for itself.
+
+**Community reaction:** TechCrunch framed it as Microsoft "rolling back Copilot AI bloat." The Windows Latest coverage tied it directly to the Microslop controversy: *"Microsoft responds to Microslop criticism by scaling back Copilot in Windows 11."* The sentiment is unified: Microsoft over-indexed on AI integration without validating user desire.
+
+**What remains:** Microsoft has not removed AI from Windows entirely. Copilot remains in the taskbar and several other entry points. The rollback is a retreat from the most invasive integrations, not from the AI strategy.
+
+**Wider significance:** This is one of the first public examples of a major tech company **visibly walking back forced AI integration** after user resistance — a pattern others may follow.
+
+**Sources:** TechCrunch (March 20), Lifehacker (March 23), The Register (March 23), Windows Latest (March 21), IT Pro (March 23)
 
 ---
 

@@ -1,11 +1,13 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| -3 | 🔴 Critical | **"SaaSpocalypse" — B2B software stocks plunge 25% YTD** as autonomous AI agents signal threat to traditional SaaS workflows; ServiceNow dropped 5% in a single session March 24; $611 billion wiped from software sector since the "agentic AI scare trade" began; narrative shift from AI-augments-humans to AI-replaces-SaaS triggering Wall Street regime change | Anthropic agents (trigger) / Industry-wide | Active (March 23–27, 2026) |
+| -2b | 🔴 Critical | **McKinsey Lilli breach (Feb 28)** — autonomous red-team agent breached McKinsey's internal AI platform in under 2 hours via SQL injection; 46.5M chat messages + 728K internal files exposed; system prompts were writable, enabling AI manipulation; proof that agentic AI creates entirely new attack surfaces | McKinsey Lilli (enterprise AI agent) | Disclosed March 2026 |
 | -2 | 🟠 Major | Production scaling crisis for agentic AI in 2026 — teams report agents waiting on other agents, race conditions in async pipelines, cascading failures impossible to reproduce in staging; only 24.4% of orgs have full oversight; Gartner warns 40% of agentic AI projects will fail by 2027 | All agentic AI platforms | Active (March 2026) |
 | -1a | 🔴 Critical | "Claudy Day" — 3 chained Claude.ai vulnerabilities enable silent data exfiltration from any agent session; works in default config with no external integrations; attackers can hijack agent tool calls (March 18, 2026) | Claude.ai agents | Partially Patched (March 2026) |
 | -1b | 🔴 Critical | CVE-2026-26133: Microsoft 365 Copilot cross-prompt injection — attackers can hijack what Copilot tells users via a crafted email or Teams message; no user action needed; patched March 11 | Microsoft 365 Copilot | Patched (March 11, 2026) |
@@ -27,6 +29,51 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🔴 "SaaSpocalypse" — Autonomous AI Agents Trigger $611 Billion Sector Wipeout — March 23–27, 2026
+
+**What happened:** The emergence of genuinely autonomous AI agent systems in March 2026 — led by Anthropic's announcements about Claude's agentic capabilities — triggered what financial media is calling the **"SaaSpocalypse"**: a historic collapse in enterprise software (SaaS) valuations as Wall Street priced in the scenario where AI agents replace the need for traditional software subscriptions.
+
+**The numbers:**
+- B2B software stocks fell **25% YTD** by late March 2026 — the sharpest compression for the sector on record
+- **$611 billion** wiped from software sector valuations in the "scare trade" (FinancialContent, March 23)
+- In **February 2026 alone**, $285 billion vanished from SaaS valuations in 48 hours (Taskade analysis)
+- ServiceNow (NYSE: NOW) dropped **5% in a single session on March 24** as investors processed what autonomous IT service agents mean for enterprise ITSM subscriptions
+- Atlassian, Salesforce, HubSpot, Zendesk, and other workflow SaaS companies all saw significant declines
+
+**The logic of the "scare trade":** Traditional SaaS businesses monetise by automating specific workflows and charging per seat for the software. AI agents can potentially perform the same workflows without a subscription — they access APIs, complete tasks, and manage systems. The implicit threat: a sufficiently capable AI agent could replace the need for most SaaS tools by directly operating business infrastructure.
+
+**CNBC analyst on the shift:** *"AI-native companies will emerge while incumbents falter."* The narrative has fundamentally shifted from **AI augments humans → AI replaces SaaS**.
+
+**KPMG's response:** Business Insider (March 22) reports KPMG published guidance on **when to use a "kill switch" against AI agents** — the firm is specifically preparing for scenarios where autonomous agents must be stopped mid-task. KPMG's stance: every enterprise deploying agentic AI needs pre-defined human override protocols.
+
+**Who benefits:** AWS and Google Cloud are expected to *gain* from the shift, as autonomous agent fleets require massive compute — cloud providers become the infrastructure layer for the agentic economy.
+
+**Sources:** FinancialContent (March 23, March 26), Chronicle Journal Markets (March 26–27), Taskade blog, Business Insider (March 22)
+
+---
+
+### 🔴 McKinsey's "Lilli" AI Platform Breached in Under 2 Hours — 46.5M Messages Exposed — Feb 28, 2026
+
+**What happened:** On February 28, 2026, security company **CodeWall** pointed an autonomous offensive AI agent at McKinsey's internal AI platform **"Lilli"** in a red-team exercise — and achieved **full read-write access in under two hours**.
+
+**The attack path:**
+1. CodeWall's autonomous agent discovered **unauthenticated API endpoints** in Lilli's infrastructure
+2. The agent executed a **SQL injection** attack — a vulnerability class that has existed for 30 years — through an unsecured endpoint
+3. Once inside, the agent found that **Lilli's system prompts were writable** — meaning an attacker could modify the AI's behaviour instructions
+4. The agent extracted **46.5 million internal chat messages** and **728,000 internal file records**
+
+**Why system prompt writability matters:** An AI agent with writable system prompts can be turned against its users — modified to give bad advice, leak data in responses, refuse to help with legitimate tasks, or escalate access silently. This is not a theoretical concern; it happened in a controlled exercise.
+
+**McKinsey's acknowledgement:** Business Insider (March 22) quotes McKinsey: *"McKinsey was recently alerted to a vulnerability related to our internal AI tool, Lilli, by a security researcher."* The statement implies the disclosure came through responsible disclosure channels rather than a malicious breach — but the vulnerability was real and exploitable.
+
+**Disclosure vs. exploitation gap:** The 30-year-old SQL injection attack vector should have been patched. The writable system prompts should never have been accessible. The fact that a single autonomous red-team agent found both in under 2 hours suggests the security review process for enterprise AI platforms is dramatically insufficient.
+
+**The OWASP context:** This breach exemplifies multiple entries in the OWASP Top 10 for Agentic Applications 2026: insecure agent interactions, lack of authentication, and insufficient input validation — all enabling agent hijacking.
+
+**Sources:** hathr.ai (March 22), PointGuardAI, Business Insider (March 22), BVP Atlas (March 25), Traefik blog
+
+---
 
 ### 🟠 Production Scaling Crisis for Agentic AI — Race Conditions, Cascading Failures, Zero Observability — March 2026
 

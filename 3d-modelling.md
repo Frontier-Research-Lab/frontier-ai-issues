@@ -1,11 +1,12 @@
 # 3d-modelling — AI Issues Radar
 
-_Last updated: 2026-03-23_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0NEW | 🔴 Critical | **Meta, Nvidia, Roblox sued by 3D artist** — class action filed March 26 in California federal court; Meta's SAM-3D, Nvidia's TRELLIS-500K dataset, and Roblox's Cube3D accused of training on millions of 3D models from artist repositories without permission; first major lawsuit targeting the 3D AI generation pipeline specifically | Meta SAM-3D / Nvidia TRELLIS-500K / Roblox Cube3D | Active (filed March 26, 2026) |
 | 0 | 🟠 Major | Autodesk cuts ~1,000 jobs (7% global workforce) in January 2026 amid AI restructuring — follows 1,350 cuts in 2025; Salesforce also cuts ~1,000; industry-wide AI-driven workforce compression accelerating | Autodesk | Active (January 2026) |
 | 1 | 🟠 Major | Autodesk enters generative AI 3D — launches with commercial use limitations + Objaverse training data copyright concerns; studios questioning legitimacy of outputs | Autodesk (new gen AI feature) | Active (March 16, 2026) |
 | 2 | 🟠 Major | AI 3D outputs routinely unfit for production — mesh quality, topology, and UV unwrapping require 2–4 hours of manual cleanup per asset | All AI 3D tools | Ongoing |
@@ -18,6 +19,33 @@ _Last updated: 2026-03-23_
 ---
 
 ## Details
+
+### 🔴 Meta, Nvidia, and Roblox Sued Over AI 3D Training Data — Class Action Filed — March 26, 2026
+
+**What happened:** On March 26, 2026, a digital artist filed **proposed class action lawsuits in US District Court for the Northern District of California** against Meta Platforms, Nvidia, and Roblox — alleging that all three companies **misused millions of 3D models** harvested from artist repositories to train their AI systems, without the consent or compensation of the creators.
+
+**The three defendants and their AI systems:**
+1. **Meta** — the lawsuit targets **SAM-3D** (a 3D variant of Meta's Segment Anything model), which was trained on large-scale 3D object repositories
+2. **Nvidia** — the lawsuit targets **TRELLIS-500K**, Nvidia's dataset of 500,000+ 3D objects used to train its generative 3D models
+3. **Roblox** — the lawsuit targets **Cube3D**, Roblox's AI-powered 3D asset generation system for its platform
+
+**The core allegation:** Reuters (Blake Brittain, March 26, 2026): *"The complaints said Meta's SAM-3D, Nvidia's TRELLIS-500K, and Roblox's Cube3D AI-powered systems for generating 3D assets were trained on millions of works from the repositories without artists' permission."*
+
+**Why this is significant — the training data problem specific to 3D:**
+Unlike text or images — where the copyright argument at least involves published works with clear rights — **3D models occupy a legal grey zone:**
+- Many 3D models are published to artist repositories (Sketchfab, Thingiverse, ArtStation 3D, Blender Open Data) under CC or custom licences
+- Training uses violate most of those licences, which explicitly prohibit commercial training
+- The scale involved (TRELLIS-500K alone contains 500,000+ objects) means the statutory damages exposure could be enormous — up to $150,000 per work under US copyright law, potentially in the tens of billions
+
+**Who's bringing the case:** Filed by one artist but structured as a class action — meaning potentially thousands of 3D creators could join. The lead plaintiff is identified only by their profession (digital artist); the attorney and firm are not yet named in initial reports.
+
+**The Roblox angle:** Roblox is particularly exposed because Cube3D is being deployed to generate game assets commercially — the outputs are not just research tools but are entering a revenue-generating ecosystem. This commercial use of allegedly infringing training data strengthens the damages case.
+
+**Industry context:** This lawsuit arrives as the first copyright case to name 3D-specific AI systems — separate from the Stability AI/Midjourney image cases and the text-generation lawsuits. It signals that the AI copyright litigation wave has now expanded into every major creative output format.
+
+**Sources:** Reuters (Blake Brittain, March 26, 2026), TradingView News (Reuters reprint)
+
+---
 
 ### 🟠 Autodesk Cuts ~1,000 Jobs in AI Restructuring Wave — January 2026
 

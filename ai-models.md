@@ -1,11 +1,14 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-26_
+_Last updated: 2026-03-27_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar27 | 🔴 Critical | Claude Outage #14 — March 27 (TODAY): Users reporting login failures and platform errors affecting Opus 4.6 and Sonnet 4.6; Anthropic status page shows "Elevated errors on Claude Sonnet 4.6"; ABPLive and IBTimes confirm active outage; BusinessToday calls it "fifth disruption this month"; trendingtopics.eu: "Unexpected capacity limitations"; 14th separate incident in ~4 weeks | Claude (Anthropic) | **Active TODAY** (March 27, 2026) |
+| 0mar27b | 🔴 Critical | **Gemini AI Studio image API outage TODAY** — gemini-3-pro-image-preview ("Nano Banana Pro") and Nano Banana 2 image generation APIs plagued by errors; massive request failure rate; persistent HTTP 429 rate limit errors reported across Gemini CLI for 2+ days prior; apiyi.com confirms active outage (March 27, 2026) | Google Gemini AI Studio | **Active TODAY** (March 27, 2026) |
+| 0mar27c | 🟠 Major | ChatGPT ads burning advertiser bridges — Mashable (March 25): OpenAI's early ads test "burned bridges" with advertisers who participated; issues with ad quality, targeting, and "unforced errors in OpenAI's ad division" per The Information scoop; $9B ad revenue target at risk | ChatGPT (OpenAI) | Active (March 25, 2026) |
 | 0mar26a | 🔴 Critical | Claude Outage #13 — March 26: StatusGator records 10-hour Warning + separate 18-minute full Down today; Anthropic status page still shows "claude.ai Partial Outage" from yesterday's incident bleeding into today; 13th incident in under 4 weeks | Claude (Anthropic) | Active (March 26, 2026) |
 | 0mar26b | 🟠 Major | OpenAI "indefinitely" shelves ChatGPT Adult Mode — reversed course hours after global coverage of minor safety risks; FT, Reuters, Verge, Engadget all confirm; Ars Technica: "ChatGPT has been linked to mental health harms in both kids and adults through lawsuits alleging OpenAI recklessly released chatbot without appropriate safeguards" (March 26, 2026) | ChatGPT (OpenAI) | Shelved indefinitely (March 26, 2026) |
 | 0mar26c | 🟡 Notable | EU antitrust chief Teresa Ribera meets CEOs of Google (Alphabet), Meta, OpenAI, and Amazon on March 24–25 amid AI dominance concerns; EC investigating Big Tech AI leverage; DMA enforcement over AI bundling on the table (Reuters, March 24, 2026) | Google / Meta / OpenAI / Amazon | Developing |
@@ -48,6 +51,56 @@ _Last updated: 2026-03-26_
 ---
 
 ## Details
+
+### 🔴 Gemini AI Studio Image API Outage — "Nano Banana Pro" Down — March 27, 2026 (TODAY)
+
+**What happened:** Google's Gemini AI Studio image generation API experienced a **major outage today** (March 27, 2026), affecting the `gemini-3-pro-image-preview` model (codenamed "Nano Banana Pro") and the "Nano Banana 2" image generation model. A massive number of API requests are failing, with developers reporting widespread errors.
+
+**The compounding problem:** A GitHub issue on the gemini-cli repository (#23900) documents persistent **HTTP 429 "Too Many Requests"** errors for 2+ days prior — suggesting the outage may have been building. Users reported normal usage triggering rate limit errors that look like quota misconfiguration or backend routing problems.
+
+**Scale of impact:** The Gemini CLI GitHub issue has attracted significant engagement from developers; apiyi.com published a dedicated guide for affected users (March 27). The outage is affecting developers who have built production applications on the Gemini image generation API.
+
+**The context:** This outage arrives on the same day as Claude's Outage #14 — meaning today (March 27, 2026), two of the three major AI assistant APIs (Claude and Gemini image generation) are simultaneously experiencing disruptions. The AI infrastructure is under extreme load.
+
+**Sources:** apiyi.com (March 27), GitHub google-gemini/gemini-cli issue #23900
+
+---
+
+### 🟠 ChatGPT Ads Burning Advertiser Bridges — Unforced Errors in OpenAI's Ad Division — March 25, 2026
+
+**What happened:** An OpenAI pivot toward advertising revenue — announced earlier in 2026 — has reportedly hit significant turbulence. Mashable (March 25) cites a scoop from The Information documenting **"unforced errors in OpenAI's ad division"** that burned bridges with the early-access advertisers who participated in testing.
+
+**The issues documented:** The Information's reporting suggests early ChatGPT ads testing produced ads that were off-brand, poorly targeted, or technically problematic — enough to damage OpenAI's relationship with the exact advertiser partners it needs for the long-term ad revenue strategy.
+
+**Why it matters:** OpenAI's ability to sustain massive infrastructure costs (and fund its AGI mission) depends significantly on diversifying beyond subscription revenue. The company reportedly has a $9 billion advertising revenue target. Burning bridges with early advertiser partners at the testing stage is a meaningful setback.
+
+**The broader context:** Sam Altman and OpenAI's public-facing narrative is "pure AI mission" — advertising sits in tension with that identity. The internal debate about whether ChatGPT's user trust can survive being monetised through advertising has evidently not been resolved, and the external test results suggest the execution is not yet ready.
+
+**Sources:** Mashable (March 25), The Information (cited by Mashable)
+
+---
+
+### 🔴 Claude Outage #14 — Login Failures + Platform Errors — March 27, 2026 (TODAY)
+
+**What happened:** Anthropic's Claude experienced its **fourteenth service disruption** since early March 2026 — this one happening TODAY. Users globally reported login failures and elevated errors on the Opus 4.6 and Sonnet 4.6 models. Anthropic's status page confirmed: **"Elevated errors on Claude Sonnet 4.6"** with an active investigation notice.
+
+**User voice:** X/Twitter user @0xRafli: *"Not only claude quota runs out, but also when it went down like now. Like Figma back to early days"* — the Figma comparison a pointed jab at a platform experiencing its own AI-disruption spiral.
+
+**Media coverage:** ABPLive, IBTimes Australia, PiunikaWeb, BusinessToday (India), trendingtopics.eu — all confirmed active as of this update.
+
+**The scale of the streak:** BusinessToday is calling this the **"fifth disruption in March"** (counting only the most significant incidents). StatusGator and Downdetector show 14 separate flagged incidents since March 2. The trendingtopics.eu headline captures it cleanly: *"Claude Outages Surge as Anthropic Chases 2026 Revenue Lead Over OpenAI"* — noting that "unexpected capacity limitations" are the stated cause, but the real story is infrastructure being outpaced by the 1,487% session surge from QuitGPT migrations.
+
+**Why it keeps happening:** Anthropic is experiencing simultaneous demand shocks from:
+1. The QuitGPT movement driving 1.5–2.5M users from ChatGPT
+2. The Cursor/coding tool developer community
+3. Enterprise API customers expanding usage
+4. Claude Code developer growth
+
+The infrastructure was not built to absorb these concurrent surges, and Anthropic's public posture has been to acknowledge outages rather than pre-empt them.
+
+**Sources:** ABPLive (March 27, 2026), IBTimes.com.au (March 27), PiunikaWeb (March 27), BusinessToday (March 27), trendingtopics.eu (March 27)
+
+---
 
 ### 🔴 Claude Outage #13 — Warning + Full Down — March 26, 2026 (TODAY)
 
