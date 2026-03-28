@@ -1,11 +1,12 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar28 | 🟠 Major | **Suno v5.5 "Voices" launch triggers backlash — v5 vocals "absolutely disgusting"** — Suno launched v5.5 with "Voices" feature (March 26) while lawsuits stack up; Reddit r/SunoAI immediately fills with complaints: "V5 vocals sound absolutely disgusting. Just unusable." and "Why couldn't Suno let us use our own voices"; users who loved v4.5 feel betrayed; BIPA biometric lawsuit (filed March 24) directly targets the voice training pipeline behind this very feature; MusicAlly: Suno positions "Voices" as label-friendly future but community sees it as "personalization theater" | Suno v5.5 | Active (launched March 26, 2026) |
 | 0b | 🟠 Major | **Suno charging for features "deliberately blocked from working together"** — Reddit thread (March 22) documents paying subscribers discovering that features advertised on their $25/month plan are intentionally incompatible; Personas cannot use users' own voices; paying users calling it a bait-and-switch; ElevenLabs music integration adds fresh friction with inaccessible captchas | Suno | Active (March 22, 2026) |
 | 0a | 🔴 Critical | NEW CLASS ACTION — Independent musicians sue Suno, Udio AND Google over voiceprint extraction under Illinois BIPA — biometric privacy claims stack on top of copyright infringement and CMI removal; Google accused of training Lyria 3 on YouTube without license; no prior AI copyright suit has included biometric privacy theory (filed ~March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |
 | 1 | 🔴 Critical | Google sued by indie musicians over Lyria 3 — "vertically-integrated syndicate" that illegally copies music, launders ownership, unfairly competes | Google Lyria 3 | Active (filed March 6, 2026) |
@@ -26,6 +27,28 @@ _Last updated: 2026-03-27_
 ---
 
 ## Details
+
+### 🟠 Suno v5.5 "Voices" Launch — Community Backlash Amid Legal Crisis — March 26, 2026
+
+**What happened:** Suno launched **v5.5** on March 26, 2026 with three headline features: **Voices** (AI voice personas), **Custom Models** (personalised generation styles), and **My Taste** (personalisation based on listening history). The official blog declared it "our best and most expressive model yet."
+
+**Reddit's response was immediate and brutal:**
+- r/SunoAI thread: *"V5 vocals sound absolutely disgusting. Just unusable."*
+- *"I'm crying. 4.5 FINALLY nailed the sound I'd been aiming for."*
+- *"Why couldn't Suno let us use our own voices."* — the central complaint: Voices feature still doesn't let users apply their own voice to their creations; they can only use Suno's pre-built AI voice personas
+- *"I don't want any vocals in my intro."* — users finding the model pushes vocals where they weren't wanted
+
+**The timing is legally explosive:** Suno launched the "Voices" feature while:
+1. The **BIPA class action** (filed March 24, just two days earlier) specifically alleges Suno extracted and stored voiceprints without consent during AI training
+2. **GEMA v. Suno** German court hearing with ruling due June 12
+3. **Suno indie artist class action** oral arguments were just heard March 20
+4. The "Voices" feature is built on the same model pipeline that the BIPA lawsuit claims harvested biometric identifiers
+
+**MusicAlly's framing:** Suno is positioning "Voices" as a label-friendly compliance future — new models with licensed training data could enable labels to monetise artist voice personas on the platform. The community reads this as yet another case of Suno building a business on top of music industry infrastructure while being sued by the people who created that infrastructure.
+
+**Sources:** Suno blog (March 26), Digital Music News (March 26), Reddit r/SunoAI (March 26), MusicAlly (March 27)
+
+---
 
 ### 🟠 Suno Charging Users for Features "Deliberately Blocked From Working Together" — March 22, 2026
 

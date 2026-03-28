@@ -1,11 +1,13 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar28a | 🟠 Major | **Ex-OpenAI researcher warns AI extinction could come within 5 years** — not decades, but years; India Today (March 28): former researcher's warnings surface publicly amid escalating AI capability debates; adds to internal OpenAI safety culture concerns following researcher departures and the "sycophancy" controversies; amplifies character.ai suicide case settlement context (January 2026) | OpenAI (former researcher) | Active (March 28, 2026) |
+| 0mar28b | 🟡 Notable | **Anthropic to launch "Claude Mythos" — new model with advanced reasoning** — SiliconAngle reports (March 28) Anthropic is preparing "Claude Mythos," described as having advanced reasoning features; announcement timing notable given ongoing reliability/outage crisis; name suggests positioning against OpenAI's "o" reasoning series | Claude Mythos (Anthropic) | Developing (announced March 28, 2026) |
 | 0mar27 | 🔴 Critical | Claude Outage #14 — March 27 (TODAY): Users reporting login failures and platform errors affecting Opus 4.6 and Sonnet 4.6; Anthropic status page shows "Elevated errors on Claude Sonnet 4.6"; ABPLive and IBTimes confirm active outage; BusinessToday calls it "fifth disruption this month"; trendingtopics.eu: "Unexpected capacity limitations"; 14th separate incident in ~4 weeks | Claude (Anthropic) | **Active TODAY** (March 27, 2026) |
 | 0mar27b | 🔴 Critical | **Gemini AI Studio image API outage TODAY** — gemini-3-pro-image-preview ("Nano Banana Pro") and Nano Banana 2 image generation APIs plagued by errors; massive request failure rate; persistent HTTP 429 rate limit errors reported across Gemini CLI for 2+ days prior; apiyi.com confirms active outage (March 27, 2026) | Google Gemini AI Studio | **Active TODAY** (March 27, 2026) |
 | 0mar27c | 🟠 Major | ChatGPT ads burning advertiser bridges — Mashable (March 25): OpenAI's early ads test "burned bridges" with advertisers who participated; issues with ad quality, targeting, and "unforced errors in OpenAI's ad division" per The Information scoop; $9B ad revenue target at risk | ChatGPT (OpenAI) | Active (March 25, 2026) |
@@ -51,6 +53,40 @@ _Last updated: 2026-03-27_
 ---
 
 ## Details
+
+### 🟠 Ex-OpenAI Researcher: AI Extinction Risk "Within 5 Years, Not Decades" — March 28, 2026
+
+**What happened:** A former OpenAI researcher has publicly warned that AI's extinction risks may materialise within **5 years** — not the decades-long horizon typically cited in mainstream safety discussions. The warning surfaced via India Today on March 28, 2026.
+
+**Context:** This is part of a pattern of escalating safety warnings from people with direct OpenAI experience:
+- Multiple senior safety researchers left OpenAI in 2024–2025 over alignment concerns
+- OpenAI's o3/o4-mini reasoning models have been documented hallucinating *more* than earlier models, with the company itself admitting it "doesn't know why"
+- The Character.AI suicide case (Sewell Setzer III) settled in January 2026 — terms undisclosed — establishing early legal precedent for AI harm liability
+- Internal OpenAI staff protest letters, the QuitGPT boycott, and the Pentagon deal backlash all documented safety culture erosion
+
+**The 5-year framing is notable:** Most AI safety discourse has operated on 10–30 year horizons. A credible former insider compressing this to 5 years — concurrent with the observable acceleration of agentic AI deployment (Amazon's Kiro Sev-1 outages, McKinsey Lilli breach, Meta Sev-1 incident) — moves the needle from theoretical to operational risk.
+
+**Why it's appearing now:** The timing coincides with RSAC 2026 (this week), where 48% of cybersecurity professionals already identify agentic AI as the single most dangerous attack vector. The confluence of insider safety warnings + enterprise security consensus is creating new urgency.
+
+**Sources:** India Today (March 28, 2026)
+
+---
+
+### 🟡 Anthropic to Launch "Claude Mythos" — Advanced Reasoning Model — March 28, 2026
+
+**What happened:** SiliconAngle reported on March 28, 2026 that Anthropic is preparing to launch a new model called **"Claude Mythos"** with "advanced reasoning features." Details are sparse, but the name signals a significant positioning move.
+
+**Strategic context:** 
+- Claude Mythos positions directly against OpenAI's "o" reasoning series (o3, o4-mini) and Google's Gemini thinking modes
+- Anthropic is navigating an acute reliability crisis (14+ outages in ~4 weeks), so a high-capability model launch during infrastructure strain will be scrutinised
+- The announcement comes as Anthropic fights a federal lawsuit against the Pentagon over the "supply chain risk" label
+- The name "Mythos" suggests positioning as a storytelling/reasoning model rather than a pure technical coding tool
+
+**Community concern:** Given that Claude Sonnet 4.6 and Opus 4.6 are already experiencing repeated outages, users are questioning whether launching a new model tier will stretch Anthropic's infrastructure further.
+
+**Sources:** SiliconAngle (March 28, 2026)
+
+---
 
 ### 🔴 Gemini AI Studio Image API Outage — "Nano Banana Pro" Down — March 27, 2026 (TODAY)
 

@@ -1,11 +1,12 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar28 | 🟠 Major | **Grok mass login failure — thousands abruptly logged out (March 26)** — thousands of X users lost Grok access when authentication errors hit the platform March 26; users experienced "repeated authentication errors" after being logged out without warning; no official explanation from xAI; incident comes as Grok faces CSAM lawsuits, Baltimore municipal suit, and 6,700 deepfakes/hour findings — the platform's image generation safety crisis continues to compound | Grok / xAI | Resolved (March 26, 2026) |
 | 0mar27 | 🔴 Critical | **Gemini image generation API down TODAY** — gemini-3-pro-image-preview ("Nano Banana Pro") and Nano Banana 2 image APIs experiencing major outage; massive request failure rates; developers report persistent 429 errors on Gemini CLI for 2+ days; apiyi.com confirms active failure (March 27, 2026) | Google Gemini image generation | **Active TODAY** (March 27, 2026) |
 | 0NEW | 🔴 Critical | **Baltimore becomes first US city to sue xAI** over Grok deepfake porn (March 24, 2026) — municipal lawsuit alleges Grok AI enabled widespread creation of harmful deepfakes including images of minors; this follows the Tennessee CSAM class action (March 16) and women/girls lawsuit (March 17); legal pressure mounting from all sides | Grok / xAI | Active (filed March 24, 2026) |
 | 1 | 🔴 Critical | xAI/Grok CSAM class action — three Tennessee teenagers sue xAI alleging Grok used their real photos to generate + distribute child sexual abuse material; deepfake images uploaded to Discord (filed March 16, 2026) | Grok / xAI | Active (filed March 16, 2026) |

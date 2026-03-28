@@ -1,11 +1,12 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-24_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar28 | 🟠 Major | **Mistral releases Voxtral TTS — open-weight model it claims beats ElevenLabs** — 3B parameter model released March 26 with open weights (runs on 3GB RAM, 90ms latency); claims to outperform ElevenLabs v2.5 Flash in human preference tests; supports 9 languages; enterprise deployable on a smartphone; VentureBeat: "Mistral AI just released a text-to-speech model it says beats ElevenLabs — and it's giving away the weights for free"; ElevenLabs faces existential commoditisation pressure — if open-weight models match quality, subscription TTS businesses erode | Mistral Voxtral TTS (vs ElevenLabs) | Active (released March 26, 2026) |
 | 0new | 🔴 Critical | BIPA voiceprint class action — indie musicians sue Suno, Udio, Google Lyria 3 for extracting and storing voiceprints from recordings without consent; Illinois Biometric Information Privacy Act claims stack on top of copyright infringement; $1,000–$5,000 per violation with unlimited class size — could result in existential damages for voice training platforms (filed March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |
 | 0 | 🔴 Critical | AI voice fraud now mainstream consumer threat — AARP March 19: deepfake voice calls combined with cloned faces; "family emergency" scam calls convincing elderly victims to send money using real-time voice clone of child's voice; criminals can clone from just 10-second social media clips | AI voice tools (misused) | Active (March 19, 2026) |
 | 1 | 🔴 Critical | UN Global Wake-Up Call — deepfakes and voice cloning "weaponised" by organised crime networks in Southeast Asia for fraud, money laundering, malware | AI voice/deepfake tools (misused) | Active (March 17, 2026) |
@@ -25,6 +26,31 @@ _Last updated: 2026-03-24_
 ---
 
 ## Details
+
+### 🟠 Mistral Voxtral TTS — Open-Weight Model Claims to Beat ElevenLabs — March 26, 2026
+
+**What happened:** On March 26, 2026, Mistral AI released **Voxtral TTS** — a 3 billion parameter text-to-speech model with open weights. The model runs on approximately 3GB of RAM, achieves **90ms time-to-first-audio**, and supports nine languages including English, French, German, Spanish, and Portuguese.
+
+**The ElevenLabs challenge:** Mistral ran human preference evaluation benchmarks comparing Voxtral TTS directly against **ElevenLabs v2.5 Flash** — the most-used ElevenLabs enterprise tier. In their benchmarks, Voxtral TTS claims to "widen the quality gap" in naturalness and accent adherence, particularly in zero-shot multilingual custom voice generation.
+
+**Why this matters for ElevenLabs users:**
+1. **Free enterprise deployment** — because weights are open, companies can run Voxtral TTS on their own infrastructure with zero ongoing licensing fees
+2. **Data privacy** — on-premise deployment means no voice data leaves the company's servers
+3. **No credit burning** — ElevenLabs' credit-based pricing model has frustrated heavy users who "burn through their budget until they learn to manage credits"
+4. **Commoditisation signal** — if open-weight models genuinely match proprietary quality, ElevenLabs' $80–$330/month subscription model faces structural threat
+
+**The timing:** Mistral's release comes as:
+- ElevenLabs faces two ongoing lawsuits for voice actor likeness misappropriation (Vacker & Boyett)
+- BIPA class actions put the entire voice AI training pipeline under legal scrutiny
+- The P1bot vishing platform used ElevenLabs as its fraud infrastructure
+
+**TechCrunch:** *"The new model, called Voxtral TTS, supports nine languages... puts Mistral in direct competition with the likes of ElevenLabs, Deepgram, and OpenAI."*
+
+**Community reaction (Reddit r/LocalLLaMA):** Mixed — enthusiasm for open-weight TTS, scepticism about Mistral's self-benchmarking methodology, but general consensus that the commoditisation of voice synthesis is accelerating.
+
+**Sources:** VentureBeat (March 26), TechCrunch (March 26), SiliconAngle (March 26), Reddit r/LocalLLaMA (March 26)
+
+---
 
 ### 🔴 NEW: Musicians Sue Suno, Udio & Google for Voiceprint Extraction — BIPA Class Actions Filed — March 24, 2026
 

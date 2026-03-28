@@ -1,11 +1,12 @@
 # automation — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar28 | 🔴 Critical | **LiteLLM supply chain attack — poisoned PyPI packages exfiltrate cloud secrets** — threat actor "TeamPCP" published backdoored LiteLLM versions 1.82.7 and 1.82.8 on March 24 via compromised Trivy CI/CD credentials; malware uses .pth file that auto-executes on Python startup (runs even without importing LiteLLM); harvests API keys, OAuth tokens, environment variables and sends to attacker; available for ~6 hours before removal; Kaspersky, Snyk, Arctic Wolf all confirmed; any automation pipeline that ran `pip install litellm` on March 24 should be treated as compromised | LiteLLM (AI automation dependency) | **Active — audit all installs from March 24** |
 | 0NEW | 🔴 Critical | **NEW n8n RCE triple: CVE-2026-33660, CVE-2026-33696, CVE-2026-33663** — two new CVSS 9.4 RCE vulnerabilities published March 25: CVE-2026-33660 allows RCE through Merge node SQL mode (AlaSQL); CVE-2026-33696 achieves RCE through prototype pollution; CVE-2026-33663 allows credential interception. Patch to versions 1.123.27, 2.13.3, or 2.14.1 immediately — coming just weeks after "Ni8mare" exploit chain | n8n | **Active — patch to 1.123.27/2.13.3/2.14.1** (March 25, 2026) |
 | 0 | 🔴 Critical | "Ni8mare" — CISA warns n8n max-severity CVE chain being actively exploited in wild: CVE-2026-21858 (unauthenticated file read) + CVE-2025-68613 (authenticated RCE) combined = full system takeover without login; n8n stores API keys, OAuth tokens for dozens of services (March 17, 2026) | n8n | Active exploit — patch NOW |
 | 1 | 🔴 Critical | Zapier pricing rage — what started at $10/month has ballooned to $750+/month for basic automations; mass migration underway | Zapier | Ongoing |
@@ -19,6 +20,38 @@ _Last updated: 2026-03-27_
 ---
 
 ## Details
+
+### 🔴 LiteLLM Supply Chain Attack — TeamPCP Poisons PyPI Package, Cloud Secrets at Risk — March 24, 2026
+
+**What happened:** On March 24, 2026, threat actor **TeamPCP** published two backdoored versions of the `litellm` Python package (**1.82.7** and **1.82.8**) to PyPI — the primary repository used by Python developers to install packages. The attack exploited a **compromised Trivy GitHub Action** in LiteLLM's own CI/CD pipeline to steal PyPI publishing credentials, then used them to push malicious versions.
+
+**Why this is critical for AI automation:** LiteLLM is one of the most widely-used Python libraries in the AI ecosystem. It acts as a universal API gateway — allowing developers to route calls to OpenAI, Anthropic, Gemini, Cohere, and dozens of other LLMs through a single interface. It is embedded in countless AI automation pipelines, n8n deployments, Make/Zapier alternatives, and custom agent frameworks.
+
+**The attack mechanism — .pth file:**
+- The malware was delivered via a **`.pth` file** (Python path file)
+- `.pth` files execute automatically when the Python interpreter starts — meaning the payload runs in **any Python process** on the infected machine
+- The malware does NOT need to be explicitly imported to run — **simply having litellm installed is enough**
+- The payload harvests: API keys, OAuth tokens, cloud credentials, environment variables, and other secrets
+
+**Timeline:**
+- **March 24, 2026:** TeamPCP publishes 1.82.7 and 1.82.8 to PyPI
+- **~6 hours later:** Packages removed from PyPI after detection
+- **March 25–26:** Kaspersky, Snyk, Arctic Wolf publish analyses
+- **March 27:** LiteLLM publishes security advisory + SHA-256 checksums for verified-safe versions
+
+**Who is affected:** Any developer or automation pipeline that ran `pip install litellm` or `pip install --upgrade litellm` during the ~6 hour window on March 24. CI/CD systems that automatically update dependencies are most at risk.
+
+**Immediate actions required:**
+1. Run `pip show litellm` — if you see 1.82.7 or 1.82.8, you're compromised
+2. Check for `litellm_init.pth` files: `find ~/.cache/uv -name "litellm_init.pth"` 
+3. Rotate ALL credentials in environments where litellm was installed
+4. Audit CI/CD runs from March 24
+
+**Snyk:** *"On March 24, 2026, threat actor known as TeamPCP published backdoored versions of the litellm Python package after stealing PyPI credentials via a compromised Trivy GitHub Action in LiteLLM's CI/CD pipeline."*
+
+**Sources:** Snyk (March 23), Arctic Wolf (March 25), Kaspersky blog (March 26), LiteLLM security advisory (March 27), Forbes (March 27)
+
+---
 
 ### 🔴 New n8n Triple Vulnerability — RCE + Credential Theft CVEs — March 25, 2026
 

@@ -1,11 +1,13 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| -4 | 🔴 Critical | **LiteLLM poisoned PyPI package — AI agents at direct risk of credential theft** — TeamPCP supply chain attack on March 24 backdoored LiteLLM v1.82.7 and 1.82.8; malicious .pth file auto-exfiltrates API keys and cloud secrets on Python startup; LiteLLM is the routing layer beneath countless autonomous agent frameworks, LangChain deployments, and custom agent stacks; any agent that ran on a compromised environment had its LLM API keys, vector DB credentials, and cloud tokens exposed | LiteLLM (universal agent dependency) | **Active — audit all March 24 installs** |
+| -3a | 🟠 Major | **RSAC 2026: agentic AI governance is in "wild west" territory** — security leaders warn governance is "lagging dangerously behind deployment"; Cisco's DefenseClaw open-source framework announced to address AI agent lifecycle security; TechRepublic: "RSAC 2026 Proved the Industry Agrees on the Problem — Now Comes the Hard Part"; 48% of cybersecurity professionals now identify agentic AI as the single most dangerous attack vector (Dark Reading) | All enterprise agent platforms | Active (March 24–28, 2026) |
 | -3 | 🔴 Critical | **"SaaSpocalypse" — B2B software stocks plunge 25% YTD** as autonomous AI agents signal threat to traditional SaaS workflows; ServiceNow dropped 5% in a single session March 24; $611 billion wiped from software sector since the "agentic AI scare trade" began; narrative shift from AI-augments-humans to AI-replaces-SaaS triggering Wall Street regime change | Anthropic agents (trigger) / Industry-wide | Active (March 23–27, 2026) |
 | -2b | 🔴 Critical | **McKinsey Lilli breach (Feb 28)** — autonomous red-team agent breached McKinsey's internal AI platform in under 2 hours via SQL injection; 46.5M chat messages + 728K internal files exposed; system prompts were writable, enabling AI manipulation; proof that agentic AI creates entirely new attack surfaces | McKinsey Lilli (enterprise AI agent) | Disclosed March 2026 |
 | -2 | 🟠 Major | Production scaling crisis for agentic AI in 2026 — teams report agents waiting on other agents, race conditions in async pipelines, cascading failures impossible to reproduce in staging; only 24.4% of orgs have full oversight; Gartner warns 40% of agentic AI projects will fail by 2027 | All agentic AI platforms | Active (March 2026) |
@@ -29,6 +31,48 @@ _Last updated: 2026-03-27_
 ---
 
 ## Details
+
+### 🔴 LiteLLM Supply Chain Attack — AI Agent Credential Exfiltration Risk — March 24, 2026
+
+**What happened:** The `litellm` Python library — arguably the most critical single dependency in the AI agent ecosystem — was backdoored by threat actor **TeamPCP** on March 24, 2026. LiteLLM functions as the universal LLM routing layer beneath LangChain agents, CrewAI deployments, AutoGen frameworks, custom agent pipelines, and countless other agentic systems.
+
+**Why this is an agent-specific catastrophe:** LiteLLM sits at the credential nexus of any agent system — it holds API keys for every LLM provider the agent connects to (OpenAI, Anthropic, Gemini, Cohere, etc.), plus database credentials, vector store API keys, and cloud provider tokens. A compromised LiteLLM installation exposes the **entire credential surface of any agent framework** that uses it as a router.
+
+**The .pth file weaponisation:** The malware payload was delivered as a Python `.pth` file, which executes automatically on Python interpreter startup. This means:
+- It runs without the package being explicitly imported
+- It persists across virtual environment activations
+- It runs inside Docker containers that inherit infected base images
+- It executes in CI/CD environments that cache Python environments
+
+**Timeline:**
+- **March 24:** Backdoored versions 1.82.7 and 1.82.8 published to PyPI via stolen CI/CD credentials
+- **~6 hours:** Packages available before detection and removal
+- **March 27:** LiteLLM security advisory published; SHA-256 checksums for safe versions released
+
+**Scope of impact:** Any autonomous agent, LangChain workflow, CrewAI crew, or custom agentic system that updated litellm on March 24 should be treated as fully compromised — all API keys rotated, all agent logs audited for unusual outbound activity.
+
+**Sources:** Snyk (March 23), Arctic Wolf (March 25), Kaspersky (March 26), LiteLLM security advisory (March 27), Forbes (March 27)
+
+---
+
+### 🟠 RSAC 2026: Agentic AI Governance in "Wild West" Territory — March 24–28, 2026
+
+**What happened:** The RSA Conference 2026 (San Francisco, March 24–27) was dominated by agentic AI security. Industry consensus: **autonomous AI agents have been deployed far ahead of governance capabilities**, creating a systemic enterprise risk.
+
+**Key findings from RSAC 2026:**
+- **48% of cybersecurity professionals** now identify agentic AI and autonomous systems as the single most dangerous attack vector (Dark Reading poll, presented at RSAC)
+- **Cisco announcement — DefenseClaw:** Cisco announced an open-source framework to secure AI agents throughout their lifecycle; CEO warning: *"One wrong action from an AI agent could cause irreversible damage to the enterprise"*
+- **TechRepublic:** *"RSAC 2026 Proved the Industry Agrees on the Problem — Now Comes the Hard Part"* — security leaders warned that discovery frameworks (finding where agents run) are available, but control frameworks (governing what agents do) are woefully immature
+- **BVP (Bessemer):** *"Securing AI agents has become the defining cybersecurity challenge of 2026"* — paper documents that unlike human workers, digital agents lack personal accountability, making zero-trust implementation critical
+- **CyberScoop:** Security experts called the next two years *"insane"* — AI-driven exploit automation will outpace patching cycles; defenders must assume breach and focus on lateral movement containment
+
+**The McKinsey Lilli precedent:** The February 28 breach of McKinsey's internal AI platform (already documented in this file) was widely referenced at RSAC as a proof-of-concept for agentic AI risk: an autonomous red-team agent breached the system in under 2 hours via SQL injection, accessing 46.5M chat messages.
+
+**The governance gap:** Only **24.4% of organisations have full oversight** of AI agent communications. The remaining 75%+ are operating blind — agents are taking actions, making decisions, and communicating with external services with no audit trail.
+
+**Sources:** SiliconAngle (March 27), BVP Atlas (March 25), TechRepublic (March 25), Cisco blog (March 23), CyberScoop (March 27)
+
+---
 
 ### 🔴 "SaaSpocalypse" — Autonomous AI Agents Trigger $611 Billion Sector Wipeout — March 23–27, 2026
 

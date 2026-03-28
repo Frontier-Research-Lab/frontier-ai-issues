@@ -1,11 +1,12 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-28_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar28 | 🔴 Critical | **GitHub Copilot will train AI on your code starting April 24 — opt-out required** — GitHub quietly published policy change March 25: all Copilot Free, Pro, and Pro+ users' interaction data (code snippets, prompts, file names, repo structure, outputs) will feed AI model training by default unless manually opted out; The Register: "GitHub: We going to train on your data after all"; HotHardware: "GitHub reverses course"; HN thread hit #1; community describes it as bait-and-switch — Microsoft previously promised code would NOT be used for training when building user trust | GitHub Copilot (Microsoft) | Active — opt-out at /settings/copilot/features (March 25, 2026) |
 | 0NEW | 🟠 Major | **Microsoft rolls back "unnecessary" Copilot integrations from Windows** — removing Copilot entry points from Photos, Widgets, Notepad, and Snipping Tool (March 20–23); framed as improving "Windows quality"; community saw this as an admission that forced AI integration was hated; "Microslop" Discord server banned the word, causing fresh backlash | Microsoft Copilot (Windows) | Active (March 20–23, 2026) |
 | 0a | 🔴 Critical | Cursor/Kimi K2.5 controversy deepens — Geeky Gadgets (March 23): Cursor failed to provide attribution required by Kimi K2.5's open-source license, potentially violating license terms; Elon Musk publicly confirmed "Yeah, it's Kimi 2.5"; Fireworks AI CEO says Cursor was "compliant from day one" via their platform; community: "Cursor is becoming a model routing layer, not an IDE" | Cursor / Kimi K2.5 (Moonshot AI) | Active (March 19–23, 2026) |
 | 0b | 🔴 Critical | Microsoft CVE-2026-26133: cross-prompt injection in Copilot email + Teams summarisation lets attackers shape AI output silently — no attachment needed; patched March 11, 2026 | Microsoft 365 Copilot | Patched (March 11, 2026) |
@@ -26,6 +27,32 @@ _Last updated: 2026-03-27_
 ---
 
 ## Details
+
+### 🔴 GitHub Copilot to Train AI on Your Code Starting April 24 — Opt-Out Required — March 25, 2026
+
+**What happened:** GitHub quietly published a policy change on March 25, 2026: starting **April 24, 2026**, all Copilot Free, Pro, and Pro+ users' **interaction data** — including code snippets, prompts, file names, repo structure, and AI outputs — will be used to **train and improve GitHub's AI models by default**. Users must manually opt out via `/settings/copilot/features`.
+
+**Why this is a betrayal:** When Microsoft launched GitHub Copilot in 2021, it made explicit promises that user code would **not** be used for model training. This promise was central to building developer trust during a period when many companies were resistant to cloud-based coding tools. Microsoft is now reversing this commitment with a default opt-in — meaning anyone who doesn't read the changelog will have their code harvested.
+
+**What data is collected:**
+- All inputs (code context, file contents shared with Copilot)
+- All outputs (suggestions, explanations, code completions)
+- Code snippets and associated context
+- Implicit signals (acceptance/rejection of suggestions)
+
+**The Register's headline:** *"GitHub: We going to train on your data after all"* — published March 26, 2026.
+
+**HotHardware:** *"GitHub Reverses Course And Will Train AI On Your Copilot Data Unless You Opt Out"* (March 26, 2026)
+
+**Community reaction:** The Hacker News thread reached #1, with top comments calling it a "bait-and-switch" and a "privacy breach by default." Enterprise users flagged immediate compliance concerns — any company that processes regulated data (healthcare, finance, legal) and uses Copilot without opting out could face data governance violations.
+
+**Business/enterprise implications:** Enterprise and Business tier customers are reportedly exempt (their contracts include stricter data terms). But **individual developers and teams on Free/Pro/Pro+** — often the most prolific Copilot users — are now defaulted into code sharing without explicit consent.
+
+**How to opt out:** Settings → `/settings/copilot/features` → disable "Allow GitHub to use my data for AI model training" under the Privacy heading.
+
+**Sources:** GitHub blog (March 25), The Register (March 26), HotHardware (March 26), HN thread #47521799 (March 28)
+
+---
 
 ### 🔴 Cursor/Kimi K2.5 Controversy — License Violation Claims + Elon Musk Pile-On — Updated March 23, 2026
 
