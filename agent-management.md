@@ -1,11 +1,12 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-28_
+_Last updated: 2026-03-29_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar29 | 🟠 Major | **Fortune: "AI agents are getting more capable, but reliability is lagging — and that is a problem"** — comprehensive industry analysis (March 24, 2026): companies deploying AI agents for customer service, coding, and business operations are experiencing failure rates that undermine ROI; "trust has diminished amid operational failures and customer complaints"; enterprise executives admitting scaling back AI agent deployment after early failures; Claude Desktop Dispatch silent-failure bug (March 29) the latest example of agentic reliability failing without warning; orchestration failures, race conditions, silent hallucinations, and "stuck agent" problems cited as systemic | All enterprise agent platforms | Active (March 24, 2026) |
 | -4 | 🔴 Critical | **LiteLLM poisoned PyPI package — AI agents at direct risk of credential theft** — TeamPCP supply chain attack on March 24 backdoored LiteLLM v1.82.7 and 1.82.8; malicious .pth file auto-exfiltrates API keys and cloud secrets on Python startup; LiteLLM is the routing layer beneath countless autonomous agent frameworks, LangChain deployments, and custom agent stacks; any agent that ran on a compromised environment had its LLM API keys, vector DB credentials, and cloud tokens exposed | LiteLLM (universal agent dependency) | **Active — audit all March 24 installs** |
 | -3a | 🟠 Major | **RSAC 2026: agentic AI governance is in "wild west" territory** — security leaders warn governance is "lagging dangerously behind deployment"; Cisco's DefenseClaw open-source framework announced to address AI agent lifecycle security; TechRepublic: "RSAC 2026 Proved the Industry Agrees on the Problem — Now Comes the Hard Part"; 48% of cybersecurity professionals now identify agentic AI as the single most dangerous attack vector (Dark Reading) | All enterprise agent platforms | Active (March 24–28, 2026) |
 | -3 | 🔴 Critical | **"SaaSpocalypse" — B2B software stocks plunge 25% YTD** as autonomous AI agents signal threat to traditional SaaS workflows; ServiceNow dropped 5% in a single session March 24; $611 billion wiped from software sector since the "agentic AI scare trade" began; narrative shift from AI-augments-humans to AI-replaces-SaaS triggering Wall Street regime change | Anthropic agents (trigger) / Industry-wide | Active (March 23–27, 2026) |
@@ -433,3 +434,27 @@ When agents are deployed as business process managers, a single compromised brow
 **Community reaction:** On Reddit r/sysadmin and HackerNews, enterprise engineers are describing agent deployments as "operational debt you can't see accumulating until it's too late."
 
 **Source:** Gravitee 2026 Survey; Gartner Research; AGAT Software Blog — March 2026; National Interest "When Tools Become Agents" — March 2026
+
+---
+
+### 🟠 Fortune: AI Agent Reliability Lagging Behind Capability — Enterprise Deployment Scaled Back — March 24, 2026
+
+**What happened:** Fortune published a comprehensive analysis (March 24, 2026) documenting a growing gap between AI agent *capability* and *reliability*. The piece draws on interviews with enterprise CTO/CIOs and AI infrastructure teams across industries.
+
+**Key findings:**
+- Senior executives confirmed **trust in AI agents has diminished** following operational failures and customer complaints
+- Multiple companies are **scaling back AI agent deployments** they previously expanded aggressively
+- Customer-facing agentic deployments (customer service, order management, onboarding) are seeing the highest failure rates
+- The failure modes most cited: **silent hallucinations** (agent confidently does wrong thing), **stuck agents** (agent loops or stops without alerting), and **cascading failures** (agent A's failure triggers agent B's failure invisibly)
+
+**Real-world examples contributing to this narrative (March 2026):**
+- Amazon's AI coding agents triggered 120,000 lost orders + 1.6M website errors (March 2)
+- Meta Sev-1: rogue agent exposed sensitive data to unauthorised engineers (March 18/20)
+- McKinsey Lilli breach: red-team agent breached internal AI platform in under 2 hours (Feb 28, disclosed March)
+- Claude Dispatch: responses generated but never delivered — silent failure in agentic pipeline (March 29)
+
+**Why reliability lags capability:** Every new capability increment (more tool use, longer context, greater autonomy) multiplies the surface area for failure. Agents doing more things in more contexts also have more ways to fail — and the sophistication of their failures often outruns the monitoring and observability tools designed to catch them.
+
+**Industry outlook:** With Gartner warning 40% of agentic AI projects will fail by 2027, and only 24.4% of organisations having full visibility into agent-to-agent communications, the industry is in a reliability crisis that capability press releases consistently obscure.
+
+**Source:** Fortune (March 24, 2026), crescendo.ai, Gartner Research

@@ -1,11 +1,14 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-28_
+_Last updated: 2026-03-29_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar29a | 🟠 Major | **OpenAI account creation and login unstable across all surfaces** — OpenAI status page confirmed: "Account creation and login are unstable across all surfaces" on March 29, 2026; service fully recovered by approximately 7:00 AM UTC; no official explanation; 10th+ login/auth disruption in recent weeks for major AI platforms; statusgator.com confirmed recovery by 3:57 PM UTC | ChatGPT / OpenAI (all surfaces) | Resolved (March 29, 2026) |
+| 0mar29b | 🟠 Major | **Claude Dispatch bug — replies silently vanish in Claude Desktop 1.1.9310** — Anthropic status page (March 29, 00:53 UTC): "We've identified an issue in the latest Claude Desktop release (Claude 1.1.9310) where Dispatch sessions stop responding. Messages sent to Dispatch are received and processed, but replies do not appear in the conversation"; GitHub issues #40178, #40179, #40257 all confirm; audit.jsonl logs show responses were generated but never delivered to UI; affects both desktop and mobile app; workaround: use standard Cowork sessions (unaffected); incident resolved same day | Claude Desktop 1.1.9310 / Dispatch | Resolved (March 29, 2026) |
+| 0mar29c | 🟠 Major | **Guardian: Iran war AI propaganda deepfakes "feel true" even when known to be fake** — NYT identified 110+ unique deepfakes with pro-Iran messages (battlefield images, missile strikes, fake female Iranian soldiers) in first weeks of war; Guardian (March 28) documents psychological effect — deepfakes shape views even when audience knows they're synthetic; FDD analysis (March 19): both sides weaponising AI; WEF (March 2026): disinformation at scale threatening democratic stability; AI image/video tools misused without any platform accountability | Grok / xAI, generative AI tools (misused) | Active (March 28–29, 2026) |
 | 0mar28a | 🟠 Major | **Ex-OpenAI researcher warns AI extinction could come within 5 years** — not decades, but years; India Today (March 28): former researcher's warnings surface publicly amid escalating AI capability debates; adds to internal OpenAI safety culture concerns following researcher departures and the "sycophancy" controversies; amplifies character.ai suicide case settlement context (January 2026) | OpenAI (former researcher) | Active (March 28, 2026) |
 | 0mar28b | 🟡 Notable | **Anthropic to launch "Claude Mythos" — new model with advanced reasoning** — SiliconAngle reports (March 28) Anthropic is preparing "Claude Mythos," described as having advanced reasoning features; announcement timing notable given ongoing reliability/outage crisis; name suggests positioning against OpenAI's "o" reasoning series | Claude Mythos (Anthropic) | Developing (announced March 28, 2026) |
 | 0mar27 | 🔴 Critical | Claude Outage #14 — March 27 (TODAY): Users reporting login failures and platform errors affecting Opus 4.6 and Sonnet 4.6; Anthropic status page shows "Elevated errors on Claude Sonnet 4.6"; ABPLive and IBTimes confirm active outage; BusinessToday calls it "fifth disruption this month"; trendingtopics.eu: "Unexpected capacity limitations"; 14th separate incident in ~4 weeks | Claude (Anthropic) | **Active TODAY** (March 27, 2026) |
@@ -587,3 +590,45 @@ This means OpenAI's paid subscribers are now using a model that performs signifi
 **Current status:** The government is consulting further. The most harmful form of the exception appears to be off the table for now, but the underlying policy direction remains contested.
 
 **Source:** BBC News — March 2026
+
+---
+
+### 🟠 OpenAI Login & Account Creation Outage — All Surfaces — March 29, 2026
+
+**What happened:** On March 29, 2026, OpenAI's status page posted a confirmed incident: **"Account creation and login are unstable across all surfaces."** The disruption affected ChatGPT, the API, OpenAI.com login, and the mobile app simultaneously. Full recovery was confirmed by approximately 7:00 AM UTC. StatusGator confirmed the service was operational by 3:57 PM UTC.
+
+**Who was affected:** All users attempting to create accounts, log in, or resume sessions across ChatGPT web, mobile, and the API.
+
+**Scale:** Short-duration but broad — affected every OpenAI surface during active hours. No explanation was provided publicly.
+
+**Context:** This is the latest in a series of authentication and service disruptions across major AI platforms in March 2026. OpenAI has also faced ChatGPT outages (March 23), Responses API + Sora elevated errors (March 26), and ongoing Claude outage fatigue at Anthropic. Reliability of AI infrastructure continues to be a systemic concern.
+
+**Source:** status.openai.com — March 29, 2026
+
+---
+
+### 🟠 Claude Dispatch Silent Reply Bug — Claude Desktop 1.1.9310 — March 29, 2026
+
+**What happened:** Anthropic's status page documented a confirmed bug in Claude Desktop release 1.1.9310 where **Dispatch sessions stop responding** — messages are sent, received, and processed internally, but **replies never appear in the conversation**. The bug was identified at 00:53 UTC on March 29, and marked resolved the same day.
+
+**Technical detail:** GitHub issues #40178, #40179, and #40257 (filed March 28) reveal that responses were being generated and logged in audit.jsonl but never delivered to the UI — whether on desktop or mobile app. One reporter noted: "Tutto funziona! Sono qui e pronto." was generated but never shown. The bug affects the Dispatch orchestrator + Cowork mode pairing in 1.1.9310; standard Cowork sessions were unaffected.
+
+**Community reaction:** Multiple GitHub issues filed same day. Reddit r/ClaudeAI thread "Claude Dispatch won't send me messages back" confirms widespread user frustration. IsDown recorded this as Anthropic's 613th tracked incident since June 2024.
+
+**Why it matters:** Dispatch is Anthropic's async agent orchestration system. Silent reply failures in an autonomous agent context are particularly dangerous — agents appear to be running but are actually silently failing. This is especially problematic for professional users who have built workflows on top of Dispatch.
+
+**Source:** status.claude.com, GitHub anthropics/claude-code issues #40178, #40179, #40257 — March 29, 2026
+
+---
+
+### 🟠 Iran War Deepfake Propaganda Floods Social Media — Deepfakes "Feel True" Even When Audiences Know They're Fake — March 28–29, 2026
+
+**What happened:** The NYT identified 110+ unique AI-generated deepfakes spreading pro-Iran propaganda (battlefield images, missile strike depictions, fake female Iranian soldiers with "Habibi, come to Iran" messages) in the first weeks of the US/Israel-Iran conflict. The Guardian (March 28) published research documenting a disturbing psychological finding: deepfakes **shape beliefs and emotional responses even when the audience is explicitly told the content is fake**. FDD analysis (March 19) confirmed both sides are weaponising AI-generated content.
+
+**Who is affected:** Global social media audiences on X, TikTok, Facebook, Instagram, and YouTube. Journalists, fact-checkers, and intelligence analysts struggling to process volume.
+
+**Scale:** 500,000 deepfakes shared online in 2023 → 8,000,000 in 2025 → active wartime deployment in 2026. WEF (March 2026): AI-driven disinformation is "a global crisis that threatens to destabilise modern democracies."
+
+**The tool accountability gap:** No AI image or video generation platform has meaningfully restricted warzone propaganda use. Grok already documented generating fake Iran war images and wrongly verifying them as real. AI tools misused without accountability is an industry-wide failure.
+
+**Source:** The Guardian (March 28), NYT (March 28), FDD (March 19), WEF (March 2026)

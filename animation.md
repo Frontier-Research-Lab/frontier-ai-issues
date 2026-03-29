@@ -1,11 +1,13 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-29_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar29 | 🔴 Critical | **Adobe Animate officially discontinued March 1, 2026** — after 25+ years, Adobe killed its flagship 2D animation tool effective March 1, 2026; company cited "strategic shift towards AI" as justification; community anger intense — professionals who built careers on the tool blindsided; TheOutpost.ai: "Adobe announced it will discontinue Adobe Animate...sparking anger among users"; mlq.ai: "Loss of key 2D animation tool used professionally for over 25 years"; no AI-native replacement offered; Adobe's stock already down 38% over the past year amid CEO departure | Adobe Animate | **DISCONTINUED** (March 1, 2026) |
+| 0china | 🟠 Major | **China SARFT mandates AI animation review before publication — effective March 2026** — China's State Administration of Radio, Film and Television issued regulations requiring all AI-generated animation short videos to obtain a pre-review filing number before launch; existing content must complete supplementary review by end of March 2026 or face forced removal; parody short dramas and AI-generated content brought under full censorship review framework; signals global regulatory pressure building on AI animation content | AI animation tools (China-deployed) | Active (March 2026) |
 | 0NEW | 🟠 Major | **Nvidia DLSS 5 "AI slop filter" backlash** — gamers revolt against Nvidia's AI-upscaling system accused of adding "AI slop" visual artefacts to games; Jensen Huang publicly disputed the "slop filter" framing but was contradicted by his own employee; Forbes documents gamer mockery and rejection (March 19, 2026) | Nvidia DLSS 5 | Active (March 19–23, 2026) |
 | 1 | 🔴 Critical | AI-driven tech layoffs hit 150,000+ in 2026 so far (per tech-insider.org tracker); 45,000+ in just the first months per Network World; Autodesk, Salesforce each ~1,000 jobs; 55% of managers expect more cuts; GDC 2026 saw record job seekers amid studio cuts | Industry-wide | Active (Updated March 23, 2026) |
 | 2 | 🟠 Major | Microsoft bans "Microslop" word on Copilot AI Discord — censoring criticism of its own product; backlash + "AI slop" weaponisation in Olympics ceremony widely mocked | Microsoft Copilot AI | Active (March 2026) |
@@ -158,3 +160,42 @@ The fundamental problem: no matter how carefully prompts are crafted, these basi
 **The "AI slop" umbrella:** The term now appears in Wikipedia as a defined concept, capturing the community reaction to mass-produced, low-effort AI content replacing human creative work. For animation professionals, this represents a pivotal cultural moment — AI animation is now widely associated with a quality pejorative.
 
 **Source:** Wikipedia "AI slop" article, Mediaite, GDC 2026 coverage — March 2026
+
+---
+
+### 🔴 Adobe Animate Officially Discontinued — March 1, 2026
+
+**What happened:** Adobe confirmed the end of Adobe Animate, effective **March 1, 2026**, after 25+ years as a flagship 2D animation tool (originally Macromedia Flash, later Flash Professional, then Animate). Adobe framed the decision as part of its "strategic shift towards AI technologies," but provided no AI-powered replacement for Animate's specific 2D animation capabilities.
+
+**Community reaction:** Immediate and intense. Key pain points:
+- Professionals who built entire careers on Adobe Animate have no comparable Adobe alternative
+- AI tools do not replicate vector-based 2D character animation, rigging, or timeline-based authoring
+- Seen as Adobe abandoning a professional creative community in favour of chasing AI trends
+- Adobe's stock is already down ~38% over the past year; the Animate shutdown seen as symptom of broader strategic confusion
+- mlq.ai: "Users express anger over loss of key 2D animation tool used professionally for over 25 years"
+- theoutpost.ai: "The decision appears driven by the company's strategic shift towards AI, sparking anger"
+
+**Who is affected:** Professional broadcast animators, educational content creators, indie studios, game developers using vector animation, UI/UX designers who used motion paths. Estimated tens of thousands of professional users worldwide.
+
+**Adobe's broader AI pivot problems:** Animate's shutdown follows Adobe CEO departure, -38% stock decline, failed $20B Figma acquisition, and competitive pressure from open-source and AI-native tools. The AI features Adobe has added to its suite (Firefly, Generative Fill) do not address the core gap left by Animate's discontinuation.
+
+**Source:** TheOutpost.ai (February 3, 2026), mlq.ai — March 2026
+
+---
+
+### 🟠 China SARFT Mandates Pre-Approval for All AI Animation — March 2026
+
+**What happened:** China's **State Administration of Radio, Film and Television (SARFT)** issued regulations in early 2026 requiring:
+1. All AI-generated animation short videos must obtain a **pre-review filing number** before publication
+2. Any AI animation content already live online must complete **supplementary review by end of March 2026** or be forcibly removed
+3. Parody short dramas and AI-generated content are brought under the **full censorship review framework**
+
+**Why this matters globally:**
+- China is the world's largest market for short-form video content (Douyin/TikTok, Kuaishou, Bilibili)
+- These regulations impose government review on AI-generated creative content before it reaches users — setting a precedent other authoritarian governments may follow
+- Enforcement creates compliance burden for AI animation tools operating in or distributing to Chinese markets
+- Signals that governments are catching up to AI-generated content at the regulatory level — the "regulate first" approach
+
+**Industry impact:** Any AI animation tool seeking Chinese distribution must now build government-approval workflows into their product. Platforms like Kuaishou and Douyin must screen all AI animation content through state channels. This represents a fundamental constraint on AI animation's commercial opportunity in China.
+
+**Source:** AIBase News — March 2026

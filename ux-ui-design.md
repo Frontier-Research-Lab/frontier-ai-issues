@@ -1,11 +1,13 @@
 # ux-ui-design — AI Issues Radar
 
-_Last updated: 2026-03-25_
+_Last updated: 2026-03-29_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar29 | 🟠 Major | **Figma AI credits now purchasable — confirms monetisation squeeze is permanent** — Figma release notes (week of March 29): "Rolling out this week, admins can now purchase additional AI credits to use in Figma"; this move confirms Figma's AI feature gating is not a temporary limit but a permanent pay-to-use model; following backlash over the credit enforcement going live March 18, Figma's response is to sell more credits rather than fix the underlying access problem; Reddit r/FigmaDesign: "Figma Make isn't keeping my design system components. Anyone else?" — LLM ignores component libraries entirely, "no point in having the feature if it does not read the components" | Figma AI / Figma Make | Active (rolling out March 29, 2026) |
+| 0mar28 | 🟠 Major | **Figma Canvas now "open to agents" — but Figma Make still ignores your design system** — Figma blog (March 26): Figma Canvas opened to third-party AI agents (Cursor, Warp, Factory, etc.); however core Figma Make product still fails to read design system library components; forum thread "Figma Make not using my library components" still unresolved since June 2025; LLM "rips styles from the library and tries to interpret them the best it can" but ignores component structure entirely; opening canvas to agents while the native AI product is broken alienates the core professional user base | Figma Make / Figma Canvas | Active (March 26–29, 2026) |
 | 0NEW | 🟠 Major | **Figma Dev Mode paywall backlash** — Dev Mode (once free) now requires paid seats; replaced the free Inspect panel; forum threads running hundreds of replies; comparisons to Adobe's predatory pricing "circulating widely"; UX Collective: "40% of small agencies now review their software budgets" (March 2026) | Figma | Active (March 2026) |
 | 0x | 🟠 Major | Canva global outage March 22 — thousands affected worldwide; photo and video editing blocked; Downdetector spike at 5:40PM ET; global media coverage; residual issues March 23 (now resolved) | Canva | Resolved (March 22–23, 2026) |
 | 0 | 🔴 Critical | Google Stitch "vibe design" update wipes 12% off Figma stock in two days — March 18 platform overhaul adds Voice Canvas + natural-language UI generation; Figma now down 35% YTD and ~85% from IPO peak; CNBC confirms "Google launched an AI-design platform, pushing Figma shares down 12% in two days" | Figma / Google Stitch | Active (March 18–20, 2026) |
@@ -198,3 +200,29 @@ This doesn't make Figma disappear — it's still the best tool for visual design
 **Community reaction:** As enforcement goes live today, designers are now hitting credit limits mid-sprint. The predicted disruptions are materialising — users on Professional plans have no ability to purchase additional credits until May, and the surprise walls are landing mid-project as expected. The limited availability of credit top-ups for non-Enterprise plans is confirmed as a "Professional plan tax."
 
 **Source:** Figma Forum ("AI credits update" thread), releasebot.io, Nielsen Norman Group State of UX 2026 — March 2026
+
+---
+
+### 🟠 Figma Make Ignores Design System Components — Core AI Feature Still Broken — March 2026
+
+**What happened:** Reddit r/FigmaDesign thread "Figma Make isn't keeping my design system components. Anyone else?" confirms a persistent issue: **Figma Make's LLM ignores component libraries entirely**. When users connect their Figma design system (components, variants, tokens), Figma Make's AI disregards the component structure and instead "rips the styles from the library and tries to interpret them the best it can." The result is AI-generated designs that don't use your components, creating design debt rather than respecting established systems.
+
+**Figma Forum evidence:** Forum thread "Figma Make not using my library components" (originally filed June 2025) remains unresolved as of March 2026. A forum commenter summarised the core issue: "same issues as above — got a better overall result without using my library so there is no point in having the feature if it does not read the components either in the design linked or in the library linked."
+
+**Why this matters:** Figma Make was sold as an AI design tool that works within your design system. Professional designers who have invested hundreds of hours building component libraries find that Figma's AI feature provides zero benefit from their investment — it generates fresh layouts ignoring established components, creating inconsistency and rework. Figma opened its Canvas to third-party agents (Cursor, Warp, Factory) on March 26, 2026 — but the core native AI tool that most users interact with daily still has this fundamental flaw.
+
+**Who's affected:** Any Figma user on Org/Enterprise plan who has built a component library and expects Figma Make to use it. Estimated many thousands of professional users.
+
+**Source:** Reddit r/FigmaDesign, Figma Forum, Figma blog (March 26, 2026)
+
+---
+
+### 🟠 Figma AI Credit Top-Up Now Purchasable — Confirms AI Paywall Is Permanent — March 29, 2026
+
+**What happened:** Figma release notes (week of March 29, 2026) confirm: "Rolling out this week, admins can now purchase additional AI credits to use in Figma." This move, rather than resolving user complaints about the credit enforcement that went live March 18, **institutionalises the paywall** — AI features are confirmed as a permanent metered resource, not a subscription perk.
+
+**The pattern:** Since March 18, designers hitting their monthly AI credit limit are blocked from Figma AI and Figma Make features mid-project. Figma's response to the backlash was not to increase limits or reconsider the model — it was to add a purchase flow for more credits.
+
+**Community reception:** The "Figma Make isn't keeping my design system components" thread (Reddit) and the ongoing Figma Dev Mode paywall backlash are layering: users are being asked to pay more for a tool that doesn't work correctly. The combination of mandatory paid Dev Mode + AI credit enforcement + component library incompatibility is driving small agencies and freelancers to evaluate alternatives.
+
+**Source:** Figma release notes (March 29, 2026), Reddit r/FigmaDesign

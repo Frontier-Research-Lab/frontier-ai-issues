@@ -1,11 +1,12 @@
 # coding-tools — AI Issues Radar
 
-_Last updated: 2026-03-28_
+_Last updated: 2026-03-29_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar29 | 🟠 Major | **Claude Code Dispatch silent failure bug — responses generated but never delivered to UI** — Claude Desktop 1.1.9310 (released ~March 28) introduced a regression where Dispatch sessions stop responding; messages are processed internally and logged in audit.jsonl but **never appear in the conversation**; Anthropic status page (March 29, 00:53 UTC) confirmed the issue; GitHub issues #40178, #40179, #40257 all filed same day; affects Claude Code users in Cowork+Dispatch mode on desktop and mobile; resolved same day — but the pattern of regressions in Claude Code releases continues (this is Anthropic's 613th tracked incident since June 2024) | Claude Code (Anthropic) | Resolved (March 29, 2026) |
 | 0mar28 | 🔴 Critical | **GitHub Copilot will train AI on your code starting April 24 — opt-out required** — GitHub quietly published policy change March 25: all Copilot Free, Pro, and Pro+ users' interaction data (code snippets, prompts, file names, repo structure, outputs) will feed AI model training by default unless manually opted out; The Register: "GitHub: We going to train on your data after all"; HotHardware: "GitHub reverses course"; HN thread hit #1; community describes it as bait-and-switch — Microsoft previously promised code would NOT be used for training when building user trust | GitHub Copilot (Microsoft) | Active — opt-out at /settings/copilot/features (March 25, 2026) |
 | 0NEW | 🟠 Major | **Microsoft rolls back "unnecessary" Copilot integrations from Windows** — removing Copilot entry points from Photos, Widgets, Notepad, and Snipping Tool (March 20–23); framed as improving "Windows quality"; community saw this as an admission that forced AI integration was hated; "Microslop" Discord server banned the word, causing fresh backlash | Microsoft Copilot (Windows) | Active (March 20–23, 2026) |
 | 0a | 🔴 Critical | Cursor/Kimi K2.5 controversy deepens — Geeky Gadgets (March 23): Cursor failed to provide attribution required by Kimi K2.5's open-source license, potentially violating license terms; Elon Musk publicly confirmed "Yeah, it's Kimi 2.5"; Fireworks AI CEO says Cursor was "compliant from day one" via their platform; community: "Cursor is becoming a model routing layer, not an IDE" | Cursor / Kimi K2.5 (Moonshot AI) | Active (March 19–23, 2026) |
@@ -386,3 +387,22 @@ Community reaction crystallised into a damaging meme: *"Cursor is becoming a mod
 **Current status:** Product functioning; Cognition has not articulated a public product roadmap for Windsurf post-acquisition.
 
 **Sources:** buildmvpfast.com, morphllm.com, awesomeagents.ai, Business Insider, TechXplore, dupple.com — multiple dates July 2025–March 2026
+
+---
+
+### 🟠 Claude Code Dispatch Silent Failure — Responses Generated but Never Delivered — March 29, 2026
+
+**What happened:** Claude Desktop release 1.1.9310 (shipped approximately March 28) introduced a critical regression in the **Dispatch orchestrator**: messages sent to Dispatch agents are received, processed, and internally logged — but **responses never appear in the conversation UI** on desktop or mobile. The bug was confirmed by Anthropic's status page at 00:53 UTC on March 29, 2026, and resolved same day.
+
+**Technical detail (from GitHub issues #40178, #40179, #40257):**
+- Responses are generated and visible in `audit.jsonl` logs — the AI did its work
+- The response is never "delivered" to the client — whether Claude Desktop or Claude mobile app
+- Example from Issue #40178: "Tutto funziona! Sono qui e pronto." was generated but never shown to the user
+- Affected mode: Dispatch orchestrator + Cowork; standard Cowork sessions unaffected
+- A Reddit thread "Claude Dispatch won't send me messages back" confirmed widespread user impact the same day
+
+**Why this matters for coding tool users:** Dispatch is the async agent system in Claude Code — developers send coding tasks to agents and receive asynchronous responses. A **silent failure** where the agent appears to be running but delivers nothing is particularly dangerous: users may assume tasks are in-progress when the pipeline is broken, potentially for hours. It erodes trust in autonomous coding agent workflows precisely as they're being adopted at scale.
+
+**Pattern context:** IsDown.app has now tracked **613 Anthropic incidents since June 2024** — a remarkable number that speaks to systemic reliability issues in Claude's infrastructure. This Dispatch bug represents a regression introduced by a recent release, suggesting insufficient regression testing in Claude Code's release process.
+
+**Source:** status.claude.com, GitHub anthropics/claude-code #40178, #40179, #40257, Reddit r/ClaudeAI — March 29, 2026
