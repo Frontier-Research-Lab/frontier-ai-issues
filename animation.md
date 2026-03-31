@@ -1,11 +1,12 @@
 # animation — AI Issues Radar
 
-_Last updated: 2026-03-29_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar31 | 🔴 Critical | **Epic Games lays off 1,000+ employees (March 24, 2026) — Unreal Engine future questioned** — Bloomberg (March 27): Epic Games announced cuts to over 1,000 employees as CEO Tim Sweeney acknowledged the company "has been spending more money than we were earning"; Sweeney explicitly stated "the layoffs aren't related to AI" — but Reddit r/unrealengine erupted with concern: "Should Unreal Engine Users Be Worried?"; Business Insider headline: "Epic Games CEO says AI isn't to blame" — the very denial reinforcing community anxiety; the cuts affect tools, engine development, and game creation teams; this follows Autodesk cutting ~1,000 in January 2026, Salesforce ~1,000 also, and 45,000+ tech industry jobs lost YTD; Bloomberg analysis: "Epic Layoffs Are a Symptom of Deeper Video-Game Industry Problems"; together with FlippedNormals closing and Adobe Animate discontinued, the professional creative tooling ecosystem is in crisis | Epic Games / Unreal Engine | **Active** (March 24–27, 2026) |
 | 0mar29 | 🔴 Critical | **Adobe Animate officially discontinued March 1, 2026** — after 25+ years, Adobe killed its flagship 2D animation tool effective March 1, 2026; company cited "strategic shift towards AI" as justification; community anger intense — professionals who built careers on the tool blindsided; TheOutpost.ai: "Adobe announced it will discontinue Adobe Animate...sparking anger among users"; mlq.ai: "Loss of key 2D animation tool used professionally for over 25 years"; no AI-native replacement offered; Adobe's stock already down 38% over the past year amid CEO departure | Adobe Animate | **DISCONTINUED** (March 1, 2026) |
 | 0china | 🟠 Major | **China SARFT mandates AI animation review before publication — effective March 2026** — China's State Administration of Radio, Film and Television issued regulations requiring all AI-generated animation short videos to obtain a pre-review filing number before launch; existing content must complete supplementary review by end of March 2026 or face forced removal; parody short dramas and AI-generated content brought under full censorship review framework; signals global regulatory pressure building on AI animation content | AI animation tools (China-deployed) | Active (March 2026) |
 | 0NEW | 🟠 Major | **Nvidia DLSS 5 "AI slop filter" backlash** — gamers revolt against Nvidia's AI-upscaling system accused of adding "AI slop" visual artefacts to games; Jensen Huang publicly disputed the "slop filter" framing but was contradicted by his own employee; Forbes documents gamer mockery and rejection (March 19, 2026) | Nvidia DLSS 5 | Active (March 19–23, 2026) |
@@ -199,3 +200,27 @@ The fundamental problem: no matter how carefully prompts are crafted, these basi
 **Industry impact:** Any AI animation tool seeking Chinese distribution must now build government-approval workflows into their product. Platforms like Kuaishou and Douyin must screen all AI animation content through state channels. This represents a fundamental constraint on AI animation's commercial opportunity in China.
 
 **Source:** AIBase News — March 2026
+
+---
+
+### 🔴 Epic Games Lays Off 1,000+ Employees — Unreal Engine Future Questioned — March 24–27, 2026
+
+**What happened:** Epic Games announced layoffs of over 1,000 employees on March 24, 2026 — on top of previous cuts — as CEO Tim Sweeney acknowledged the company has been "spending more money than we were earning." Sweeney's internal memo (published publicly) framed the decision as a necessary move to put the company on a more stable financial footing.
+
+**The AI denial that raised more questions than it answered:** Sweeney's statement explicitly said "the layoffs aren't related to AI" — but this declaration, widely reported by Business Insider and Epic's own news page, set off a wave of anxiety in the Unreal Engine developer community. Reddit r/unrealengine thread "Epic Games Just Laid Off 1000+ Employees | Should Unreal Engine Users Be Worried?" became a major discussion point, with creators and studios questioning whether Unreal Engine's long-term support is now uncertain.
+
+**Bloomberg analysis:** "Epic Layoffs Are a Symptom of Deeper Video-Game Industry Problems" — the piece argues Epic's financial strain reflects industry-wide issues: bloated team sizes built during the Fortnite boom, declining engagement, and the difficulty of converting game success into sustainable software revenue.
+
+**For animation and 3D professionals specifically:**
+- UEFN (Unreal Editor for Fortnite) tools face uncertain update cadence
+- Engine support team cuts may slow bug fixes and feature development
+- Studios building animation pipelines on Unreal face vendor stability risk
+
+**Broader context (the week that broke creative tools):**
+- FlippedNormals closes (March 31)
+- Adobe Animate discontinued (March 1)
+- Adobe settles DOJ case for $150M (March 25)
+- Meta/Nvidia/Roblox sued for 3D artist work theft (March 26)
+- AI 3D tools still too broken for production use — but destroying the commercial market for human-made assets
+
+**Sources:** Bloomberg (March 27), Business Insider (March 25), Epic Games news page (March 24), Reddit r/unrealengine (March 25), CG Channel (March 2026)

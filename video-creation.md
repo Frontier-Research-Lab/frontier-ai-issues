@@ -1,11 +1,12 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-25_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar31 | 🟠 Major | **TechCrunch: "Sora'''s shutdown could be a reality check moment for AI video"** — TechCrunch (March 29): analysis argues Sora'''s sudden discontinuation signals broader questions about whether AI video tools can achieve sustainable business models; Mashable (March 31) confirms Disney CEO Bob Iger was still publicly touting the OpenAI partnership as recently as Feb 2026 — making the March exit even more shocking; the 3-year, $1B deal lasted only ~3 months of active deployment; question now: will Runway, Kling, and Hailuo face the same fundamental problem of high compute costs vs. insufficient commercial demand? | Sora (OpenAI) / AI video industry | Active analysis (March 29–31, 2026) |
 | 0SHUTDOWN | 🔴 Critical | **SORA OFFICIALLY SHUT DOWN — DISNEY EXITS $1B DEAL** — OpenAI discontinues Sora app and API (March 24–25, 2026), just 15 months after launch; Disney exits the $1B partnership signed only 3 months ago; OpenAI pivoting to coding AI and robotics; no timeline given for preserving user content; creators who built businesses on Sora blindsided; Interesting Engineering: "OpenAI will discontinue Sora, as Disney exits a $1B deal and industry backlash over copyright intensifies" | Sora (OpenAI) | **DISCONTINUED** (March 24–25, 2026) |
 | 0a | 🔴 Critical | Runway + NVIDIA demo real-time AI video generation (100ms time-to-first-frame) — experts warn this makes deepfake scam calls indistinguishable from reality; real-time AI avatar can react live to a victim on a video call (PetaPixel, March 23, 2026) | Runway AI / NVIDIA | Active — misuse risk (March 23, 2026) |
 | 0b | 🟠 Major | Chinese AI video quality leap — Kuaishou's monetizable AI video raises global deepfake + copyright risks; Japan Times: "Chinese AI videos used to look fake. Now they look like money." (March 20, 2026) | Kuaishou / Chinese AI video tools | Active (March 20, 2026) |

@@ -1,11 +1,13 @@
 # image-generation — AI Issues Radar
 
-_Last updated: 2026-03-29_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar31a | 🟠 Major | **Midjourney V8 hidden restrictions silently distort user prompts** — HalfJourney Lab / Medium (March 29): V8 Alpha introduces improved prompt adherence but enforces **hidden guardrails that silently alter image outputs without informing the user** — prompts accepted but quietly modified by undisclosed content filters; artists cannot tell if poor output is their fault or invisible censorship; Geeky Gadgets (March 25): some creators switching back to V7 due to V8 aesthetic regressions; Midjourney's zero adult content policy remains absolute — insta-blocked, no loopholes; V8.1 planned to address quality complaints | Midjourney V8 Alpha | Active (March 2026) |
+| 0mar31b | 🔴 Critical | **Senator formally demands MidJourney, ElevenLabs, Synthesia crack down on political deepfakes before midterms** — biometricupdate.com (March 26): Virginia senator sent formal letters to MidJourney, OpenAI, Anthropic, xAI, Meta, Adobe, ElevenLabs, Cohere, Microsoft, Synthesia, Canva, Google, Snap, TikTok US, Bluesky, Pinterest, Reddit demanding deepfake crackdown; Reuters (March 28): AI deepfake political ads already live in 2026 midterm campaigns — Democratic Texas Rep. James Talarico'''s likeness cloned without consent; no federal law restricts AI political messaging; image platforms have zero legal obligation to prevent political deepfake misuse | MidJourney / AI image tools (misused) | **Active** (March 26–28, 2026) |
 | 0mar29 | 🔴 Critical | **Iran war deepfake images flood social media — 110+ unique AI-generated fakes identified, "feel true" even when audiences know they're fake** — NYT (March 28): identified 110+ unique deepfakes conveying pro-Iran messages (battlefield images, missile strikes, fake soldiers); Guardian (March 28): deepfakes "shape emotional responses and beliefs even when audience is explicitly told they're fake"; FDD (March 19): both US/Israel and Iran sides weaponising AI-generated images; no AI image platform has restricted warzone propaganda use; Grok already documented generating fake Iran war images and wrongly verifying them as real | Grok / xAI + generative AI tools (misused) | **Active** (March 28–29, 2026) |
 | 0mar28 | 🟠 Major | **Grok mass login failure — thousands abruptly logged out (March 26)** — thousands of X users lost Grok access when authentication errors hit the platform March 26; users experienced "repeated authentication errors" after being logged out without warning; no official explanation from xAI; incident comes as Grok faces CSAM lawsuits, Baltimore municipal suit, and 6,700 deepfakes/hour findings — the platform's image generation safety crisis continues to compound | Grok / xAI | Resolved (March 26, 2026) |
 | 0mar27 | 🔴 Critical | **Gemini image generation API down TODAY** — gemini-3-pro-image-preview ("Nano Banana Pro") and Nano Banana 2 image APIs experiencing major outage; massive request failure rates; developers report persistent 429 errors on Gemini CLI for 2+ days; apiyi.com confirms active failure (March 27, 2026) | Google Gemini image generation | **Active TODAY** (March 27, 2026) |
@@ -261,3 +263,35 @@ This suit is the latest in an accelerating wave of Grok-related deepfake litigat
 **Why this matters:** The "feel true" psychological finding is particularly alarming — it means content moderation labels ("This may be AI-generated") are **insufficient** to neutralise the harm. The 110+ distinct fakes also suggest coordinated production rather than individual actors.
 
 **Source:** NYT (March 28), The Guardian (March 28), FDD (March 19), Foreign Policy (March 17) — 2026
+
+---
+
+### 🟠 Midjourney V8 Hidden Restrictions Silently Distort User Prompts — March 29–31, 2026
+
+**What happened:** A detailed Medium investigation by HalfJourney Lab (March 29) exposed a significant problem with Midjourney V8 Alpha: the model accepts prompts that it then **silently modifies** based on undisclosed content restrictions. Users receive an output that bears little resemblance to what they requested — but are given no indication that their prompt was altered or refused. The result looks like poor prompt engineering when it's actually hidden censorship.
+
+**The specific problems documented:**
+- Hidden guardrails distort outputs in unexpected ways without any error or warning
+- Midjourney V8 enforces its zero adult content ban "as strictly as ever" — insta-blocked for anything "spicy"
+- Artists building commercial workflows report outputs are unpredictable in ways that make professional use difficult
+- Some professional users are switching **back to V7** due to aesthetic quality regressions in V8, particularly for stylised/artistic work
+
+**Credit model frustration:** Midjourney remains strictly paywalled (April 2023 onwards) with no free tier. V8 Alpha's 5x faster processing speeds allow rapid credit consumption, and users report burning through monthly credits faster than ever when exploring or iterating.
+
+**The V8.1 plan:** Midjourney developers have signalled a V8.1 update is planned specifically to address the image quality and prompt adherence complaints — confirming the issues are acknowledged internally.
+
+**Sources:** HalfJourney Lab / Medium (March 29), aiexotic.com (March 2026), Geeky Gadgets (March 25), cometapi.com (2026)
+
+---
+
+### 🔴 Senator Demands MidJourney and 17 Other Platforms Block Political Deepfakes Before 2026 Midterms — March 26–28, 2026
+
+**What happened:** A US Virginia senator sent formal letters to 18+ AI companies and social platforms — including MidJourney, OpenAI, Anthropic, xAI, Meta, Adobe, ElevenLabs, Cohere, Microsoft, Synthesia, Canva, Snap, Google, TikTok US, Bluesky, Pinterest, and Reddit — demanding they implement safeguards against AI-generated political deepfakes before the 2026 midterm elections.
+
+**The documented harm:** Reuters (March 28) confirmed that AI deepfake political ads are already active in midterm campaigns. A video depicting Texas State Representative James Talarico was created using AI image and video generation, showing him apparently endorsing policies he opposes. The video circulated for days before Talarico became aware of it.
+
+**The accountability gap for image tools:** No AI image generation platform — including Midjourney — has meaningful policies restricting the creation of realistic images of real politicians or public figures for political messaging. Users can generate photorealistic images of any public figure saying or doing things they never did. These then feed into deepfake video pipelines.
+
+**No legal obligation:** With no federal AI political speech regulation, image platforms face **zero legal enforcement risk** for enabling political deepfake content creation. The senator's letter carries no legal mandate — only reputational pressure.
+
+**Sources:** biometricupdate.com (March 26), Reuters (March 28), Economic Times (March 29)

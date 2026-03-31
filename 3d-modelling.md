@@ -1,11 +1,12 @@
 # 3d-modelling — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar31 | 🟠 Major | **FlippedNormals marketplace closes TODAY — final day for 3D asset purchases** — 80.lv (March 31): the popular FlippedNormals marketplace for 3D artists and VFX professionals shuts down today (March 31, 2026); final orders accepted until March 31; users have until April 30 to download all purchased files and invoices; the closure is widely attributed to **AI-generated 3D assets undercutting the commercial viability of hand-crafted 3D marketplaces**; this follows Autodesk entering generative AI 3D (March 2026) and the Meta/Nvidia/Roblox lawsuit over training on artist work without consent; CG Channel headline from the same week: "Epic Games lays off another 1,000 staff" — the human 3D creation industry is being hammered from every direction simultaneously | FlippedNormals (3D asset marketplace) | **CLOSING TODAY** (March 31, 2026) |
 | 0NEW | 🔴 Critical | **Meta, Nvidia, Roblox sued by 3D artist** — class action filed March 26 in California federal court; Meta's SAM-3D, Nvidia's TRELLIS-500K dataset, and Roblox's Cube3D accused of training on millions of 3D models from artist repositories without permission; first major lawsuit targeting the 3D AI generation pipeline specifically | Meta SAM-3D / Nvidia TRELLIS-500K / Roblox Cube3D | Active (filed March 26, 2026) |
 | 0 | 🟠 Major | Autodesk cuts ~1,000 jobs (7% global workforce) in January 2026 amid AI restructuring — follows 1,350 cuts in 2025; Salesforce also cuts ~1,000; industry-wide AI-driven workforce compression accelerating | Autodesk | Active (January 2026) |
 | 1 | 🟠 Major | Autodesk enters generative AI 3D — launches with commercial use limitations + Objaverse training data copyright concerns; studios questioning legitimacy of outputs | Autodesk (new gen AI feature) | Active (March 16, 2026) |
@@ -184,3 +185,25 @@ Unlike text or images — where the copyright argument at least involves publish
 **The competitive threat:** Meshy, Tripo, and other standalone AI 3D generators are now competing against Autodesk's brand recognition, existing studio relationships, and enterprise compliance capabilities. If Autodesk gets the legal/commercial use framework right in a subsequent update, it could rapidly consolidate the AI 3D market.
 
 **Source:** 3dvf.com — March 2026
+
+---
+
+### 🟠 FlippedNormals Marketplace Closes — Final Day March 31, 2026
+
+**What happened:** FlippedNormals, one of the most respected online marketplaces for 3D artists, VFX artists, and character designers, shut down its marketplace permanently today (March 31, 2026). The platform was known for premium, hand-crafted 3D assets, brushes, and tutorials created by professional artists.
+
+**Timeline:**
+- Final orders accepted: **March 31, 2026** (today)
+- Download deadline for all purchased files: **April 30, 2026**
+
+**Why it matters:** The closure is widely attributed to the economics of the AI 3D generation era — AI tools like Meshy, Tripo, and Autodesk's generative AI features are producing "good enough" 3D assets at near-zero marginal cost, undercutting the commercial viability of hand-crafted marketplaces. The same economic pressure that killed stock photo markets for photographers is now hitting the 3D asset market.
+
+**Context within the week:** This closure happened the same week as:
+- Epic Games laying off 1,000+ employees (March 24)
+- Adobe settling its DOJ subscription lawsuit for $150M
+- Meta/Nvidia/Roblox being sued for using 3D artist work without consent for AI training
+- CG Channel reporting on Maya 2027 and the broader state of AI in 3D production
+
+**The creators who lose:** Independent 3D artists who built income streams through FlippedNormals have no equivalent alternative marketplace. Gumroad exists but lacks the specialisation. The closure signals a broader collapse of the indie-professional 3D asset economy.
+
+**Sources:** 80.lv (March 31, 2026), CG Channel (March 2026)

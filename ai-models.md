@@ -1,6 +1,6 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-03-29_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
@@ -10,7 +10,8 @@ _Last updated: 2026-03-29_
 | 0mar29b | 🟠 Major | **Claude Dispatch bug — replies silently vanish in Claude Desktop 1.1.9310** — Anthropic status page (March 29, 00:53 UTC): "We've identified an issue in the latest Claude Desktop release (Claude 1.1.9310) where Dispatch sessions stop responding. Messages sent to Dispatch are received and processed, but replies do not appear in the conversation"; GitHub issues #40178, #40179, #40257 all confirm; audit.jsonl logs show responses were generated but never delivered to UI; affects both desktop and mobile app; workaround: use standard Cowork sessions (unaffected); incident resolved same day | Claude Desktop 1.1.9310 / Dispatch | Resolved (March 29, 2026) |
 | 0mar29c | 🟠 Major | **Guardian: Iran war AI propaganda deepfakes "feel true" even when known to be fake** — NYT identified 110+ unique deepfakes with pro-Iran messages (battlefield images, missile strikes, fake female Iranian soldiers) in first weeks of war; Guardian (March 28) documents psychological effect — deepfakes shape views even when audience knows they're synthetic; FDD analysis (March 19): both sides weaponising AI; WEF (March 2026): disinformation at scale threatening democratic stability; AI image/video tools misused without any platform accountability | Grok / xAI, generative AI tools (misused) | Active (March 28–29, 2026) |
 | 0mar28a | 🟠 Major | **Ex-OpenAI researcher warns AI extinction could come within 5 years** — not decades, but years; India Today (March 28): former researcher's warnings surface publicly amid escalating AI capability debates; adds to internal OpenAI safety culture concerns following researcher departures and the "sycophancy" controversies; amplifies character.ai suicide case settlement context (January 2026) | OpenAI (former researcher) | Active (March 28, 2026) |
-| 0mar28b | 🟡 Notable | **Anthropic to launch "Claude Mythos" — new model with advanced reasoning** — SiliconAngle reports (March 28) Anthropic is preparing "Claude Mythos," described as having advanced reasoning features; announcement timing notable given ongoing reliability/outage crisis; name suggests positioning against OpenAI's "o" reasoning series | Claude Mythos (Anthropic) | Developing (announced March 28, 2026) |
+| 0mar31a | 🔴 Critical | **Anthropic data leak exposes "Claude Mythos" — model described as posing "unprecedented cybersecurity risks"** — Fortune (March 26–31): Anthropic accidentally published internal files to its website including a draft blog post for an unreleased model named "Claude Mythos"; the document warned the model "poses unprecedented cybersecurity risks" due to its ability to **autonomously identify and exploit software vulnerabilities in production codebases** — a dual-use capability acknowledged by Anthropic itself; Fortune described it as "a significant security breach"; CoinDesk: "Anthropic's Massive Claude Mythos Leak Reveals a New AI Model That Could Be a Cybersecurity Nightmare"; Euronews, Futurism, and Medium all confirm details; Bitcoin/software stock prices slid on news; Anthropic confirmed the model exists and called it "a step change in capabilities" — ironic given the leak was caused by a security lapse on their own website | Claude Mythos (Anthropic) | Active — leaked March 26, 2026 |
+| 0mar28b | 🟡 Notable | **Senator deepfake midterm pressure** — US senator sends formal letters to OpenAI, Anthropic, xAI, ElevenLabs, MidJourney, Synthesia, Meta, Google, Canva, Snap, TikTok US, Bluesky, and Reddit demanding platforms "crack down on deepfakes before the 2026 midterms"; Reuters (March 28): "AI deepfakes blur reality in 2026 US midterm campaigns" — Democratic Texas State Rep. James Talarico's likeness already cloned in AI political ads; no federal regulation constraining AI political messaging; politics experts warn voters "confused or deceived" | OpenAI / Anthropic / xAI / ElevenLabs / MidJourney | Active (March 26–28, 2026) |
 | 0mar27 | 🔴 Critical | Claude Outage #14 — March 27 (TODAY): Users reporting login failures and platform errors affecting Opus 4.6 and Sonnet 4.6; Anthropic status page shows "Elevated errors on Claude Sonnet 4.6"; ABPLive and IBTimes confirm active outage; BusinessToday calls it "fifth disruption this month"; trendingtopics.eu: "Unexpected capacity limitations"; 14th separate incident in ~4 weeks | Claude (Anthropic) | **Active TODAY** (March 27, 2026) |
 | 0mar27b | 🔴 Critical | **Gemini AI Studio image API outage TODAY** — gemini-3-pro-image-preview ("Nano Banana Pro") and Nano Banana 2 image generation APIs plagued by errors; massive request failure rate; persistent HTTP 429 rate limit errors reported across Gemini CLI for 2+ days prior; apiyi.com confirms active outage (March 27, 2026) | Google Gemini AI Studio | **Active TODAY** (March 27, 2026) |
 | 0mar27c | 🟠 Major | ChatGPT ads burning advertiser bridges — Mashable (March 25): OpenAI's early ads test "burned bridges" with advertisers who participated; issues with ad quality, targeting, and "unforced errors in OpenAI's ad division" per The Information scoop; $9B ad revenue target at risk | ChatGPT (OpenAI) | Active (March 25, 2026) |
@@ -632,3 +633,35 @@ This means OpenAI's paid subscribers are now using a model that performs signifi
 **The tool accountability gap:** No AI image or video generation platform has meaningfully restricted warzone propaganda use. Grok already documented generating fake Iran war images and wrongly verifying them as real. AI tools misused without accountability is an industry-wide failure.
 
 **Source:** The Guardian (March 28), NYT (March 28), FDD (March 19), WEF (March 2026)
+
+---
+
+### 🔴 Anthropic Data Leak Exposes "Claude Mythos" — New Model Poses "Unprecedented Cybersecurity Risks" — March 26–31, 2026
+
+**What happened:** Anthropic inadvertently published internal development files on its own company website — including a draft blog post for an unreleased model named **"Claude Mythos."** Fortune journalist Bea Nolan discovered the leak. The internal document described Claude Mythos as a **"step change in capabilities"** and warned the model "poses unprecedented cybersecurity risks" because it can autonomously identify and exploit previously unknown vulnerabilities in production codebases.
+
+**The dual-use problem:** Anthropic's own draft acknowledged the ability to surface vulnerabilities is dual-use — it can help cybersecurity defenders *and* help hackers. The model's capability to scan production code and find exploitable weaknesses is therefore simultaneously a major defensive tool and a catastrophic offensive weapon. By describing this capability in internal documentation and then leaking that documentation, Anthropic may have inadvertently publicised the existence of a cyberattack-capable AI system before it deployed safety controls.
+
+**The irony:** A company being sued by the Pentagon over national security concerns accidentally leaked details of a new AI model with weapon-grade cybersecurity capabilities via a website security failure.
+
+**Market impact:** Bitcoin prices and software stocks slid on the news. CoinDesk headline: "Anthropic's Massive Claude Mythos Leak Reveals a New AI Model That Could Be a Cybersecurity Nightmare."
+
+**Official response:** Anthropic confirmed the model exists and is in testing. The company removed the files after the leak was reported.
+
+**Who is affected:** Anyone in the cybersecurity, enterprise software, and AI safety communities. Coming the same week as the LiteLLM supply chain attack, it reinforces that the AI infrastructure layer is under active attack from multiple directions.
+
+**Sources:** Fortune (March 26, March 27, March 31), Euronews (March 30), Futurism (March 27), CoinDesk (March 27), Medium (March 29)
+
+---
+
+### 🟠 Senator Demands AI Companies Act on Deepfakes Before 2026 Midterms — March 26–28, 2026
+
+**What happened:** A Virginia senator sent formal letters to at least 18 major AI companies and platforms — including OpenAI, Anthropic, xAI, ElevenLabs, MidJourney, Synthesia, Meta, Adobe, Cohere, Microsoft, Canva, Snap, Google, TikTok US, Bluesky, Pinterest, and Reddit — demanding they implement deepfake safeguards before the 2026 US midterm elections.
+
+**Current landscape:** Reuters (March 28) reported AI deepfake political ads are already live in midterm campaigns. A deepfake video cloned the likeness of Democratic Texas State Representative James Talarico — who appeared to speak in favour of policies he openly opposes. No federal law restricts AI-generated political messaging. No US platform has a consistent policy on political deepfakes.
+
+**The regulatory gap:** The TAKE IT DOWN Act (signed into law) addresses only CSAM and nonconsensual intimate images. Political deepfakes — including voice clones and face swaps of candidates — remain **completely unregulated at federal level** in the US. State laws are patchy and rarely enforced.
+
+**Scale of concern:** Experts quoted by Reuters: "Voters are confused and could be deceived." The 2026 midterms are 7 months away.
+
+**Sources:** biometricupdate.com (March 26), Reuters (March 28), Economic Times (March 29), politics-government.news-articles.net (March 28)

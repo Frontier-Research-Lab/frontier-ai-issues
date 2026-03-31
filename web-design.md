@@ -1,11 +1,12 @@
 # web-design — AI Issues Radar
 
-_Last updated: 2026-03-27_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar31 | 🔴 Critical | **Adobe settles DOJ "dark pattern" subscription lawsuit for $150M** — Yahoo Finance / Subscription Insider (March 25–26): Adobe agreed to pay **$75 million in civil penalties** to the US Treasury and provide **$75 million in free services** to affected customers to resolve DOJ allegations of ROSCA violations; Adobe's annual plan cancellation flow was deliberately obscured — users who clicked "cancel" were charged an undisclosed "early termination fee" equal to 50% of remaining contract value; this practice affected **millions of Creative Cloud customers**; CG Channel noted the settlement the same week as FlippedNormals closing and Epic layoffs — signalling broader collapse of the premium design software subscription model that dominated the 2010s; Adobe stock already down 38% over past 12 months | Adobe Creative Cloud | **Settled** (March 25–26, 2026) |
 | 0 | 🔴 Critical | Google Stitch "vibe design" update stuns web design sector — March 18 overhaul adds Voice Canvas + natural-language UI/prototype generation; Figma stock craters 12% over two days (CNBC); Figma now down 35% YTD and ~80% from IPO peak; direct threat to every professional web design toolchain | Google Stitch / Figma | Active (March 18–20, 2026) |
 | 0b | 🟠 Major | **AI speed-to-ship is degrading web UX quality** — composite.global (March 26): "AI tools and platforms like Webflow are accelerating website production. But speed is introducing a new problem: declining UX quality and rising design debt"; industry analysis confirms the faster output = worse accessibility, navigation, and user outcomes pattern | Webflow + AI tools (industry-wide) | Active (March 26, 2026) |
 | 1 | 🟠 Major | Webflow acquires Vidoso AI (confirmed March 2026) — Wikipedia confirms acquisition of four-person startup for AI content marketing generation; risks alienating core web design user base as Webflow pivots toward marketing automation | Webflow | Active (March 2026) |
@@ -144,3 +145,24 @@ The morning of March 19, **Figma shares (NYSE: FIG) opened 8.8% lower**. By the 
 **Who's affected:** Every company using AI-first web builders (Wix Studio, Webflow AI, Framer, v0) without dedicated UX review processes. Particularly acute for startups where a single developer is using AI to build products that previously required a UX designer + developer team.
 
 **Source:** composite.global (March 26, 2026), "The Hidden Cost of Faster Websites"
+
+---
+
+### 🔴 Adobe Settles DOJ "Dark Pattern" Subscription Lawsuit — $75M Penalty + $75M in Free Services — March 25–26, 2026
+
+**What happened:** Adobe agreed to pay **$150 million total** to settle a Department of Justice complaint that its Creative Cloud subscription practices violated the Restore Online Shoppers' Confidence Act (ROSCA). The settlement requires Adobe to pay $75 million in civil penalties to the US Treasury and provide $75 million in free services to customers affected by the practices.
+
+**The dark pattern:** Adobe's Annual Plan / Monthly subscription was designed with a cancellation flow that deliberately hid an **"early termination fee"** equal to 50% of the remaining annual contract value. A customer who signed up for an "annual plan, paid monthly" and tried to cancel mid-year would be hit with this fee — but it was buried in fine print and the cancellation flow was designed to obscure it. Millions of customers were affected.
+
+**Who is affected:** Millions of Creative Cloud subscribers in the United States who paid early termination fees between approximately 2014 and 2026. Free services will be distributed to affected customers — details on eligibility TBD.
+
+**Context:** The settlement comes as Adobe faces multiple pressure vectors simultaneously:
+- CEO Shantanu Narayen departure
+- Stock down 38% over the past year
+- Google Stitch and Figma challenging its design tool dominance
+- Adobe Animate discontinued March 1
+- Adobe Substance user concerns following 3D market disruption
+
+**Community reaction:** The settlement was described as validation of years of complaints. Creative professionals called it "the least Adobe could do" given the scale of the practice. Broader concern remains that Adobe has been systematically monetising users while delivering less value as AI disrupts every segment of its market.
+
+**Sources:** DOJ settlement filing, Yahoo Finance (March 26), Subscription Insider (March 25), topclassactions.com (March 2026), CG Channel (March 2026)

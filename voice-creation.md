@@ -1,11 +1,13 @@
 # voice-creation — AI Issues Radar
 
-_Last updated: 2026-03-28_
+_Last updated: 2026-03-31_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0mar31 | 🔴 Critical | **US Senator formally demands ElevenLabs, Synthesia crack down on deepfakes before midterms** — biometricupdate.com (March 26): Virginia senator sent formal letters to ElevenLabs, OpenAI, Anthropic, xAI, Meta, Adobe, Cohere, Microsoft, MidJourney, Canva, Snap, Google, Synthesia, TikTok US, Bluesky, Pinterest, and Reddit; Reuters (March 28): deepfake AI political ads "already live in midterm campaigns" — Democratic Texas State Rep. James Talarico's likeness cloned in AI-generated political ads; no federal regulation on AI in political messaging; "voters confused or deceived"; companies named have 30-day response deadline; ElevenLabs and Synthesia face reputational risk as the designated voice/avatar platforms; TAKE IT DOWN Act (now signed law) only covers CSAM/nonconsensual intimate images — political deepfakes remain completely unregulated | ElevenLabs / Synthesia / AI voice tools (misused) | **Active** (March 26–28, 2026) |
+| 0mar31b | 🟠 Major | **PlayHT completely dead — all API endpoints shut down December 31, 2025** — roborhythms.com (March 31): confirms PlayHT was acquired by Meta in July 2025 and shut its API endpoints on December 31, 2025; "if you're running integrations that depend on PlayHT endpoints, those are dead"; thousands of apps built on PlayHT TTS now silently failing; the platform appeared on "half the ElevenLabs alternatives lists" circulating online — now eliminated as an option; dozens of tutorials, blog posts, and app integrations referencing PlayHT now contain dead links and broken code | PlayHT (acquired by Meta, API shutdown) | **Shutdown** (December 31, 2025) |
 | 0mar28 | 🟠 Major | **Mistral releases Voxtral TTS — open-weight model it claims beats ElevenLabs** — 3B parameter model released March 26 with open weights (runs on 3GB RAM, 90ms latency); claims to outperform ElevenLabs v2.5 Flash in human preference tests; supports 9 languages; enterprise deployable on a smartphone; VentureBeat: "Mistral AI just released a text-to-speech model it says beats ElevenLabs — and it's giving away the weights for free"; ElevenLabs faces existential commoditisation pressure — if open-weight models match quality, subscription TTS businesses erode | Mistral Voxtral TTS (vs ElevenLabs) | Active (released March 26, 2026) |
 | 0new | 🔴 Critical | BIPA voiceprint class action — indie musicians sue Suno, Udio, Google Lyria 3 for extracting and storing voiceprints from recordings without consent; Illinois Biometric Information Privacy Act claims stack on top of copyright infringement; $1,000–$5,000 per violation with unlimited class size — could result in existential damages for voice training platforms (filed March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |
 | 0 | 🔴 Critical | AI voice fraud now mainstream consumer threat — AARP March 19: deepfake voice calls combined with cloned faces; "family emergency" scam calls convincing elderly victims to send money using real-time voice clone of child's voice; criminals can clone from just 10-second social media clips | AI voice tools (misused) | Active (March 19, 2026) |
@@ -295,3 +297,31 @@ The AARP — which tracks fraud against vulnerable populations — published a d
 **Community reaction:** The SXSW initiative was largely praised by the disability community. The voice actor community was not impressed — the good PR does not resolve the ongoing consent lawsuits.
 
 **Source:** Mashable, Wikipedia, TechRadar — March 13–15, 2026
+
+---
+
+### 🔴 US Senator Demands ElevenLabs, Synthesia and 16 Other Platforms Act on Political Deepfakes Before Midterms — March 26–28, 2026
+
+**What happened:** A US senator formally wrote to at least 18 AI companies and social platforms demanding they implement safeguards against AI-generated political deepfakes before the 2026 midterm elections. Companies named include ElevenLabs, OpenAI, Anthropic, xAI, Meta, Adobe, Cohere, Microsoft, MidJourney, Canva, Snap, Google, **Synthesia**, TikTok US, Bluesky, Pinterest, and Reddit.
+
+**Why voice tools are in the crosshairs:** AI voice cloning enables political impersonation at industrial scale. A candidate's voice can be cloned from public speeches. The clone can then say anything — endorsements, confessions, statements of policy — and distributed to voters via targeted ads. ElevenLabs and Synthesia are called out specifically because they are the leading commercial platforms for voice cloning and AI avatar video respectively.
+
+**Real-world harm documented:** Reuters (March 28) confirmed AI deepfake political ads are already live in the 2026 midterm campaign. Texas State Representative James Talarico's likeness and voice were cloned to create a political ad endorsing policies he opposes. The ad was distributed before Talarico was even aware of it.
+
+**The regulatory vacuum:** No US federal law restricts AI-generated political messaging. The TAKE IT DOWN Act (signed 2026) only covers CSAM and nonconsensual intimate images. Political voice deepfakes remain **completely unregulated**. Several states have laws but they're rarely enforced.
+
+**Sources:** biometricupdate.com (March 26), Reuters (March 28), Economic Times (March 29)
+
+---
+
+### 🟠 PlayHT Completely Dead — Meta Acquired in July 2025, API Shut Down December 31, 2025
+
+**What happened:** PlayHT, once a prominent ElevenLabs competitor and featured in virtually every "AI voice alternatives" list, was **acquired by Meta in July 2025** and had its API endpoints permanently shut down on **December 31, 2025**. As of March 2026, all integrations built on PlayHT are silently failing.
+
+**Who is affected:** Thousands of developers, app builders, and content creators who built products on PlayHT's API — often after reading the very "ElevenLabs alternatives" listicles that had PlayHT in the #1 or #2 spot. Those articles, tutorials, blog posts, and GitHub repos now contain dead links and non-functional code.
+
+**The broader pattern:** PlayHT's sudden death follows a now-familiar AI rug pull pattern: tool builds trust → tool gets acquired → API gets shutdown with minimal notice → users scramble to rebuild. The same happened with several smaller TTS tools in 2024–2025.
+
+**What this means for ElevenLabs:** With PlayHT gone and Mistral's open-weight Voxtral TTS launching simultaneously, ElevenLabs faces a two-front threat: open-source commoditisation from below (Voxtral) and survivor consolidation from above (Meta absorbing PlayHT for internal use).
+
+**Sources:** roborhythms.com (March 31, 2026)
