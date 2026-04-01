@@ -1,11 +1,12 @@
 # music-audio — AI Issues Radar
 
-_Last updated: 2026-03-28_
+_Last updated: 2026-04-01_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0apr1 | 🔴 Critical | **RIAA amends Suno lawsuit: accuses Suno of "stream-ripping" via YouTube DMCA circumvention** — The Verge (March 31–April 1): RIAA's updated complaint alleges Suno "employed code to access, extract, copy, and download" copyrighted works from Universal, Sony, and Warner via YouTube's platform, violating YouTube's "rolling cipher" anti-circumvention protection; this is a criminal-law-adjacent allegation upgrading the case from standard copyright infringement; Suno's own v5.5 launch with voice capture feature (March 31) is seen as "launching features while under fire"; separately Udio settled with Warner + Universal in late 2025 but Suno has not; GEMA response deadline April 7 | Suno (RIAA lawsuit) | Active — amended complaint (March–April 2026) |
 | 0mar28 | 🟠 Major | **Suno v5.5 "Voices" launch triggers backlash — v5 vocals "absolutely disgusting"** — Suno launched v5.5 with "Voices" feature (March 26) while lawsuits stack up; Reddit r/SunoAI immediately fills with complaints: "V5 vocals sound absolutely disgusting. Just unusable." and "Why couldn't Suno let us use our own voices"; users who loved v4.5 feel betrayed; BIPA biometric lawsuit (filed March 24) directly targets the voice training pipeline behind this very feature; MusicAlly: Suno positions "Voices" as label-friendly future but community sees it as "personalization theater" | Suno v5.5 | Active (launched March 26, 2026) |
 | 0b | 🟠 Major | **Suno charging for features "deliberately blocked from working together"** — Reddit thread (March 22) documents paying subscribers discovering that features advertised on their $25/month plan are intentionally incompatible; Personas cannot use users' own voices; paying users calling it a bait-and-switch; ElevenLabs music integration adds fresh friction with inaccessible captchas | Suno | Active (March 22, 2026) |
 | 0a | 🔴 Critical | NEW CLASS ACTION — Independent musicians sue Suno, Udio AND Google over voiceprint extraction under Illinois BIPA — biometric privacy claims stack on top of copyright infringement and CMI removal; Google accused of training Lyria 3 on YouTube without license; no prior AI copyright suit has included biometric privacy theory (filed ~March 24, 2026) | Suno / Udio / Google Lyria 3 | Active (filed March 24, 2026) |

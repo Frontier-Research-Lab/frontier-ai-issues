@@ -1,11 +1,12 @@
 # video-creation — AI Issues Radar
 
-_Last updated: 2026-03-31_
+_Last updated: 2026-04-01_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0apr1 | 🔴 Critical | **CONFIRMED: Sora was burning $1M/day — Disney's $1B deal died without warning** — TechCrunch (March 29) citing WSJ investigation: Sora's user count peaked at ~1 million then collapsed to <500,000; app burned $1M/day; OpenAI CEO Sam Altman personally made the call to kill it; shockingly, **Disney was notified less than one hour before the public announcement** despite a $1B committed partnership — the deal died instantly; WSJ: "While OpenAI focused on Sora, Anthropic was quietly winning over the software engineers and enterprises"; real kill reason: "free up compute for Claude Code which is eating OpenAI's lunch"; app shutdown date April 26, 2026; API shutdown September 24, 2026; users told to export content; no refund policy on pre-paid credits disclosed | Sora (OpenAI) | **DISCONTINUING** — app April 26, API Sept 24, 2026 |
 | 0mar31 | 🟠 Major | **TechCrunch: "Sora'''s shutdown could be a reality check moment for AI video"** — TechCrunch (March 29): analysis argues Sora'''s sudden discontinuation signals broader questions about whether AI video tools can achieve sustainable business models; Mashable (March 31) confirms Disney CEO Bob Iger was still publicly touting the OpenAI partnership as recently as Feb 2026 — making the March exit even more shocking; the 3-year, $1B deal lasted only ~3 months of active deployment; question now: will Runway, Kling, and Hailuo face the same fundamental problem of high compute costs vs. insufficient commercial demand? | Sora (OpenAI) / AI video industry | Active analysis (March 29–31, 2026) |
 | 0SHUTDOWN | 🔴 Critical | **SORA OFFICIALLY SHUT DOWN — DISNEY EXITS $1B DEAL** — OpenAI discontinues Sora app and API (March 24–25, 2026), just 15 months after launch; Disney exits the $1B partnership signed only 3 months ago; OpenAI pivoting to coding AI and robotics; no timeline given for preserving user content; creators who built businesses on Sora blindsided; Interesting Engineering: "OpenAI will discontinue Sora, as Disney exits a $1B deal and industry backlash over copyright intensifies" | Sora (OpenAI) | **DISCONTINUED** (March 24–25, 2026) |
 | 0a | 🔴 Critical | Runway + NVIDIA demo real-time AI video generation (100ms time-to-first-frame) — experts warn this makes deepfake scam calls indistinguishable from reality; real-time AI avatar can react live to a victim on a video call (PetaPixel, March 23, 2026) | Runway AI / NVIDIA | Active — misuse risk (March 23, 2026) |
