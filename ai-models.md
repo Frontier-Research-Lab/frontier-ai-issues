@@ -1,11 +1,15 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-04-01_
+_Last updated: 2026-04-02_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0apr2a | 🔴 Critical | **X/Twitter worldwide outage April 2 — Grok AI confirms its own platform is down** — thousands of X users globally hit with empty timelines, feeds not loading, and messaging failures; Tom's Guide, ABPLive, Republic World, and Storyboard18 all confirm worldwide disruption; xAI's own chatbot Grok responded to user complaints saying "X is down for some users right now due to a brief technical outage—feeds not loading, errors popping up"; no official cause released by xAI; notable because the platform's AI chatbot diagnosed the outage while the platform itself was down — Grok's status page remained healthy while X infrastructure failed; consistent pattern of reliability issues across xAI's product stack (deepfake lawsuits + outages simultaneously) | X / Grok / xAI | Active (April 2, 2026) |
+| 0apr2b | 🟠 Major | **ChatGPT speech-to-text outage hits India users April 2** — IBTimes Australia (April 2): users across India report widespread failures with ChatGPT's voice input feature; speech-to-text processing fails, audio prompts ignored, error messages triggered; ibtimes.com.au covers it as a regional disruption; separately, Downdetector shows user reports of ChatGPT file generation tools crashing with ClientError — "all file/calculation tools now crashing with ClientError, so I can't physically generate XLSX/CSV in this particular session"; OpenAI no official statement on the India STT issue; compound reliability issues on the same day as the X outage | ChatGPT / OpenAI | Active (April 2, 2026) |
+| 0apr2c | 🟠 Major | **Meta loses child safety court case — fined for misleading consumers on child safety** — Mashable (April 2): New Mexico jury finds Meta liable for misleading consumers about child safety on its platforms; "huge financial penalty" issued; CNBC (March 29): "Meta's court losses spell potential trouble for AI research, consumer safety" — internal research cited in court contradicted Meta's public claims about how it monitors harmful effects on children; CNBC: "there is a significant gap in research regarding the impact of chatbots and digital assistants on child development"; National CIO Review: "Meta's Court Losses Put AI Governance Under New Pressure"; verdict compounds pressure on Meta AI products specifically (Meta AI assistant, Meta AI in WhatsApp/Instagram) | Meta / Meta AI | Active (April 1–2, 2026) |
+| 0apr1d | 🟠 Major | **Claude Desktop app error April 1 22:16 UTC — 16th incident in 5 weeks** — status.claude.com (April 1): "Errors on the Claude.ai desktop application — Resolved. This incident has been resolved. Apr 1, 22:16 UTC. Identified — We have identified an issue which..."; separately, Claude had a partial outage on March 31; DesignTAXI community thread "Is Claude/Anthropic AI down? April 1, 2026" confirms reports surging around 11:03AM Eastern; DownDetector graph shows spike; trendingtopics.eu: "Claude Outages Surge as Anthropic Chases 2026 Revenue Lead Over OpenAI" — Opus 4.6, Claude Code, Cowork, Developer Console, and MCP calls all affected in this outage wave; 16th separate incident in under 5 weeks | Claude Desktop / Claude.ai (Anthropic) | Resolved (April 1, 2026) |
 | 0apr1a | 🔴 Critical | **Claude multi-incident day April 1: two API outages in 24 hours** — Status page confirms: (1) Elevated timeouts on Opus 4.6 + Sonnet 4.6 from March 31 17:45 UTC through April 1 05:52 UTC; (2) Elevated errors on Claude Opus 4.6 identified at 10:40 UTC April 1 — resolved 12:04 UTC; separately, Claude Code login/logout actions also affected; Claude connectors unavailable; IBTimes: "Claude AI Hit by User Complaints — login glitches, slow responses in Claude Code, throttled usage"; Claude Code GitHub issues spike (40+ bug reports filed April 1); 15th+ incident since early March 2026 | Claude (Anthropic) — Opus 4.6, Sonnet 4.6 | Resolved (April 1, 2026) |
 | 0apr1b | 🟠 Major | **Gemini Batch API: ALL jobs stuck in "pending" since March 27–28** — Google AI Developers Forum (March 31/April 1): widespread reports of Gemini Batch API jobs submitted from March 27 onward stuck in `pending` status indefinitely; no processing occurring; Google's status page marked incident "resolved" but users still experiencing complete blockage April 1; European users also reporting persistent HTTP 500 ESF errors on europe-west since March 28–29 outage despite status page claiming resolution; affected commercial workloads depending on Batch API for cost-efficient large-scale processing | Google Gemini Batch API | Active (since March 27, 2026) |
 | 0apr1c | 🟡 Notable | **QuitGPT movement + OpenAI aggressive subscriber push** — Reddit QuitGPT movement (launched February 2026) criticising OpenAI's Trump ties ($25M donation from Greg Brockman) growing; Daily Kos (April 1): "ChatGPT gets more aggressive courting paying subscribers as circular financing worries loom large" — $200/month Pro plan aggressively pushed to subscribers; analysis questions whether subscriber revenue can fund $1B/day compute without a circular financing loop; analysts estimate OpenAI still losing ~$5B/year despite $2B monthly revenue | ChatGPT (OpenAI) | Active (April 1, 2026) |
@@ -668,3 +672,29 @@ This means OpenAI's paid subscribers are now using a model that performs signifi
 **Scale of concern:** Experts quoted by Reuters: "Voters are confused and could be deceived." The 2026 midterms are 7 months away.
 
 **Sources:** biometricupdate.com (March 26), Reuters (March 28), Economic Times (March 29), politics-government.news-articles.net (March 28)
+
+---
+
+### 🔴 X/Twitter Worldwide Outage April 2 — Grok AI Confirms Its Own Platform Is Down
+
+**What happened:** X experienced a major worldwide outage on April 2, 2026, with thousands of users globally unable to load timelines, send messages, or access feeds. Downdetector showed spikes across the US, UK, and Europe. Tom's Guide, ABPLive, Republic World, and Storyboard18 all covered the outage with live updates.
+
+**The Grok irony:** The most notable aspect of this outage was xAI's own chatbot, Grok, being used by affected users to find out what was wrong — and Grok confirming the outage while embedded in the broken platform. Grok's official response to user reports: *"X is down for some users right now due to a brief technical outage—feeds not loading, errors popping up."* No official statement from xAI followed with a root cause.
+
+**Pattern:** X has experienced repeated infrastructure reliability issues throughout 2025–2026, coinciding with staff reductions under Musk ownership. The platform's AI products (Grok) and social platform (X) share infrastructure but have separate reliability profiles — Grok's API remained accessible while X's social feeds failed.
+
+**Compounding context:** The outage hit the same week that Grok faces multiple CSAM deepfake lawsuits (Tennessee class action, Baltimore municipal suit), the Iran war misinformation findings, and the June 2025–present deepfakes-per-hour scandal. The reliability failure adds operational risk to legal risk.
+
+**Sources:** Tom's Guide live blog (April 2, 2026), ABPLive (April 2, 2026), Republic World (April 2, 2026), Storyboard18 (April 2, 2026), The Tab (April 2, 2026)
+
+---
+
+### 🟠 Meta Loses Child Safety Court Case — Verdict Sets AI Governance Precedent — April 2026
+
+**What happened:** A New Mexico jury found Meta liable for misleading consumers about child safety on its platforms, imposing a "huge financial penalty" (Mashable, April 1–2, 2026). The case drew on Meta's own internal research, which was presented in court as evidence that the company knew about harmful effects on children but misrepresented its safety posture publicly.
+
+**What it means for AI:** CNBC (March 29) headlined: "Meta's court losses spell potential trouble for AI research, consumer safety." The verdict creates a chilling effect on AI safety research disclosure — companies that honestly document AI harms internally may see that research used against them in court. CNBC: "there is a significant gap in research regarding the impact of chatbots and digital assistants on child development." National CIO Review: "Meta's Court Losses Put AI Governance Under New Pressure."
+
+**The AI governance angle:** Meta AI assistant is embedded in WhatsApp, Instagram, and Facebook — platforms with hundreds of millions of child users. The verdict strengthens arguments that AI product safety obligations extend to downstream harms caused by the AI, not just the parent social platform. Legal experts quoted by CNBC say this creates template for AI-specific consumer safety litigation.
+
+**Sources:** Mashable (April 1–2, 2026), CNBC (March 29, 2026), National CIO Review (April 1, 2026), Seeking Alpha (March 30, 2026)

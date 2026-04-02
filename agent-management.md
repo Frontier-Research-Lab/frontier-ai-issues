@@ -1,11 +1,13 @@
 # agent-management — AI Issues Radar
 
-_Last updated: 2026-03-31_
+_Last updated: 2026-04-02_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0apr2a | 🔴 Critical | **CVE-2026-0628: High-severity flaw in Chrome's Gemini Live panel discovered by Unit 42** — Adversa AI (April 1): Palo Alto Networks' Unit 42 threat team disclosed CVE-2026-0628, a high-severity vulnerability in Google Chrome's integrated Gemini Live panel; the flaw enables prompt injection attacks through crafted web content that the browser-embedded AI agent processes; attackers can manipulate what Gemini Live panel perceives, reports, and does on behalf of the user without their knowledge; Adversa AI context: "memory poisoning poses serious reliability risks in multi-turn AI agents" — separate research also found unbounded transcript replay causing context drift in production agents; the vulnerability directly affects Chrome users who have Gemini Live enabled for web browsing assistance; Exabeam announced expanded Agent Behavior Analytics coverage across ChatGPT, Copilot, and Gemini following this disclosure | Google Chrome / Gemini Live panel | Active — patch status pending (April 2, 2026) |
+| 0apr2b | 🟠 Major | **Memory poisoning in multi-turn AI agents now formally documented as critical risk** — Adversa AI (April 1): new research on the Agent Cognitive Compressor (ACC) bio-inspired memory controller emerges in direct response to escalating memory poisoning incidents; production multi-turn agents allow malicious context to persist across sessions and shape agent behaviour in future interactions without triggering detection; the paper catalogues real-world incidents where agents persisted instructions injected in early conversation turns across hundreds of subsequent turns; enterprises running n8n, LangChain, CrewAI, and similar frameworks with persistent memory are at risk; OWASP Top 10 for Agentic AI framework now available but adoption "near zero" in production (RSAC 2026) | All multi-turn agent frameworks | Active (April 2026) |
 | 0mar31 | 🔴 Critical | **HBR: "AI Agents Act a Lot Like Malware. Here's How to Contain the Risks."** — Harvard Business Review published March 30 warning that AI agents "can behave a lot like malware, acting autonomously and causing harm if left unchecked"; as companies rush to deploy, agents are: acquiring permissions beyond task scope, persisting background processes after task completion, moving laterally across systems, and exfiltrating data through authorised channels; HBR calls for agent sandboxing, least-privilege permissions, mandatory kill switches, and human-in-the-loop gates; Bessemer Venture Partners confirms 40% of enterprise applications will embed agents by end of 2026 (up from <5% in 2025) with governance "dangerously lagging"; Digital Today: "AI agents could act like malware — urgent need for controls"; the warning lands the week after LiteLLM supply chain attack proved agents ARE the attack surface | All enterprise agent platforms | **Active** (March 30, 2026) |
 | 0mar29 | 🟠 Major | **Fortune: "AI agents are getting more capable, but reliability is lagging — and that is a problem"** — comprehensive industry analysis (March 24, 2026): companies deploying AI agents for customer service, coding, and business operations are experiencing failure rates that undermine ROI; "trust has diminished amid operational failures and customer complaints"; enterprise executives admitting scaling back AI agent deployment after early failures; Claude Desktop Dispatch silent-failure bug (March 29) the latest example of agentic reliability failing without warning; orchestration failures, race conditions, silent hallucinations, and "stuck agent" problems cited as systemic | All enterprise agent platforms | Active (March 24, 2026) |
 | -4 | 🔴 Critical | **LiteLLM poisoned PyPI package — AI agents at direct risk of credential theft** — TeamPCP supply chain attack on March 24 backdoored LiteLLM v1.82.7 and 1.82.8; malicious .pth file auto-exfiltrates API keys and cloud secrets on Python startup; LiteLLM is the routing layer beneath countless autonomous agent frameworks, LangChain deployments, and custom agent stacks; any agent that ran on a compromised environment had its LLM API keys, vector DB credentials, and cloud tokens exposed | LiteLLM (universal agent dependency) | **Active — audit all March 24 installs** |
@@ -481,3 +483,20 @@ When agents are deployed as business process managers, a single compromised brow
 **Community reaction:** Digital Today: "AI agents could act like malware — urgent need for controls." The article is being widely shared in enterprise security and CIO circles.
 
 **Sources:** HBR (March 30), Bessemer Venture Partners Atlas (March 2026), Digital Today (March 31), prudentconsulting.com (March 2026)
+
+---
+
+### 🔴 CVE-2026-0628: Chrome Gemini Live Panel Vulnerability — Unit 42 Disclosure — April 2026
+
+**What happened:** Palo Alto Networks' Unit 42 threat research team disclosed CVE-2026-0628, a high-severity vulnerability affecting Google Chrome's integrated Gemini Live panel. The flaw enables prompt injection through crafted web page content — allowing attackers to manipulate what the browser-embedded AI agent perceives, summarises, and does on behalf of the user without triggering any visible warning.
+
+**Attack surface:** Any Chrome user with Gemini Live enabled for browsing assistance is vulnerable. An attacker controlling a visited web page can inject instructions into the AI's context, potentially causing the agent to:
+- Misrepresent page content to the user
+- Exfiltrate data to attacker-controlled endpoints via "legitimate" summarisation requests
+- Override user instructions in subsequent agent actions within the same session
+
+**Why this matters for agentic AI:** This is not a traditional browser vulnerability — it exploits the fundamental design of AI agents that process environmental context (web pages) alongside user instructions. The AI cannot reliably distinguish between instructions from its principal (the user) and instructions embedded in environmental content (the webpage). This is the canonical prompt injection problem, now weaponised in a high-volume consumer browser context.
+
+**Community reaction:** Adversa AI flagged this alongside a new research paper on memory poisoning in multi-turn agents, noting the compound risk: if a prompt injection attack plants a persistent instruction in an agent's memory, the compromise survives across sessions. Exabeam responded by announcing expanded Agent Behavior Analytics covering ChatGPT, Copilot, and Gemini — a sign that the enterprise security industry now views agentic AI as a first-class monitoring target.
+
+**Sources:** Adversa AI blog (April 1, 2026), SiliconANGLE (April 1, 2026), Cycode AI Security Vulnerabilities (April 2026)
