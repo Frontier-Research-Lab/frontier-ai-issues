@@ -1,11 +1,14 @@
 # ai-models — AI Issues Radar
 
-_Last updated: 2026-04-02_
+_Last updated: 2026-04-03_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0apr3a | 🔴 Critical | **⚖️ Trump DOJ APPEALS Anthropic ruling — Ninth Circuit deadline April 30** — Washington Times / Axios / YourNews (April 2, 2026): the Trump administration has formally appealed the federal court ruling that blocked the Pentagon from labelling Anthropic a "supply chain risk"; Judge Lin's order (last week) barred DOD from taking punitive measures against Anthropic during proceedings, allowing Anthropic to continue working with federal agencies and contractors; the Ninth Circuit Court of Appeals will review the order with **an April 30 deadline for DOJ to file arguments**; Anthropic is arguing First Amendment violations and unlawful procurement interference; the Pentagon insists this is about military's ability to use the technology, not speech; the appeal means Anthropic is still in legal limbo — the injunction holds for now but could be reversed by the Ninth Circuit before April 30; OpenAI and xAI reportedly both "agreed to all lawful use standards" to avoid the same conflict; this is the defining regulatory confrontation between a US AI lab and the Trump defence establishment | Claude / Anthropic | **Active — Ninth Circuit appeal (April 30 deadline)** |
+| 0apr3b | 🟠 Major | **ICML 2026 rejects 497 papers after catching reviewers using AI for peer review** — Nature (March 26/April 2), DongA Science, ICML blog (March 18): the 2026 International Conference on Machine Learning (Seoul, July 6–11) used an ingenious watermarking system to detect AI-generated reviews: organisers **embedded hidden LLM prompt instructions into submission PDFs**; when a reviewer fed the paper into an LLM to generate their review, the hidden instructions triggered **telltale phrases** to appear in the output; those phrases identified the reviewer as having used AI; result: **497 papers were desk-rejected** — the submissions of any author whose reviewer was caught; the dual punishment (reviewer banned + author's paper rejected) triggered fierce debate; Reddit r/MachineLearning: "ICML rejects papers of reviewers who used LLMs despite agreeing not to"; the incident exposes how thoroughly AI has infiltrated academic peer review — the very process used to evaluate AI research — creating a credibility crisis at the heart of the field | All LLMs (misused in academic review) | Active (disclosed March 18–26, 2026) |
+| 0apr3c | 🟠 Major | **NYT dismisses writer Alex Preston for AI-assisted book review — "undisclosed AI use"** — The National Pulse (April 1, 2026): The New York Times has severed ties with freelance writer Alex Preston after his book review (published January 2026) was found to contain sections closely resembling AI-generated text; the review text matched phrasing patterns inconsistent with Preston's established writing style; NYT policy explicitly prohibits undisclosed AI use in editorial content; the incident is the first confirmed case of a major newspaper firing a writer for covert AI writing assistance; it signals that AI-detection at leading news organisations has matured to the point of actionable enforcement; broader implications for the thousands of freelancers who now routinely use AI writing assistance | ChatGPT / AI writing tools (misused) | Resolved — writer dismissed (April 1, 2026) |
 | 0apr2a | 🔴 Critical | **X/Twitter worldwide outage April 2 — Grok AI confirms its own platform is down** — thousands of X users globally hit with empty timelines, feeds not loading, and messaging failures; Tom's Guide, ABPLive, Republic World, and Storyboard18 all confirm worldwide disruption; xAI's own chatbot Grok responded to user complaints saying "X is down for some users right now due to a brief technical outage—feeds not loading, errors popping up"; no official cause released by xAI; notable because the platform's AI chatbot diagnosed the outage while the platform itself was down — Grok's status page remained healthy while X infrastructure failed; consistent pattern of reliability issues across xAI's product stack (deepfake lawsuits + outages simultaneously) | X / Grok / xAI | Active (April 2, 2026) |
 | 0apr2b | 🟠 Major | **ChatGPT speech-to-text outage hits India users April 2** — IBTimes Australia (April 2): users across India report widespread failures with ChatGPT's voice input feature; speech-to-text processing fails, audio prompts ignored, error messages triggered; ibtimes.com.au covers it as a regional disruption; separately, Downdetector shows user reports of ChatGPT file generation tools crashing with ClientError — "all file/calculation tools now crashing with ClientError, so I can't physically generate XLSX/CSV in this particular session"; OpenAI no official statement on the India STT issue; compound reliability issues on the same day as the X outage | ChatGPT / OpenAI | Active (April 2, 2026) |
 | 0apr2c | 🟠 Major | **Meta loses child safety court case — fined for misleading consumers on child safety** — Mashable (April 2): New Mexico jury finds Meta liable for misleading consumers about child safety on its platforms; "huge financial penalty" issued; CNBC (March 29): "Meta's court losses spell potential trouble for AI research, consumer safety" — internal research cited in court contradicted Meta's public claims about how it monitors harmful effects on children; CNBC: "there is a significant gap in research regarding the impact of chatbots and digital assistants on child development"; National CIO Review: "Meta's Court Losses Put AI Governance Under New Pressure"; verdict compounds pressure on Meta AI products specifically (Meta AI assistant, Meta AI in WhatsApp/Instagram) | Meta / Meta AI | Active (April 1–2, 2026) |
@@ -64,6 +67,53 @@ _Last updated: 2026-04-02_
 ---
 
 ## Details
+
+### ⚖️ Trump DOJ Appeals Anthropic Ruling — Ninth Circuit Deadline April 30 — April 2, 2026
+
+**What happened:** On April 2, 2026, the Trump administration formally appealed Judge Jennifer Lin's order that blocked the Pentagon from taking punitive action against Anthropic. The Ninth Circuit Court of Appeals will now review the case, with the Justice Department required to file its arguments by **April 30, 2026**.
+
+**Background:** The dispute began when Defense Secretary Pete Hegseth's office labelled Claude a "supply chain risk" and sought to restrict its use across Pentagon systems. Anthropic filed suit in March 2026, arguing violations of the First Amendment and federal procurement law. Judge Lin issued a preliminary injunction — then temporarily stayed her own order for seven days to allow the government to appeal. The Trump DOJ has now done exactly that.
+
+**Current state:**
+- The preliminary injunction **remains in force** while the Ninth Circuit considers the appeal
+- Anthropic **can continue working with federal agencies and contractors** during this period
+- DOJ must file its opening brief by **April 30, 2026**
+- Anthropic argues: First Amendment protection + unlawful procurement interference
+- Pentagon argues: "This is about the military's ability to use the technology, not speech"
+
+**Strategic dimension:** OpenAI and xAI reportedly avoided this confrontation by agreeing to "all lawful use" standards — telling the Pentagon they would not restrict government use of their models. Anthropic's refusal (based on its stated safety commitments around autonomous weapons) is the root of the conflict. This is the first case of a major US AI lab going to federal court to resist government demands about model deployment policy.
+
+**Sources:** Washington Times, Axios, YourNews, The Times-Tribune — April 2, 2026
+
+---
+
+### 🔬 ICML 2026 Catches 497 Papers Whose Reviewers Used AI — Watermark Sting Operation — March 18–26, 2026
+
+**What happened:** ICML (International Conference on Machine Learning) disclosed on March 18, 2026 that it used a **watermarking-based sting operation** to detect reviewers who used LLMs to write peer reviews — despite explicitly agreeing not to. Result: **497 papers were desk-rejected**.
+
+**How the detection worked:**
+- ICML organisers embedded **hidden prompt injection instructions** directly into submission PDFs — invisible to humans but readable by LLMs
+- When a dishonest reviewer fed the paper to an LLM, the embedded instructions caused **telltale trigger phrases** to appear in the AI-generated review
+- ICML then scanned all submitted reviews for those phrases — identifying every violation
+- As punishment: each caught reviewer's own submitted papers were **desk-rejected**
+
+**Scale:** 497 papers rejected. The ICML blog: "Some submissions which already received a full set of reviews have been desk rejected. And some reviewers whose submissions have been desk rejected may become unresponsive." Community reaction on Reddit r/MachineLearning was fierce — debating whether collective punishment (rejecting the author's paper for their reviewer's misconduct) was just.
+
+**Why it matters:** LLMs are now so embedded in academic workflows that active detection infrastructure has become necessary — including for the peer review of AI research itself. The circularity is damaging: LLMs being used to evaluate LLM research. If 497 were caught at one conference after active detection, the scale of undetected AI use across academic publishing is likely orders of magnitude larger.
+
+**Sources:** Nature (March 26), ICML blog (March 18), DongA Science, Reddit r/MachineLearning — March 18–26, 2026
+
+---
+
+### 📰 NYT Dismisses Writer Alex Preston for Undisclosed AI Use — April 1, 2026
+
+**What happened:** The New York Times severed ties with freelance writer **Alex Preston** after his book review (published January 2026) was found to contain sections closely resembling AI-generated text — inconsistent with his established writing style. NYT policy explicitly prohibits undisclosed AI use in editorial content.
+
+**Significance:** This is the first confirmed firing of a major newspaper contributor for covert AI writing assistance. It signals that AI-detection at leading news organisations has matured to enforcement-level reliability. The irony: the NYT itself sued OpenAI in 2023 over training on its articles — making the discovery of AI use in its own pages particularly damaging for its public credibility.
+
+**Sources:** The National Pulse (April 1, 2026)
+
+---
 
 ### 🟠 Ex-OpenAI Researcher: AI Extinction Risk "Within 5 Years, Not Decades" — March 28, 2026
 

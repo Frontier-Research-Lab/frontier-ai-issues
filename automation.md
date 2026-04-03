@@ -1,11 +1,12 @@
 # automation — AI Issues Radar
 
-_Last updated: 2026-03-28_
+_Last updated: 2026-04-03_
 
 ## Top Issues
 
 | # | Severity | Issue | Affected Tool | Status |
 |---|----------|-------|---------------|--------|
+| 0apr3 | 🟠 Major | **Amazon 90-day AI code safety reset: 3 weeks in — internal compliance monitoring ongoing** — Amazon's emergency AI coding safety reset entered its third week as of April 3, 2026; director/VP-level accountability now in place for all AI-assisted deployments; engineers report the slower review cycle is also revealing quality debt in non-AI code that was previously merged without adequate review; no new Sev-1 incidents attributed to AI coding tools since the reset began; the 90-day window closes late May 2026 — watch for whether Amazon resumes aggressive AI deployment or establishes permanent guardrails; parallel: Google DeepMind published internal guidelines for autonomous agent permissions that directly address the same failure modes that caused Amazon's March outages | Amazon Kiro / Q / AI automation (internal) | Active — week 3 of 90-day reset |
 | 0mar28 | 🔴 Critical | **LiteLLM supply chain attack — poisoned PyPI packages exfiltrate cloud secrets** — threat actor "TeamPCP" published backdoored LiteLLM versions 1.82.7 and 1.82.8 on March 24 via compromised Trivy CI/CD credentials; malware uses .pth file that auto-executes on Python startup (runs even without importing LiteLLM); harvests API keys, OAuth tokens, environment variables and sends to attacker; available for ~6 hours before removal; Kaspersky, Snyk, Arctic Wolf all confirmed; any automation pipeline that ran `pip install litellm` on March 24 should be treated as compromised | LiteLLM (AI automation dependency) | **Active — audit all installs from March 24** |
 | 0NEW | 🔴 Critical | **NEW n8n RCE triple: CVE-2026-33660, CVE-2026-33696, CVE-2026-33663** — two new CVSS 9.4 RCE vulnerabilities published March 25: CVE-2026-33660 allows RCE through Merge node SQL mode (AlaSQL); CVE-2026-33696 achieves RCE through prototype pollution; CVE-2026-33663 allows credential interception. Patch to versions 1.123.27, 2.13.3, or 2.14.1 immediately — coming just weeks after "Ni8mare" exploit chain | n8n | **Active — patch to 1.123.27/2.13.3/2.14.1** (March 25, 2026) |
 | 0 | 🔴 Critical | "Ni8mare" — CISA warns n8n max-severity CVE chain being actively exploited in wild: CVE-2026-21858 (unauthenticated file read) + CVE-2025-68613 (authenticated RCE) combined = full system takeover without login; n8n stores API keys, OAuth tokens for dozens of services (March 17, 2026) | n8n | Active exploit — patch NOW |
